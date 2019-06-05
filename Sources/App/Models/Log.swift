@@ -13,14 +13,18 @@ struct Log: PostgreSQLModel {
     var rssi: Int
 
     /// The uuid of the reader.
-    var uuid: UUID
+    var deviceID: UUID
+
+    ///
+    var session: UUID
 
     /// Creates a new `Todo`.
-    init(id: Int? = nil, delta: Int, rssi: Int, uuid: UUID) {
+    init(id: Int? = nil, delta: Int, rssi: Int, session: UUID, deviceID: UUID) {
         self.id = id
         self.delta = delta
         self.rssi = rssi
-        self.uuid = uuid
+        self.deviceID = deviceID
+        self.session = session
     }
 }
 

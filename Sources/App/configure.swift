@@ -18,14 +18,11 @@ public func configure(_ config: inout Config, _ env: inout Environment, _ servic
     services.register(middlewares)
 
     // Configure a Postgres database
-    let config = PostgreSQLDatabaseConfig(
-        hostname: "ec2-54-217-225-16.eu-west-1.compute.amazonaws.com",
-        port: 5432,
-        username: "xmomoqfmbddngy",
-        database: "d6n9lh9d036df5",
-        password: "4e52b46261ff9da446268134715afd3bdc82bcb4b73e93d285175b287076cc56",
-        transport: .cleartext
-    )
+    guard let databaseURL = Environment.get("DATABASE_URL") else {
+        fatalError()
+    }
+
+    let config = PostgreSQLDatabaseConfig(url: databaseURL)!
     let postgres = PostgreSQLDatabase(config: config)
 
     // Register the configured SQLite database to the database config.

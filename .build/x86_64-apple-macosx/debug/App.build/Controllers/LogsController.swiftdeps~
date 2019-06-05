@@ -1,0 +1,621 @@
+### Swift dependencies file v0 ###
+provides-top-level:
+- "LogData"
+- "LogParameters"
+- "LogsController"
+provides-nominal:
+- "3App7LogDataV"
+- "3App13LogParametersV"
+- "3App13LogParametersV10CodingKeysO"
+- "3App14LogsControllerC"
+provides-member:
+- ["3App7LogDataV", ""]
+- ["3App13LogParametersV", ""]
+- ["3App13LogParametersV10CodingKeysO", ""]
+- ["3App14LogsControllerC", ""]
+provides-dynamic-lookup:
+depends-top-level:
+- "=="
+- "CodingKey"
+- "Content"
+- !private "FloatLiteralType"
+- "Future"
+- "HTTPStatus"
+- "Int"
+- !private "IntegerLiteralType"
+- "Log"
+- "LogData"
+- "LogParameters"
+- "LogsController"
+- "Request"
+- "RouteCollection"
+- "Router"
+- "String"
+- "StringLiteralType"
+- !private "UUID"
+- !private "_findStringSwitchCase"
+- !private "~="
+depends-member:
+- !private ["10PostgreSQL8AnyArrayP", "flatten"]
+- !private ["16FluentPostgreSQL8AnyArrayP", "flatten"]
+- !private ["10PostgreSQL8AnyArrayP", "map"]
+- !private ["16FluentPostgreSQL8AnyArrayP", "map"]
+- !private ["6Fluent12AnyMigrationP", "create"]
+- !private ["6Fluent12AnyMigrationP", "init"]
+- !private ["6Fluent12AnyMigrationP", "query"]
+- !private ["6Fluent8AnyModelP", "create"]
+- !private ["6Fluent8AnyModelP", "init"]
+- !private ["6Fluent8AnyModelP", "query"]
+- !private ["4Core14AnyReflectableP", "create"]
+- !private ["4Core14AnyReflectableP", "init"]
+- !private ["4Core14AnyReflectableP", "query"]
+- !private ["4Core22AnyReflectionDecodableP", "flatten"]
+- !private ["4Core22AnyReflectionDecodableP", "init"]
+- !private ["4Core22AnyReflectionDecodableP", "map"]
+- !private ["3SQL11AnySQLTableP", "create"]
+- !private ["3SQL11AnySQLTableP", "init"]
+- !private ["3SQL11AnySQLTableP", "query"]
+- !private ["Sa", "flatten"]
+- !private ["Sa", "map"]
+- !private ["SK", "flatten"]
+- !private ["SK", "map"]
+- !private ["s7CVarArgP", "flatten"]
+- !private ["s7CVarArgP", "map"]
+- ["s9CodingKeyP", "=="]
+- ["s9CodingKeyP", "RawValue"]
+- ["s9CodingKeyP", ""]
+- ["s9CodingKeyP", "_Default_RawValue"]
+- !private ["s9CodingKeyP", "_findStringSwitchCase"]
+- ["s9CodingKeyP", "_rawHashValue"]
+- ["s9CodingKeyP", "debugDescription"]
+- ["s9CodingKeyP", "description"]
+- ["s9CodingKeyP", "hash"]
+- ["s9CodingKeyP", "hashValue"]
+- ["s9CodingKeyP", "init"]
+- !private ["s9CodingKeyP", "init"]
+- ["s9CodingKeyP", "intValue"]
+- ["s9CodingKeyP", "rawValue"]
+- ["s9CodingKeyP", "stringValue"]
+- ["3App13LogParametersV10CodingKeysO", "=="]
+- ["3App13LogParametersV10CodingKeysO", "RawValue"]
+- ["3App13LogParametersV10CodingKeysO", "_Default_RawValue"]
+- !private ["3App13LogParametersV10CodingKeysO", "_findStringSwitchCase"]
+- ["3App13LogParametersV10CodingKeysO", "_rawHashValue"]
+- ["3App13LogParametersV10CodingKeysO", "data"]
+- ["3App13LogParametersV10CodingKeysO", "debugDescription"]
+- ["3App13LogParametersV10CodingKeysO", "deinit"]
+- ["3App13LogParametersV10CodingKeysO", "description"]
+- ["3App13LogParametersV10CodingKeysO", "deviceID"]
+- ["3App13LogParametersV10CodingKeysO", "hash"]
+- ["3App13LogParametersV10CodingKeysO", "hashValue"]
+- ["3App13LogParametersV10CodingKeysO", "init"]
+- !private ["3App13LogParametersV10CodingKeysO", "init"]
+- ["3App13LogParametersV10CodingKeysO", "intValue"]
+- ["3App13LogParametersV10CodingKeysO", "rawValue"]
+- ["3App13LogParametersV10CodingKeysO", "stringValue"]
+- !private ["Sl", "flatten"]
+- !private ["Sl", "map"]
+- ["5Vapor7ContentP", ""]
+- !private ["5Vapor7ContentP", "_findStringSwitchCase"]
+- !private ["5Vapor7ContentP", "create"]
+- !private ["5Vapor7ContentP", "data"]
+- ["5Vapor7ContentP", "decode"]
+- ["5Vapor7ContentP", "defaultContentType"]
+- !private ["5Vapor7ContentP", "delta"]
+- !private ["5Vapor7ContentP", "deviceID"]
+- ["5Vapor7ContentP", "encode"]
+- !private ["5Vapor7ContentP", "flatten"]
+- ["5Vapor7ContentP", "init"]
+- !private ["5Vapor7ContentP", "map"]
+- !private ["5Vapor7ContentP", "query"]
+- !private ["5Vapor7ContentP", "rssi"]
+- !private ["10Foundation15ContiguousBytesP", "flatten"]
+- !private ["10Foundation15ContiguousBytesP", "map"]
+- !private ["3NIO20ContiguousCollectionP", "flatten"]
+- !private ["3NIO20ContiguousCollectionP", "map"]
+- ["s28CustomDebugStringConvertibleP", "=="]
+- ["s28CustomDebugStringConvertibleP", "RawValue"]
+- ["s28CustomDebugStringConvertibleP", ""]
+- ["s28CustomDebugStringConvertibleP", "_Default_RawValue"]
+- !private ["s28CustomDebugStringConvertibleP", "_findStringSwitchCase"]
+- ["s28CustomDebugStringConvertibleP", "_rawHashValue"]
+- ["s28CustomDebugStringConvertibleP", "debugDescription"]
+- ["s28CustomDebugStringConvertibleP", "description"]
+- !private ["s28CustomDebugStringConvertibleP", "flatten"]
+- ["s28CustomDebugStringConvertibleP", "hash"]
+- ["s28CustomDebugStringConvertibleP", "hashValue"]
+- ["s28CustomDebugStringConvertibleP", "init"]
+- !private ["s28CustomDebugStringConvertibleP", "init"]
+- ["s28CustomDebugStringConvertibleP", "intValue"]
+- !private ["s28CustomDebugStringConvertibleP", "map"]
+- ["s28CustomDebugStringConvertibleP", "rawValue"]
+- ["s28CustomDebugStringConvertibleP", "stringValue"]
+- !private ["s17CustomReflectableP", "flatten"]
+- !private ["s17CustomReflectableP", "init"]
+- !private ["s17CustomReflectableP", "map"]
+- ["s23CustomStringConvertibleP", "=="]
+- ["s23CustomStringConvertibleP", "RawValue"]
+- ["s23CustomStringConvertibleP", ""]
+- ["s23CustomStringConvertibleP", "_Default_RawValue"]
+- !private ["s23CustomStringConvertibleP", "_findStringSwitchCase"]
+- ["s23CustomStringConvertibleP", "_rawHashValue"]
+- ["s23CustomStringConvertibleP", "debugDescription"]
+- ["s23CustomStringConvertibleP", "description"]
+- !private ["s23CustomStringConvertibleP", "flatten"]
+- ["s23CustomStringConvertibleP", "hash"]
+- ["s23CustomStringConvertibleP", "hashValue"]
+- ["s23CustomStringConvertibleP", "init"]
+- !private ["s23CustomStringConvertibleP", "init"]
+- ["s23CustomStringConvertibleP", "intValue"]
+- !private ["s23CustomStringConvertibleP", "map"]
+- ["s23CustomStringConvertibleP", "rawValue"]
+- ["s23CustomStringConvertibleP", "stringValue"]
+- !private ["10Foundation12DataProtocolP", "flatten"]
+- !private ["10Foundation12DataProtocolP", "map"]
+- ["Se", ""]
+- !private ["Se", "_findStringSwitchCase"]
+- !private ["Se", "create"]
+- !private ["Se", "data"]
+- ["Se", "decode"]
+- ["Se", "defaultContentType"]
+- !private ["Se", "delta"]
+- !private ["Se", "deviceID"]
+- ["Se", "encode"]
+- !private ["Se", "flatten"]
+- ["Se", "init"]
+- !private ["Se", "map"]
+- !private ["Se", "query"]
+- !private ["Se", "rssi"]
+- !private ["s7DecoderP", "container"]
+- ["SE", ""]
+- !private ["SE", "_findStringSwitchCase"]
+- !private ["SE", "create"]
+- !private ["SE", "data"]
+- ["SE", "decode"]
+- ["SE", "defaultContentType"]
+- !private ["SE", "delta"]
+- !private ["SE", "deviceID"]
+- ["SE", "encode"]
+- !private ["SE", "flatten"]
+- ["SE", "init"]
+- !private ["SE", "map"]
+- !private ["SE", "ok"]
+- !private ["SE", "query"]
+- !private ["SE", "rssi"]
+- !private ["SE", "transform"]
+- !private ["s7EncoderP", "container"]
+- ["SQ", "=="]
+- ["SQ", "RawValue"]
+- ["SQ", ""]
+- ["SQ", "_Default_RawValue"]
+- !private ["SQ", "_findStringSwitchCase"]
+- ["SQ", "_rawHashValue"]
+- ["SQ", "debugDescription"]
+- ["SQ", "description"]
+- !private ["SQ", "flatten"]
+- ["SQ", "hash"]
+- ["SQ", "hashValue"]
+- ["SQ", "init"]
+- !private ["SQ", "init"]
+- ["SQ", "intValue"]
+- !private ["SQ", "map"]
+- !private ["SQ", "ok"]
+- ["SQ", "rawValue"]
+- ["SQ", "stringValue"]
+- !private ["SQ", "transform"]
+- !private ["3NIO15EventLoopFutureC", "ok"]
+- !private ["3NIO15EventLoopFutureC", "transform"]
+- !private ["s25ExpressibleByArrayLiteralP", "flatten"]
+- !private ["s25ExpressibleByArrayLiteralP", "map"]
+- !private ["5Async10FutureTypeP", "ok"]
+- !private ["5Async10FutureTypeP", "transform"]
+- ["SH", "=="]
+- ["SH", "RawValue"]
+- ["SH", ""]
+- ["SH", "_Default_RawValue"]
+- !private ["SH", "_findStringSwitchCase"]
+- ["SH", "_rawHashValue"]
+- ["SH", "debugDescription"]
+- ["SH", "description"]
+- !private ["SH", "flatten"]
+- ["SH", "hash"]
+- ["SH", "hashValue"]
+- ["SH", "init"]
+- !private ["SH", "init"]
+- ["SH", "intValue"]
+- !private ["SH", "map"]
+- ["SH", "rawValue"]
+- ["SH", "stringValue"]
+- !private ["s6HasherV", "combine"]
+- !private ["6Fluent2IDP", "init"]
+- !private ["s22KeyedDecodingContainerV", "decode"]
+- !private ["s30KeyedDecodingContainerProtocolP", "decode"]
+- !private ["s22KeyedEncodingContainerV", "encode"]
+- !private ["s30KeyedEncodingContainerProtocolP", "encode"]
+- !private ["3App3LogV", "create"]
+- !private ["3App3LogV", "deinit"]
+- !private ["3App3LogV", "init"]
+- !private ["3App3LogV", "query"]
+- ["3App7LogDataV", "Int"]
+- ["3App7LogDataV", "decode"]
+- ["3App7LogDataV", "defaultContentType"]
+- ["3App7LogDataV", "deinit"]
+- ["3App7LogDataV", "delta"]
+- ["3App7LogDataV", "encode"]
+- ["3App7LogDataV", "init"]
+- ["3App7LogDataV", "rssi"]
+- ["3App13LogParametersV", "CodingKey"]
+- ["3App13LogParametersV", "CodingKeys"]
+- ["3App13LogParametersV", "LogData"]
+- ["3App13LogParametersV", "String"]
+- !private ["3App13LogParametersV", "_findStringSwitchCase"]
+- ["3App13LogParametersV", "data"]
+- ["3App13LogParametersV", "decode"]
+- ["3App13LogParametersV", "defaultContentType"]
+- ["3App13LogParametersV", "deinit"]
+- ["3App13LogParametersV", "deviceID"]
+- ["3App13LogParametersV", "encode"]
+- ["3App13LogParametersV", "init"]
+- ["3App14LogsControllerC", "Future"]
+- ["3App14LogsControllerC", "HTTPStatus"]
+- ["3App14LogsControllerC", "Log"]
+- ["3App14LogsControllerC", "LogParameters"]
+- ["3App14LogsControllerC", "Request"]
+- ["3App14LogsControllerC", "Router"]
+- !private ["3App14LogsControllerC", "UUID"]
+- ["3App14LogsControllerC", "boot"]
+- ["3App14LogsControllerC", "create"]
+- ["3App14LogsControllerC", "deinit"]
+- ["3App14LogsControllerC", "init"]
+- ["3App14LogsControllerC", "read"]
+- !private ["4Core23LosslessDataConvertibleP", "flatten"]
+- !private ["4Core23LosslessDataConvertibleP", "map"]
+- !private ["s25LosslessStringConvertibleP", "init"]
+- !private ["6Fluent9MigrationP", "create"]
+- !private ["6Fluent9MigrationP", "init"]
+- !private ["6Fluent9MigrationP", "query"]
+- !private ["6Fluent5ModelP", "create"]
+- !private ["6Fluent5ModelP", "init"]
+- !private ["6Fluent5ModelP", "query"]
+- !private ["SM", "flatten"]
+- !private ["SM", "map"]
+- !private ["10Foundation19MutableDataProtocolP", "flatten"]
+- !private ["10Foundation19MutableDataProtocolP", "map"]
+- !private ["7Routing9ParameterP", "create"]
+- !private ["7Routing9ParameterP", "init"]
+- !private ["7Routing9ParameterP", "query"]
+- !private ["7Routing27PathComponentsRepresentableP", "flatten"]
+- !private ["7Routing27PathComponentsRepresentableP", "map"]
+- !private ["10PostgreSQL0A18SQLDataConvertibleP", "init"]
+- !private ["10PostgreSQL0A30SQLDataTypeStaticRepresentableP", "init"]
+- !private ["16FluentPostgreSQL0B8SQLModelP", "create"]
+- !private ["16FluentPostgreSQL0B8SQLModelP", "init"]
+- !private ["16FluentPostgreSQL0B8SQLModelP", "query"]
+- !private ["10PostgreSQL0A8SQLTableP", "create"]
+- !private ["10PostgreSQL0A8SQLTableP", "init"]
+- !private ["10PostgreSQL0A8SQLTableP", "query"]
+- !private ["6Fluent12QueryBuilderC", "all"]
+- !private ["Sk", "flatten"]
+- !private ["Sk", "map"]
+- !private ["Sm", "flatten"]
+- !private ["Sm", "map"]
+- ["SY", "=="]
+- ["SY", "RawValue"]
+- ["SY", ""]
+- ["SY", "_Default_RawValue"]
+- !private ["SY", "_findStringSwitchCase"]
+- ["SY", "_rawHashValue"]
+- ["SY", "debugDescription"]
+- ["SY", "description"]
+- ["SY", "hash"]
+- ["SY", "hashValue"]
+- ["SY", "init"]
+- !private ["SY", "init"]
+- ["SY", "intValue"]
+- ["SY", "rawValue"]
+- ["SY", "stringValue"]
+- !private ["10Foundation20ReferenceConvertibleP", "init"]
+- !private ["4Core11ReflectableP", "create"]
+- !private ["4Core11ReflectableP", "init"]
+- !private ["4Core11ReflectableP", "query"]
+- !private ["4Core19ReflectionDecodableP", "flatten"]
+- !private ["4Core19ReflectionDecodableP", "init"]
+- !private ["4Core19ReflectionDecodableP", "map"]
+- ["5Vapor16RequestDecodableP", ""]
+- !private ["5Vapor16RequestDecodableP", "_findStringSwitchCase"]
+- !private ["5Vapor16RequestDecodableP", "create"]
+- !private ["5Vapor16RequestDecodableP", "data"]
+- ["5Vapor16RequestDecodableP", "decode"]
+- ["5Vapor16RequestDecodableP", "defaultContentType"]
+- !private ["5Vapor16RequestDecodableP", "delta"]
+- !private ["5Vapor16RequestDecodableP", "deviceID"]
+- ["5Vapor16RequestDecodableP", "encode"]
+- !private ["5Vapor16RequestDecodableP", "flatten"]
+- ["5Vapor16RequestDecodableP", "init"]
+- !private ["5Vapor16RequestDecodableP", "map"]
+- !private ["5Vapor16RequestDecodableP", "query"]
+- !private ["5Vapor16RequestDecodableP", "rssi"]
+- ["5Vapor16RequestEncodableP", ""]
+- !private ["5Vapor16RequestEncodableP", "_findStringSwitchCase"]
+- !private ["5Vapor16RequestEncodableP", "create"]
+- !private ["5Vapor16RequestEncodableP", "data"]
+- ["5Vapor16RequestEncodableP", "decode"]
+- ["5Vapor16RequestEncodableP", "defaultContentType"]
+- !private ["5Vapor16RequestEncodableP", "delta"]
+- !private ["5Vapor16RequestEncodableP", "deviceID"]
+- ["5Vapor16RequestEncodableP", "encode"]
+- !private ["5Vapor16RequestEncodableP", "flatten"]
+- ["5Vapor16RequestEncodableP", "init"]
+- !private ["5Vapor16RequestEncodableP", "map"]
+- !private ["5Vapor16RequestEncodableP", "query"]
+- !private ["5Vapor16RequestEncodableP", "rssi"]
+- ["5Vapor17ResponseDecodableP", ""]
+- !private ["5Vapor17ResponseDecodableP", "_findStringSwitchCase"]
+- !private ["5Vapor17ResponseDecodableP", "create"]
+- !private ["5Vapor17ResponseDecodableP", "data"]
+- ["5Vapor17ResponseDecodableP", "decode"]
+- ["5Vapor17ResponseDecodableP", "defaultContentType"]
+- !private ["5Vapor17ResponseDecodableP", "delta"]
+- !private ["5Vapor17ResponseDecodableP", "deviceID"]
+- ["5Vapor17ResponseDecodableP", "encode"]
+- !private ["5Vapor17ResponseDecodableP", "flatten"]
+- ["5Vapor17ResponseDecodableP", "init"]
+- !private ["5Vapor17ResponseDecodableP", "map"]
+- !private ["5Vapor17ResponseDecodableP", "query"]
+- !private ["5Vapor17ResponseDecodableP", "rssi"]
+- ["5Vapor17ResponseEncodableP", ""]
+- !private ["5Vapor17ResponseEncodableP", "_findStringSwitchCase"]
+- !private ["5Vapor17ResponseEncodableP", "create"]
+- !private ["5Vapor17ResponseEncodableP", "data"]
+- ["5Vapor17ResponseEncodableP", "decode"]
+- ["5Vapor17ResponseEncodableP", "defaultContentType"]
+- !private ["5Vapor17ResponseEncodableP", "delta"]
+- !private ["5Vapor17ResponseEncodableP", "deviceID"]
+- ["5Vapor17ResponseEncodableP", "encode"]
+- !private ["5Vapor17ResponseEncodableP", "flatten"]
+- ["5Vapor17ResponseEncodableP", "init"]
+- !private ["5Vapor17ResponseEncodableP", "map"]
+- !private ["5Vapor17ResponseEncodableP", "ok"]
+- !private ["5Vapor17ResponseEncodableP", "query"]
+- !private ["5Vapor17ResponseEncodableP", "rssi"]
+- !private ["5Vapor17ResponseEncodableP", "transform"]
+- !private ["5Vapor15RouteCollectionP", "Log"]
+- !private ["5Vapor15RouteCollectionP", "LogParameters"]
+- !private ["5Vapor15RouteCollectionP", "UUID"]
+- ["5Vapor15RouteCollectionP", ""]
+- ["5Vapor15RouteCollectionP", "boot"]
+- !private ["5Vapor15RouteCollectionP", "create"]
+- !private ["5Vapor15RouteCollectionP", "read"]
+- !private ["5Vapor6RouterP", "get"]
+- !private ["5Vapor6RouterP", "grouped"]
+- !private ["5Vapor6RouterP", "post"]
+- !private ["3SQL8SQLTableP", "create"]
+- !private ["3SQL8SQLTableP", "init"]
+- !private ["3SQL8SQLTableP", "query"]
+- !private ["ST", "flatten"]
+- !private ["ST", "map"]
+- !private ["7ServiceAAP", "get"]
+- !private ["7ServiceAAP", "grouped"]
+- !private ["7ServiceAAP", "post"]
+- !private ["11TemplateKit0A17DataRepresentableP", "flatten"]
+- !private ["11TemplateKit0A17DataRepresentableP", "init"]
+- !private ["11TemplateKit0A17DataRepresentableP", "map"]
+- !private ["10Foundation4UUIDV", "init"]
+- !private ["s14_ArrayProtocolP", "flatten"]
+- !private ["s14_ArrayProtocolP", "map"]
+- !private ["s24_DestructorSafeContainerP", "flatten"]
+- !private ["s24_DestructorSafeContainerP", "map"]
+- !private ["s19_HasContiguousBytesP", "flatten"]
+- !private ["s19_HasContiguousBytesP", "map"]
+- !private ["s35_HasCustomAnyHashableRepresentationP", "flatten"]
+- !private ["s35_HasCustomAnyHashableRepresentationP", "map"]
+- !private ["s21_ObjectiveCBridgeableP", "flatten"]
+- !private ["s21_ObjectiveCBridgeableP", "init"]
+- !private ["s21_ObjectiveCBridgeableP", "map"]
+- !private ["16FluentPostgreSQL01_B8SQLModelP", "create"]
+- !private ["16FluentPostgreSQL01_B8SQLModelP", "init"]
+- !private ["16FluentPostgreSQL01_B8SQLModelP", "query"]
+depends-nominal:
+- !private "10PostgreSQL8AnyArrayP"
+- !private "16FluentPostgreSQL8AnyArrayP"
+- !private "10PostgreSQL8AnyArrayP"
+- !private "16FluentPostgreSQL8AnyArrayP"
+- !private "6Fluent12AnyMigrationP"
+- !private "6Fluent8AnyModelP"
+- !private "4Core14AnyReflectableP"
+- !private "4Core22AnyReflectionDecodableP"
+- !private "3SQL11AnySQLTableP"
+- !private "Sa"
+- !private "SK"
+- !private "s7CVarArgP"
+- "s9CodingKeyP"
+- "3App13LogParametersV10CodingKeysO"
+- "3App13LogParametersV10CodingKeysO"
+- "3App13LogParametersV10CodingKeysO"
+- "3App13LogParametersV10CodingKeysO"
+- "3App13LogParametersV10CodingKeysO"
+- "3App13LogParametersV10CodingKeysO"
+- "3App13LogParametersV10CodingKeysO"
+- "3App13LogParametersV10CodingKeysO"
+- "3App13LogParametersV10CodingKeysO"
+- "3App13LogParametersV10CodingKeysO"
+- "3App13LogParametersV10CodingKeysO"
+- !private "Sl"
+- "5Vapor7ContentP"
+- !private "10Foundation15ContiguousBytesP"
+- !private "3NIO20ContiguousCollectionP"
+- "s28CustomDebugStringConvertibleP"
+- !private "s17CustomReflectableP"
+- "s23CustomStringConvertibleP"
+- !private "10Foundation12DataProtocolP"
+- "Se"
+- !private "s7DecoderP"
+- "SE"
+- !private "s7EncoderP"
+- "SQ"
+- !private "3NIO15EventLoopFutureC"
+- !private "s25ExpressibleByArrayLiteralP"
+- !private "5Async10FutureTypeP"
+- "SH"
+- !private "s6HasherV"
+- !private "6Fluent2IDP"
+- !private "s22KeyedDecodingContainerV"
+- !private "s30KeyedDecodingContainerProtocolP"
+- !private "s22KeyedEncodingContainerV"
+- !private "s30KeyedEncodingContainerProtocolP"
+- !private "3App3LogV"
+- "3App7LogDataV"
+- "3App13LogParametersV"
+- "3App14LogsControllerC"
+- !private "4Core23LosslessDataConvertibleP"
+- !private "s25LosslessStringConvertibleP"
+- !private "6Fluent9MigrationP"
+- !private "6Fluent5ModelP"
+- !private "SM"
+- !private "10Foundation19MutableDataProtocolP"
+- !private "7Routing9ParameterP"
+- !private "7Routing27PathComponentsRepresentableP"
+- !private "10PostgreSQL0A18SQLDataConvertibleP"
+- !private "10PostgreSQL0A30SQLDataTypeStaticRepresentableP"
+- !private "16FluentPostgreSQL0B8SQLModelP"
+- !private "10PostgreSQL0A8SQLTableP"
+- !private "6Fluent12QueryBuilderC"
+- !private "Sk"
+- !private "Sm"
+- "SY"
+- !private "10Foundation20ReferenceConvertibleP"
+- !private "4Core11ReflectableP"
+- !private "4Core19ReflectionDecodableP"
+- "5Vapor16RequestDecodableP"
+- "5Vapor16RequestEncodableP"
+- "5Vapor17ResponseDecodableP"
+- "5Vapor17ResponseEncodableP"
+- "5Vapor15RouteCollectionP"
+- !private "5Vapor6RouterP"
+- !private "3SQL8SQLTableP"
+- !private "ST"
+- !private "7ServiceAAP"
+- !private "11TemplateKit0A17DataRepresentableP"
+- !private "10Foundation4UUIDV"
+- !private "s14_ArrayProtocolP"
+- !private "s24_DestructorSafeContainerP"
+- !private "s19_HasContiguousBytesP"
+- !private "s35_HasCustomAnyHashableRepresentationP"
+- !private "s21_ObjectiveCBridgeableP"
+- !private "16FluentPostgreSQL01_B8SQLModelP"
+depends-dynamic-lookup:
+depends-external:
+- "/Users/Jorge/Desktop/Projects/Web/Swift/kisiBootcamp/.build/x86_64-apple-macosx/debug/NIOHTTP1.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/ObjectiveC.swiftmodule"
+- "/Users/Jorge/Desktop/Projects/Web/Swift/kisiBootcamp/.build/x86_64-apple-macosx/debug/SQL.swiftmodule"
+- "/Users/Jorge/Desktop/Projects/Web/Swift/kisiBootcamp/.build/x86_64-apple-macosx/debug/PostgreSQL.swiftmodule"
+- "/Users/Jorge/Desktop/Projects/Web/Swift/kisiBootcamp/.build/x86_64-apple-macosx/debug/FluentPostgreSQL.swiftmodule"
+- "/Users/Jorge/Desktop/Projects/Web/Swift/kisiBootcamp/.build/x86_64-apple-macosx/debug/FluentSQL.swiftmodule"
+- "/Users/Jorge/Desktop/Projects/Web/Swift/kisiBootcamp/.build/x86_64-apple-macosx/debug/NIOOpenSSL.swiftmodule"
+- "/Users/Jorge/Desktop/Projects/Web/Swift/kisiBootcamp/.build/x86_64-apple-macosx/debug/NIO.swiftmodule"
+- "/Users/Jorge/Desktop/Projects/Web/Swift/kisiBootcamp/.build/x86_64-apple-macosx/debug/HTTP.swiftmodule"
+- "/Users/Jorge/Desktop/Projects/Web/Swift/kisiBootcamp/.build/x86_64-apple-macosx/debug/NIOTLS.swiftmodule"
+- "/Users/Jorge/Desktop/Projects/Web/Swift/kisiBootcamp/.build/x86_64-apple-macosx/debug/Async.swiftmodule"
+- "/Users/Jorge/Desktop/Projects/Web/Swift/kisiBootcamp/.build/x86_64-apple-macosx/debug/Command.swiftmodule"
+- "/Users/Jorge/Desktop/Projects/Web/Swift/kisiBootcamp/.build/x86_64-apple-macosx/debug/Service.swiftmodule"
+- "/Users/Jorge/Desktop/Projects/Web/Swift/kisiBootcamp/.build/x86_64-apple-macosx/debug/Console.swiftmodule"
+- "/Users/Jorge/Desktop/Projects/Web/Swift/kisiBootcamp/.build/x86_64-apple-macosx/debug/Core.swiftmodule"
+- "/Users/Jorge/Desktop/Projects/Web/Swift/kisiBootcamp/.build/x86_64-apple-macosx/debug/Logging.swiftmodule"
+- "/Users/Jorge/Desktop/Projects/Web/Swift/kisiBootcamp/.build/x86_64-apple-macosx/debug/Debugging.swiftmodule"
+- "/Users/Jorge/Desktop/Projects/Web/Swift/kisiBootcamp/.build/x86_64-apple-macosx/debug/Routing.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/Dispatch.swiftmodule"
+- "/Users/Jorge/Desktop/Projects/Web/Swift/kisiBootcamp/.build/x86_64-apple-macosx/debug/COperatingSystem.swiftmodule"
+- "/Users/Jorge/Desktop/Projects/Web/Swift/kisiBootcamp/.build/x86_64-apple-macosx/debug/Random.swiftmodule"
+- "/Users/Jorge/Desktop/Projects/Web/Swift/kisiBootcamp/.build/x86_64-apple-macosx/debug/URLEncodedForm.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/Darwin.swiftmodule"
+- "/Users/Jorge/Desktop/Projects/Web/Swift/kisiBootcamp/.build/x86_64-apple-macosx/debug/Validation.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/Foundation.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/CoreFoundation.swiftmodule"
+- "/Users/Jorge/Desktop/Projects/Web/Swift/kisiBootcamp/.build/x86_64-apple-macosx/debug/Crypto.swiftmodule"
+- "/Users/Jorge/Desktop/Projects/Web/Swift/kisiBootcamp/.build/x86_64-apple-macosx/debug/Vapor.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/CoreGraphics.swiftmodule"
+- "/Users/Jorge/Desktop/Projects/Web/Swift/kisiBootcamp/.build/x86_64-apple-macosx/debug/NIOConcurrencyHelpers.swiftmodule"
+- "/Users/Jorge/Desktop/Projects/Web/Swift/kisiBootcamp/.build/x86_64-apple-macosx/debug/Bits.swiftmodule"
+- "/Users/Jorge/Desktop/Projects/Web/Swift/kisiBootcamp/.build/x86_64-apple-macosx/debug/NIOFoundationCompat.swiftmodule"
+- "/Users/Jorge/Desktop/Projects/Web/Swift/kisiBootcamp/.build/x86_64-apple-macosx/debug/WebSocket.swiftmodule"
+- "/Users/Jorge/Desktop/Projects/Web/Swift/kisiBootcamp/.build/x86_64-apple-macosx/debug/NIOWebSocket.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/Swift.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/IOKit.swiftmodule"
+- "/Users/Jorge/Desktop/Projects/Web/Swift/kisiBootcamp/.build/x86_64-apple-macosx/debug/DatabaseKit.swiftmodule"
+- "/Users/Jorge/Desktop/Projects/Web/Swift/kisiBootcamp/.build/x86_64-apple-macosx/debug/TemplateKit.swiftmodule"
+- "/Users/Jorge/Desktop/Projects/Web/Swift/kisiBootcamp/.build/x86_64-apple-macosx/debug/Fluent.swiftmodule"
+- "/Users/Jorge/Desktop/Projects/Web/Swift/kisiBootcamp/.build/x86_64-apple-macosx/debug/Multipart.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/SwiftOnoneSupport.swiftmodule"
+- "/Users/Jorge/Desktop/Projects/Web/Swift/kisiBootcamp/.build/checkouts/swift-nio/Sources/CNIOSHA1/include/CNIOSHA1.h"
+- "/usr/local/Cellar/libressl/2.9.2/include/openssl/asn1.h"
+- "/usr/local/Cellar/libressl/2.9.2/include/openssl/tls1.h"
+- "/usr/local/Cellar/libressl/2.9.2/include/openssl/dtls1.h"
+- "/usr/local/Cellar/libressl/2.9.2/include/openssl/pkcs12.h"
+- "/usr/local/Cellar/libressl/2.9.2/include/openssl/ssl2.h"
+- "/usr/local/Cellar/libressl/2.9.2/include/openssl/pem2.h"
+- "/usr/local/Cellar/libressl/2.9.2/include/openssl/ssl23.h"
+- "/usr/local/Cellar/libressl/2.9.2/include/openssl/ssl3.h"
+- "/usr/local/Cellar/libressl/2.9.2/include/openssl/x509v3.h"
+- "/usr/local/Cellar/libressl/2.9.2/include/openssl/md5.h"
+- "/usr/local/Cellar/libressl/2.9.2/include/openssl/pkcs7.h"
+- "/usr/local/Cellar/libressl/2.9.2/include/openssl/x509.h"
+- "/usr/local/Cellar/libressl/2.9.2/include/openssl/sha.h"
+- "/usr/local/Cellar/libressl/2.9.2/include/openssl/dsa.h"
+- "/usr/local/Cellar/libressl/2.9.2/include/openssl/ecdsa.h"
+- "/usr/local/Cellar/libressl/2.9.2/include/openssl/rsa.h"
+- "/Users/Jorge/Desktop/Projects/Web/Swift/kisiBootcamp/.build/checkouts/swift-nio/Sources/CNIOZlib/include/CNIOZlib.h"
+- "/usr/local/Cellar/libressl/2.9.2/include/openssl/obj_mac.h"
+- "/usr/local/Cellar/libressl/2.9.2/include/openssl/hmac.h"
+- "/usr/local/Cellar/libressl/2.9.2/include/openssl/ec.h"
+- "/Users/Jorge/Desktop/Projects/Web/Swift/kisiBootcamp/.build/checkouts/swift-nio/Sources/CNIOAtomics/include/cpp_magic.h"
+- "/Users/Jorge/Desktop/Projects/Web/Swift/kisiBootcamp/.build/checkouts/swift-nio/Sources/CNIOLinux/include/ifaddrs-android.h"
+- "/usr/local/Cellar/libressl/2.9.2/include/openssl/rand.h"
+- "/usr/local/Cellar/libressl/2.9.2/include/openssl/conf.h"
+- "/usr/local/Cellar/libressl/2.9.2/include/openssl/opensslconf.h"
+- "/usr/local/Cellar/libressl/2.9.2/include/openssl/dh.h"
+- "/usr/local/Cellar/libressl/2.9.2/include/openssl/ecdh.h"
+- "/usr/local/Cellar/libressl/2.9.2/include/openssl/lhash.h"
+- "/usr/local/Cellar/libressl/2.9.2/include/openssl/stack.h"
+- "/usr/local/Cellar/libressl/2.9.2/include/openssl/safestack.h"
+- "/usr/local/Cellar/libressl/2.9.2/include/openssl/ssl.h"
+- "/Users/Jorge/Desktop/Projects/Web/Swift/kisiBootcamp/.build/checkouts/swift-nio-ssl/Sources/CNIOOpenSSL/include/c_nio_openssl.h"
+- "/Users/Jorge/Desktop/Projects/Web/Swift/kisiBootcamp/.build/checkouts/crypto/Sources/CCryptoOpenSSL/include/c_crypto_openssl.h"
+- "/usr/local/Cellar/libressl/2.9.2/include/openssl/pem.h"
+- "/usr/local/Cellar/libressl/2.9.2/include/openssl/bn.h"
+- "/Users/Jorge/Desktop/Projects/Web/Swift/kisiBootcamp/.build/checkouts/swift-nio/Sources/CNIODarwin/include/CNIODarwin.h"
+- "/usr/local/Cellar/libressl/2.9.2/include/openssl/bio.h"
+- "/usr/local/Cellar/libressl/2.9.2/include/openssl/crypto.h"
+- "/usr/local/Cellar/libressl/2.9.2/include/openssl/srtp.h"
+- "/usr/local/Cellar/libressl/2.9.2/include/openssl/evp.h"
+- "/usr/local/Cellar/libressl/2.9.2/include/openssl/ossl_typ.h"
+- "/usr/local/Cellar/libressl/2.9.2/include/openssl/buffer.h"
+- "/Users/Jorge/Desktop/Projects/Web/Swift/kisiBootcamp/.build/checkouts/swift-nio/Sources/CNIOHTTPParser/include/CNIOHTTPParser.h"
+- "/Users/Jorge/Desktop/Projects/Web/Swift/kisiBootcamp/.build/checkouts/swift-nio/Sources/CNIOHTTPParser/include/c_nio_http_parser.h"
+- "/usr/local/Cellar/libressl/2.9.2/include/openssl/err.h"
+- "/Users/Jorge/Desktop/Projects/Web/Swift/kisiBootcamp/.build/checkouts/swift-nio/Sources/CNIOAtomics/include/CNIOAtomics.h"
+- "/usr/local/Cellar/libressl/2.9.2/include/openssl/opensslfeatures.h"
+- "/usr/local/Cellar/libressl/2.9.2/include/openssl/objects.h"
+- "/usr/local/Cellar/libressl/2.9.2/include/openssl/opensslv.h"
+- "/Users/Jorge/Desktop/Projects/Web/Swift/kisiBootcamp/.build/checkouts/swift-nio/Sources/CNIOLinux/include/CNIOLinux.h"
+- "/usr/local/Cellar/libressl/2.9.2/include/openssl/x509_vfy.h"
+- "/Users/Jorge/Desktop/Projects/Web/Swift/kisiBootcamp/.build/x86_64-apple-macosx/debug/CNIOSHA1.build/module.modulemap"
+- "/Users/Jorge/Desktop/Projects/Web/Swift/kisiBootcamp/.build/x86_64-apple-macosx/debug/CNIOOpenSSL.build/module.modulemap"
+- "/Users/Jorge/Desktop/Projects/Web/Swift/kisiBootcamp/.build/x86_64-apple-macosx/debug/CCryptoOpenSSL.build/module.modulemap"
+- "/Users/Jorge/Desktop/Projects/Web/Swift/kisiBootcamp/.build/x86_64-apple-macosx/debug/CNIOZlib.build/module.modulemap"
+- "/Users/Jorge/Desktop/Projects/Web/Swift/kisiBootcamp/.build/x86_64-apple-macosx/debug/CNIODarwin.build/module.modulemap"
+- "/Users/Jorge/Desktop/Projects/Web/Swift/kisiBootcamp/.build/x86_64-apple-macosx/debug/CNIOHTTPParser.build/module.modulemap"
+- "/Users/Jorge/Desktop/Projects/Web/Swift/kisiBootcamp/.build/x86_64-apple-macosx/debug/CNIOAtomics.build/module.modulemap"
+- "/Users/Jorge/Desktop/Projects/Web/Swift/kisiBootcamp/.build/x86_64-apple-macosx/debug/CNIOLinux.build/module.modulemap"
+- "/Users/Jorge/Desktop/Projects/Web/Swift/kisiBootcamp/.build/checkouts/crypto/Sources/CBase32/include/module.modulemap"
+- "/Users/Jorge/Desktop/Projects/Web/Swift/kisiBootcamp/.build/checkouts/crypto/Sources/CBcrypt/include/module.modulemap"
+- "/Users/Jorge/Desktop/Projects/Web/Swift/kisiBootcamp/.build/checkouts/swift-nio-zlib-support/module.modulemap"
+- "/Users/Jorge/Desktop/Projects/Web/Swift/kisiBootcamp/.build/checkouts/swift-nio-ssl-support/module.modulemap"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.14.sdk/usr/include/objc/ObjectiveC.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/Dispatch.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.14.sdk/usr/include/Darwin.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.14.sdk/System/Library/Frameworks/Foundation.framework/Headers/Foundation.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.14.sdk/System/Library/Frameworks/CoreGraphics.framework/Headers/CoreGraphics.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.14.sdk/System/Library/Frameworks/ApplicationServices.framework/Headers/ApplicationServices.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.14.sdk/System/Library/Frameworks/CoreText.framework/Headers/CoreText.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.14.sdk/System/Library/Frameworks/Security.framework/Headers/Security.apinotes"
+interface-hash: "c8a75ecae0a4a991d3f5cf1bf3f9550b"
