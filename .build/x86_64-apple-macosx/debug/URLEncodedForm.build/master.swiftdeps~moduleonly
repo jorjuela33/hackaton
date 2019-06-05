@@ -1,0 +1,12 @@
+version: "Apple Swift version 5.0.1 (swiftlang-1001.0.82.4 clang-1001.0.46.5)"
+options: "3923dd4b118efb1e48a3c62c62cd05a5"
+build_time: [1559744752, 517426000]
+inputs:
+  "/Users/Jorge/Desktop/Projects/Web/Swift/kisiBootcamp/.build/checkouts/url-encoded-form/Sources/URLEncodedForm/Codable/URLEncodedFormDecoder.swift": [1559744728, 3008430]
+  "/Users/Jorge/Desktop/Projects/Web/Swift/kisiBootcamp/.build/checkouts/url-encoded-form/Sources/URLEncodedForm/Codable/URLEncodedFormEncoder.swift": [1559744728, 3355838]
+  "/Users/Jorge/Desktop/Projects/Web/Swift/kisiBootcamp/.build/checkouts/url-encoded-form/Sources/URLEncodedForm/Data/URLEncodedFormData.swift": [1559744728, 3777930]
+  "/Users/Jorge/Desktop/Projects/Web/Swift/kisiBootcamp/.build/checkouts/url-encoded-form/Sources/URLEncodedForm/Data/URLEncodedFormDataConvertible.swift": [1559744728, 4017922]
+  "/Users/Jorge/Desktop/Projects/Web/Swift/kisiBootcamp/.build/checkouts/url-encoded-form/Sources/URLEncodedForm/Data/URLEncodedFormParser.swift": [1559744728, 4238128]
+  "/Users/Jorge/Desktop/Projects/Web/Swift/kisiBootcamp/.build/checkouts/url-encoded-form/Sources/URLEncodedForm/Data/URLEncodedFormSerializer.swift": [1559744728, 4419269]
+  "/Users/Jorge/Desktop/Projects/Web/Swift/kisiBootcamp/.build/checkouts/url-encoded-form/Sources/URLEncodedForm/Utilities/Exports.swift": [1559744728, 4698135]
+  "/Users/Jorge/Desktop/Projects/Web/Swift/kisiBootcamp/.build/checkouts/url-encoded-form/Sources/URLEncodedForm/Utilities/URLEncodedFormError.swift": [1559744728, 4890364]

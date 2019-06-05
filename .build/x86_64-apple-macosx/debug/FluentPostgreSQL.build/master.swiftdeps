@@ -1,0 +1,21 @@
+version: "Apple Swift version 5.0.1 (swiftlang-1001.0.82.4 clang-1001.0.46.5)"
+options: "c42c46e47e10dfe0aa1c1814b5695a52"
+build_time: [1559744772, 207064000]
+inputs:
+  "/Users/Jorge/Desktop/Projects/Web/Swift/kisiBootcamp/.build/checkouts/fluent-postgresql/Sources/FluentPostgreSQL/Deprecated.swift": [1559744728, 410836953]
+  "/Users/Jorge/Desktop/Projects/Web/Swift/kisiBootcamp/.build/checkouts/fluent-postgresql/Sources/FluentPostgreSQL/Exports.swift": [1559744728, 410993832]
+  "/Users/Jorge/Desktop/Projects/Web/Swift/kisiBootcamp/.build/checkouts/fluent-postgresql/Sources/FluentPostgreSQL/Fluent+PostgreSQLUpsert.swift": [1559744728, 411142851]
+  "/Users/Jorge/Desktop/Projects/Web/Swift/kisiBootcamp/.build/checkouts/fluent-postgresql/Sources/FluentPostgreSQL/FluentPostgreSQLProvider.swift": [1559744728, 411302332]
+  "/Users/Jorge/Desktop/Projects/Web/Swift/kisiBootcamp/.build/checkouts/fluent-postgresql/Sources/FluentPostgreSQL/FluentPostgreSQLQuery.swift": [1559744728, 411457139]
+  "/Users/Jorge/Desktop/Projects/Web/Swift/kisiBootcamp/.build/checkouts/fluent-postgresql/Sources/FluentPostgreSQL/FluentPostgreSQLSchema.swift": [1559744728, 411613238]
+  "/Users/Jorge/Desktop/Projects/Web/Swift/kisiBootcamp/.build/checkouts/fluent-postgresql/Sources/FluentPostgreSQL/PostgreSQLDatabase+JoinSupporting.swift": [1559744728, 411851842]
+  "/Users/Jorge/Desktop/Projects/Web/Swift/kisiBootcamp/.build/checkouts/fluent-postgresql/Sources/FluentPostgreSQL/PostgreSQLDatabase+KeyedCacheSupporting.swift": [1559744728, 412021931]
+  "/Users/Jorge/Desktop/Projects/Web/Swift/kisiBootcamp/.build/checkouts/fluent-postgresql/Sources/FluentPostgreSQL/PostgreSQLDatabase+MigrationSupporting.swift": [1559744728, 412181400]
+  "/Users/Jorge/Desktop/Projects/Web/Swift/kisiBootcamp/.build/checkouts/fluent-postgresql/Sources/FluentPostgreSQL/PostgreSQLDatabase+QuerySupporting.swift": [1559744728, 412347647]
+  "/Users/Jorge/Desktop/Projects/Web/Swift/kisiBootcamp/.build/checkouts/fluent-postgresql/Sources/FluentPostgreSQL/PostgreSQLDatabase+SchemaSupporting.swift": [1559744728, 412583737]
+  "/Users/Jorge/Desktop/Projects/Web/Swift/kisiBootcamp/.build/checkouts/fluent-postgresql/Sources/FluentPostgreSQL/PostgreSQLDatabase+TransactionSupporting.swift": [1559744728, 412747112]
+  "/Users/Jorge/Desktop/Projects/Web/Swift/kisiBootcamp/.build/checkouts/fluent-postgresql/Sources/FluentPostgreSQL/PostgreSQLEnum.swift": [1559744728, 412912045]
+  "/Users/Jorge/Desktop/Projects/Web/Swift/kisiBootcamp/.build/checkouts/fluent-postgresql/Sources/FluentPostgreSQL/PostgreSQLModel.swift": [1559744728, 413092984]
+  "/Users/Jorge/Desktop/Projects/Web/Swift/kisiBootcamp/.build/checkouts/fluent-postgresql/Sources/FluentPostgreSQL/PostgreSQLStringModel.swift": [1559744728, 413372666]
+  "/Users/Jorge/Desktop/Projects/Web/Swift/kisiBootcamp/.build/checkouts/fluent-postgresql/Sources/FluentPostgreSQL/PostgreSQLUUIDModel.swift": [1559744728, 413668766]
+  "/Users/Jorge/Desktop/Projects/Web/Swift/kisiBootcamp/.build/checkouts/fluent-postgresql/Sources/FluentPostgreSQL/Utilities.swift": [1559744728, 413840465]

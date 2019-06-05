@@ -1,0 +1,6 @@
+version: "Apple Swift version 5.0.1 (swiftlang-1001.0.82.4 clang-1001.0.46.5)"
+options: "e43b2fff0eb312b6133b683904e1eea1"
+build_time: [1559744735, 216046000]
+inputs:
+  "/Users/Jorge/Desktop/Projects/Web/Swift/kisiBootcamp/.build/checkouts/swift-nio/Sources/NIOPriorityQueue/Heap.swift": [1559744727, 348067911]
+  "/Users/Jorge/Desktop/Projects/Web/Swift/kisiBootcamp/.build/checkouts/swift-nio/Sources/NIOPriorityQueue/PriorityQueue.swift": [1559744727, 348229092]

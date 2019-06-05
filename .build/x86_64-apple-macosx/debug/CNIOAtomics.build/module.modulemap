@@ -1,0 +1,4 @@
+module CNIOAtomics {
+    umbrella header "/Users/Jorge/Desktop/Projects/Web/Swift/kisiBootcamp/.build/checkouts/swift-nio/Sources/CNIOAtomics/include/CNIOAtomics.h"
+    export *
+}

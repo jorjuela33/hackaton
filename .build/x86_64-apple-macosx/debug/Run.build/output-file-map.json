@@ -1,0 +1,11 @@
+{
+  "": {
+    "swift-dependencies": "/Users/Jorge/Desktop/Projects/Web/Swift/kisiBootcamp/.build/x86_64-apple-macosx/debug/Run.build/master.swiftdeps"
+  },
+  "/Users/Jorge/Desktop/Projects/Web/Swift/kisiBootcamp/Sources/Run/main.swift": {
+    "dependencies": "/Users/Jorge/Desktop/Projects/Web/Swift/kisiBootcamp/.build/x86_64-apple-macosx/debug/Run.build/main.d",
+    "object": "/Users/Jorge/Desktop/Projects/Web/Swift/kisiBootcamp/.build/x86_64-apple-macosx/debug/Run.build/main.swift.o",
+    "swiftmodule": "/Users/Jorge/Desktop/Projects/Web/Swift/kisiBootcamp/.build/x86_64-apple-macosx/debug/Run.build/main~partial.swiftmodule",
+    "swift-dependencies": "/Users/Jorge/Desktop/Projects/Web/Swift/kisiBootcamp/.build/x86_64-apple-macosx/debug/Run.build/main.swiftdeps"
+  }
+}

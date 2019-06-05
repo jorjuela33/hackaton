@@ -1,0 +1,8 @@
+version: "Apple Swift version 5.0.1 (swiftlang-1001.0.82.4 clang-1001.0.46.5)"
+options: "04b5e6c624fa70ef6db63ab9d390a492"
+build_time: [1559744752, 516829000]
+inputs:
+  "/Users/Jorge/Desktop/Projects/Web/Swift/kisiBootcamp/.build/checkouts/console/Sources/Logging/Exports.swift": [1559744725, 412361368]
+  "/Users/Jorge/Desktop/Projects/Web/Swift/kisiBootcamp/.build/checkouts/console/Sources/Logging/LogLevel.swift": [1559744725, 412651518]
+  "/Users/Jorge/Desktop/Projects/Web/Swift/kisiBootcamp/.build/checkouts/console/Sources/Logging/Logger.swift": [1559744725, 412843380]
+  "/Users/Jorge/Desktop/Projects/Web/Swift/kisiBootcamp/.build/checkouts/console/Sources/Logging/PrintLogger.swift": [1559744725, 412998773]

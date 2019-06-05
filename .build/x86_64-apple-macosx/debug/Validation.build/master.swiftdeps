@@ -1,0 +1,22 @@
+version: "Apple Swift version 5.0.1 (swiftlang-1001.0.82.4 clang-1001.0.46.5)"
+options: "5c5e151fd6e7de0444c2f920d8f1b8b4"
+build_time: [1559744752, 517229000]
+inputs:
+  "/Users/Jorge/Desktop/Projects/Web/Swift/kisiBootcamp/.build/checkouts/validation/Sources/Validation/Exports.swift": [1559744725, 586346531]
+  "/Users/Jorge/Desktop/Projects/Web/Swift/kisiBootcamp/.build/checkouts/validation/Sources/Validation/Validatable.swift": [1559744725, 586498812]
+  "/Users/Jorge/Desktop/Projects/Web/Swift/kisiBootcamp/.build/checkouts/validation/Sources/Validation/ValidationError.swift": [1559744725, 586680271]
+  "/Users/Jorge/Desktop/Projects/Web/Swift/kisiBootcamp/.build/checkouts/validation/Sources/Validation/Validations.swift": [1559744725, 586861253]
+  "/Users/Jorge/Desktop/Projects/Web/Swift/kisiBootcamp/.build/checkouts/validation/Sources/Validation/Validator.swift": [1559744725, 587038359]
+  "/Users/Jorge/Desktop/Projects/Web/Swift/kisiBootcamp/.build/checkouts/validation/Sources/Validation/ValidatorType.swift": [1559744725, 587247762]
+  "/Users/Jorge/Desktop/Projects/Web/Swift/kisiBootcamp/.build/checkouts/validation/Sources/Validation/Validators/AndValidator.swift": [1559744725, 587477487]
+  "/Users/Jorge/Desktop/Projects/Web/Swift/kisiBootcamp/.build/checkouts/validation/Sources/Validation/Validators/CharacterSetValidator.swift": [1559744725, 587738516]
+  "/Users/Jorge/Desktop/Projects/Web/Swift/kisiBootcamp/.build/checkouts/validation/Sources/Validation/Validators/CountValidator.swift": [1559744725, 587897377]
+  "/Users/Jorge/Desktop/Projects/Web/Swift/kisiBootcamp/.build/checkouts/validation/Sources/Validation/Validators/EmailValidator.swift": [1559744725, 588046594]
+  "/Users/Jorge/Desktop/Projects/Web/Swift/kisiBootcamp/.build/checkouts/validation/Sources/Validation/Validators/EmptyValidator.swift": [1559744725, 588212829]
+  "/Users/Jorge/Desktop/Projects/Web/Swift/kisiBootcamp/.build/checkouts/validation/Sources/Validation/Validators/InValidator.swift": [1559744725, 588364175]
+  "/Users/Jorge/Desktop/Projects/Web/Swift/kisiBootcamp/.build/checkouts/validation/Sources/Validation/Validators/NilIgnoringValidator.swift": [1559744725, 588506881]
+  "/Users/Jorge/Desktop/Projects/Web/Swift/kisiBootcamp/.build/checkouts/validation/Sources/Validation/Validators/NilValidator.swift": [1559744725, 588685196]
+  "/Users/Jorge/Desktop/Projects/Web/Swift/kisiBootcamp/.build/checkouts/validation/Sources/Validation/Validators/NotValidator.swift": [1559744725, 588962704]
+  "/Users/Jorge/Desktop/Projects/Web/Swift/kisiBootcamp/.build/checkouts/validation/Sources/Validation/Validators/OrValidator.swift": [1559744725, 589155504]
+  "/Users/Jorge/Desktop/Projects/Web/Swift/kisiBootcamp/.build/checkouts/validation/Sources/Validation/Validators/RangeValidator.swift": [1559744725, 589365695]
+  "/Users/Jorge/Desktop/Projects/Web/Swift/kisiBootcamp/.build/checkouts/validation/Sources/Validation/Validators/URLValidator.swift": [1559744725, 589506064]

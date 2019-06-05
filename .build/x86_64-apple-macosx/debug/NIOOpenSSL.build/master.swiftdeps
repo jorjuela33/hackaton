@@ -1,0 +1,21 @@
+version: "Apple Swift version 5.0.1 (swiftlang-1001.0.82.4 clang-1001.0.46.5)"
+options: "c997472aee9eeb890c7e0af48374a40f"
+build_time: [1559744748, 94801000]
+inputs:
+  "/Users/Jorge/Desktop/Projects/Web/Swift/kisiBootcamp/.build/checkouts/swift-nio-ssl/Sources/NIOOpenSSL/ByteBufferBIO.swift": [1559744726, 771403822]
+  "/Users/Jorge/Desktop/Projects/Web/Swift/kisiBootcamp/.build/checkouts/swift-nio-ssl/Sources/NIOOpenSSL/IdentityVerification.swift": [1559744726, 771622404]
+  "/Users/Jorge/Desktop/Projects/Web/Swift/kisiBootcamp/.build/checkouts/swift-nio-ssl/Sources/NIOOpenSSL/OpenSSLClientHandler.swift": [1559744726, 771825716]
+  "/Users/Jorge/Desktop/Projects/Web/Swift/kisiBootcamp/.build/checkouts/swift-nio-ssl/Sources/NIOOpenSSL/OpenSSLHandler.swift": [1559744726, 772273590]
+  "/Users/Jorge/Desktop/Projects/Web/Swift/kisiBootcamp/.build/checkouts/swift-nio-ssl/Sources/NIOOpenSSL/OpenSSLServerHandler.swift": [1559744726, 772494325]
+  "/Users/Jorge/Desktop/Projects/Web/Swift/kisiBootcamp/.build/checkouts/swift-nio-ssl/Sources/NIOOpenSSL/PosixPort.swift": [1559744726, 772684527]
+  "/Users/Jorge/Desktop/Projects/Web/Swift/kisiBootcamp/.build/checkouts/swift-nio-ssl/Sources/NIOOpenSSL/SSLCertificate.swift": [1559744726, 772936343]
+  "/Users/Jorge/Desktop/Projects/Web/Swift/kisiBootcamp/.build/checkouts/swift-nio-ssl/Sources/NIOOpenSSL/SSLConnection.swift": [1559744726, 773245036]
+  "/Users/Jorge/Desktop/Projects/Web/Swift/kisiBootcamp/.build/checkouts/swift-nio-ssl/Sources/NIOOpenSSL/SSLContext.swift": [1559744726, 773524464]
+  "/Users/Jorge/Desktop/Projects/Web/Swift/kisiBootcamp/.build/checkouts/swift-nio-ssl/Sources/NIOOpenSSL/SSLErrors.swift": [1559744726, 773776165]
+  "/Users/Jorge/Desktop/Projects/Web/Swift/kisiBootcamp/.build/checkouts/swift-nio-ssl/Sources/NIOOpenSSL/SSLInit.swift": [1559744726, 773924027]
+  "/Users/Jorge/Desktop/Projects/Web/Swift/kisiBootcamp/.build/checkouts/swift-nio-ssl/Sources/NIOOpenSSL/SSLPKCS12Bundle.swift": [1559744726, 774114898]
+  "/Users/Jorge/Desktop/Projects/Web/Swift/kisiBootcamp/.build/checkouts/swift-nio-ssl/Sources/NIOOpenSSL/SSLPointerTricks.swift": [1559744726, 774273027]
+  "/Users/Jorge/Desktop/Projects/Web/Swift/kisiBootcamp/.build/checkouts/swift-nio-ssl/Sources/NIOOpenSSL/SSLPrivateKey.swift": [1559744726, 774504220]
+  "/Users/Jorge/Desktop/Projects/Web/Swift/kisiBootcamp/.build/checkouts/swift-nio-ssl/Sources/NIOOpenSSL/SSLPublicKey.swift": [1559744726, 774675776]
+  "/Users/Jorge/Desktop/Projects/Web/Swift/kisiBootcamp/.build/checkouts/swift-nio-ssl/Sources/NIOOpenSSL/SSLVerificationCallbacks.swift": [1559744726, 774836880]
+  "/Users/Jorge/Desktop/Projects/Web/Swift/kisiBootcamp/.build/checkouts/swift-nio-ssl/Sources/NIOOpenSSL/TLSConfiguration.swift": [1559744726, 775057112]

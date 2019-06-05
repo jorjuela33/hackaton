@@ -1,0 +1,19 @@
+version: "Apple Swift version 5.0.1 (swiftlang-1001.0.82.4 clang-1001.0.46.5)"
+options: "e053840d3d2f40ba16ab125da9f4e351"
+build_time: [1559744746, 313663000]
+inputs:
+  "/Users/Jorge/Desktop/Projects/Web/Swift/kisiBootcamp/.build/checkouts/core/Sources/Async/Async+NIO.swift": [1559744726, 958056357]
+  "/Users/Jorge/Desktop/Projects/Web/Swift/kisiBootcamp/.build/checkouts/core/Sources/Async/AsyncError.swift": [1559744726, 958303899]
+  "/Users/Jorge/Desktop/Projects/Web/Swift/kisiBootcamp/.build/checkouts/core/Sources/Async/Collection+Future.swift": [1559744726, 958530499]
+  "/Users/Jorge/Desktop/Projects/Web/Swift/kisiBootcamp/.build/checkouts/core/Sources/Async/Deprecated.swift": [1559744726, 958711704]
+  "/Users/Jorge/Desktop/Projects/Web/Swift/kisiBootcamp/.build/checkouts/core/Sources/Async/Exports.swift": [1559744726, 958867787]
+  "/Users/Jorge/Desktop/Projects/Web/Swift/kisiBootcamp/.build/checkouts/core/Sources/Async/Future+DoCatch.swift": [1559744726, 959020248]
+  "/Users/Jorge/Desktop/Projects/Web/Swift/kisiBootcamp/.build/checkouts/core/Sources/Async/Future+Flatten.swift": [1559744726, 959194511]
+  "/Users/Jorge/Desktop/Projects/Web/Swift/kisiBootcamp/.build/checkouts/core/Sources/Async/Future+Global.swift": [1559744726, 959340221]
+  "/Users/Jorge/Desktop/Projects/Web/Swift/kisiBootcamp/.build/checkouts/core/Sources/Async/Future+Map.swift": [1559744726, 959501316]
+  "/Users/Jorge/Desktop/Projects/Web/Swift/kisiBootcamp/.build/checkouts/core/Sources/Async/Future+Transform.swift": [1559744726, 959660967]
+  "/Users/Jorge/Desktop/Projects/Web/Swift/kisiBootcamp/.build/checkouts/core/Sources/Async/Future+Variadic.swift": [1559744726, 959836542]
+  "/Users/Jorge/Desktop/Projects/Web/Swift/kisiBootcamp/.build/checkouts/core/Sources/Async/Future+Void.swift": [1559744726, 960011246]
+  "/Users/Jorge/Desktop/Projects/Web/Swift/kisiBootcamp/.build/checkouts/core/Sources/Async/FutureType.swift": [1559744726, 960164696]
+  "/Users/Jorge/Desktop/Projects/Web/Swift/kisiBootcamp/.build/checkouts/core/Sources/Async/QueueHandler.swift": [1559744726, 960355335]
+  "/Users/Jorge/Desktop/Projects/Web/Swift/kisiBootcamp/.build/checkouts/core/Sources/Async/Worker.swift": [1559744726, 960548148]

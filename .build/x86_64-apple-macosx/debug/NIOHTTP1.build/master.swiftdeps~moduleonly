@@ -1,0 +1,13 @@
+version: "Apple Swift version 5.0.1 (swiftlang-1001.0.82.4 clang-1001.0.46.5)"
+options: "da14afbf06fcf0129d7424600dca6123"
+build_time: [1559744746, 312945000]
+inputs:
+  "/Users/Jorge/Desktop/Projects/Web/Swift/kisiBootcamp/.build/checkouts/swift-nio/Sources/NIOHTTP1/ByteCollectionUtils.swift": [1559744727, 342854755]
+  "/Users/Jorge/Desktop/Projects/Web/Swift/kisiBootcamp/.build/checkouts/swift-nio/Sources/NIOHTTP1/HTTPDecoder.swift": [1559744727, 343289972]
+  "/Users/Jorge/Desktop/Projects/Web/Swift/kisiBootcamp/.build/checkouts/swift-nio/Sources/NIOHTTP1/HTTPEncoder.swift": [1559744727, 343745799]
+  "/Users/Jorge/Desktop/Projects/Web/Swift/kisiBootcamp/.build/checkouts/swift-nio/Sources/NIOHTTP1/HTTPPipelineSetup.swift": [1559744727, 344194935]
+  "/Users/Jorge/Desktop/Projects/Web/Swift/kisiBootcamp/.build/checkouts/swift-nio/Sources/NIOHTTP1/HTTPResponseCompressor.swift": [1559744727, 344623731]
+  "/Users/Jorge/Desktop/Projects/Web/Swift/kisiBootcamp/.build/checkouts/swift-nio/Sources/NIOHTTP1/HTTPServerPipelineHandler.swift": [1559744727, 345189827]
+  "/Users/Jorge/Desktop/Projects/Web/Swift/kisiBootcamp/.build/checkouts/swift-nio/Sources/NIOHTTP1/HTTPServerProtocolErrorHandler.swift": [1559744727, 345535584]
+  "/Users/Jorge/Desktop/Projects/Web/Swift/kisiBootcamp/.build/checkouts/swift-nio/Sources/NIOHTTP1/HTTPTypes.swift": [1559744727, 346143961]
+  "/Users/Jorge/Desktop/Projects/Web/Swift/kisiBootcamp/.build/checkouts/swift-nio/Sources/NIOHTTP1/HTTPUpgradeHandler.swift": [1559744727, 346563307]

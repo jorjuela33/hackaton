@@ -1,0 +1,4 @@
+module CCryptoOpenSSL {
+    umbrella "/Users/Jorge/Desktop/Projects/Web/Swift/kisiBootcamp/.build/checkouts/crypto/Sources/CCryptoOpenSSL/include"
+    export *
+}

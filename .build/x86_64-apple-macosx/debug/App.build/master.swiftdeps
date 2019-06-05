@@ -1,0 +1,10 @@
+version: "Apple Swift version 5.0.1 (swiftlang-1001.0.82.4 clang-1001.0.46.5)"
+options: "82a7a554dd6373e33b245e0e6cda6bdd"
+build_time: [1559744773, 486599000]
+inputs:
+  "/Users/Jorge/Desktop/Projects/Web/Swift/kisiBootcamp/Sources/App/Controllers/LogsController.swift": [1559742720, 961523478]
+  "/Users/Jorge/Desktop/Projects/Web/Swift/kisiBootcamp/Sources/App/Models/Log.swift": [1559742363, 189215036]
+  "/Users/Jorge/Desktop/Projects/Web/Swift/kisiBootcamp/Sources/App/app.swift": [1559741265, 818808972]
+  "/Users/Jorge/Desktop/Projects/Web/Swift/kisiBootcamp/Sources/App/boot.swift": [1559741265, 819024429]
+  "/Users/Jorge/Desktop/Projects/Web/Swift/kisiBootcamp/Sources/App/configure.swift": [1559743710, 505130803]
+  "/Users/Jorge/Desktop/Projects/Web/Swift/kisiBootcamp/Sources/App/routes.swift": [1559742495, 833479788]

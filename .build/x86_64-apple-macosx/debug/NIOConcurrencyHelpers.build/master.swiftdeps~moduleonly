@@ -1,0 +1,6 @@
+version: "Apple Swift version 5.0.1 (swiftlang-1001.0.82.4 clang-1001.0.46.5)"
+options: "4dc7a10e588fc80bea0320b2f33f98fc"
+build_time: [1559744742, 377592000]
+inputs:
+  "/Users/Jorge/Desktop/Projects/Web/Swift/kisiBootcamp/.build/checkouts/swift-nio/Sources/NIOConcurrencyHelpers/atomics.swift": [1559744727, 341484447]
+  "/Users/Jorge/Desktop/Projects/Web/Swift/kisiBootcamp/.build/checkouts/swift-nio/Sources/NIOConcurrencyHelpers/lock.swift": [1559744727, 341800314]
