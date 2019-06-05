@@ -4,6 +4,15 @@ import Vapor
 /// Called before your application initializes.
 public func configure(_ config: inout Config, _ env: inout Environment, _ services: inout Services) throws {
     // Register providers first
+    guard
+        let portString = Environment.get("PORT"),
+
+        let port = Int(portString) else {
+        fatalError()
+    }
+
+    let serverConfigure = NIOServerConfig.default(hostname: "0.0.0.0", port: port)
+    services.register(serverConfigure)
     try services.register(FluentPostgreSQLProvider())
 
     // Register routes to the router
