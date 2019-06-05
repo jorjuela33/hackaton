@@ -209,6 +209,7 @@ depends-member:
 - !private ["s25ExpressibleByArrayLiteralP", "map"]
 - !private ["5Async10FutureTypeP", "ok"]
 - !private ["5Async10FutureTypeP", "transform"]
+- !private ["8NIOHTTP118HTTPResponseStatusO", "ok"]
 - ["SH", "=="]
 - ["SH", "RawValue"]
 - ["SH", ""]
@@ -456,6 +457,7 @@ depends-nominal:
 - !private "3NIO15EventLoopFutureC"
 - !private "s25ExpressibleByArrayLiteralP"
 - !private "5Async10FutureTypeP"
+- !private "8NIOHTTP118HTTPResponseStatusO"
 - "SH"
 - !private "s6HasherV"
 - !private "6Fluent2IDP"

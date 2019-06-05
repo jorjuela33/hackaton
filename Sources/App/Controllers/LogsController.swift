@@ -24,7 +24,7 @@ final class LogsController {
     /// Saves a decoded `Todo` to the database.
     func create(_ req: Request, log: LogParameters) throws -> Future<HTTPStatus> {
         let sessionID = UUID()
-        return try log.data.map({ try Log(id: nil, delta: $0.delta, rssi: $0.rssi, session: sessionID, deviceID: UUID(uuidString: log.deviceID)!).create(on: req) })
+        return try log.data.map({ Log(id: nil, delta: $0.delta, rssi: $0.rssi, session: sessionID, deviceID: UUID(uuidString: log.deviceID)!).create(on: req) })
         .flatten(on: req).transform(to: .ok)
     }
 
@@ -39,7 +39,7 @@ extension LogsController: RouteCollection {
     // MARK: RouteCollection
 
     func boot(router: Router) throws {
-        let group = router.grouped("api/devices")
+        let group = router.grouped("api")
         group.get("logs", use: read)
         group.post(LogParameters.self, at: "logs", use: create)
     }

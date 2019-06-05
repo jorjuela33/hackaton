@@ -14,7 +14,6 @@ depends-top-level:
 - !private "Log"
 - !private "MiddlewareConfig"
 - !private "MigrationConfig"
-- "NilCoalescingPrecedence"
 - !private "PostgreSQLDatabase"
 - !private "PostgreSQLDatabaseConfig"
 - !private "Router"

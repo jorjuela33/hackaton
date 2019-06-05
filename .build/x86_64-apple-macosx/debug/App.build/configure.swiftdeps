@@ -10,7 +10,9 @@ depends-top-level:
 - !private "EngineRouter"
 - "Environment"
 - !private "ErrorMiddleware"
+- !private "FloatLiteralType"
 - !private "FluentPostgreSQLProvider"
+- !private "IntegerLiteralType"
 - !private "Log"
 - !private "MiddlewareConfig"
 - !private "MigrationConfig"
@@ -59,6 +61,7 @@ depends-member:
 - !private ["7Service0A4TypeP", "use"]
 - !private ["7Service8ServicesV", "register"]
 - !private ["6Fluent21TransactionSupportingP", "init"]
+- !private ["10PostgreSQL0A13SQLConnectionC15TransportConfigV", "cleartext"]
 depends-nominal:
 - !private "s23CustomStringConvertibleP"
 - !private "11DatabaseKit0A0P"
@@ -89,6 +92,7 @@ depends-nominal:
 - !private "7Service0A4TypeP"
 - !private "7Service8ServicesV"
 - !private "6Fluent21TransactionSupportingP"
+- !private "10PostgreSQL0A13SQLConnectionC15TransportConfigV"
 depends-dynamic-lookup:
 depends-external:
 - "/Users/Jorge/Desktop/Projects/Web/Swift/kisiBootcamp/.build/x86_64-apple-macosx/debug/NIOHTTP1.swiftmodule"
