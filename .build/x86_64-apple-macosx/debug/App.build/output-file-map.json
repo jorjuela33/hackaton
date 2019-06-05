@@ -8,6 +8,12 @@
     "swiftmodule": "/Users/Jorge/Desktop/Projects/Web/Swift/kisiBootcamp/.build/x86_64-apple-macosx/debug/App.build/Controllers/LogsController~partial.swiftmodule",
     "swift-dependencies": "/Users/Jorge/Desktop/Projects/Web/Swift/kisiBootcamp/.build/x86_64-apple-macosx/debug/App.build/Controllers/LogsController.swiftdeps"
   },
+  "/Users/Jorge/Desktop/Projects/Web/Swift/kisiBootcamp/Sources/App/Controllers/RecordsController.swift": {
+    "dependencies": "/Users/Jorge/Desktop/Projects/Web/Swift/kisiBootcamp/.build/x86_64-apple-macosx/debug/App.build/Controllers/RecordsController.d",
+    "object": "/Users/Jorge/Desktop/Projects/Web/Swift/kisiBootcamp/.build/x86_64-apple-macosx/debug/App.build/Controllers/RecordsController.swift.o",
+    "swiftmodule": "/Users/Jorge/Desktop/Projects/Web/Swift/kisiBootcamp/.build/x86_64-apple-macosx/debug/App.build/Controllers/RecordsController~partial.swiftmodule",
+    "swift-dependencies": "/Users/Jorge/Desktop/Projects/Web/Swift/kisiBootcamp/.build/x86_64-apple-macosx/debug/App.build/Controllers/RecordsController.swiftdeps"
+  },
   "/Users/Jorge/Desktop/Projects/Web/Swift/kisiBootcamp/Sources/App/Models/Log.swift": {
     "dependencies": "/Users/Jorge/Desktop/Projects/Web/Swift/kisiBootcamp/.build/x86_64-apple-macosx/debug/App.build/Models/Log.d",
     "object": "/Users/Jorge/Desktop/Projects/Web/Swift/kisiBootcamp/.build/x86_64-apple-macosx/debug/App.build/Models/Log.swift.o",

@@ -1,12 +1,12 @@
 version: "Apple Swift version 5.0.1 (swiftlang-1001.0.82.4 clang-1001.0.46.5)"
 options: "828308a318bf54de7c31db876d58ef7a"
-build_time: [1559744752, 516827000]
+build_time: [1559758823, 421221000]
 inputs:
-  "/Users/Jorge/Desktop/Projects/Web/Swift/kisiBootcamp/.build/checkouts/multipart/Sources/Multipart/Exports.swift": [1559744728, 196833786]
-  "/Users/Jorge/Desktop/Projects/Web/Swift/kisiBootcamp/.build/checkouts/multipart/Sources/Multipart/FormDataDecoder.swift": [1559744728, 197057479]
-  "/Users/Jorge/Desktop/Projects/Web/Swift/kisiBootcamp/.build/checkouts/multipart/Sources/Multipart/FormDataEncoder.swift": [1559744728, 197244777]
-  "/Users/Jorge/Desktop/Projects/Web/Swift/kisiBootcamp/.build/checkouts/multipart/Sources/Multipart/MultipartError.swift": [1559744728, 197398615]
-  "/Users/Jorge/Desktop/Projects/Web/Swift/kisiBootcamp/.build/checkouts/multipart/Sources/Multipart/MultipartParser.swift": [1559744728, 197579146]
-  "/Users/Jorge/Desktop/Projects/Web/Swift/kisiBootcamp/.build/checkouts/multipart/Sources/Multipart/MultipartPart.swift": [1559744728, 197728756]
-  "/Users/Jorge/Desktop/Projects/Web/Swift/kisiBootcamp/.build/checkouts/multipart/Sources/Multipart/MultipartPartConvertible.swift": [1559744728, 197916117]
-  "/Users/Jorge/Desktop/Projects/Web/Swift/kisiBootcamp/.build/checkouts/multipart/Sources/Multipart/MultipartSerializer.swift": [1559744728, 198094619]
+  "/Users/Jorge/Desktop/Projects/Web/Swift/kisiBootcamp/.build/checkouts/multipart/Sources/Multipart/Exports.swift": [1559758782, 533209150]
+  "/Users/Jorge/Desktop/Projects/Web/Swift/kisiBootcamp/.build/checkouts/multipart/Sources/Multipart/FormDataDecoder.swift": [1559758782, 533520574]
+  "/Users/Jorge/Desktop/Projects/Web/Swift/kisiBootcamp/.build/checkouts/multipart/Sources/Multipart/FormDataEncoder.swift": [1559758782, 533713283]
+  "/Users/Jorge/Desktop/Projects/Web/Swift/kisiBootcamp/.build/checkouts/multipart/Sources/Multipart/MultipartError.swift": [1559758782, 534043433]
+  "/Users/Jorge/Desktop/Projects/Web/Swift/kisiBootcamp/.build/checkouts/multipart/Sources/Multipart/MultipartParser.swift": [1559758782, 534302776]
+  "/Users/Jorge/Desktop/Projects/Web/Swift/kisiBootcamp/.build/checkouts/multipart/Sources/Multipart/MultipartPart.swift": [1559758782, 534534114]
+  "/Users/Jorge/Desktop/Projects/Web/Swift/kisiBootcamp/.build/checkouts/multipart/Sources/Multipart/MultipartPartConvertible.swift": [1559758782, 534795728]
+  "/Users/Jorge/Desktop/Projects/Web/Swift/kisiBootcamp/.build/checkouts/multipart/Sources/Multipart/MultipartSerializer.swift": [1559758782, 534962614]

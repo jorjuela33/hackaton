@@ -10,13 +10,16 @@ depends-top-level:
 - "=="
 - "AssignmentPrecedence"
 - "Content"
+- !private "FloatLiteralType"
 - "Int"
+- !private "IntegerLiteralType"
 - "Log"
 - "Migration"
 - "Parameter"
 - "PostgreSQLModel"
+- "String"
+- !private "StringLiteralType"
 - "UUID"
-- !private "uuid"
 - !private "~="
 depends-member:
 - ["6Fluent12AnyMigrationP", "Database"]
@@ -57,7 +60,6 @@ depends-member:
 - !private ["6Fluent12AnyMigrationP", "session"]
 - ["6Fluent12AnyMigrationP", "sqlTableIdentifierString"]
 - ["6Fluent12AnyMigrationP", "updatedAtKey"]
-- !private ["6Fluent12AnyMigrationP", "uuid"]
 - ["6Fluent12AnyMigrationP", "willCreate"]
 - ["6Fluent12AnyMigrationP", "willDelete"]
 - ["6Fluent12AnyMigrationP", "willRead"]
@@ -102,7 +104,6 @@ depends-member:
 - !private ["6Fluent8AnyModelP", "session"]
 - ["6Fluent8AnyModelP", "sqlTableIdentifierString"]
 - ["6Fluent8AnyModelP", "updatedAtKey"]
-- !private ["6Fluent8AnyModelP", "uuid"]
 - ["6Fluent8AnyModelP", "willCreate"]
 - ["6Fluent8AnyModelP", "willDelete"]
 - ["6Fluent8AnyModelP", "willRead"]
@@ -147,7 +148,6 @@ depends-member:
 - !private ["4Core14AnyReflectableP", "session"]
 - ["4Core14AnyReflectableP", "sqlTableIdentifierString"]
 - ["4Core14AnyReflectableP", "updatedAtKey"]
-- !private ["4Core14AnyReflectableP", "uuid"]
 - ["4Core14AnyReflectableP", "willCreate"]
 - ["4Core14AnyReflectableP", "willDelete"]
 - ["4Core14AnyReflectableP", "willRead"]
@@ -192,7 +192,6 @@ depends-member:
 - !private ["3SQL11AnySQLTableP", "session"]
 - ["3SQL11AnySQLTableP", "sqlTableIdentifierString"]
 - ["3SQL11AnySQLTableP", "updatedAtKey"]
-- !private ["3SQL11AnySQLTableP", "uuid"]
 - ["3SQL11AnySQLTableP", "willCreate"]
 - ["3SQL11AnySQLTableP", "willDelete"]
 - ["3SQL11AnySQLTableP", "willRead"]
@@ -247,7 +246,6 @@ depends-member:
 - !private ["5Vapor7ContentP", "session"]
 - ["5Vapor7ContentP", "sqlTableIdentifierString"]
 - ["5Vapor7ContentP", "updatedAtKey"]
-- !private ["5Vapor7ContentP", "uuid"]
 - ["5Vapor7ContentP", "willCreate"]
 - ["5Vapor7ContentP", "willDelete"]
 - ["5Vapor7ContentP", "willRead"]
@@ -312,7 +310,6 @@ depends-member:
 - !private ["Se", "session"]
 - ["Se", "sqlTableIdentifierString"]
 - ["Se", "updatedAtKey"]
-- !private ["Se", "uuid"]
 - ["Se", "willCreate"]
 - ["Se", "willDelete"]
 - ["Se", "willRead"]
@@ -358,7 +355,6 @@ depends-member:
 - !private ["SE", "session"]
 - ["SE", "sqlTableIdentifierString"]
 - ["SE", "updatedAtKey"]
-- !private ["SE", "uuid"]
 - ["SE", "willCreate"]
 - ["SE", "willDelete"]
 - ["SE", "willRead"]
@@ -399,6 +395,7 @@ depends-member:
 - ["3App3LogV", "ID"]
 - ["3App3LogV", "Int"]
 - ["3App3LogV", "ResolvedParameter"]
+- ["3App3LogV", "String"]
 - ["3App3LogV", "UUID"]
 - ["3App3LogV", "_Default_Database"]
 - ["3App3LogV", "_Default_ID"]
@@ -435,7 +432,6 @@ depends-member:
 - ["3App3LogV", "session"]
 - ["3App3LogV", "sqlTableIdentifierString"]
 - ["3App3LogV", "updatedAtKey"]
-- !private ["3App3LogV", "uuid"]
 - ["3App3LogV", "willCreate"]
 - ["3App3LogV", "willDelete"]
 - ["3App3LogV", "willRead"]
@@ -480,7 +476,6 @@ depends-member:
 - !private ["6Fluent9MigrationP", "session"]
 - ["6Fluent9MigrationP", "sqlTableIdentifierString"]
 - ["6Fluent9MigrationP", "updatedAtKey"]
-- !private ["6Fluent9MigrationP", "uuid"]
 - ["6Fluent9MigrationP", "willCreate"]
 - ["6Fluent9MigrationP", "willDelete"]
 - ["6Fluent9MigrationP", "willRead"]
@@ -525,7 +520,6 @@ depends-member:
 - !private ["6Fluent5ModelP", "session"]
 - ["6Fluent5ModelP", "sqlTableIdentifierString"]
 - ["6Fluent5ModelP", "updatedAtKey"]
-- !private ["6Fluent5ModelP", "uuid"]
 - ["6Fluent5ModelP", "willCreate"]
 - ["6Fluent5ModelP", "willDelete"]
 - ["6Fluent5ModelP", "willRead"]
@@ -570,7 +564,6 @@ depends-member:
 - !private ["7Routing9ParameterP", "session"]
 - ["7Routing9ParameterP", "sqlTableIdentifierString"]
 - ["7Routing9ParameterP", "updatedAtKey"]
-- !private ["7Routing9ParameterP", "uuid"]
 - ["7Routing9ParameterP", "willCreate"]
 - ["7Routing9ParameterP", "willDelete"]
 - ["7Routing9ParameterP", "willRead"]
@@ -615,7 +608,6 @@ depends-member:
 - !private ["16FluentPostgreSQL0B8SQLModelP", "session"]
 - ["16FluentPostgreSQL0B8SQLModelP", "sqlTableIdentifierString"]
 - ["16FluentPostgreSQL0B8SQLModelP", "updatedAtKey"]
-- !private ["16FluentPostgreSQL0B8SQLModelP", "uuid"]
 - ["16FluentPostgreSQL0B8SQLModelP", "willCreate"]
 - ["16FluentPostgreSQL0B8SQLModelP", "willDelete"]
 - ["16FluentPostgreSQL0B8SQLModelP", "willRead"]
@@ -660,7 +652,6 @@ depends-member:
 - !private ["10PostgreSQL0A8SQLTableP", "session"]
 - ["10PostgreSQL0A8SQLTableP", "sqlTableIdentifierString"]
 - ["10PostgreSQL0A8SQLTableP", "updatedAtKey"]
-- !private ["10PostgreSQL0A8SQLTableP", "uuid"]
 - ["10PostgreSQL0A8SQLTableP", "willCreate"]
 - ["10PostgreSQL0A8SQLTableP", "willDelete"]
 - ["10PostgreSQL0A8SQLTableP", "willRead"]
@@ -705,7 +696,6 @@ depends-member:
 - !private ["4Core11ReflectableP", "session"]
 - ["4Core11ReflectableP", "sqlTableIdentifierString"]
 - ["4Core11ReflectableP", "updatedAtKey"]
-- !private ["4Core11ReflectableP", "uuid"]
 - ["4Core11ReflectableP", "willCreate"]
 - ["4Core11ReflectableP", "willDelete"]
 - ["4Core11ReflectableP", "willRead"]
@@ -750,7 +740,6 @@ depends-member:
 - !private ["5Vapor16RequestDecodableP", "session"]
 - ["5Vapor16RequestDecodableP", "sqlTableIdentifierString"]
 - ["5Vapor16RequestDecodableP", "updatedAtKey"]
-- !private ["5Vapor16RequestDecodableP", "uuid"]
 - ["5Vapor16RequestDecodableP", "willCreate"]
 - ["5Vapor16RequestDecodableP", "willDelete"]
 - ["5Vapor16RequestDecodableP", "willRead"]
@@ -795,7 +784,6 @@ depends-member:
 - !private ["5Vapor16RequestEncodableP", "session"]
 - ["5Vapor16RequestEncodableP", "sqlTableIdentifierString"]
 - ["5Vapor16RequestEncodableP", "updatedAtKey"]
-- !private ["5Vapor16RequestEncodableP", "uuid"]
 - ["5Vapor16RequestEncodableP", "willCreate"]
 - ["5Vapor16RequestEncodableP", "willDelete"]
 - ["5Vapor16RequestEncodableP", "willRead"]
@@ -840,7 +828,6 @@ depends-member:
 - !private ["5Vapor17ResponseDecodableP", "session"]
 - ["5Vapor17ResponseDecodableP", "sqlTableIdentifierString"]
 - ["5Vapor17ResponseDecodableP", "updatedAtKey"]
-- !private ["5Vapor17ResponseDecodableP", "uuid"]
 - ["5Vapor17ResponseDecodableP", "willCreate"]
 - ["5Vapor17ResponseDecodableP", "willDelete"]
 - ["5Vapor17ResponseDecodableP", "willRead"]
@@ -885,7 +872,6 @@ depends-member:
 - !private ["5Vapor17ResponseEncodableP", "session"]
 - ["5Vapor17ResponseEncodableP", "sqlTableIdentifierString"]
 - ["5Vapor17ResponseEncodableP", "updatedAtKey"]
-- !private ["5Vapor17ResponseEncodableP", "uuid"]
 - ["5Vapor17ResponseEncodableP", "willCreate"]
 - ["5Vapor17ResponseEncodableP", "willDelete"]
 - ["5Vapor17ResponseEncodableP", "willRead"]
@@ -930,7 +916,6 @@ depends-member:
 - !private ["3SQL8SQLTableP", "session"]
 - ["3SQL8SQLTableP", "sqlTableIdentifierString"]
 - ["3SQL8SQLTableP", "updatedAtKey"]
-- !private ["3SQL8SQLTableP", "uuid"]
 - ["3SQL8SQLTableP", "willCreate"]
 - ["3SQL8SQLTableP", "willDelete"]
 - ["3SQL8SQLTableP", "willRead"]
@@ -975,7 +960,6 @@ depends-member:
 - !private ["16FluentPostgreSQL01_B8SQLModelP", "session"]
 - ["16FluentPostgreSQL01_B8SQLModelP", "sqlTableIdentifierString"]
 - ["16FluentPostgreSQL01_B8SQLModelP", "updatedAtKey"]
-- !private ["16FluentPostgreSQL01_B8SQLModelP", "uuid"]
 - ["16FluentPostgreSQL01_B8SQLModelP", "willCreate"]
 - ["16FluentPostgreSQL01_B8SQLModelP", "willDelete"]
 - ["16FluentPostgreSQL01_B8SQLModelP", "willRead"]
@@ -1028,7 +1012,6 @@ depends-external:
 - "/Users/Jorge/Desktop/Projects/Web/Swift/kisiBootcamp/.build/x86_64-apple-macosx/debug/HTTP.swiftmodule"
 - "/Users/Jorge/Desktop/Projects/Web/Swift/kisiBootcamp/.build/x86_64-apple-macosx/debug/NIOTLS.swiftmodule"
 - "/Users/Jorge/Desktop/Projects/Web/Swift/kisiBootcamp/.build/x86_64-apple-macosx/debug/Async.swiftmodule"
-- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/simd.swiftmodule"
 - "/Users/Jorge/Desktop/Projects/Web/Swift/kisiBootcamp/.build/x86_64-apple-macosx/debug/Command.swiftmodule"
 - "/Users/Jorge/Desktop/Projects/Web/Swift/kisiBootcamp/.build/x86_64-apple-macosx/debug/Service.swiftmodule"
 - "/Users/Jorge/Desktop/Projects/Web/Swift/kisiBootcamp/.build/x86_64-apple-macosx/debug/Console.swiftmodule"
@@ -1131,4 +1114,4 @@ depends-external:
 - "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.14.sdk/System/Library/Frameworks/ApplicationServices.framework/Headers/ApplicationServices.apinotes"
 - "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.14.sdk/System/Library/Frameworks/CoreText.framework/Headers/CoreText.apinotes"
 - "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.14.sdk/System/Library/Frameworks/Security.framework/Headers/Security.apinotes"
-interface-hash: "c86af04a67d8d4cdaa52a1513811dcd8"
+interface-hash: "f664fe2e7c38dcca6f75d4b71e4ec6fa"

@@ -17,6 +17,7 @@ depends-top-level:
 - "Migration"
 - "Parameter"
 - "PostgreSQLModel"
+- "String"
 - !private "StringLiteralType"
 - "UUID"
 - !private "~="
@@ -394,6 +395,7 @@ depends-member:
 - ["3App3LogV", "ID"]
 - ["3App3LogV", "Int"]
 - ["3App3LogV", "ResolvedParameter"]
+- ["3App3LogV", "String"]
 - ["3App3LogV", "UUID"]
 - ["3App3LogV", "_Default_Database"]
 - ["3App3LogV", "_Default_ID"]
@@ -1112,4 +1114,4 @@ depends-external:
 - "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.14.sdk/System/Library/Frameworks/ApplicationServices.framework/Headers/ApplicationServices.apinotes"
 - "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.14.sdk/System/Library/Frameworks/CoreText.framework/Headers/CoreText.apinotes"
 - "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.14.sdk/System/Library/Frameworks/Security.framework/Headers/Security.apinotes"
-interface-hash: "c86af04a67d8d4cdaa52a1513811dcd8"
+interface-hash: "f664fe2e7c38dcca6f75d4b71e4ec6fa"

@@ -19,6 +19,5 @@ depends-external:
 - "/Users/Jorge/Desktop/Projects/Web/Swift/kisiBootcamp/.build/x86_64-apple-macosx/debug/CNIOHTTPParser.build/module.modulemap"
 - "/Users/Jorge/Desktop/Projects/Web/Swift/kisiBootcamp/.build/x86_64-apple-macosx/debug/CNIOAtomics.build/module.modulemap"
 - "/Users/Jorge/Desktop/Projects/Web/Swift/kisiBootcamp/.build/x86_64-apple-macosx/debug/CNIOLinux.build/module.modulemap"
-- "/Users/Jorge/Desktop/Projects/Web/Swift/kisiBootcamp/.build/checkouts/swift-nio-zlib-support/module.modulemap"
 - "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.14.sdk/usr/include/Darwin.apinotes"
 interface-hash: "157f75ce4a7ac4d7d2dc817717c5b02c"

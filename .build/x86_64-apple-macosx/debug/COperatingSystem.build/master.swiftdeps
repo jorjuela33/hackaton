@@ -1,5 +1,5 @@
 version: "Apple Swift version 5.0.1 (swiftlang-1001.0.82.4 clang-1001.0.46.5)"
 options: "6eb477327bb6ff1c3cdced95e9c4c3a0"
-build_time: [1559744735, 216126000]
+build_time: [1559758793, 6561000]
 inputs:
-  "/Users/Jorge/Desktop/Projects/Web/Swift/kisiBootcamp/.build/checkouts/core/Sources/COperatingSystem/libc.swift": [1559744726, 962785369]
+  "/Users/Jorge/Desktop/Projects/Web/Swift/kisiBootcamp/.build/checkouts/core/Sources/COperatingSystem/libc.swift": [1559758780, 302500124]

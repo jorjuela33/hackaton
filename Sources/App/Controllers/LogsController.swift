@@ -24,7 +24,8 @@ final class LogsController {
     /// Saves a decoded `Todo` to the database.
     func create(_ req: Request, log: LogParameters) throws -> Future<HTTPStatus> {
         let sessionID = UUID()
-        return try log.data.map({ Log(id: nil, delta: $0.delta, rssi: $0.rssi, session: sessionID, deviceID: UUID(uuidString: log.deviceID)!).create(on: req) })
+        return log.data.map({ Log(delta: $0.delta, rssi: $0.rssi, session: sessionID, deviceID: log.deviceID)
+            .create(on: req) })
         .flatten(on: req).transform(to: .ok)
     }
 
