@@ -19,11 +19,11 @@ public func configure(_ config: inout Config, _ env: inout Environment, _ servic
 
     // Configure a Postgres database
     let config = PostgreSQLDatabaseConfig(
-        hostname: "ec2-54-247-85-251.eu-west-1.compute.amazonaws.com",
+        hostname: "ec2-54-217-225-16.eu-west-1.compute.amazonaws.com",
         port: 5432,
-        username: "jlzkutgzeomoai",
-        database: "dcfm5plhfl4kf3",
-        password: "890347662d62cc34e74b1fb59c5dbe53d810c15cd8386fd271a3f537768ce590",
+        username: "xmomoqfmbddngy",
+        database: "d6n9lh9d036df5",
+        password: "4e52b46261ff9da446268134715afd3bdc82bcb4b73e93d285175b287076cc56",
         transport: .cleartext
     )
     let postgres = PostgreSQLDatabase(config: config)
