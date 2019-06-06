@@ -32,6 +32,7 @@
 /* End PBXAggregateTarget section */
 
 /* Begin PBXBuildFile section */
+		CFC8F8D922A8FD3300F8F10D /* RecordsController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CFC8F8D822A8FD3200F8F10D /* RecordsController.swift */; };
 		OBJ_1000 /* FluentPostgreSQL.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = "FluentPostgreSQL::FluentPostgreSQL::Product" /* FluentPostgreSQL.framework */; };
 		OBJ_1001 /* PostgreSQL.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = "PostgreSQL::PostgreSQL::Product" /* PostgreSQL.framework */; };
 		OBJ_1002 /* NIOOpenSSL.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = "swift-nio-ssl::NIOOpenSSL::Product" /* NIOOpenSSL.framework */; };
@@ -5259,6 +5260,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		CFC8F8D822A8FD3200F8F10D /* RecordsController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RecordsController.swift; sourceTree = "<group>"; };
 		"Console::Command::Product" /* Command.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = Command.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		"Console::Console::Product" /* Console.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = Console.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		"Console::Logging::Product" /* Logging.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = Logging.framework; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -9145,6 +9147,7 @@
 			isa = PBXGroup;
 			children = (
 				OBJ_10 /* LogsController.swift */,
+				CFC8F8D822A8FD3200F8F10D /* RecordsController.swift */,
 			);
 			path = Controllers;
 			sourceTree = "<group>";
@@ -12182,6 +12185,7 @@
 				OBJ_983 /* app.swift in Sources */,
 				OBJ_984 /* boot.swift in Sources */,
 				OBJ_985 /* configure.swift in Sources */,
+				CFC8F8D922A8FD3300F8F10D /* RecordsController.swift in Sources */,
 				OBJ_986 /* routes.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

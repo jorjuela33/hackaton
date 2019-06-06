@@ -6,16 +6,20 @@ provides-member:
 provides-dynamic-lookup:
 depends-top-level:
 - !private "LogsController"
+- !private "RecordsController"
 - "Router"
 - "routes"
 depends-member:
 - !private ["3App14LogsControllerC", "deinit"]
 - !private ["3App14LogsControllerC", "init"]
+- !private ["3App17RecordsControllerC", "deinit"]
+- !private ["3App17RecordsControllerC", "init"]
 - !private ["5Vapor15RouteCollectionP", "init"]
 - !private ["5Vapor6RouterP", "register"]
 - !private ["7ServiceAAP", "register"]
 depends-nominal:
 - !private "3App14LogsControllerC"
+- !private "3App17RecordsControllerC"
 - !private "5Vapor15RouteCollectionP"
 - !private "5Vapor6RouterP"
 - !private "7ServiceAAP"

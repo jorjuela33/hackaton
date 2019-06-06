@@ -2,64 +2,104 @@
 provides-top-level:
 - "LogData"
 - "LogParameters"
+- "LogResponse"
+- "LogResponseData"
 - "LogsController"
 provides-nominal:
 - "3App7LogDataV"
 - "3App13LogParametersV"
 - "3App13LogParametersV10CodingKeysO"
+- "3App11LogResponseV"
+- "3App11LogResponseV10CodingKeysO"
+- "3App15LogResponseDataV"
+- "3App15LogResponseDataV10CodingKeysO"
 - "3App14LogsControllerC"
 provides-member:
 - ["3App7LogDataV", ""]
 - ["3App13LogParametersV", ""]
 - ["3App13LogParametersV10CodingKeysO", ""]
+- ["3App11LogResponseV", ""]
+- ["3App11LogResponseV10CodingKeysO", ""]
+- ["3App15LogResponseDataV", ""]
+- ["3App15LogResponseDataV10CodingKeysO", ""]
 - ["3App14LogsControllerC", ""]
 provides-dynamic-lookup:
 depends-top-level:
+- !private "!="
+- !private "+"
 - "=="
+- !private "??"
+- !private "AssignmentPrecedence"
 - "CodingKey"
 - "Content"
-- !private "FloatLiteralType"
+- "FloatLiteralType"
 - "Future"
 - "HTTPStatus"
 - "Int"
-- !private "IntegerLiteralType"
-- "Log"
+- "IntegerLiteralType"
+- !private "Log"
 - "LogData"
 - "LogParameters"
+- "LogResponse"
+- "LogResponseData"
 - "LogsController"
 - "Request"
 - "RouteCollection"
 - "Router"
 - "String"
 - "StringLiteralType"
-- !private "UUID"
+- "UUID"
 - !private "_findStringSwitchCase"
 - !private "~="
 depends-member:
+- !private ["10PostgreSQL8AnyArrayP", "append"]
+- !private ["16FluentPostgreSQL8AnyArrayP", "append"]
 - !private ["10PostgreSQL8AnyArrayP", "flatten"]
 - !private ["16FluentPostgreSQL8AnyArrayP", "flatten"]
+- !private ["10PostgreSQL8AnyArrayP", "last"]
+- !private ["16FluentPostgreSQL8AnyArrayP", "last"]
 - !private ["10PostgreSQL8AnyArrayP", "map"]
 - !private ["16FluentPostgreSQL8AnyArrayP", "map"]
 - !private ["6Fluent12AnyMigrationP", "create"]
+- !private ["6Fluent12AnyMigrationP", "delta"]
+- !private ["6Fluent12AnyMigrationP", "deviceID"]
 - !private ["6Fluent12AnyMigrationP", "init"]
 - !private ["6Fluent12AnyMigrationP", "query"]
+- !private ["6Fluent12AnyMigrationP", "rssi"]
 - !private ["6Fluent8AnyModelP", "create"]
+- !private ["6Fluent8AnyModelP", "delta"]
+- !private ["6Fluent8AnyModelP", "deviceID"]
 - !private ["6Fluent8AnyModelP", "init"]
 - !private ["6Fluent8AnyModelP", "query"]
+- !private ["6Fluent8AnyModelP", "rssi"]
 - !private ["4Core14AnyReflectableP", "create"]
+- !private ["4Core14AnyReflectableP", "delta"]
+- !private ["4Core14AnyReflectableP", "deviceID"]
 - !private ["4Core14AnyReflectableP", "init"]
 - !private ["4Core14AnyReflectableP", "query"]
+- !private ["4Core14AnyReflectableP", "rssi"]
+- !private ["4Core22AnyReflectionDecodableP", "append"]
 - !private ["4Core22AnyReflectionDecodableP", "flatten"]
 - !private ["4Core22AnyReflectionDecodableP", "init"]
+- !private ["4Core22AnyReflectionDecodableP", "last"]
 - !private ["4Core22AnyReflectionDecodableP", "map"]
 - !private ["3SQL11AnySQLTableP", "create"]
+- !private ["3SQL11AnySQLTableP", "delta"]
+- !private ["3SQL11AnySQLTableP", "deviceID"]
 - !private ["3SQL11AnySQLTableP", "init"]
 - !private ["3SQL11AnySQLTableP", "query"]
+- !private ["3SQL11AnySQLTableP", "rssi"]
+- !private ["Sa", "append"]
 - !private ["Sa", "flatten"]
+- !private ["Sa", "last"]
 - !private ["Sa", "map"]
+- !private ["SK", "append"]
 - !private ["SK", "flatten"]
+- !private ["SK", "last"]
 - !private ["SK", "map"]
+- !private ["s7CVarArgP", "append"]
 - !private ["s7CVarArgP", "flatten"]
+- !private ["s7CVarArgP", "last"]
 - !private ["s7CVarArgP", "map"]
 - ["s9CodingKeyP", "=="]
 - ["s9CodingKeyP", "RawValue"]
@@ -76,27 +116,66 @@ depends-member:
 - ["s9CodingKeyP", "intValue"]
 - ["s9CodingKeyP", "rawValue"]
 - ["s9CodingKeyP", "stringValue"]
+- ["3App11LogResponseV10CodingKeysO", "=="]
 - ["3App13LogParametersV10CodingKeysO", "=="]
+- ["3App15LogResponseDataV10CodingKeysO", "=="]
+- ["3App11LogResponseV10CodingKeysO", "RawValue"]
 - ["3App13LogParametersV10CodingKeysO", "RawValue"]
+- ["3App15LogResponseDataV10CodingKeysO", "RawValue"]
+- ["3App11LogResponseV10CodingKeysO", "_Default_RawValue"]
 - ["3App13LogParametersV10CodingKeysO", "_Default_RawValue"]
+- ["3App15LogResponseDataV10CodingKeysO", "_Default_RawValue"]
+- !private ["3App11LogResponseV10CodingKeysO", "_findStringSwitchCase"]
 - !private ["3App13LogParametersV10CodingKeysO", "_findStringSwitchCase"]
+- !private ["3App15LogResponseDataV10CodingKeysO", "_findStringSwitchCase"]
+- ["3App11LogResponseV10CodingKeysO", "_rawHashValue"]
 - ["3App13LogParametersV10CodingKeysO", "_rawHashValue"]
+- ["3App15LogResponseDataV10CodingKeysO", "_rawHashValue"]
+- ["3App11LogResponseV10CodingKeysO", "data"]
 - ["3App13LogParametersV10CodingKeysO", "data"]
+- ["3App11LogResponseV10CodingKeysO", "debugDescription"]
 - ["3App13LogParametersV10CodingKeysO", "debugDescription"]
+- ["3App15LogResponseDataV10CodingKeysO", "debugDescription"]
+- ["3App11LogResponseV10CodingKeysO", "deinit"]
 - ["3App13LogParametersV10CodingKeysO", "deinit"]
+- ["3App15LogResponseDataV10CodingKeysO", "deinit"]
+- ["3App11LogResponseV10CodingKeysO", "description"]
 - ["3App13LogParametersV10CodingKeysO", "description"]
+- ["3App15LogResponseDataV10CodingKeysO", "description"]
+- ["3App11LogResponseV10CodingKeysO", "deviceID"]
 - ["3App13LogParametersV10CodingKeysO", "deviceID"]
+- ["3App11LogResponseV10CodingKeysO", "hash"]
 - ["3App13LogParametersV10CodingKeysO", "hash"]
+- ["3App15LogResponseDataV10CodingKeysO", "hash"]
+- ["3App11LogResponseV10CodingKeysO", "hashValue"]
 - ["3App13LogParametersV10CodingKeysO", "hashValue"]
+- ["3App15LogResponseDataV10CodingKeysO", "hashValue"]
+- ["3App11LogResponseV10CodingKeysO", "init"]
 - ["3App13LogParametersV10CodingKeysO", "init"]
+- ["3App15LogResponseDataV10CodingKeysO", "init"]
+- !private ["3App11LogResponseV10CodingKeysO", "init"]
 - !private ["3App13LogParametersV10CodingKeysO", "init"]
+- !private ["3App15LogResponseDataV10CodingKeysO", "init"]
+- ["3App11LogResponseV10CodingKeysO", "intValue"]
 - ["3App13LogParametersV10CodingKeysO", "intValue"]
+- ["3App15LogResponseDataV10CodingKeysO", "intValue"]
+- ["3App11LogResponseV10CodingKeysO", "rawValue"]
 - ["3App13LogParametersV10CodingKeysO", "rawValue"]
+- ["3App15LogResponseDataV10CodingKeysO", "rawValue"]
+- ["3App15LogResponseDataV10CodingKeysO", "rssi"]
+- ["3App11LogResponseV10CodingKeysO", "sessionID"]
+- ["3App13LogParametersV10CodingKeysO", "sessionID"]
+- ["3App11LogResponseV10CodingKeysO", "stringValue"]
 - ["3App13LogParametersV10CodingKeysO", "stringValue"]
+- ["3App15LogResponseDataV10CodingKeysO", "stringValue"]
+- ["3App15LogResponseDataV10CodingKeysO", "time"]
+- !private ["Sl", "append"]
 - !private ["Sl", "flatten"]
+- !private ["Sl", "last"]
 - !private ["Sl", "map"]
 - ["5Vapor7ContentP", ""]
 - !private ["5Vapor7ContentP", "_findStringSwitchCase"]
+- !private ["5Vapor7ContentP", "append"]
 - !private ["5Vapor7ContentP", "create"]
 - !private ["5Vapor7ContentP", "data"]
 - ["5Vapor7ContentP", "decode"]
@@ -106,12 +185,19 @@ depends-member:
 - ["5Vapor7ContentP", "encode"]
 - !private ["5Vapor7ContentP", "flatten"]
 - ["5Vapor7ContentP", "init"]
+- !private ["5Vapor7ContentP", "last"]
 - !private ["5Vapor7ContentP", "map"]
 - !private ["5Vapor7ContentP", "query"]
 - !private ["5Vapor7ContentP", "rssi"]
+- !private ["5Vapor7ContentP", "sessionID"]
+- !private ["5Vapor7ContentP", "time"]
+- !private ["10Foundation15ContiguousBytesP", "append"]
 - !private ["10Foundation15ContiguousBytesP", "flatten"]
+- !private ["10Foundation15ContiguousBytesP", "last"]
 - !private ["10Foundation15ContiguousBytesP", "map"]
+- !private ["3NIO20ContiguousCollectionP", "append"]
 - !private ["3NIO20ContiguousCollectionP", "flatten"]
+- !private ["3NIO20ContiguousCollectionP", "last"]
 - !private ["3NIO20ContiguousCollectionP", "map"]
 - ["s28CustomDebugStringConvertibleP", "=="]
 - ["s28CustomDebugStringConvertibleP", "RawValue"]
@@ -119,6 +205,7 @@ depends-member:
 - ["s28CustomDebugStringConvertibleP", "_Default_RawValue"]
 - !private ["s28CustomDebugStringConvertibleP", "_findStringSwitchCase"]
 - ["s28CustomDebugStringConvertibleP", "_rawHashValue"]
+- !private ["s28CustomDebugStringConvertibleP", "append"]
 - ["s28CustomDebugStringConvertibleP", "debugDescription"]
 - ["s28CustomDebugStringConvertibleP", "description"]
 - !private ["s28CustomDebugStringConvertibleP", "flatten"]
@@ -127,11 +214,14 @@ depends-member:
 - ["s28CustomDebugStringConvertibleP", "init"]
 - !private ["s28CustomDebugStringConvertibleP", "init"]
 - ["s28CustomDebugStringConvertibleP", "intValue"]
+- !private ["s28CustomDebugStringConvertibleP", "last"]
 - !private ["s28CustomDebugStringConvertibleP", "map"]
 - ["s28CustomDebugStringConvertibleP", "rawValue"]
 - ["s28CustomDebugStringConvertibleP", "stringValue"]
+- !private ["s17CustomReflectableP", "append"]
 - !private ["s17CustomReflectableP", "flatten"]
 - !private ["s17CustomReflectableP", "init"]
+- !private ["s17CustomReflectableP", "last"]
 - !private ["s17CustomReflectableP", "map"]
 - ["s23CustomStringConvertibleP", "=="]
 - ["s23CustomStringConvertibleP", "RawValue"]
@@ -139,6 +229,7 @@ depends-member:
 - ["s23CustomStringConvertibleP", "_Default_RawValue"]
 - !private ["s23CustomStringConvertibleP", "_findStringSwitchCase"]
 - ["s23CustomStringConvertibleP", "_rawHashValue"]
+- !private ["s23CustomStringConvertibleP", "append"]
 - ["s23CustomStringConvertibleP", "debugDescription"]
 - ["s23CustomStringConvertibleP", "description"]
 - !private ["s23CustomStringConvertibleP", "flatten"]
@@ -147,13 +238,17 @@ depends-member:
 - ["s23CustomStringConvertibleP", "init"]
 - !private ["s23CustomStringConvertibleP", "init"]
 - ["s23CustomStringConvertibleP", "intValue"]
+- !private ["s23CustomStringConvertibleP", "last"]
 - !private ["s23CustomStringConvertibleP", "map"]
 - ["s23CustomStringConvertibleP", "rawValue"]
 - ["s23CustomStringConvertibleP", "stringValue"]
+- !private ["10Foundation12DataProtocolP", "append"]
 - !private ["10Foundation12DataProtocolP", "flatten"]
+- !private ["10Foundation12DataProtocolP", "last"]
 - !private ["10Foundation12DataProtocolP", "map"]
 - ["Se", ""]
 - !private ["Se", "_findStringSwitchCase"]
+- !private ["Se", "append"]
 - !private ["Se", "create"]
 - !private ["Se", "data"]
 - ["Se", "decode"]
@@ -163,12 +258,16 @@ depends-member:
 - ["Se", "encode"]
 - !private ["Se", "flatten"]
 - ["Se", "init"]
+- !private ["Se", "last"]
 - !private ["Se", "map"]
 - !private ["Se", "query"]
 - !private ["Se", "rssi"]
+- !private ["Se", "sessionID"]
+- !private ["Se", "time"]
 - !private ["s7DecoderP", "container"]
 - ["SE", ""]
 - !private ["SE", "_findStringSwitchCase"]
+- !private ["SE", "append"]
 - !private ["SE", "create"]
 - !private ["SE", "data"]
 - ["SE", "decode"]
@@ -178,10 +277,13 @@ depends-member:
 - ["SE", "encode"]
 - !private ["SE", "flatten"]
 - ["SE", "init"]
+- !private ["SE", "last"]
 - !private ["SE", "map"]
 - !private ["SE", "ok"]
 - !private ["SE", "query"]
 - !private ["SE", "rssi"]
+- !private ["SE", "sessionID"]
+- !private ["SE", "time"]
 - !private ["SE", "transform"]
 - !private ["s7EncoderP", "container"]
 - ["SQ", "=="]
@@ -190,6 +292,8 @@ depends-member:
 - ["SQ", "_Default_RawValue"]
 - !private ["SQ", "_findStringSwitchCase"]
 - ["SQ", "_rawHashValue"]
+- !private ["SQ", "append"]
+- !private ["SQ", "ascending"]
 - ["SQ", "debugDescription"]
 - ["SQ", "description"]
 - !private ["SQ", "flatten"]
@@ -198,17 +302,23 @@ depends-member:
 - ["SQ", "init"]
 - !private ["SQ", "init"]
 - ["SQ", "intValue"]
+- !private ["SQ", "last"]
 - !private ["SQ", "map"]
 - !private ["SQ", "ok"]
 - ["SQ", "rawValue"]
 - ["SQ", "stringValue"]
 - !private ["SQ", "transform"]
+- !private ["3NIO15EventLoopFutureC", "map"]
 - !private ["3NIO15EventLoopFutureC", "ok"]
 - !private ["3NIO15EventLoopFutureC", "transform"]
+- !private ["s25ExpressibleByArrayLiteralP", "append"]
 - !private ["s25ExpressibleByArrayLiteralP", "flatten"]
+- !private ["s25ExpressibleByArrayLiteralP", "last"]
 - !private ["s25ExpressibleByArrayLiteralP", "map"]
+- !private ["5Async10FutureTypeP", "map"]
 - !private ["5Async10FutureTypeP", "ok"]
 - !private ["5Async10FutureTypeP", "transform"]
+- !private ["3SQL19GenericSQLDirectionO", "ascending"]
 - !private ["8NIOHTTP118HTTPResponseStatusO", "ok"]
 - ["SH", "=="]
 - ["SH", "RawValue"]
@@ -216,6 +326,8 @@ depends-member:
 - ["SH", "_Default_RawValue"]
 - !private ["SH", "_findStringSwitchCase"]
 - ["SH", "_rawHashValue"]
+- !private ["SH", "append"]
+- !private ["SH", "ascending"]
 - ["SH", "debugDescription"]
 - ["SH", "description"]
 - !private ["SH", "flatten"]
@@ -224,6 +336,7 @@ depends-member:
 - ["SH", "init"]
 - !private ["SH", "init"]
 - ["SH", "intValue"]
+- !private ["SH", "last"]
 - !private ["SH", "map"]
 - ["SH", "rawValue"]
 - ["SH", "stringValue"]
@@ -235,8 +348,11 @@ depends-member:
 - !private ["s30KeyedEncodingContainerProtocolP", "encode"]
 - !private ["3App3LogV", "create"]
 - !private ["3App3LogV", "deinit"]
+- !private ["3App3LogV", "delta"]
+- !private ["3App3LogV", "deviceID"]
 - !private ["3App3LogV", "init"]
 - !private ["3App3LogV", "query"]
+- !private ["3App3LogV", "rssi"]
 - ["3App7LogDataV", "Int"]
 - ["3App7LogDataV", "decode"]
 - ["3App7LogDataV", "defaultContentType"]
@@ -249,6 +365,7 @@ depends-member:
 - ["3App13LogParametersV", "CodingKeys"]
 - ["3App13LogParametersV", "LogData"]
 - ["3App13LogParametersV", "String"]
+- ["3App13LogParametersV", "UUID"]
 - !private ["3App13LogParametersV", "_findStringSwitchCase"]
 - ["3App13LogParametersV", "data"]
 - ["3App13LogParametersV", "decode"]
@@ -257,10 +374,39 @@ depends-member:
 - ["3App13LogParametersV", "deviceID"]
 - ["3App13LogParametersV", "encode"]
 - ["3App13LogParametersV", "init"]
+- ["3App13LogParametersV", "sessionID"]
+- ["3App11LogResponseV", "CodingKey"]
+- ["3App11LogResponseV", "CodingKeys"]
+- ["3App11LogResponseV", "LogResponseData"]
+- ["3App11LogResponseV", "String"]
+- ["3App11LogResponseV", "UUID"]
+- !private ["3App11LogResponseV", "_findStringSwitchCase"]
+- ["3App11LogResponseV", "data"]
+- ["3App11LogResponseV", "decode"]
+- ["3App11LogResponseV", "defaultContentType"]
+- ["3App11LogResponseV", "deinit"]
+- ["3App11LogResponseV", "deviceID"]
+- ["3App11LogResponseV", "encode"]
+- ["3App11LogResponseV", "init"]
+- ["3App11LogResponseV", "sessionID"]
+- ["3App15LogResponseDataV", "CodingKey"]
+- ["3App15LogResponseDataV", "CodingKeys"]
+- ["3App15LogResponseDataV", "Int"]
+- ["3App15LogResponseDataV", "String"]
+- !private ["3App15LogResponseDataV", "_findStringSwitchCase"]
+- ["3App15LogResponseDataV", "decode"]
+- ["3App15LogResponseDataV", "defaultContentType"]
+- ["3App15LogResponseDataV", "deinit"]
+- ["3App15LogResponseDataV", "encode"]
+- ["3App15LogResponseDataV", "init"]
+- ["3App15LogResponseDataV", "rssi"]
+- ["3App15LogResponseDataV", "time"]
 - ["3App14LogsControllerC", "Future"]
 - ["3App14LogsControllerC", "HTTPStatus"]
-- ["3App14LogsControllerC", "Log"]
+- !private ["3App14LogsControllerC", "Log"]
 - ["3App14LogsControllerC", "LogParameters"]
+- ["3App14LogsControllerC", "LogResponse"]
+- !private ["3App14LogsControllerC", "LogResponseData"]
 - ["3App14LogsControllerC", "Request"]
 - ["3App14LogsControllerC", "Router"]
 - !private ["3App14LogsControllerC", "UUID"]
@@ -269,36 +415,64 @@ depends-member:
 - ["3App14LogsControllerC", "deinit"]
 - ["3App14LogsControllerC", "init"]
 - ["3App14LogsControllerC", "read"]
+- !private ["4Core23LosslessDataConvertibleP", "append"]
 - !private ["4Core23LosslessDataConvertibleP", "flatten"]
+- !private ["4Core23LosslessDataConvertibleP", "last"]
 - !private ["4Core23LosslessDataConvertibleP", "map"]
 - !private ["s25LosslessStringConvertibleP", "init"]
 - !private ["6Fluent9MigrationP", "create"]
+- !private ["6Fluent9MigrationP", "delta"]
+- !private ["6Fluent9MigrationP", "deviceID"]
 - !private ["6Fluent9MigrationP", "init"]
 - !private ["6Fluent9MigrationP", "query"]
+- !private ["6Fluent9MigrationP", "rssi"]
 - !private ["6Fluent5ModelP", "create"]
+- !private ["6Fluent5ModelP", "delta"]
+- !private ["6Fluent5ModelP", "deviceID"]
 - !private ["6Fluent5ModelP", "init"]
 - !private ["6Fluent5ModelP", "query"]
+- !private ["6Fluent5ModelP", "rssi"]
+- !private ["SM", "append"]
 - !private ["SM", "flatten"]
+- !private ["SM", "last"]
 - !private ["SM", "map"]
+- !private ["10Foundation19MutableDataProtocolP", "append"]
 - !private ["10Foundation19MutableDataProtocolP", "flatten"]
+- !private ["10Foundation19MutableDataProtocolP", "last"]
 - !private ["10Foundation19MutableDataProtocolP", "map"]
 - !private ["7Routing9ParameterP", "create"]
+- !private ["7Routing9ParameterP", "delta"]
+- !private ["7Routing9ParameterP", "deviceID"]
 - !private ["7Routing9ParameterP", "init"]
 - !private ["7Routing9ParameterP", "query"]
+- !private ["7Routing9ParameterP", "rssi"]
+- !private ["7Routing27PathComponentsRepresentableP", "append"]
 - !private ["7Routing27PathComponentsRepresentableP", "flatten"]
+- !private ["7Routing27PathComponentsRepresentableP", "last"]
 - !private ["7Routing27PathComponentsRepresentableP", "map"]
 - !private ["10PostgreSQL0A18SQLDataConvertibleP", "init"]
 - !private ["10PostgreSQL0A30SQLDataTypeStaticRepresentableP", "init"]
 - !private ["16FluentPostgreSQL0B8SQLModelP", "create"]
+- !private ["16FluentPostgreSQL0B8SQLModelP", "delta"]
+- !private ["16FluentPostgreSQL0B8SQLModelP", "deviceID"]
 - !private ["16FluentPostgreSQL0B8SQLModelP", "init"]
 - !private ["16FluentPostgreSQL0B8SQLModelP", "query"]
+- !private ["16FluentPostgreSQL0B8SQLModelP", "rssi"]
 - !private ["10PostgreSQL0A8SQLTableP", "create"]
+- !private ["10PostgreSQL0A8SQLTableP", "delta"]
+- !private ["10PostgreSQL0A8SQLTableP", "deviceID"]
 - !private ["10PostgreSQL0A8SQLTableP", "init"]
 - !private ["10PostgreSQL0A8SQLTableP", "query"]
+- !private ["10PostgreSQL0A8SQLTableP", "rssi"]
 - !private ["6Fluent12QueryBuilderC", "all"]
+- !private ["6Fluent12QueryBuilderC", "sort"]
+- !private ["Sk", "append"]
 - !private ["Sk", "flatten"]
+- !private ["Sk", "last"]
 - !private ["Sk", "map"]
+- !private ["Sm", "append"]
 - !private ["Sm", "flatten"]
+- !private ["Sm", "last"]
 - !private ["Sm", "map"]
 - ["SY", "=="]
 - ["SY", "RawValue"]
@@ -317,13 +491,19 @@ depends-member:
 - ["SY", "stringValue"]
 - !private ["10Foundation20ReferenceConvertibleP", "init"]
 - !private ["4Core11ReflectableP", "create"]
+- !private ["4Core11ReflectableP", "delta"]
+- !private ["4Core11ReflectableP", "deviceID"]
 - !private ["4Core11ReflectableP", "init"]
 - !private ["4Core11ReflectableP", "query"]
+- !private ["4Core11ReflectableP", "rssi"]
+- !private ["4Core19ReflectionDecodableP", "append"]
 - !private ["4Core19ReflectionDecodableP", "flatten"]
 - !private ["4Core19ReflectionDecodableP", "init"]
+- !private ["4Core19ReflectionDecodableP", "last"]
 - !private ["4Core19ReflectionDecodableP", "map"]
 - ["5Vapor16RequestDecodableP", ""]
 - !private ["5Vapor16RequestDecodableP", "_findStringSwitchCase"]
+- !private ["5Vapor16RequestDecodableP", "append"]
 - !private ["5Vapor16RequestDecodableP", "create"]
 - !private ["5Vapor16RequestDecodableP", "data"]
 - ["5Vapor16RequestDecodableP", "decode"]
@@ -333,11 +513,15 @@ depends-member:
 - ["5Vapor16RequestDecodableP", "encode"]
 - !private ["5Vapor16RequestDecodableP", "flatten"]
 - ["5Vapor16RequestDecodableP", "init"]
+- !private ["5Vapor16RequestDecodableP", "last"]
 - !private ["5Vapor16RequestDecodableP", "map"]
 - !private ["5Vapor16RequestDecodableP", "query"]
 - !private ["5Vapor16RequestDecodableP", "rssi"]
+- !private ["5Vapor16RequestDecodableP", "sessionID"]
+- !private ["5Vapor16RequestDecodableP", "time"]
 - ["5Vapor16RequestEncodableP", ""]
 - !private ["5Vapor16RequestEncodableP", "_findStringSwitchCase"]
+- !private ["5Vapor16RequestEncodableP", "append"]
 - !private ["5Vapor16RequestEncodableP", "create"]
 - !private ["5Vapor16RequestEncodableP", "data"]
 - ["5Vapor16RequestEncodableP", "decode"]
@@ -347,11 +531,15 @@ depends-member:
 - ["5Vapor16RequestEncodableP", "encode"]
 - !private ["5Vapor16RequestEncodableP", "flatten"]
 - ["5Vapor16RequestEncodableP", "init"]
+- !private ["5Vapor16RequestEncodableP", "last"]
 - !private ["5Vapor16RequestEncodableP", "map"]
 - !private ["5Vapor16RequestEncodableP", "query"]
 - !private ["5Vapor16RequestEncodableP", "rssi"]
+- !private ["5Vapor16RequestEncodableP", "sessionID"]
+- !private ["5Vapor16RequestEncodableP", "time"]
 - ["5Vapor17ResponseDecodableP", ""]
 - !private ["5Vapor17ResponseDecodableP", "_findStringSwitchCase"]
+- !private ["5Vapor17ResponseDecodableP", "append"]
 - !private ["5Vapor17ResponseDecodableP", "create"]
 - !private ["5Vapor17ResponseDecodableP", "data"]
 - ["5Vapor17ResponseDecodableP", "decode"]
@@ -361,11 +549,15 @@ depends-member:
 - ["5Vapor17ResponseDecodableP", "encode"]
 - !private ["5Vapor17ResponseDecodableP", "flatten"]
 - ["5Vapor17ResponseDecodableP", "init"]
+- !private ["5Vapor17ResponseDecodableP", "last"]
 - !private ["5Vapor17ResponseDecodableP", "map"]
 - !private ["5Vapor17ResponseDecodableP", "query"]
 - !private ["5Vapor17ResponseDecodableP", "rssi"]
+- !private ["5Vapor17ResponseDecodableP", "sessionID"]
+- !private ["5Vapor17ResponseDecodableP", "time"]
 - ["5Vapor17ResponseEncodableP", ""]
 - !private ["5Vapor17ResponseEncodableP", "_findStringSwitchCase"]
+- !private ["5Vapor17ResponseEncodableP", "append"]
 - !private ["5Vapor17ResponseEncodableP", "create"]
 - !private ["5Vapor17ResponseEncodableP", "data"]
 - ["5Vapor17ResponseEncodableP", "decode"]
@@ -375,13 +567,18 @@ depends-member:
 - ["5Vapor17ResponseEncodableP", "encode"]
 - !private ["5Vapor17ResponseEncodableP", "flatten"]
 - ["5Vapor17ResponseEncodableP", "init"]
+- !private ["5Vapor17ResponseEncodableP", "last"]
 - !private ["5Vapor17ResponseEncodableP", "map"]
 - !private ["5Vapor17ResponseEncodableP", "ok"]
 - !private ["5Vapor17ResponseEncodableP", "query"]
 - !private ["5Vapor17ResponseEncodableP", "rssi"]
+- !private ["5Vapor17ResponseEncodableP", "sessionID"]
+- !private ["5Vapor17ResponseEncodableP", "time"]
 - !private ["5Vapor17ResponseEncodableP", "transform"]
 - !private ["5Vapor15RouteCollectionP", "Log"]
 - !private ["5Vapor15RouteCollectionP", "LogParameters"]
+- !private ["5Vapor15RouteCollectionP", "LogResponse"]
+- !private ["5Vapor15RouteCollectionP", "LogResponseData"]
 - !private ["5Vapor15RouteCollectionP", "UUID"]
 - ["5Vapor15RouteCollectionP", ""]
 - ["5Vapor15RouteCollectionP", "boot"]
@@ -390,33 +587,59 @@ depends-member:
 - !private ["5Vapor6RouterP", "get"]
 - !private ["5Vapor6RouterP", "grouped"]
 - !private ["5Vapor6RouterP", "post"]
+- !private ["3SQL12SQLDirectionP", "ascending"]
+- !private ["3SQL15SQLSerializableP", "ascending"]
 - !private ["3SQL8SQLTableP", "create"]
+- !private ["3SQL8SQLTableP", "delta"]
+- !private ["3SQL8SQLTableP", "deviceID"]
 - !private ["3SQL8SQLTableP", "init"]
 - !private ["3SQL8SQLTableP", "query"]
+- !private ["3SQL8SQLTableP", "rssi"]
+- !private ["ST", "append"]
 - !private ["ST", "flatten"]
+- !private ["ST", "last"]
 - !private ["ST", "map"]
 - !private ["7ServiceAAP", "get"]
 - !private ["7ServiceAAP", "grouped"]
 - !private ["7ServiceAAP", "post"]
+- !private ["11TemplateKit0A17DataRepresentableP", "append"]
 - !private ["11TemplateKit0A17DataRepresentableP", "flatten"]
 - !private ["11TemplateKit0A17DataRepresentableP", "init"]
+- !private ["11TemplateKit0A17DataRepresentableP", "last"]
 - !private ["11TemplateKit0A17DataRepresentableP", "map"]
 - !private ["10Foundation4UUIDV", "init"]
+- !private ["s14_ArrayProtocolP", "append"]
 - !private ["s14_ArrayProtocolP", "flatten"]
+- !private ["s14_ArrayProtocolP", "last"]
 - !private ["s14_ArrayProtocolP", "map"]
+- !private ["s24_DestructorSafeContainerP", "append"]
 - !private ["s24_DestructorSafeContainerP", "flatten"]
+- !private ["s24_DestructorSafeContainerP", "last"]
 - !private ["s24_DestructorSafeContainerP", "map"]
+- !private ["s19_HasContiguousBytesP", "append"]
 - !private ["s19_HasContiguousBytesP", "flatten"]
+- !private ["s19_HasContiguousBytesP", "last"]
 - !private ["s19_HasContiguousBytesP", "map"]
+- !private ["s35_HasCustomAnyHashableRepresentationP", "append"]
 - !private ["s35_HasCustomAnyHashableRepresentationP", "flatten"]
+- !private ["s35_HasCustomAnyHashableRepresentationP", "last"]
 - !private ["s35_HasCustomAnyHashableRepresentationP", "map"]
+- !private ["s21_ObjectiveCBridgeableP", "append"]
 - !private ["s21_ObjectiveCBridgeableP", "flatten"]
 - !private ["s21_ObjectiveCBridgeableP", "init"]
+- !private ["s21_ObjectiveCBridgeableP", "last"]
 - !private ["s21_ObjectiveCBridgeableP", "map"]
 - !private ["16FluentPostgreSQL01_B8SQLModelP", "create"]
+- !private ["16FluentPostgreSQL01_B8SQLModelP", "delta"]
+- !private ["16FluentPostgreSQL01_B8SQLModelP", "deviceID"]
 - !private ["16FluentPostgreSQL01_B8SQLModelP", "init"]
 - !private ["16FluentPostgreSQL01_B8SQLModelP", "query"]
+- !private ["16FluentPostgreSQL01_B8SQLModelP", "rssi"]
 depends-nominal:
+- !private "10PostgreSQL8AnyArrayP"
+- !private "16FluentPostgreSQL8AnyArrayP"
+- !private "10PostgreSQL8AnyArrayP"
+- !private "16FluentPostgreSQL8AnyArrayP"
 - !private "10PostgreSQL8AnyArrayP"
 - !private "16FluentPostgreSQL8AnyArrayP"
 - !private "10PostgreSQL8AnyArrayP"
@@ -430,17 +653,58 @@ depends-nominal:
 - !private "SK"
 - !private "s7CVarArgP"
 - "s9CodingKeyP"
+- "3App11LogResponseV10CodingKeysO"
 - "3App13LogParametersV10CodingKeysO"
+- "3App15LogResponseDataV10CodingKeysO"
+- "3App11LogResponseV10CodingKeysO"
 - "3App13LogParametersV10CodingKeysO"
+- "3App15LogResponseDataV10CodingKeysO"
+- "3App11LogResponseV10CodingKeysO"
 - "3App13LogParametersV10CodingKeysO"
+- "3App15LogResponseDataV10CodingKeysO"
+- !private "3App11LogResponseV10CodingKeysO"
+- !private "3App13LogParametersV10CodingKeysO"
+- !private "3App15LogResponseDataV10CodingKeysO"
+- "3App11LogResponseV10CodingKeysO"
 - "3App13LogParametersV10CodingKeysO"
+- "3App15LogResponseDataV10CodingKeysO"
+- "3App11LogResponseV10CodingKeysO"
 - "3App13LogParametersV10CodingKeysO"
+- "3App11LogResponseV10CodingKeysO"
 - "3App13LogParametersV10CodingKeysO"
+- "3App15LogResponseDataV10CodingKeysO"
+- "3App11LogResponseV10CodingKeysO"
 - "3App13LogParametersV10CodingKeysO"
+- "3App15LogResponseDataV10CodingKeysO"
+- "3App11LogResponseV10CodingKeysO"
 - "3App13LogParametersV10CodingKeysO"
+- "3App15LogResponseDataV10CodingKeysO"
+- "3App11LogResponseV10CodingKeysO"
 - "3App13LogParametersV10CodingKeysO"
+- "3App11LogResponseV10CodingKeysO"
 - "3App13LogParametersV10CodingKeysO"
+- "3App15LogResponseDataV10CodingKeysO"
+- "3App11LogResponseV10CodingKeysO"
 - "3App13LogParametersV10CodingKeysO"
+- "3App15LogResponseDataV10CodingKeysO"
+- "3App11LogResponseV10CodingKeysO"
+- "3App13LogParametersV10CodingKeysO"
+- "3App15LogResponseDataV10CodingKeysO"
+- !private "3App11LogResponseV10CodingKeysO"
+- !private "3App13LogParametersV10CodingKeysO"
+- !private "3App15LogResponseDataV10CodingKeysO"
+- "3App11LogResponseV10CodingKeysO"
+- "3App13LogParametersV10CodingKeysO"
+- "3App15LogResponseDataV10CodingKeysO"
+- "3App11LogResponseV10CodingKeysO"
+- "3App13LogParametersV10CodingKeysO"
+- "3App15LogResponseDataV10CodingKeysO"
+- "3App11LogResponseV10CodingKeysO"
+- "3App13LogParametersV10CodingKeysO"
+- "3App11LogResponseV10CodingKeysO"
+- "3App13LogParametersV10CodingKeysO"
+- "3App15LogResponseDataV10CodingKeysO"
+- "3App15LogResponseDataV10CodingKeysO"
 - !private "Sl"
 - "5Vapor7ContentP"
 - !private "10Foundation15ContiguousBytesP"
@@ -457,6 +721,7 @@ depends-nominal:
 - !private "3NIO15EventLoopFutureC"
 - !private "s25ExpressibleByArrayLiteralP"
 - !private "5Async10FutureTypeP"
+- !private "3SQL19GenericSQLDirectionO"
 - !private "8NIOHTTP118HTTPResponseStatusO"
 - "SH"
 - !private "s6HasherV"
@@ -468,6 +733,8 @@ depends-nominal:
 - !private "3App3LogV"
 - "3App7LogDataV"
 - "3App13LogParametersV"
+- "3App11LogResponseV"
+- "3App15LogResponseDataV"
 - "3App14LogsControllerC"
 - !private "4Core23LosslessDataConvertibleP"
 - !private "s25LosslessStringConvertibleP"
@@ -494,6 +761,8 @@ depends-nominal:
 - "5Vapor17ResponseEncodableP"
 - "5Vapor15RouteCollectionP"
 - !private "5Vapor6RouterP"
+- !private "3SQL12SQLDirectionP"
+- !private "3SQL15SQLSerializableP"
 - !private "3SQL8SQLTableP"
 - !private "ST"
 - !private "7ServiceAAP"
@@ -620,4 +889,4 @@ depends-external:
 - "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.14.sdk/System/Library/Frameworks/ApplicationServices.framework/Headers/ApplicationServices.apinotes"
 - "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.14.sdk/System/Library/Frameworks/CoreText.framework/Headers/CoreText.apinotes"
 - "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.14.sdk/System/Library/Frameworks/Security.framework/Headers/Security.apinotes"
-interface-hash: "c8a75ecae0a4a991d3f5cf1bf3f9550b"
+interface-hash: "3ac5b0d58c51ecdaa01651e95af92205"
