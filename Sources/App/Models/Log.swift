@@ -9,9 +9,6 @@ struct Log: KSModel {
     /// When was created this `Log`.
     var createdAt: Date?
 
-    /// When was deleted this `Log`.
-    var deletedAt: Date?
-
     /// A delta describing what this `Log` entails.
     var delta: Int
 

@@ -16,9 +16,6 @@ struct Session: KSModel {
     /// When was created this `Session`.
     var createdAt: Date?
 
-    /// When was deleted this `Session`.
-    var deletedAt: Date?
-
     // This session's related logs
     var logs: Children<Session, Log> {
         return children(\.id)
