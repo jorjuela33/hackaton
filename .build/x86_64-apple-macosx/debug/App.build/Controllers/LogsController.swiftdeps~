@@ -50,6 +50,7 @@ depends-top-level:
 - "StringLiteralType"
 - "UUID"
 - !private "_findStringSwitchCase"
+- !private "print"
 - !private "~="
 depends-member:
 - !private ["10PostgreSQL8AnyArrayP", "append"]
@@ -414,6 +415,7 @@ depends-member:
 - ["3App14LogsControllerC", "create"]
 - ["3App14LogsControllerC", "deinit"]
 - ["3App14LogsControllerC", "init"]
+- !private ["3App14LogsControllerC", "print"]
 - ["3App14LogsControllerC", "read"]
 - !private ["4Core23LosslessDataConvertibleP", "append"]
 - !private ["4Core23LosslessDataConvertibleP", "flatten"]
@@ -583,6 +585,7 @@ depends-member:
 - ["5Vapor15RouteCollectionP", ""]
 - ["5Vapor15RouteCollectionP", "boot"]
 - !private ["5Vapor15RouteCollectionP", "create"]
+- !private ["5Vapor15RouteCollectionP", "print"]
 - !private ["5Vapor15RouteCollectionP", "read"]
 - !private ["5Vapor6RouterP", "get"]
 - !private ["5Vapor6RouterP", "grouped"]
