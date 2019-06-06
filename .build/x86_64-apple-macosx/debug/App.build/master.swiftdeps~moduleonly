@@ -1,8 +1,8 @@
 version: "Apple Swift version 5.0.1 (swiftlang-1001.0.82.4 clang-1001.0.46.5)"
 options: "82a7a554dd6373e33b245e0e6cda6bdd"
-build_time: [1559831448, 278696000]
+build_time: [1559833309, 309013000]
 inputs:
-  "/Users/Jorge/Desktop/Projects/Web/Swift/kisiBootcamp/Sources/App/Controllers/LogsController.swift": [1559829831, 623833343]
+  "/Users/Jorge/Desktop/Projects/Web/Swift/kisiBootcamp/Sources/App/Controllers/LogsController.swift": [1559833281, 682321154]
   "/Users/Jorge/Desktop/Projects/Web/Swift/kisiBootcamp/Sources/App/Controllers/RecordsController.swift": [1559810356, 271404048]
   "/Users/Jorge/Desktop/Projects/Web/Swift/kisiBootcamp/Sources/App/Controllers/SessionsController.swift": [1559827186, 826642525]
   "/Users/Jorge/Desktop/Projects/Web/Swift/kisiBootcamp/Sources/App/Models/KSModel.swift": [1559831443, 739771014]

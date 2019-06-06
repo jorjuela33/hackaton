@@ -58,7 +58,7 @@ final class LogsController {
             .first()
             .unwrap(or: Abort(.notFound, reason: "Session not found."))
             .flatMap({ session in
-                return try Log.query(on: req).filter(\.sessionID, .equal, session.requireID()).all().map({ logs in
+                return try Log.query(on: req).filter(\.sessionID, .equal, session.requireID()).sort(\.deviceID, .ascending).all().map({ logs in
                     var response: [LogResponse] = []
                     if !logs.isEmpty {
                         var logResponse = LogResponse(deviceID: "", data: [], sessionID: UUID())

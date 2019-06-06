@@ -356,6 +356,7 @@ depends-member:
 - !private ["SQ", "_findStringSwitchCase"]
 - ["SQ", "_rawHashValue"]
 - !private ["SQ", "append"]
+- !private ["SQ", "ascending"]
 - ["SQ", "debugDescription"]
 - ["SQ", "description"]
 - !private ["SQ", "equal"]
@@ -404,6 +405,7 @@ depends-member:
 - !private ["5Async10FutureTypeP", "ok"]
 - !private ["5Async10FutureTypeP", "transform"]
 - !private ["5Async10FutureTypeP", "unwrap"]
+- !private ["3SQL19GenericSQLDirectionO", "ascending"]
 - !private ["5Vapor20HTTPMessageContainerP", "parameters"]
 - !private ["8NIOHTTP118HTTPResponseStatusO", "notFound"]
 - !private ["8NIOHTTP118HTTPResponseStatusO", "ok"]
@@ -414,6 +416,7 @@ depends-member:
 - !private ["SH", "_findStringSwitchCase"]
 - ["SH", "_rawHashValue"]
 - !private ["SH", "append"]
+- !private ["SH", "ascending"]
 - ["SH", "debugDescription"]
 - ["SH", "description"]
 - !private ["SH", "flatten"]
@@ -608,6 +611,7 @@ depends-member:
 - !private ["6Fluent12QueryBuilderC", "all"]
 - !private ["6Fluent12QueryBuilderC", "filter"]
 - !private ["6Fluent12QueryBuilderC", "first"]
+- !private ["6Fluent12QueryBuilderC", "sort"]
 - !private ["Sk", "append"]
 - !private ["Sk", "flatten"]
 - !private ["Sk", "isEmpty"]
@@ -765,6 +769,8 @@ depends-member:
 - !private ["5Vapor6RouterP", "grouped"]
 - !private ["5Vapor6RouterP", "post"]
 - !private ["3SQL17SQLBinaryOperatorP", "equal"]
+- !private ["3SQL12SQLDirectionP", "ascending"]
+- !private ["3SQL15SQLSerializableP", "ascending"]
 - !private ["3SQL15SQLSerializableP", "equal"]
 - !private ["3SQL8SQLTableP", "create"]
 - !private ["3SQL8SQLTableP", "delta"]
@@ -948,6 +954,7 @@ depends-nominal:
 - !private "s26ExpressibleByStringLiteralP"
 - !private "s33ExpressibleByUnicodeScalarLiteralP"
 - !private "5Async10FutureTypeP"
+- !private "3SQL19GenericSQLDirectionO"
 - !private "5Vapor20HTTPMessageContainerP"
 - !private "8NIOHTTP118HTTPResponseStatusO"
 - "SH"
@@ -1006,6 +1013,7 @@ depends-nominal:
 - "5Vapor15RouteCollectionP"
 - !private "5Vapor6RouterP"
 - !private "3SQL17SQLBinaryOperatorP"
+- !private "3SQL12SQLDirectionP"
 - !private "3SQL15SQLSerializableP"
 - !private "3SQL8SQLTableP"
 - !private "ST"
