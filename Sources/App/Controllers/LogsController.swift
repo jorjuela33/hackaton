@@ -57,7 +57,7 @@ final class LogsController {
             var response: [LogResponse] = []
             if !logs.isEmpty {
                 var logResponse = LogResponse(deviceID: "", data: [], sessionID: UUID())
-                for log in logs {
+                for (index, log) in logs.enumerated() {
                     if logResponse.deviceID != log.deviceID {
                         response.append(logResponse)
                     }
@@ -66,10 +66,13 @@ final class LogsController {
                     logResponse = LogResponse(
                         deviceID: log.deviceID,
                         data: logResponse.data + [LogResponseData(rssi: log.rssi, time: time)],
-                        sessionID: logResponse.sessionID
+                        sessionID: log.session
                     )
+
+                    if index == logs.count - 1 {
+                        response.append(logResponse)
+                    }
                 }
-                response.append(logResponse)
             }
 
             return response
