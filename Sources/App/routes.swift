@@ -9,4 +9,8 @@ public func routes(_ router: Router) throws {
     /// Records
     let recordsController = RecordsController()
     try router.register(collection: recordsController)
+
+    /// Sessions
+    let sessionsController = SessionsController()
+    try router.register(collection: sessionsController)
 }

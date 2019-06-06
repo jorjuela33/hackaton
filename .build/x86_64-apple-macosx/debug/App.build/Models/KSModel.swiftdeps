@@ -1,0 +1,329 @@
+### Swift dependencies file v0 ###
+provides-top-level:
+- "KSModel"
+provides-nominal:
+- "3App7KSModelP"
+provides-member:
+- ["3App7KSModelP", ""]
+- ["3App7KSModelP", "createdAtKey"]
+- ["3App7KSModelP", "idKey"]
+- ["3App7KSModelP", "deletedAtKey"]
+- ["3App7KSModelP", "updatedAtKey"]
+provides-dynamic-lookup:
+depends-top-level:
+- "Content"
+- "Date"
+- "KSModel"
+- "Migration"
+- "Model"
+- "Parameter"
+- "PostgreSQLDatabase"
+- "PostgreSQLTable"
+- "UUID"
+depends-member:
+- ["6Fluent12AnyMigrationP", "Date"]
+- ["6Fluent12AnyMigrationP", "IDKey"]
+- ["6Fluent12AnyMigrationP", "PostgreSQLDatabase"]
+- ["6Fluent12AnyMigrationP", "TimestampKey"]
+- ["6Fluent12AnyMigrationP", "UUID"]
+- ["6Fluent12AnyMigrationP", "createdAt"]
+- ["6Fluent12AnyMigrationP", "deletedAt"]
+- ["6Fluent12AnyMigrationP", "id"]
+- ["6Fluent12AnyMigrationP", "updatedAt"]
+- ["6Fluent8AnyModelP", "Date"]
+- ["6Fluent8AnyModelP", "IDKey"]
+- ["6Fluent8AnyModelP", "PostgreSQLDatabase"]
+- ["6Fluent8AnyModelP", "TimestampKey"]
+- ["6Fluent8AnyModelP", "UUID"]
+- ["6Fluent8AnyModelP", "createdAt"]
+- ["6Fluent8AnyModelP", "deletedAt"]
+- ["6Fluent8AnyModelP", "id"]
+- ["6Fluent8AnyModelP", "updatedAt"]
+- ["4Core14AnyReflectableP", "Date"]
+- ["4Core14AnyReflectableP", "IDKey"]
+- ["4Core14AnyReflectableP", "PostgreSQLDatabase"]
+- ["4Core14AnyReflectableP", "TimestampKey"]
+- ["4Core14AnyReflectableP", "UUID"]
+- ["4Core14AnyReflectableP", "createdAt"]
+- ["4Core14AnyReflectableP", "deletedAt"]
+- ["4Core14AnyReflectableP", "id"]
+- ["4Core14AnyReflectableP", "updatedAt"]
+- ["3SQL11AnySQLTableP", "Date"]
+- ["3SQL11AnySQLTableP", "IDKey"]
+- ["3SQL11AnySQLTableP", "PostgreSQLDatabase"]
+- ["3SQL11AnySQLTableP", "TimestampKey"]
+- ["3SQL11AnySQLTableP", "UUID"]
+- ["3SQL11AnySQLTableP", "createdAt"]
+- ["3SQL11AnySQLTableP", "deletedAt"]
+- ["3SQL11AnySQLTableP", "id"]
+- ["3SQL11AnySQLTableP", "updatedAt"]
+- ["5Vapor7ContentP", "Date"]
+- ["5Vapor7ContentP", "IDKey"]
+- ["5Vapor7ContentP", "PostgreSQLDatabase"]
+- ["5Vapor7ContentP", "TimestampKey"]
+- ["5Vapor7ContentP", "UUID"]
+- ["5Vapor7ContentP", ""]
+- ["5Vapor7ContentP", "createdAt"]
+- ["5Vapor7ContentP", "deletedAt"]
+- ["5Vapor7ContentP", "id"]
+- ["5Vapor7ContentP", "updatedAt"]
+- ["Se", "Date"]
+- ["Se", "IDKey"]
+- ["Se", "PostgreSQLDatabase"]
+- ["Se", "TimestampKey"]
+- ["Se", "UUID"]
+- ["Se", "createdAt"]
+- ["Se", "deletedAt"]
+- ["Se", "id"]
+- ["Se", "updatedAt"]
+- ["SE", "Date"]
+- ["SE", "IDKey"]
+- ["SE", "PostgreSQLDatabase"]
+- ["SE", "TimestampKey"]
+- ["SE", "UUID"]
+- ["SE", "createdAt"]
+- ["SE", "deletedAt"]
+- ["SE", "id"]
+- ["SE", "updatedAt"]
+- ["3App7KSModelP", "Date"]
+- ["3App7KSModelP", "IDKey"]
+- ["3App7KSModelP", "PostgreSQLDatabase"]
+- ["3App7KSModelP", "TimestampKey"]
+- ["3App7KSModelP", "UUID"]
+- ["3App7KSModelP", "createdAt"]
+- ["3App7KSModelP", "createdAtKey"]
+- ["3App7KSModelP", "deletedAt"]
+- ["3App7KSModelP", "deletedAtKey"]
+- ["3App7KSModelP", "id"]
+- ["3App7KSModelP", "idKey"]
+- ["3App7KSModelP", "updatedAt"]
+- ["3App7KSModelP", "updatedAtKey"]
+- ["6Fluent9MigrationP", "Date"]
+- ["6Fluent9MigrationP", "IDKey"]
+- ["6Fluent9MigrationP", "PostgreSQLDatabase"]
+- ["6Fluent9MigrationP", "TimestampKey"]
+- ["6Fluent9MigrationP", "UUID"]
+- ["6Fluent9MigrationP", ""]
+- ["6Fluent9MigrationP", "createdAt"]
+- ["6Fluent9MigrationP", "deletedAt"]
+- ["6Fluent9MigrationP", "id"]
+- ["6Fluent9MigrationP", "updatedAt"]
+- ["6Fluent5ModelP", "Date"]
+- ["6Fluent5ModelP", "IDKey"]
+- ["6Fluent5ModelP", "PostgreSQLDatabase"]
+- ["6Fluent5ModelP", "TimestampKey"]
+- ["6Fluent5ModelP", "UUID"]
+- ["6Fluent5ModelP", ""]
+- ["6Fluent5ModelP", "createdAt"]
+- ["6Fluent5ModelP", "deletedAt"]
+- ["6Fluent5ModelP", "id"]
+- ["6Fluent5ModelP", "updatedAt"]
+- ["7Routing9ParameterP", "Date"]
+- ["7Routing9ParameterP", "IDKey"]
+- ["7Routing9ParameterP", "PostgreSQLDatabase"]
+- ["7Routing9ParameterP", "TimestampKey"]
+- ["7Routing9ParameterP", "UUID"]
+- ["7Routing9ParameterP", ""]
+- ["7Routing9ParameterP", "createdAt"]
+- ["7Routing9ParameterP", "deletedAt"]
+- ["7Routing9ParameterP", "id"]
+- ["7Routing9ParameterP", "updatedAt"]
+- ["10PostgreSQL0A8SQLTableP", "Date"]
+- ["10PostgreSQL0A8SQLTableP", "IDKey"]
+- ["10PostgreSQL0A8SQLTableP", "PostgreSQLDatabase"]
+- ["10PostgreSQL0A8SQLTableP", "TimestampKey"]
+- ["10PostgreSQL0A8SQLTableP", "UUID"]
+- ["10PostgreSQL0A8SQLTableP", ""]
+- ["10PostgreSQL0A8SQLTableP", "createdAt"]
+- ["10PostgreSQL0A8SQLTableP", "deletedAt"]
+- ["10PostgreSQL0A8SQLTableP", "id"]
+- ["10PostgreSQL0A8SQLTableP", "updatedAt"]
+- ["4Core11ReflectableP", "Date"]
+- ["4Core11ReflectableP", "IDKey"]
+- ["4Core11ReflectableP", "PostgreSQLDatabase"]
+- ["4Core11ReflectableP", "TimestampKey"]
+- ["4Core11ReflectableP", "UUID"]
+- ["4Core11ReflectableP", "createdAt"]
+- ["4Core11ReflectableP", "deletedAt"]
+- ["4Core11ReflectableP", "id"]
+- ["4Core11ReflectableP", "updatedAt"]
+- ["5Vapor16RequestDecodableP", "Date"]
+- ["5Vapor16RequestDecodableP", "IDKey"]
+- ["5Vapor16RequestDecodableP", "PostgreSQLDatabase"]
+- ["5Vapor16RequestDecodableP", "TimestampKey"]
+- ["5Vapor16RequestDecodableP", "UUID"]
+- ["5Vapor16RequestDecodableP", "createdAt"]
+- ["5Vapor16RequestDecodableP", "deletedAt"]
+- ["5Vapor16RequestDecodableP", "id"]
+- ["5Vapor16RequestDecodableP", "updatedAt"]
+- ["5Vapor16RequestEncodableP", "Date"]
+- ["5Vapor16RequestEncodableP", "IDKey"]
+- ["5Vapor16RequestEncodableP", "PostgreSQLDatabase"]
+- ["5Vapor16RequestEncodableP", "TimestampKey"]
+- ["5Vapor16RequestEncodableP", "UUID"]
+- ["5Vapor16RequestEncodableP", "createdAt"]
+- ["5Vapor16RequestEncodableP", "deletedAt"]
+- ["5Vapor16RequestEncodableP", "id"]
+- ["5Vapor16RequestEncodableP", "updatedAt"]
+- ["5Vapor17ResponseDecodableP", "Date"]
+- ["5Vapor17ResponseDecodableP", "IDKey"]
+- ["5Vapor17ResponseDecodableP", "PostgreSQLDatabase"]
+- ["5Vapor17ResponseDecodableP", "TimestampKey"]
+- ["5Vapor17ResponseDecodableP", "UUID"]
+- ["5Vapor17ResponseDecodableP", "createdAt"]
+- ["5Vapor17ResponseDecodableP", "deletedAt"]
+- ["5Vapor17ResponseDecodableP", "id"]
+- ["5Vapor17ResponseDecodableP", "updatedAt"]
+- ["5Vapor17ResponseEncodableP", "Date"]
+- ["5Vapor17ResponseEncodableP", "IDKey"]
+- ["5Vapor17ResponseEncodableP", "PostgreSQLDatabase"]
+- ["5Vapor17ResponseEncodableP", "TimestampKey"]
+- ["5Vapor17ResponseEncodableP", "UUID"]
+- ["5Vapor17ResponseEncodableP", "createdAt"]
+- ["5Vapor17ResponseEncodableP", "deletedAt"]
+- ["5Vapor17ResponseEncodableP", "id"]
+- ["5Vapor17ResponseEncodableP", "updatedAt"]
+- ["3SQL8SQLTableP", "Date"]
+- ["3SQL8SQLTableP", "IDKey"]
+- ["3SQL8SQLTableP", "PostgreSQLDatabase"]
+- ["3SQL8SQLTableP", "TimestampKey"]
+- ["3SQL8SQLTableP", "UUID"]
+- ["3SQL8SQLTableP", "createdAt"]
+- ["3SQL8SQLTableP", "deletedAt"]
+- ["3SQL8SQLTableP", "id"]
+- ["3SQL8SQLTableP", "updatedAt"]
+depends-nominal:
+- "6Fluent12AnyMigrationP"
+- "6Fluent8AnyModelP"
+- "4Core14AnyReflectableP"
+- "3SQL11AnySQLTableP"
+- "5Vapor7ContentP"
+- "Se"
+- "SE"
+- "3App7KSModelP"
+- "6Fluent9MigrationP"
+- "6Fluent5ModelP"
+- "7Routing9ParameterP"
+- "10PostgreSQL0A8SQLTableP"
+- "4Core11ReflectableP"
+- "5Vapor16RequestDecodableP"
+- "5Vapor16RequestEncodableP"
+- "5Vapor17ResponseDecodableP"
+- "5Vapor17ResponseEncodableP"
+- "3SQL8SQLTableP"
+depends-dynamic-lookup:
+depends-external:
+- "/Users/Jorge/Desktop/Projects/Web/Swift/kisiBootcamp/.build/x86_64-apple-macosx/debug/NIOHTTP1.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/ObjectiveC.swiftmodule"
+- "/Users/Jorge/Desktop/Projects/Web/Swift/kisiBootcamp/.build/x86_64-apple-macosx/debug/SQL.swiftmodule"
+- "/Users/Jorge/Desktop/Projects/Web/Swift/kisiBootcamp/.build/x86_64-apple-macosx/debug/PostgreSQL.swiftmodule"
+- "/Users/Jorge/Desktop/Projects/Web/Swift/kisiBootcamp/.build/x86_64-apple-macosx/debug/FluentPostgreSQL.swiftmodule"
+- "/Users/Jorge/Desktop/Projects/Web/Swift/kisiBootcamp/.build/x86_64-apple-macosx/debug/FluentSQL.swiftmodule"
+- "/Users/Jorge/Desktop/Projects/Web/Swift/kisiBootcamp/.build/x86_64-apple-macosx/debug/NIOOpenSSL.swiftmodule"
+- "/Users/Jorge/Desktop/Projects/Web/Swift/kisiBootcamp/.build/x86_64-apple-macosx/debug/NIO.swiftmodule"
+- "/Users/Jorge/Desktop/Projects/Web/Swift/kisiBootcamp/.build/x86_64-apple-macosx/debug/HTTP.swiftmodule"
+- "/Users/Jorge/Desktop/Projects/Web/Swift/kisiBootcamp/.build/x86_64-apple-macosx/debug/NIOTLS.swiftmodule"
+- "/Users/Jorge/Desktop/Projects/Web/Swift/kisiBootcamp/.build/x86_64-apple-macosx/debug/Async.swiftmodule"
+- "/Users/Jorge/Desktop/Projects/Web/Swift/kisiBootcamp/.build/x86_64-apple-macosx/debug/Command.swiftmodule"
+- "/Users/Jorge/Desktop/Projects/Web/Swift/kisiBootcamp/.build/x86_64-apple-macosx/debug/Service.swiftmodule"
+- "/Users/Jorge/Desktop/Projects/Web/Swift/kisiBootcamp/.build/x86_64-apple-macosx/debug/Console.swiftmodule"
+- "/Users/Jorge/Desktop/Projects/Web/Swift/kisiBootcamp/.build/x86_64-apple-macosx/debug/Core.swiftmodule"
+- "/Users/Jorge/Desktop/Projects/Web/Swift/kisiBootcamp/.build/x86_64-apple-macosx/debug/Logging.swiftmodule"
+- "/Users/Jorge/Desktop/Projects/Web/Swift/kisiBootcamp/.build/x86_64-apple-macosx/debug/Debugging.swiftmodule"
+- "/Users/Jorge/Desktop/Projects/Web/Swift/kisiBootcamp/.build/x86_64-apple-macosx/debug/Routing.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/Dispatch.swiftmodule"
+- "/Users/Jorge/Desktop/Projects/Web/Swift/kisiBootcamp/.build/x86_64-apple-macosx/debug/COperatingSystem.swiftmodule"
+- "/Users/Jorge/Desktop/Projects/Web/Swift/kisiBootcamp/.build/x86_64-apple-macosx/debug/Random.swiftmodule"
+- "/Users/Jorge/Desktop/Projects/Web/Swift/kisiBootcamp/.build/x86_64-apple-macosx/debug/URLEncodedForm.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/Darwin.swiftmodule"
+- "/Users/Jorge/Desktop/Projects/Web/Swift/kisiBootcamp/.build/x86_64-apple-macosx/debug/Validation.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/Foundation.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/CoreFoundation.swiftmodule"
+- "/Users/Jorge/Desktop/Projects/Web/Swift/kisiBootcamp/.build/x86_64-apple-macosx/debug/Crypto.swiftmodule"
+- "/Users/Jorge/Desktop/Projects/Web/Swift/kisiBootcamp/.build/x86_64-apple-macosx/debug/Vapor.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/CoreGraphics.swiftmodule"
+- "/Users/Jorge/Desktop/Projects/Web/Swift/kisiBootcamp/.build/x86_64-apple-macosx/debug/NIOConcurrencyHelpers.swiftmodule"
+- "/Users/Jorge/Desktop/Projects/Web/Swift/kisiBootcamp/.build/x86_64-apple-macosx/debug/Bits.swiftmodule"
+- "/Users/Jorge/Desktop/Projects/Web/Swift/kisiBootcamp/.build/x86_64-apple-macosx/debug/NIOFoundationCompat.swiftmodule"
+- "/Users/Jorge/Desktop/Projects/Web/Swift/kisiBootcamp/.build/x86_64-apple-macosx/debug/WebSocket.swiftmodule"
+- "/Users/Jorge/Desktop/Projects/Web/Swift/kisiBootcamp/.build/x86_64-apple-macosx/debug/NIOWebSocket.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/Swift.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/IOKit.swiftmodule"
+- "/Users/Jorge/Desktop/Projects/Web/Swift/kisiBootcamp/.build/x86_64-apple-macosx/debug/DatabaseKit.swiftmodule"
+- "/Users/Jorge/Desktop/Projects/Web/Swift/kisiBootcamp/.build/x86_64-apple-macosx/debug/TemplateKit.swiftmodule"
+- "/Users/Jorge/Desktop/Projects/Web/Swift/kisiBootcamp/.build/x86_64-apple-macosx/debug/Fluent.swiftmodule"
+- "/Users/Jorge/Desktop/Projects/Web/Swift/kisiBootcamp/.build/x86_64-apple-macosx/debug/Multipart.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/SwiftOnoneSupport.swiftmodule"
+- "/Users/Jorge/Desktop/Projects/Web/Swift/kisiBootcamp/.build/checkouts/swift-nio/Sources/CNIOSHA1/include/CNIOSHA1.h"
+- "/usr/local/Cellar/libressl/2.9.2/include/openssl/asn1.h"
+- "/usr/local/Cellar/libressl/2.9.2/include/openssl/tls1.h"
+- "/usr/local/Cellar/libressl/2.9.2/include/openssl/dtls1.h"
+- "/usr/local/Cellar/libressl/2.9.2/include/openssl/pkcs12.h"
+- "/usr/local/Cellar/libressl/2.9.2/include/openssl/ssl2.h"
+- "/usr/local/Cellar/libressl/2.9.2/include/openssl/pem2.h"
+- "/usr/local/Cellar/libressl/2.9.2/include/openssl/ssl23.h"
+- "/usr/local/Cellar/libressl/2.9.2/include/openssl/ssl3.h"
+- "/usr/local/Cellar/libressl/2.9.2/include/openssl/x509v3.h"
+- "/usr/local/Cellar/libressl/2.9.2/include/openssl/md5.h"
+- "/usr/local/Cellar/libressl/2.9.2/include/openssl/pkcs7.h"
+- "/usr/local/Cellar/libressl/2.9.2/include/openssl/x509.h"
+- "/usr/local/Cellar/libressl/2.9.2/include/openssl/sha.h"
+- "/usr/local/Cellar/libressl/2.9.2/include/openssl/dsa.h"
+- "/usr/local/Cellar/libressl/2.9.2/include/openssl/ecdsa.h"
+- "/usr/local/Cellar/libressl/2.9.2/include/openssl/rsa.h"
+- "/Users/Jorge/Desktop/Projects/Web/Swift/kisiBootcamp/.build/checkouts/swift-nio/Sources/CNIOZlib/include/CNIOZlib.h"
+- "/usr/local/Cellar/libressl/2.9.2/include/openssl/obj_mac.h"
+- "/usr/local/Cellar/libressl/2.9.2/include/openssl/hmac.h"
+- "/usr/local/Cellar/libressl/2.9.2/include/openssl/ec.h"
+- "/Users/Jorge/Desktop/Projects/Web/Swift/kisiBootcamp/.build/checkouts/swift-nio/Sources/CNIOAtomics/include/cpp_magic.h"
+- "/Users/Jorge/Desktop/Projects/Web/Swift/kisiBootcamp/.build/checkouts/swift-nio/Sources/CNIOLinux/include/ifaddrs-android.h"
+- "/usr/local/Cellar/libressl/2.9.2/include/openssl/rand.h"
+- "/usr/local/Cellar/libressl/2.9.2/include/openssl/conf.h"
+- "/usr/local/Cellar/libressl/2.9.2/include/openssl/opensslconf.h"
+- "/usr/local/Cellar/libressl/2.9.2/include/openssl/dh.h"
+- "/usr/local/Cellar/libressl/2.9.2/include/openssl/ecdh.h"
+- "/usr/local/Cellar/libressl/2.9.2/include/openssl/lhash.h"
+- "/usr/local/Cellar/libressl/2.9.2/include/openssl/stack.h"
+- "/usr/local/Cellar/libressl/2.9.2/include/openssl/safestack.h"
+- "/usr/local/Cellar/libressl/2.9.2/include/openssl/ssl.h"
+- "/Users/Jorge/Desktop/Projects/Web/Swift/kisiBootcamp/.build/checkouts/swift-nio-ssl/Sources/CNIOOpenSSL/include/c_nio_openssl.h"
+- "/Users/Jorge/Desktop/Projects/Web/Swift/kisiBootcamp/.build/checkouts/crypto/Sources/CCryptoOpenSSL/include/c_crypto_openssl.h"
+- "/usr/local/Cellar/libressl/2.9.2/include/openssl/pem.h"
+- "/usr/local/Cellar/libressl/2.9.2/include/openssl/bn.h"
+- "/Users/Jorge/Desktop/Projects/Web/Swift/kisiBootcamp/.build/checkouts/swift-nio/Sources/CNIODarwin/include/CNIODarwin.h"
+- "/usr/local/Cellar/libressl/2.9.2/include/openssl/bio.h"
+- "/usr/local/Cellar/libressl/2.9.2/include/openssl/crypto.h"
+- "/usr/local/Cellar/libressl/2.9.2/include/openssl/srtp.h"
+- "/usr/local/Cellar/libressl/2.9.2/include/openssl/evp.h"
+- "/usr/local/Cellar/libressl/2.9.2/include/openssl/ossl_typ.h"
+- "/usr/local/Cellar/libressl/2.9.2/include/openssl/buffer.h"
+- "/Users/Jorge/Desktop/Projects/Web/Swift/kisiBootcamp/.build/checkouts/swift-nio/Sources/CNIOHTTPParser/include/CNIOHTTPParser.h"
+- "/Users/Jorge/Desktop/Projects/Web/Swift/kisiBootcamp/.build/checkouts/swift-nio/Sources/CNIOHTTPParser/include/c_nio_http_parser.h"
+- "/usr/local/Cellar/libressl/2.9.2/include/openssl/err.h"
+- "/Users/Jorge/Desktop/Projects/Web/Swift/kisiBootcamp/.build/checkouts/swift-nio/Sources/CNIOAtomics/include/CNIOAtomics.h"
+- "/usr/local/Cellar/libressl/2.9.2/include/openssl/opensslfeatures.h"
+- "/usr/local/Cellar/libressl/2.9.2/include/openssl/objects.h"
+- "/usr/local/Cellar/libressl/2.9.2/include/openssl/opensslv.h"
+- "/Users/Jorge/Desktop/Projects/Web/Swift/kisiBootcamp/.build/checkouts/swift-nio/Sources/CNIOLinux/include/CNIOLinux.h"
+- "/usr/local/Cellar/libressl/2.9.2/include/openssl/x509_vfy.h"
+- "/Users/Jorge/Desktop/Projects/Web/Swift/kisiBootcamp/.build/x86_64-apple-macosx/debug/CNIOSHA1.build/module.modulemap"
+- "/Users/Jorge/Desktop/Projects/Web/Swift/kisiBootcamp/.build/x86_64-apple-macosx/debug/CNIOOpenSSL.build/module.modulemap"
+- "/Users/Jorge/Desktop/Projects/Web/Swift/kisiBootcamp/.build/x86_64-apple-macosx/debug/CCryptoOpenSSL.build/module.modulemap"
+- "/Users/Jorge/Desktop/Projects/Web/Swift/kisiBootcamp/.build/x86_64-apple-macosx/debug/CNIOZlib.build/module.modulemap"
+- "/Users/Jorge/Desktop/Projects/Web/Swift/kisiBootcamp/.build/x86_64-apple-macosx/debug/CNIODarwin.build/module.modulemap"
+- "/Users/Jorge/Desktop/Projects/Web/Swift/kisiBootcamp/.build/x86_64-apple-macosx/debug/CNIOHTTPParser.build/module.modulemap"
+- "/Users/Jorge/Desktop/Projects/Web/Swift/kisiBootcamp/.build/x86_64-apple-macosx/debug/CNIOAtomics.build/module.modulemap"
+- "/Users/Jorge/Desktop/Projects/Web/Swift/kisiBootcamp/.build/x86_64-apple-macosx/debug/CNIOLinux.build/module.modulemap"
+- "/Users/Jorge/Desktop/Projects/Web/Swift/kisiBootcamp/.build/checkouts/crypto/Sources/CBase32/include/module.modulemap"
+- "/Users/Jorge/Desktop/Projects/Web/Swift/kisiBootcamp/.build/checkouts/crypto/Sources/CBcrypt/include/module.modulemap"
+- "/Users/Jorge/Desktop/Projects/Web/Swift/kisiBootcamp/.build/checkouts/swift-nio-zlib-support/module.modulemap"
+- "/Users/Jorge/Desktop/Projects/Web/Swift/kisiBootcamp/.build/checkouts/swift-nio-ssl-support/module.modulemap"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.14.sdk/usr/include/objc/ObjectiveC.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/Dispatch.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.14.sdk/usr/include/Darwin.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.14.sdk/System/Library/Frameworks/Foundation.framework/Headers/Foundation.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.14.sdk/System/Library/Frameworks/CoreGraphics.framework/Headers/CoreGraphics.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.14.sdk/System/Library/Frameworks/ApplicationServices.framework/Headers/ApplicationServices.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.14.sdk/System/Library/Frameworks/CoreText.framework/Headers/CoreText.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.14.sdk/System/Library/Frameworks/Security.framework/Headers/Security.apinotes"
+interface-hash: "6c06392fb1ea6756bdaa59df96124287"

@@ -22,6 +22,7 @@ depends-top-level:
 - !private "PostgreSQLDatabaseConfig"
 - !private "Router"
 - "Services"
+- !private "Session"
 - !private "StringLiteralType"
 - "configure"
 - !private "fatalError"
@@ -98,6 +99,7 @@ depends-member:
 - !private ["7Service0A4TypeP", "init"]
 - !private ["7Service0A4TypeP", "use"]
 - !private ["7Service8ServicesV", "register"]
+- !private ["3App7SessionV", "deinit"]
 - !private ["SZ", "init"]
 - !private ["s13SignedNumericP", "init"]
 - !private ["Sx", "init"]
@@ -167,6 +169,7 @@ depends-nominal:
 - !private "7ServiceAAP"
 - !private "7Service0A4TypeP"
 - !private "7Service8ServicesV"
+- !private "3App7SessionV"
 - !private "SZ"
 - !private "s13SignedNumericP"
 - !private "Sx"

@@ -14,11 +14,29 @@
     "swiftmodule": "/Users/Jorge/Desktop/Projects/Web/Swift/kisiBootcamp/.build/x86_64-apple-macosx/debug/App.build/Controllers/RecordsController~partial.swiftmodule",
     "swift-dependencies": "/Users/Jorge/Desktop/Projects/Web/Swift/kisiBootcamp/.build/x86_64-apple-macosx/debug/App.build/Controllers/RecordsController.swiftdeps"
   },
+  "/Users/Jorge/Desktop/Projects/Web/Swift/kisiBootcamp/Sources/App/Controllers/SessionsController.swift": {
+    "dependencies": "/Users/Jorge/Desktop/Projects/Web/Swift/kisiBootcamp/.build/x86_64-apple-macosx/debug/App.build/Controllers/SessionsController.d",
+    "object": "/Users/Jorge/Desktop/Projects/Web/Swift/kisiBootcamp/.build/x86_64-apple-macosx/debug/App.build/Controllers/SessionsController.swift.o",
+    "swiftmodule": "/Users/Jorge/Desktop/Projects/Web/Swift/kisiBootcamp/.build/x86_64-apple-macosx/debug/App.build/Controllers/SessionsController~partial.swiftmodule",
+    "swift-dependencies": "/Users/Jorge/Desktop/Projects/Web/Swift/kisiBootcamp/.build/x86_64-apple-macosx/debug/App.build/Controllers/SessionsController.swiftdeps"
+  },
+  "/Users/Jorge/Desktop/Projects/Web/Swift/kisiBootcamp/Sources/App/Models/KSModel.swift": {
+    "dependencies": "/Users/Jorge/Desktop/Projects/Web/Swift/kisiBootcamp/.build/x86_64-apple-macosx/debug/App.build/Models/KSModel.d",
+    "object": "/Users/Jorge/Desktop/Projects/Web/Swift/kisiBootcamp/.build/x86_64-apple-macosx/debug/App.build/Models/KSModel.swift.o",
+    "swiftmodule": "/Users/Jorge/Desktop/Projects/Web/Swift/kisiBootcamp/.build/x86_64-apple-macosx/debug/App.build/Models/KSModel~partial.swiftmodule",
+    "swift-dependencies": "/Users/Jorge/Desktop/Projects/Web/Swift/kisiBootcamp/.build/x86_64-apple-macosx/debug/App.build/Models/KSModel.swiftdeps"
+  },
   "/Users/Jorge/Desktop/Projects/Web/Swift/kisiBootcamp/Sources/App/Models/Log.swift": {
     "dependencies": "/Users/Jorge/Desktop/Projects/Web/Swift/kisiBootcamp/.build/x86_64-apple-macosx/debug/App.build/Models/Log.d",
     "object": "/Users/Jorge/Desktop/Projects/Web/Swift/kisiBootcamp/.build/x86_64-apple-macosx/debug/App.build/Models/Log.swift.o",
     "swiftmodule": "/Users/Jorge/Desktop/Projects/Web/Swift/kisiBootcamp/.build/x86_64-apple-macosx/debug/App.build/Models/Log~partial.swiftmodule",
     "swift-dependencies": "/Users/Jorge/Desktop/Projects/Web/Swift/kisiBootcamp/.build/x86_64-apple-macosx/debug/App.build/Models/Log.swiftdeps"
+  },
+  "/Users/Jorge/Desktop/Projects/Web/Swift/kisiBootcamp/Sources/App/Models/Session.swift": {
+    "dependencies": "/Users/Jorge/Desktop/Projects/Web/Swift/kisiBootcamp/.build/x86_64-apple-macosx/debug/App.build/Models/Session.d",
+    "object": "/Users/Jorge/Desktop/Projects/Web/Swift/kisiBootcamp/.build/x86_64-apple-macosx/debug/App.build/Models/Session.swift.o",
+    "swiftmodule": "/Users/Jorge/Desktop/Projects/Web/Swift/kisiBootcamp/.build/x86_64-apple-macosx/debug/App.build/Models/Session~partial.swiftmodule",
+    "swift-dependencies": "/Users/Jorge/Desktop/Projects/Web/Swift/kisiBootcamp/.build/x86_64-apple-macosx/debug/App.build/Models/Session.swiftdeps"
   },
   "/Users/Jorge/Desktop/Projects/Web/Swift/kisiBootcamp/Sources/App/app.swift": {
     "dependencies": "/Users/Jorge/Desktop/Projects/Web/Swift/kisiBootcamp/.build/x86_64-apple-macosx/debug/App.build/app.d",

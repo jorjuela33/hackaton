@@ -1,10 +1,16 @@
-import FluentPostgreSQL
+
 import Vapor
 
 /// A single entry of a Log list.
-struct Log: PostgreSQLModel {
+struct Log: KSModel {
     /// The unique identifier for this `Log`.
-    var id: Int?
+    var id: UUID?
+
+    /// When was created this `Log`.
+    var createdAt: Date?
+
+    /// When was deleted this `Log`.
+    var deletedAt: Date?
 
     /// A delta describing what this `Log` entails.
     var delta: Int
@@ -16,23 +22,17 @@ struct Log: PostgreSQLModel {
     var deviceID: String
 
     ///
-    var session: UUID
+    var sessionID: UUID?
 
-    /// Creates a new `Todo`.
-    init(id: Int? = nil, delta: Int, rssi: Int, session: UUID, deviceID: String) {
+    /// When was updated this `Log`.
+    var updatedAt: Date?
+
+    /// Creates a new `Log`.
+    init(id: UUID? = nil, delta: Int, rssi: Int, sessionID: UUID, deviceID: String) {
         self.id = id
         self.delta = delta
         self.rssi = rssi
         self.deviceID = deviceID
-        self.session = session
+        self.sessionID = sessionID
     }
 }
-
-/// Allows `Log` to be used as a dynamic migration.
-extension Log: Migration { }
-
-/// Allows `Log` to be encoded to and decoded from HTTP messages.
-extension Log: Content { }
-
-/// Allows `Log` to be used as a dynamic parameter in route definitions.
-extension Log: Parameter { }

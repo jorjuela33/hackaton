@@ -33,6 +33,9 @@
 
 /* Begin PBXBuildFile section */
 		CFC8F8D922A8FD3300F8F10D /* RecordsController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CFC8F8D822A8FD3200F8F10D /* RecordsController.swift */; };
+		CFC8F8DB22A93A0500F8F10D /* Session.swift in Sources */ = {isa = PBXBuildFile; fileRef = CFC8F8DA22A93A0500F8F10D /* Session.swift */; };
+		CFC8F8DD22A93AA800F8F10D /* KSModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = CFC8F8DC22A93AA800F8F10D /* KSModel.swift */; };
+		CFC8F8DF22A93C3200F8F10D /* SessionsController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CFC8F8DE22A93C3200F8F10D /* SessionsController.swift */; };
 		OBJ_1000 /* FluentPostgreSQL.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = "FluentPostgreSQL::FluentPostgreSQL::Product" /* FluentPostgreSQL.framework */; };
 		OBJ_1001 /* PostgreSQL.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = "PostgreSQL::PostgreSQL::Product" /* PostgreSQL.framework */; };
 		OBJ_1002 /* NIOOpenSSL.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = "swift-nio-ssl::NIOOpenSSL::Product" /* NIOOpenSSL.framework */; };
@@ -5261,6 +5264,9 @@
 
 /* Begin PBXFileReference section */
 		CFC8F8D822A8FD3200F8F10D /* RecordsController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RecordsController.swift; sourceTree = "<group>"; };
+		CFC8F8DA22A93A0500F8F10D /* Session.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Session.swift; sourceTree = "<group>"; };
+		CFC8F8DC22A93AA800F8F10D /* KSModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KSModel.swift; sourceTree = "<group>"; };
+		CFC8F8DE22A93C3200F8F10D /* SessionsController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SessionsController.swift; sourceTree = "<group>"; };
 		"Console::Command::Product" /* Command.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = Command.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		"Console::Console::Product" /* Console.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = Console.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		"Console::Logging::Product" /* Logging.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = Logging.framework; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -6969,6 +6975,8 @@
 			isa = PBXGroup;
 			children = (
 				OBJ_12 /* Log.swift */,
+				CFC8F8DA22A93A0500F8F10D /* Session.swift */,
+				CFC8F8DC22A93AA800F8F10D /* KSModel.swift */,
 			);
 			path = Models;
 			sourceTree = "<group>";
@@ -9148,6 +9156,7 @@
 			children = (
 				OBJ_10 /* LogsController.swift */,
 				CFC8F8D822A8FD3200F8F10D /* RecordsController.swift */,
+				CFC8F8DE22A93C3200F8F10D /* SessionsController.swift */,
 			);
 			path = Controllers;
 			sourceTree = "<group>";
@@ -12182,10 +12191,13 @@
 			files = (
 				OBJ_981 /* LogsController.swift in Sources */,
 				OBJ_982 /* Log.swift in Sources */,
+				CFC8F8DD22A93AA800F8F10D /* KSModel.swift in Sources */,
 				OBJ_983 /* app.swift in Sources */,
 				OBJ_984 /* boot.swift in Sources */,
+				CFC8F8DB22A93A0500F8F10D /* Session.swift in Sources */,
 				OBJ_985 /* configure.swift in Sources */,
 				CFC8F8D922A8FD3300F8F10D /* RecordsController.swift in Sources */,
+				CFC8F8DF22A93C3200F8F10D /* SessionsController.swift in Sources */,
 				OBJ_986 /* routes.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
