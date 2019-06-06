@@ -1,0 +1,1097 @@
+### Swift dependencies file v0 ###
+provides-top-level:
+- "GoogleStorageBucket"
+- "BucketAccessControls"
+- "StorageNotification"
+- "ObjectAccessControls"
+- "ProjectTeam"
+- "Owner"
+- "Website"
+- "Logging"
+- "Versioning"
+- "Cors"
+- "Lifecycle"
+- "Rule"
+- "Action"
+- "Condition"
+- "Billing"
+- "Encryption"
+- "EmptyResponse"
+provides-nominal:
+- "11GoogleCloud0A13StorageBucketV"
+- "11GoogleCloud20BucketAccessControlsV"
+- "11GoogleCloud19StorageNotificationV"
+- "11GoogleCloud19StorageNotificationV10CodingKeysO"
+- "11GoogleCloud20ObjectAccessControlsV"
+- "11GoogleCloud11ProjectTeamV"
+- "11GoogleCloud5OwnerV"
+- "11GoogleCloud7WebsiteV"
+- "11GoogleCloud7LoggingV"
+- "11GoogleCloud10VersioningV"
+- "11GoogleCloud4CorsV"
+- "11GoogleCloud9LifecycleV"
+- "11GoogleCloud4RuleV"
+- "11GoogleCloud6ActionV"
+- "11GoogleCloud9ConditionV"
+- "11GoogleCloud7BillingV"
+- "11GoogleCloud10EncryptionV"
+- "11GoogleCloud13EmptyResponseV"
+provides-member:
+- ["11GoogleCloud0A13StorageBucketV", ""]
+- ["11GoogleCloud20BucketAccessControlsV", ""]
+- ["11GoogleCloud19StorageNotificationV", ""]
+- ["11GoogleCloud19StorageNotificationV10CodingKeysO", ""]
+- ["11GoogleCloud20ObjectAccessControlsV", ""]
+- ["11GoogleCloud11ProjectTeamV", ""]
+- ["11GoogleCloud5OwnerV", ""]
+- ["11GoogleCloud7WebsiteV", ""]
+- ["11GoogleCloud7LoggingV", ""]
+- ["11GoogleCloud10VersioningV", ""]
+- ["11GoogleCloud4CorsV", ""]
+- ["11GoogleCloud9LifecycleV", ""]
+- ["11GoogleCloud4RuleV", ""]
+- ["11GoogleCloud6ActionV", ""]
+- ["11GoogleCloud9ConditionV", ""]
+- ["11GoogleCloud7BillingV", ""]
+- ["11GoogleCloud10EncryptionV", ""]
+- ["11GoogleCloud13EmptyResponseV", ""]
+provides-dynamic-lookup:
+depends-top-level:
+- "=="
+- "Action"
+- "AssignmentPrecedence"
+- "Billing"
+- "Bool"
+- "BucketAccessControls"
+- "CodingKey"
+- "Condition"
+- "Cors"
+- "Date"
+- "EmptyResponse"
+- "Encryption"
+- "GoogleCloudModel"
+- "GoogleStorageBucket"
+- "Int"
+- "Lifecycle"
+- "Logging"
+- "ObjectAccessControls"
+- "Owner"
+- "ProjectTeam"
+- "Rule"
+- "StorageNotification"
+- "String"
+- "Versioning"
+- "Website"
+- !private "_findStringSwitchCase"
+- !private "~="
+depends-member:
+- ["11GoogleCloud6ActionV", "String"]
+- ["11GoogleCloud6ActionV", "decode"]
+- ["11GoogleCloud6ActionV", "defaultContentType"]
+- ["11GoogleCloud6ActionV", "deinit"]
+- ["11GoogleCloud6ActionV", "encode"]
+- ["11GoogleCloud6ActionV", "init"]
+- ["11GoogleCloud6ActionV", "storageClass"]
+- ["11GoogleCloud6ActionV", "toEncodedDictionary"]
+- ["11GoogleCloud6ActionV", "type"]
+- ["11GoogleCloud7BillingV", "Bool"]
+- ["11GoogleCloud7BillingV", "decode"]
+- ["11GoogleCloud7BillingV", "defaultContentType"]
+- ["11GoogleCloud7BillingV", "deinit"]
+- ["11GoogleCloud7BillingV", "encode"]
+- ["11GoogleCloud7BillingV", "init"]
+- ["11GoogleCloud7BillingV", "requesterPays"]
+- ["11GoogleCloud7BillingV", "toEncodedDictionary"]
+- ["11GoogleCloud20BucketAccessControlsV", "ProjectTeam"]
+- ["11GoogleCloud20BucketAccessControlsV", "String"]
+- ["11GoogleCloud20BucketAccessControlsV", "bucket"]
+- ["11GoogleCloud20BucketAccessControlsV", "decode"]
+- ["11GoogleCloud20BucketAccessControlsV", "defaultContentType"]
+- ["11GoogleCloud20BucketAccessControlsV", "deinit"]
+- ["11GoogleCloud20BucketAccessControlsV", "domain"]
+- ["11GoogleCloud20BucketAccessControlsV", "email"]
+- ["11GoogleCloud20BucketAccessControlsV", "encode"]
+- ["11GoogleCloud20BucketAccessControlsV", "entity"]
+- ["11GoogleCloud20BucketAccessControlsV", "entityId"]
+- ["11GoogleCloud20BucketAccessControlsV", "etag"]
+- ["11GoogleCloud20BucketAccessControlsV", "id"]
+- ["11GoogleCloud20BucketAccessControlsV", "init"]
+- ["11GoogleCloud20BucketAccessControlsV", "kind"]
+- ["11GoogleCloud20BucketAccessControlsV", "projectTeam"]
+- ["11GoogleCloud20BucketAccessControlsV", "role"]
+- ["11GoogleCloud20BucketAccessControlsV", "selfLink"]
+- ["11GoogleCloud20BucketAccessControlsV", "toEncodedDictionary"]
+- ["s9CodingKeyP", "=="]
+- ["s9CodingKeyP", "RawValue"]
+- ["s9CodingKeyP", ""]
+- ["s9CodingKeyP", "_Default_RawValue"]
+- !private ["s9CodingKeyP", "_findStringSwitchCase"]
+- ["s9CodingKeyP", "_rawHashValue"]
+- ["s9CodingKeyP", "debugDescription"]
+- ["s9CodingKeyP", "description"]
+- ["s9CodingKeyP", "hash"]
+- ["s9CodingKeyP", "hashValue"]
+- ["s9CodingKeyP", "init"]
+- !private ["s9CodingKeyP", "init"]
+- ["s9CodingKeyP", "intValue"]
+- ["s9CodingKeyP", "rawValue"]
+- ["s9CodingKeyP", "stringValue"]
+- ["11GoogleCloud19StorageNotificationV10CodingKeysO", "=="]
+- ["11GoogleCloud19StorageNotificationV10CodingKeysO", "RawValue"]
+- ["11GoogleCloud19StorageNotificationV10CodingKeysO", "_Default_RawValue"]
+- !private ["11GoogleCloud19StorageNotificationV10CodingKeysO", "_findStringSwitchCase"]
+- ["11GoogleCloud19StorageNotificationV10CodingKeysO", "_rawHashValue"]
+- ["11GoogleCloud19StorageNotificationV10CodingKeysO", "customAttributes"]
+- ["11GoogleCloud19StorageNotificationV10CodingKeysO", "debugDescription"]
+- ["11GoogleCloud19StorageNotificationV10CodingKeysO", "deinit"]
+- ["11GoogleCloud19StorageNotificationV10CodingKeysO", "description"]
+- ["11GoogleCloud19StorageNotificationV10CodingKeysO", "etag"]
+- ["11GoogleCloud19StorageNotificationV10CodingKeysO", "eventTypes"]
+- ["11GoogleCloud19StorageNotificationV10CodingKeysO", "hash"]
+- ["11GoogleCloud19StorageNotificationV10CodingKeysO", "hashValue"]
+- ["11GoogleCloud19StorageNotificationV10CodingKeysO", "id"]
+- ["11GoogleCloud19StorageNotificationV10CodingKeysO", "init"]
+- !private ["11GoogleCloud19StorageNotificationV10CodingKeysO", "init"]
+- ["11GoogleCloud19StorageNotificationV10CodingKeysO", "intValue"]
+- ["11GoogleCloud19StorageNotificationV10CodingKeysO", "kind"]
+- ["11GoogleCloud19StorageNotificationV10CodingKeysO", "objectNamePrefix"]
+- ["11GoogleCloud19StorageNotificationV10CodingKeysO", "payloadFormat"]
+- ["11GoogleCloud19StorageNotificationV10CodingKeysO", "rawValue"]
+- ["11GoogleCloud19StorageNotificationV10CodingKeysO", "selfLink"]
+- ["11GoogleCloud19StorageNotificationV10CodingKeysO", "stringValue"]
+- ["11GoogleCloud19StorageNotificationV10CodingKeysO", "topic"]
+- ["11GoogleCloud9ConditionV", "Bool"]
+- ["11GoogleCloud9ConditionV", "Int"]
+- ["11GoogleCloud9ConditionV", "String"]
+- ["11GoogleCloud9ConditionV", "age"]
+- ["11GoogleCloud9ConditionV", "createdBefore"]
+- ["11GoogleCloud9ConditionV", "decode"]
+- ["11GoogleCloud9ConditionV", "defaultContentType"]
+- ["11GoogleCloud9ConditionV", "deinit"]
+- ["11GoogleCloud9ConditionV", "encode"]
+- ["11GoogleCloud9ConditionV", "init"]
+- ["11GoogleCloud9ConditionV", "isLive"]
+- ["11GoogleCloud9ConditionV", "matchesStorageClass"]
+- ["11GoogleCloud9ConditionV", "numNewerVersions"]
+- ["11GoogleCloud9ConditionV", "toEncodedDictionary"]
+- ["5Vapor7ContentP", ""]
+- !private ["5Vapor7ContentP", "_findStringSwitchCase"]
+- !private ["5Vapor7ContentP", "acl"]
+- !private ["5Vapor7ContentP", "action"]
+- !private ["5Vapor7ContentP", "age"]
+- !private ["5Vapor7ContentP", "billing"]
+- !private ["5Vapor7ContentP", "bucket"]
+- !private ["5Vapor7ContentP", "condition"]
+- !private ["5Vapor7ContentP", "cors"]
+- !private ["5Vapor7ContentP", "createdBefore"]
+- !private ["5Vapor7ContentP", "customAttributes"]
+- ["5Vapor7ContentP", "decode"]
+- ["5Vapor7ContentP", "defaultContentType"]
+- !private ["5Vapor7ContentP", "defaultKmsKeyName"]
+- !private ["5Vapor7ContentP", "defaultObjectAcl"]
+- !private ["5Vapor7ContentP", "domain"]
+- !private ["5Vapor7ContentP", "email"]
+- !private ["5Vapor7ContentP", "enabled"]
+- ["5Vapor7ContentP", "encode"]
+- !private ["5Vapor7ContentP", "entity"]
+- !private ["5Vapor7ContentP", "entityId"]
+- !private ["5Vapor7ContentP", "etag"]
+- !private ["5Vapor7ContentP", "eventTypes"]
+- !private ["5Vapor7ContentP", "generation"]
+- !private ["5Vapor7ContentP", "id"]
+- ["5Vapor7ContentP", "init"]
+- !private ["5Vapor7ContentP", "isLive"]
+- !private ["5Vapor7ContentP", "kind"]
+- !private ["5Vapor7ContentP", "labels"]
+- !private ["5Vapor7ContentP", "lifecycle"]
+- !private ["5Vapor7ContentP", "location"]
+- !private ["5Vapor7ContentP", "logBucket"]
+- !private ["5Vapor7ContentP", "logObjectPrefix"]
+- !private ["5Vapor7ContentP", "logging"]
+- !private ["5Vapor7ContentP", "mainPageSuffix"]
+- !private ["5Vapor7ContentP", "matchesStorageClass"]
+- !private ["5Vapor7ContentP", "maxAgeSeconds"]
+- !private ["5Vapor7ContentP", "metageneration"]
+- !private ["5Vapor7ContentP", "method"]
+- !private ["5Vapor7ContentP", "name"]
+- !private ["5Vapor7ContentP", "notFoundPage"]
+- !private ["5Vapor7ContentP", "numNewerVersions"]
+- !private ["5Vapor7ContentP", "object"]
+- !private ["5Vapor7ContentP", "objectNamePrefix"]
+- !private ["5Vapor7ContentP", "origin"]
+- !private ["5Vapor7ContentP", "owner"]
+- !private ["5Vapor7ContentP", "payloadFormat"]
+- !private ["5Vapor7ContentP", "projectNumber"]
+- !private ["5Vapor7ContentP", "projectTeam"]
+- !private ["5Vapor7ContentP", "requesterPays"]
+- !private ["5Vapor7ContentP", "responseHeader"]
+- !private ["5Vapor7ContentP", "role"]
+- !private ["5Vapor7ContentP", "rule"]
+- !private ["5Vapor7ContentP", "selfLink"]
+- !private ["5Vapor7ContentP", "storageClass"]
+- !private ["5Vapor7ContentP", "team"]
+- !private ["5Vapor7ContentP", "timeCreated"]
+- ["5Vapor7ContentP", "toEncodedDictionary"]
+- !private ["5Vapor7ContentP", "topic"]
+- !private ["5Vapor7ContentP", "type"]
+- !private ["5Vapor7ContentP", "updated"]
+- !private ["5Vapor7ContentP", "versioning"]
+- !private ["5Vapor7ContentP", "website"]
+- ["11GoogleCloud4CorsV", "Int"]
+- ["11GoogleCloud4CorsV", "String"]
+- ["11GoogleCloud4CorsV", "decode"]
+- ["11GoogleCloud4CorsV", "defaultContentType"]
+- ["11GoogleCloud4CorsV", "deinit"]
+- ["11GoogleCloud4CorsV", "encode"]
+- ["11GoogleCloud4CorsV", "init"]
+- ["11GoogleCloud4CorsV", "maxAgeSeconds"]
+- ["11GoogleCloud4CorsV", "method"]
+- ["11GoogleCloud4CorsV", "origin"]
+- ["11GoogleCloud4CorsV", "responseHeader"]
+- ["11GoogleCloud4CorsV", "toEncodedDictionary"]
+- ["s28CustomDebugStringConvertibleP", "=="]
+- ["s28CustomDebugStringConvertibleP", "RawValue"]
+- ["s28CustomDebugStringConvertibleP", ""]
+- ["s28CustomDebugStringConvertibleP", "_Default_RawValue"]
+- !private ["s28CustomDebugStringConvertibleP", "_findStringSwitchCase"]
+- ["s28CustomDebugStringConvertibleP", "_rawHashValue"]
+- ["s28CustomDebugStringConvertibleP", "debugDescription"]
+- ["s28CustomDebugStringConvertibleP", "description"]
+- ["s28CustomDebugStringConvertibleP", "hash"]
+- ["s28CustomDebugStringConvertibleP", "hashValue"]
+- ["s28CustomDebugStringConvertibleP", "init"]
+- !private ["s28CustomDebugStringConvertibleP", "init"]
+- ["s28CustomDebugStringConvertibleP", "intValue"]
+- ["s28CustomDebugStringConvertibleP", "rawValue"]
+- ["s28CustomDebugStringConvertibleP", "stringValue"]
+- ["s23CustomStringConvertibleP", "=="]
+- ["s23CustomStringConvertibleP", "RawValue"]
+- ["s23CustomStringConvertibleP", ""]
+- ["s23CustomStringConvertibleP", "_Default_RawValue"]
+- !private ["s23CustomStringConvertibleP", "_findStringSwitchCase"]
+- ["s23CustomStringConvertibleP", "_rawHashValue"]
+- ["s23CustomStringConvertibleP", "debugDescription"]
+- ["s23CustomStringConvertibleP", "description"]
+- ["s23CustomStringConvertibleP", "hash"]
+- ["s23CustomStringConvertibleP", "hashValue"]
+- ["s23CustomStringConvertibleP", "init"]
+- !private ["s23CustomStringConvertibleP", "init"]
+- ["s23CustomStringConvertibleP", "intValue"]
+- ["s23CustomStringConvertibleP", "rawValue"]
+- ["s23CustomStringConvertibleP", "stringValue"]
+- ["Se", ""]
+- !private ["Se", "_findStringSwitchCase"]
+- !private ["Se", "acl"]
+- !private ["Se", "action"]
+- !private ["Se", "age"]
+- !private ["Se", "billing"]
+- !private ["Se", "bucket"]
+- !private ["Se", "condition"]
+- !private ["Se", "cors"]
+- !private ["Se", "createdBefore"]
+- !private ["Se", "customAttributes"]
+- ["Se", "decode"]
+- ["Se", "defaultContentType"]
+- !private ["Se", "defaultKmsKeyName"]
+- !private ["Se", "defaultObjectAcl"]
+- !private ["Se", "domain"]
+- !private ["Se", "email"]
+- !private ["Se", "enabled"]
+- ["Se", "encode"]
+- !private ["Se", "entity"]
+- !private ["Se", "entityId"]
+- !private ["Se", "etag"]
+- !private ["Se", "eventTypes"]
+- !private ["Se", "generation"]
+- !private ["Se", "id"]
+- ["Se", "init"]
+- !private ["Se", "isLive"]
+- !private ["Se", "kind"]
+- !private ["Se", "labels"]
+- !private ["Se", "lifecycle"]
+- !private ["Se", "location"]
+- !private ["Se", "logBucket"]
+- !private ["Se", "logObjectPrefix"]
+- !private ["Se", "logging"]
+- !private ["Se", "mainPageSuffix"]
+- !private ["Se", "matchesStorageClass"]
+- !private ["Se", "maxAgeSeconds"]
+- !private ["Se", "metageneration"]
+- !private ["Se", "method"]
+- !private ["Se", "name"]
+- !private ["Se", "notFoundPage"]
+- !private ["Se", "numNewerVersions"]
+- !private ["Se", "object"]
+- !private ["Se", "objectNamePrefix"]
+- !private ["Se", "origin"]
+- !private ["Se", "owner"]
+- !private ["Se", "payloadFormat"]
+- !private ["Se", "projectNumber"]
+- !private ["Se", "projectTeam"]
+- !private ["Se", "requesterPays"]
+- !private ["Se", "responseHeader"]
+- !private ["Se", "role"]
+- !private ["Se", "rule"]
+- !private ["Se", "selfLink"]
+- !private ["Se", "storageClass"]
+- !private ["Se", "team"]
+- !private ["Se", "timeCreated"]
+- ["Se", "toEncodedDictionary"]
+- !private ["Se", "topic"]
+- !private ["Se", "type"]
+- !private ["Se", "updated"]
+- !private ["Se", "versioning"]
+- !private ["Se", "website"]
+- !private ["s7DecoderP", "container"]
+- ["11GoogleCloud13EmptyResponseV", "decode"]
+- ["11GoogleCloud13EmptyResponseV", "defaultContentType"]
+- ["11GoogleCloud13EmptyResponseV", "deinit"]
+- ["11GoogleCloud13EmptyResponseV", "encode"]
+- ["11GoogleCloud13EmptyResponseV", "init"]
+- ["11GoogleCloud13EmptyResponseV", "toEncodedDictionary"]
+- ["SE", ""]
+- !private ["SE", "_findStringSwitchCase"]
+- !private ["SE", "acl"]
+- !private ["SE", "action"]
+- !private ["SE", "age"]
+- !private ["SE", "billing"]
+- !private ["SE", "bucket"]
+- !private ["SE", "condition"]
+- !private ["SE", "cors"]
+- !private ["SE", "createdBefore"]
+- !private ["SE", "customAttributes"]
+- ["SE", "decode"]
+- ["SE", "defaultContentType"]
+- !private ["SE", "defaultKmsKeyName"]
+- !private ["SE", "defaultObjectAcl"]
+- !private ["SE", "domain"]
+- !private ["SE", "email"]
+- !private ["SE", "enabled"]
+- ["SE", "encode"]
+- !private ["SE", "entity"]
+- !private ["SE", "entityId"]
+- !private ["SE", "etag"]
+- !private ["SE", "eventTypes"]
+- !private ["SE", "generation"]
+- !private ["SE", "id"]
+- ["SE", "init"]
+- !private ["SE", "isLive"]
+- !private ["SE", "kind"]
+- !private ["SE", "labels"]
+- !private ["SE", "lifecycle"]
+- !private ["SE", "location"]
+- !private ["SE", "logBucket"]
+- !private ["SE", "logObjectPrefix"]
+- !private ["SE", "logging"]
+- !private ["SE", "mainPageSuffix"]
+- !private ["SE", "matchesStorageClass"]
+- !private ["SE", "maxAgeSeconds"]
+- !private ["SE", "metageneration"]
+- !private ["SE", "method"]
+- !private ["SE", "name"]
+- !private ["SE", "notFoundPage"]
+- !private ["SE", "numNewerVersions"]
+- !private ["SE", "object"]
+- !private ["SE", "objectNamePrefix"]
+- !private ["SE", "origin"]
+- !private ["SE", "owner"]
+- !private ["SE", "payloadFormat"]
+- !private ["SE", "projectNumber"]
+- !private ["SE", "projectTeam"]
+- !private ["SE", "requesterPays"]
+- !private ["SE", "responseHeader"]
+- !private ["SE", "role"]
+- !private ["SE", "rule"]
+- !private ["SE", "selfLink"]
+- !private ["SE", "storageClass"]
+- !private ["SE", "team"]
+- !private ["SE", "timeCreated"]
+- ["SE", "toEncodedDictionary"]
+- !private ["SE", "topic"]
+- !private ["SE", "type"]
+- !private ["SE", "updated"]
+- !private ["SE", "versioning"]
+- !private ["SE", "website"]
+- !private ["s7EncoderP", "container"]
+- ["11GoogleCloud10EncryptionV", "String"]
+- ["11GoogleCloud10EncryptionV", "decode"]
+- ["11GoogleCloud10EncryptionV", "defaultContentType"]
+- ["11GoogleCloud10EncryptionV", "defaultKmsKeyName"]
+- ["11GoogleCloud10EncryptionV", "deinit"]
+- ["11GoogleCloud10EncryptionV", "encode"]
+- ["11GoogleCloud10EncryptionV", "init"]
+- ["11GoogleCloud10EncryptionV", "toEncodedDictionary"]
+- ["SQ", "=="]
+- ["SQ", "RawValue"]
+- ["SQ", ""]
+- ["SQ", "_Default_RawValue"]
+- !private ["SQ", "_findStringSwitchCase"]
+- ["SQ", "_rawHashValue"]
+- ["SQ", "debugDescription"]
+- ["SQ", "description"]
+- ["SQ", "hash"]
+- ["SQ", "hashValue"]
+- ["SQ", "init"]
+- !private ["SQ", "init"]
+- ["SQ", "intValue"]
+- ["SQ", "rawValue"]
+- ["SQ", "stringValue"]
+- ["11GoogleCloud0aB5ModelP", ""]
+- !private ["11GoogleCloud0aB5ModelP", "_findStringSwitchCase"]
+- !private ["11GoogleCloud0aB5ModelP", "acl"]
+- !private ["11GoogleCloud0aB5ModelP", "action"]
+- !private ["11GoogleCloud0aB5ModelP", "age"]
+- !private ["11GoogleCloud0aB5ModelP", "billing"]
+- !private ["11GoogleCloud0aB5ModelP", "bucket"]
+- !private ["11GoogleCloud0aB5ModelP", "condition"]
+- !private ["11GoogleCloud0aB5ModelP", "cors"]
+- !private ["11GoogleCloud0aB5ModelP", "createdBefore"]
+- !private ["11GoogleCloud0aB5ModelP", "customAttributes"]
+- ["11GoogleCloud0aB5ModelP", "decode"]
+- ["11GoogleCloud0aB5ModelP", "defaultContentType"]
+- !private ["11GoogleCloud0aB5ModelP", "defaultKmsKeyName"]
+- !private ["11GoogleCloud0aB5ModelP", "defaultObjectAcl"]
+- !private ["11GoogleCloud0aB5ModelP", "domain"]
+- !private ["11GoogleCloud0aB5ModelP", "email"]
+- !private ["11GoogleCloud0aB5ModelP", "enabled"]
+- ["11GoogleCloud0aB5ModelP", "encode"]
+- !private ["11GoogleCloud0aB5ModelP", "entity"]
+- !private ["11GoogleCloud0aB5ModelP", "entityId"]
+- !private ["11GoogleCloud0aB5ModelP", "etag"]
+- !private ["11GoogleCloud0aB5ModelP", "eventTypes"]
+- !private ["11GoogleCloud0aB5ModelP", "generation"]
+- !private ["11GoogleCloud0aB5ModelP", "id"]
+- ["11GoogleCloud0aB5ModelP", "init"]
+- !private ["11GoogleCloud0aB5ModelP", "isLive"]
+- !private ["11GoogleCloud0aB5ModelP", "kind"]
+- !private ["11GoogleCloud0aB5ModelP", "labels"]
+- !private ["11GoogleCloud0aB5ModelP", "lifecycle"]
+- !private ["11GoogleCloud0aB5ModelP", "location"]
+- !private ["11GoogleCloud0aB5ModelP", "logBucket"]
+- !private ["11GoogleCloud0aB5ModelP", "logObjectPrefix"]
+- !private ["11GoogleCloud0aB5ModelP", "logging"]
+- !private ["11GoogleCloud0aB5ModelP", "mainPageSuffix"]
+- !private ["11GoogleCloud0aB5ModelP", "matchesStorageClass"]
+- !private ["11GoogleCloud0aB5ModelP", "maxAgeSeconds"]
+- !private ["11GoogleCloud0aB5ModelP", "metageneration"]
+- !private ["11GoogleCloud0aB5ModelP", "method"]
+- !private ["11GoogleCloud0aB5ModelP", "name"]
+- !private ["11GoogleCloud0aB5ModelP", "notFoundPage"]
+- !private ["11GoogleCloud0aB5ModelP", "numNewerVersions"]
+- !private ["11GoogleCloud0aB5ModelP", "object"]
+- !private ["11GoogleCloud0aB5ModelP", "objectNamePrefix"]
+- !private ["11GoogleCloud0aB5ModelP", "origin"]
+- !private ["11GoogleCloud0aB5ModelP", "owner"]
+- !private ["11GoogleCloud0aB5ModelP", "payloadFormat"]
+- !private ["11GoogleCloud0aB5ModelP", "projectNumber"]
+- !private ["11GoogleCloud0aB5ModelP", "projectTeam"]
+- !private ["11GoogleCloud0aB5ModelP", "requesterPays"]
+- !private ["11GoogleCloud0aB5ModelP", "responseHeader"]
+- !private ["11GoogleCloud0aB5ModelP", "role"]
+- !private ["11GoogleCloud0aB5ModelP", "rule"]
+- !private ["11GoogleCloud0aB5ModelP", "selfLink"]
+- !private ["11GoogleCloud0aB5ModelP", "storageClass"]
+- !private ["11GoogleCloud0aB5ModelP", "team"]
+- !private ["11GoogleCloud0aB5ModelP", "timeCreated"]
+- ["11GoogleCloud0aB5ModelP", "toEncodedDictionary"]
+- !private ["11GoogleCloud0aB5ModelP", "topic"]
+- !private ["11GoogleCloud0aB5ModelP", "type"]
+- !private ["11GoogleCloud0aB5ModelP", "updated"]
+- !private ["11GoogleCloud0aB5ModelP", "versioning"]
+- !private ["11GoogleCloud0aB5ModelP", "website"]
+- ["11GoogleCloud0A13StorageBucketV", "Billing"]
+- ["11GoogleCloud0A13StorageBucketV", "BucketAccessControls"]
+- ["11GoogleCloud0A13StorageBucketV", "Cors"]
+- ["11GoogleCloud0A13StorageBucketV", "Date"]
+- ["11GoogleCloud0A13StorageBucketV", "Lifecycle"]
+- ["11GoogleCloud0A13StorageBucketV", "Logging"]
+- ["11GoogleCloud0A13StorageBucketV", "ObjectAccessControls"]
+- ["11GoogleCloud0A13StorageBucketV", "Owner"]
+- ["11GoogleCloud0A13StorageBucketV", "String"]
+- ["11GoogleCloud0A13StorageBucketV", "Versioning"]
+- ["11GoogleCloud0A13StorageBucketV", "Website"]
+- ["11GoogleCloud0A13StorageBucketV", "acl"]
+- ["11GoogleCloud0A13StorageBucketV", "billing"]
+- ["11GoogleCloud0A13StorageBucketV", "cors"]
+- ["11GoogleCloud0A13StorageBucketV", "decode"]
+- ["11GoogleCloud0A13StorageBucketV", "defaultContentType"]
+- ["11GoogleCloud0A13StorageBucketV", "defaultObjectAcl"]
+- ["11GoogleCloud0A13StorageBucketV", "deinit"]
+- ["11GoogleCloud0A13StorageBucketV", "encode"]
+- ["11GoogleCloud0A13StorageBucketV", "etag"]
+- ["11GoogleCloud0A13StorageBucketV", "id"]
+- ["11GoogleCloud0A13StorageBucketV", "init"]
+- ["11GoogleCloud0A13StorageBucketV", "kind"]
+- ["11GoogleCloud0A13StorageBucketV", "labels"]
+- ["11GoogleCloud0A13StorageBucketV", "lifecycle"]
+- ["11GoogleCloud0A13StorageBucketV", "location"]
+- ["11GoogleCloud0A13StorageBucketV", "logging"]
+- ["11GoogleCloud0A13StorageBucketV", "metageneration"]
+- ["11GoogleCloud0A13StorageBucketV", "name"]
+- ["11GoogleCloud0A13StorageBucketV", "owner"]
+- ["11GoogleCloud0A13StorageBucketV", "projectNumber"]
+- ["11GoogleCloud0A13StorageBucketV", "selfLink"]
+- ["11GoogleCloud0A13StorageBucketV", "storageClass"]
+- ["11GoogleCloud0A13StorageBucketV", "timeCreated"]
+- ["11GoogleCloud0A13StorageBucketV", "toEncodedDictionary"]
+- ["11GoogleCloud0A13StorageBucketV", "updated"]
+- ["11GoogleCloud0A13StorageBucketV", "versioning"]
+- ["11GoogleCloud0A13StorageBucketV", "website"]
+- ["SH", "=="]
+- ["SH", "RawValue"]
+- ["SH", ""]
+- ["SH", "_Default_RawValue"]
+- !private ["SH", "_findStringSwitchCase"]
+- ["SH", "_rawHashValue"]
+- ["SH", "debugDescription"]
+- ["SH", "description"]
+- ["SH", "hash"]
+- ["SH", "hashValue"]
+- ["SH", "init"]
+- !private ["SH", "init"]
+- ["SH", "intValue"]
+- ["SH", "rawValue"]
+- ["SH", "stringValue"]
+- !private ["s6HasherV", "combine"]
+- !private ["s22KeyedDecodingContainerV", "decodeIfPresent"]
+- !private ["s30KeyedDecodingContainerProtocolP", "decodeIfPresent"]
+- !private ["s22KeyedEncodingContainerV", "encodeIfPresent"]
+- !private ["s30KeyedEncodingContainerProtocolP", "encodeIfPresent"]
+- ["11GoogleCloud9LifecycleV", "Rule"]
+- ["11GoogleCloud9LifecycleV", "decode"]
+- ["11GoogleCloud9LifecycleV", "defaultContentType"]
+- ["11GoogleCloud9LifecycleV", "deinit"]
+- ["11GoogleCloud9LifecycleV", "encode"]
+- ["11GoogleCloud9LifecycleV", "init"]
+- ["11GoogleCloud9LifecycleV", "rule"]
+- ["11GoogleCloud9LifecycleV", "toEncodedDictionary"]
+- ["11GoogleCloud7LoggingV", "String"]
+- ["11GoogleCloud7LoggingV", "decode"]
+- ["11GoogleCloud7LoggingV", "defaultContentType"]
+- ["11GoogleCloud7LoggingV", "deinit"]
+- ["11GoogleCloud7LoggingV", "encode"]
+- ["11GoogleCloud7LoggingV", "init"]
+- ["11GoogleCloud7LoggingV", "logBucket"]
+- ["11GoogleCloud7LoggingV", "logObjectPrefix"]
+- ["11GoogleCloud7LoggingV", "toEncodedDictionary"]
+- ["11GoogleCloud20ObjectAccessControlsV", "ProjectTeam"]
+- ["11GoogleCloud20ObjectAccessControlsV", "String"]
+- ["11GoogleCloud20ObjectAccessControlsV", "bucket"]
+- ["11GoogleCloud20ObjectAccessControlsV", "decode"]
+- ["11GoogleCloud20ObjectAccessControlsV", "defaultContentType"]
+- ["11GoogleCloud20ObjectAccessControlsV", "deinit"]
+- ["11GoogleCloud20ObjectAccessControlsV", "domain"]
+- ["11GoogleCloud20ObjectAccessControlsV", "email"]
+- ["11GoogleCloud20ObjectAccessControlsV", "encode"]
+- ["11GoogleCloud20ObjectAccessControlsV", "entity"]
+- ["11GoogleCloud20ObjectAccessControlsV", "entityId"]
+- ["11GoogleCloud20ObjectAccessControlsV", "etag"]
+- ["11GoogleCloud20ObjectAccessControlsV", "generation"]
+- ["11GoogleCloud20ObjectAccessControlsV", "id"]
+- ["11GoogleCloud20ObjectAccessControlsV", "init"]
+- ["11GoogleCloud20ObjectAccessControlsV", "kind"]
+- ["11GoogleCloud20ObjectAccessControlsV", "object"]
+- ["11GoogleCloud20ObjectAccessControlsV", "projectTeam"]
+- ["11GoogleCloud20ObjectAccessControlsV", "role"]
+- ["11GoogleCloud20ObjectAccessControlsV", "selfLink"]
+- ["11GoogleCloud20ObjectAccessControlsV", "toEncodedDictionary"]
+- ["11GoogleCloud5OwnerV", "String"]
+- ["11GoogleCloud5OwnerV", "decode"]
+- ["11GoogleCloud5OwnerV", "defaultContentType"]
+- ["11GoogleCloud5OwnerV", "deinit"]
+- ["11GoogleCloud5OwnerV", "encode"]
+- ["11GoogleCloud5OwnerV", "entity"]
+- ["11GoogleCloud5OwnerV", "entityId"]
+- ["11GoogleCloud5OwnerV", "init"]
+- ["11GoogleCloud5OwnerV", "toEncodedDictionary"]
+- ["11GoogleCloud11ProjectTeamV", "String"]
+- ["11GoogleCloud11ProjectTeamV", "decode"]
+- ["11GoogleCloud11ProjectTeamV", "defaultContentType"]
+- ["11GoogleCloud11ProjectTeamV", "deinit"]
+- ["11GoogleCloud11ProjectTeamV", "encode"]
+- ["11GoogleCloud11ProjectTeamV", "init"]
+- ["11GoogleCloud11ProjectTeamV", "projectNumber"]
+- ["11GoogleCloud11ProjectTeamV", "team"]
+- ["11GoogleCloud11ProjectTeamV", "toEncodedDictionary"]
+- ["SY", "=="]
+- ["SY", "RawValue"]
+- ["SY", ""]
+- ["SY", "_Default_RawValue"]
+- !private ["SY", "_findStringSwitchCase"]
+- ["SY", "_rawHashValue"]
+- ["SY", "debugDescription"]
+- ["SY", "description"]
+- ["SY", "hash"]
+- ["SY", "hashValue"]
+- ["SY", "init"]
+- !private ["SY", "init"]
+- ["SY", "intValue"]
+- ["SY", "rawValue"]
+- ["SY", "stringValue"]
+- ["5Vapor16RequestDecodableP", ""]
+- !private ["5Vapor16RequestDecodableP", "_findStringSwitchCase"]
+- !private ["5Vapor16RequestDecodableP", "acl"]
+- !private ["5Vapor16RequestDecodableP", "action"]
+- !private ["5Vapor16RequestDecodableP", "age"]
+- !private ["5Vapor16RequestDecodableP", "billing"]
+- !private ["5Vapor16RequestDecodableP", "bucket"]
+- !private ["5Vapor16RequestDecodableP", "condition"]
+- !private ["5Vapor16RequestDecodableP", "cors"]
+- !private ["5Vapor16RequestDecodableP", "createdBefore"]
+- !private ["5Vapor16RequestDecodableP", "customAttributes"]
+- ["5Vapor16RequestDecodableP", "decode"]
+- ["5Vapor16RequestDecodableP", "defaultContentType"]
+- !private ["5Vapor16RequestDecodableP", "defaultKmsKeyName"]
+- !private ["5Vapor16RequestDecodableP", "defaultObjectAcl"]
+- !private ["5Vapor16RequestDecodableP", "domain"]
+- !private ["5Vapor16RequestDecodableP", "email"]
+- !private ["5Vapor16RequestDecodableP", "enabled"]
+- ["5Vapor16RequestDecodableP", "encode"]
+- !private ["5Vapor16RequestDecodableP", "entity"]
+- !private ["5Vapor16RequestDecodableP", "entityId"]
+- !private ["5Vapor16RequestDecodableP", "etag"]
+- !private ["5Vapor16RequestDecodableP", "eventTypes"]
+- !private ["5Vapor16RequestDecodableP", "generation"]
+- !private ["5Vapor16RequestDecodableP", "id"]
+- ["5Vapor16RequestDecodableP", "init"]
+- !private ["5Vapor16RequestDecodableP", "isLive"]
+- !private ["5Vapor16RequestDecodableP", "kind"]
+- !private ["5Vapor16RequestDecodableP", "labels"]
+- !private ["5Vapor16RequestDecodableP", "lifecycle"]
+- !private ["5Vapor16RequestDecodableP", "location"]
+- !private ["5Vapor16RequestDecodableP", "logBucket"]
+- !private ["5Vapor16RequestDecodableP", "logObjectPrefix"]
+- !private ["5Vapor16RequestDecodableP", "logging"]
+- !private ["5Vapor16RequestDecodableP", "mainPageSuffix"]
+- !private ["5Vapor16RequestDecodableP", "matchesStorageClass"]
+- !private ["5Vapor16RequestDecodableP", "maxAgeSeconds"]
+- !private ["5Vapor16RequestDecodableP", "metageneration"]
+- !private ["5Vapor16RequestDecodableP", "method"]
+- !private ["5Vapor16RequestDecodableP", "name"]
+- !private ["5Vapor16RequestDecodableP", "notFoundPage"]
+- !private ["5Vapor16RequestDecodableP", "numNewerVersions"]
+- !private ["5Vapor16RequestDecodableP", "object"]
+- !private ["5Vapor16RequestDecodableP", "objectNamePrefix"]
+- !private ["5Vapor16RequestDecodableP", "origin"]
+- !private ["5Vapor16RequestDecodableP", "owner"]
+- !private ["5Vapor16RequestDecodableP", "payloadFormat"]
+- !private ["5Vapor16RequestDecodableP", "projectNumber"]
+- !private ["5Vapor16RequestDecodableP", "projectTeam"]
+- !private ["5Vapor16RequestDecodableP", "requesterPays"]
+- !private ["5Vapor16RequestDecodableP", "responseHeader"]
+- !private ["5Vapor16RequestDecodableP", "role"]
+- !private ["5Vapor16RequestDecodableP", "rule"]
+- !private ["5Vapor16RequestDecodableP", "selfLink"]
+- !private ["5Vapor16RequestDecodableP", "storageClass"]
+- !private ["5Vapor16RequestDecodableP", "team"]
+- !private ["5Vapor16RequestDecodableP", "timeCreated"]
+- ["5Vapor16RequestDecodableP", "toEncodedDictionary"]
+- !private ["5Vapor16RequestDecodableP", "topic"]
+- !private ["5Vapor16RequestDecodableP", "type"]
+- !private ["5Vapor16RequestDecodableP", "updated"]
+- !private ["5Vapor16RequestDecodableP", "versioning"]
+- !private ["5Vapor16RequestDecodableP", "website"]
+- ["5Vapor16RequestEncodableP", ""]
+- !private ["5Vapor16RequestEncodableP", "_findStringSwitchCase"]
+- !private ["5Vapor16RequestEncodableP", "acl"]
+- !private ["5Vapor16RequestEncodableP", "action"]
+- !private ["5Vapor16RequestEncodableP", "age"]
+- !private ["5Vapor16RequestEncodableP", "billing"]
+- !private ["5Vapor16RequestEncodableP", "bucket"]
+- !private ["5Vapor16RequestEncodableP", "condition"]
+- !private ["5Vapor16RequestEncodableP", "cors"]
+- !private ["5Vapor16RequestEncodableP", "createdBefore"]
+- !private ["5Vapor16RequestEncodableP", "customAttributes"]
+- ["5Vapor16RequestEncodableP", "decode"]
+- ["5Vapor16RequestEncodableP", "defaultContentType"]
+- !private ["5Vapor16RequestEncodableP", "defaultKmsKeyName"]
+- !private ["5Vapor16RequestEncodableP", "defaultObjectAcl"]
+- !private ["5Vapor16RequestEncodableP", "domain"]
+- !private ["5Vapor16RequestEncodableP", "email"]
+- !private ["5Vapor16RequestEncodableP", "enabled"]
+- ["5Vapor16RequestEncodableP", "encode"]
+- !private ["5Vapor16RequestEncodableP", "entity"]
+- !private ["5Vapor16RequestEncodableP", "entityId"]
+- !private ["5Vapor16RequestEncodableP", "etag"]
+- !private ["5Vapor16RequestEncodableP", "eventTypes"]
+- !private ["5Vapor16RequestEncodableP", "generation"]
+- !private ["5Vapor16RequestEncodableP", "id"]
+- ["5Vapor16RequestEncodableP", "init"]
+- !private ["5Vapor16RequestEncodableP", "isLive"]
+- !private ["5Vapor16RequestEncodableP", "kind"]
+- !private ["5Vapor16RequestEncodableP", "labels"]
+- !private ["5Vapor16RequestEncodableP", "lifecycle"]
+- !private ["5Vapor16RequestEncodableP", "location"]
+- !private ["5Vapor16RequestEncodableP", "logBucket"]
+- !private ["5Vapor16RequestEncodableP", "logObjectPrefix"]
+- !private ["5Vapor16RequestEncodableP", "logging"]
+- !private ["5Vapor16RequestEncodableP", "mainPageSuffix"]
+- !private ["5Vapor16RequestEncodableP", "matchesStorageClass"]
+- !private ["5Vapor16RequestEncodableP", "maxAgeSeconds"]
+- !private ["5Vapor16RequestEncodableP", "metageneration"]
+- !private ["5Vapor16RequestEncodableP", "method"]
+- !private ["5Vapor16RequestEncodableP", "name"]
+- !private ["5Vapor16RequestEncodableP", "notFoundPage"]
+- !private ["5Vapor16RequestEncodableP", "numNewerVersions"]
+- !private ["5Vapor16RequestEncodableP", "object"]
+- !private ["5Vapor16RequestEncodableP", "objectNamePrefix"]
+- !private ["5Vapor16RequestEncodableP", "origin"]
+- !private ["5Vapor16RequestEncodableP", "owner"]
+- !private ["5Vapor16RequestEncodableP", "payloadFormat"]
+- !private ["5Vapor16RequestEncodableP", "projectNumber"]
+- !private ["5Vapor16RequestEncodableP", "projectTeam"]
+- !private ["5Vapor16RequestEncodableP", "requesterPays"]
+- !private ["5Vapor16RequestEncodableP", "responseHeader"]
+- !private ["5Vapor16RequestEncodableP", "role"]
+- !private ["5Vapor16RequestEncodableP", "rule"]
+- !private ["5Vapor16RequestEncodableP", "selfLink"]
+- !private ["5Vapor16RequestEncodableP", "storageClass"]
+- !private ["5Vapor16RequestEncodableP", "team"]
+- !private ["5Vapor16RequestEncodableP", "timeCreated"]
+- ["5Vapor16RequestEncodableP", "toEncodedDictionary"]
+- !private ["5Vapor16RequestEncodableP", "topic"]
+- !private ["5Vapor16RequestEncodableP", "type"]
+- !private ["5Vapor16RequestEncodableP", "updated"]
+- !private ["5Vapor16RequestEncodableP", "versioning"]
+- !private ["5Vapor16RequestEncodableP", "website"]
+- ["5Vapor17ResponseDecodableP", ""]
+- !private ["5Vapor17ResponseDecodableP", "_findStringSwitchCase"]
+- !private ["5Vapor17ResponseDecodableP", "acl"]
+- !private ["5Vapor17ResponseDecodableP", "action"]
+- !private ["5Vapor17ResponseDecodableP", "age"]
+- !private ["5Vapor17ResponseDecodableP", "billing"]
+- !private ["5Vapor17ResponseDecodableP", "bucket"]
+- !private ["5Vapor17ResponseDecodableP", "condition"]
+- !private ["5Vapor17ResponseDecodableP", "cors"]
+- !private ["5Vapor17ResponseDecodableP", "createdBefore"]
+- !private ["5Vapor17ResponseDecodableP", "customAttributes"]
+- ["5Vapor17ResponseDecodableP", "decode"]
+- ["5Vapor17ResponseDecodableP", "defaultContentType"]
+- !private ["5Vapor17ResponseDecodableP", "defaultKmsKeyName"]
+- !private ["5Vapor17ResponseDecodableP", "defaultObjectAcl"]
+- !private ["5Vapor17ResponseDecodableP", "domain"]
+- !private ["5Vapor17ResponseDecodableP", "email"]
+- !private ["5Vapor17ResponseDecodableP", "enabled"]
+- ["5Vapor17ResponseDecodableP", "encode"]
+- !private ["5Vapor17ResponseDecodableP", "entity"]
+- !private ["5Vapor17ResponseDecodableP", "entityId"]
+- !private ["5Vapor17ResponseDecodableP", "etag"]
+- !private ["5Vapor17ResponseDecodableP", "eventTypes"]
+- !private ["5Vapor17ResponseDecodableP", "generation"]
+- !private ["5Vapor17ResponseDecodableP", "id"]
+- ["5Vapor17ResponseDecodableP", "init"]
+- !private ["5Vapor17ResponseDecodableP", "isLive"]
+- !private ["5Vapor17ResponseDecodableP", "kind"]
+- !private ["5Vapor17ResponseDecodableP", "labels"]
+- !private ["5Vapor17ResponseDecodableP", "lifecycle"]
+- !private ["5Vapor17ResponseDecodableP", "location"]
+- !private ["5Vapor17ResponseDecodableP", "logBucket"]
+- !private ["5Vapor17ResponseDecodableP", "logObjectPrefix"]
+- !private ["5Vapor17ResponseDecodableP", "logging"]
+- !private ["5Vapor17ResponseDecodableP", "mainPageSuffix"]
+- !private ["5Vapor17ResponseDecodableP", "matchesStorageClass"]
+- !private ["5Vapor17ResponseDecodableP", "maxAgeSeconds"]
+- !private ["5Vapor17ResponseDecodableP", "metageneration"]
+- !private ["5Vapor17ResponseDecodableP", "method"]
+- !private ["5Vapor17ResponseDecodableP", "name"]
+- !private ["5Vapor17ResponseDecodableP", "notFoundPage"]
+- !private ["5Vapor17ResponseDecodableP", "numNewerVersions"]
+- !private ["5Vapor17ResponseDecodableP", "object"]
+- !private ["5Vapor17ResponseDecodableP", "objectNamePrefix"]
+- !private ["5Vapor17ResponseDecodableP", "origin"]
+- !private ["5Vapor17ResponseDecodableP", "owner"]
+- !private ["5Vapor17ResponseDecodableP", "payloadFormat"]
+- !private ["5Vapor17ResponseDecodableP", "projectNumber"]
+- !private ["5Vapor17ResponseDecodableP", "projectTeam"]
+- !private ["5Vapor17ResponseDecodableP", "requesterPays"]
+- !private ["5Vapor17ResponseDecodableP", "responseHeader"]
+- !private ["5Vapor17ResponseDecodableP", "role"]
+- !private ["5Vapor17ResponseDecodableP", "rule"]
+- !private ["5Vapor17ResponseDecodableP", "selfLink"]
+- !private ["5Vapor17ResponseDecodableP", "storageClass"]
+- !private ["5Vapor17ResponseDecodableP", "team"]
+- !private ["5Vapor17ResponseDecodableP", "timeCreated"]
+- ["5Vapor17ResponseDecodableP", "toEncodedDictionary"]
+- !private ["5Vapor17ResponseDecodableP", "topic"]
+- !private ["5Vapor17ResponseDecodableP", "type"]
+- !private ["5Vapor17ResponseDecodableP", "updated"]
+- !private ["5Vapor17ResponseDecodableP", "versioning"]
+- !private ["5Vapor17ResponseDecodableP", "website"]
+- ["5Vapor17ResponseEncodableP", ""]
+- !private ["5Vapor17ResponseEncodableP", "_findStringSwitchCase"]
+- !private ["5Vapor17ResponseEncodableP", "acl"]
+- !private ["5Vapor17ResponseEncodableP", "action"]
+- !private ["5Vapor17ResponseEncodableP", "age"]
+- !private ["5Vapor17ResponseEncodableP", "billing"]
+- !private ["5Vapor17ResponseEncodableP", "bucket"]
+- !private ["5Vapor17ResponseEncodableP", "condition"]
+- !private ["5Vapor17ResponseEncodableP", "cors"]
+- !private ["5Vapor17ResponseEncodableP", "createdBefore"]
+- !private ["5Vapor17ResponseEncodableP", "customAttributes"]
+- ["5Vapor17ResponseEncodableP", "decode"]
+- ["5Vapor17ResponseEncodableP", "defaultContentType"]
+- !private ["5Vapor17ResponseEncodableP", "defaultKmsKeyName"]
+- !private ["5Vapor17ResponseEncodableP", "defaultObjectAcl"]
+- !private ["5Vapor17ResponseEncodableP", "domain"]
+- !private ["5Vapor17ResponseEncodableP", "email"]
+- !private ["5Vapor17ResponseEncodableP", "enabled"]
+- ["5Vapor17ResponseEncodableP", "encode"]
+- !private ["5Vapor17ResponseEncodableP", "entity"]
+- !private ["5Vapor17ResponseEncodableP", "entityId"]
+- !private ["5Vapor17ResponseEncodableP", "etag"]
+- !private ["5Vapor17ResponseEncodableP", "eventTypes"]
+- !private ["5Vapor17ResponseEncodableP", "generation"]
+- !private ["5Vapor17ResponseEncodableP", "id"]
+- ["5Vapor17ResponseEncodableP", "init"]
+- !private ["5Vapor17ResponseEncodableP", "isLive"]
+- !private ["5Vapor17ResponseEncodableP", "kind"]
+- !private ["5Vapor17ResponseEncodableP", "labels"]
+- !private ["5Vapor17ResponseEncodableP", "lifecycle"]
+- !private ["5Vapor17ResponseEncodableP", "location"]
+- !private ["5Vapor17ResponseEncodableP", "logBucket"]
+- !private ["5Vapor17ResponseEncodableP", "logObjectPrefix"]
+- !private ["5Vapor17ResponseEncodableP", "logging"]
+- !private ["5Vapor17ResponseEncodableP", "mainPageSuffix"]
+- !private ["5Vapor17ResponseEncodableP", "matchesStorageClass"]
+- !private ["5Vapor17ResponseEncodableP", "maxAgeSeconds"]
+- !private ["5Vapor17ResponseEncodableP", "metageneration"]
+- !private ["5Vapor17ResponseEncodableP", "method"]
+- !private ["5Vapor17ResponseEncodableP", "name"]
+- !private ["5Vapor17ResponseEncodableP", "notFoundPage"]
+- !private ["5Vapor17ResponseEncodableP", "numNewerVersions"]
+- !private ["5Vapor17ResponseEncodableP", "object"]
+- !private ["5Vapor17ResponseEncodableP", "objectNamePrefix"]
+- !private ["5Vapor17ResponseEncodableP", "origin"]
+- !private ["5Vapor17ResponseEncodableP", "owner"]
+- !private ["5Vapor17ResponseEncodableP", "payloadFormat"]
+- !private ["5Vapor17ResponseEncodableP", "projectNumber"]
+- !private ["5Vapor17ResponseEncodableP", "projectTeam"]
+- !private ["5Vapor17ResponseEncodableP", "requesterPays"]
+- !private ["5Vapor17ResponseEncodableP", "responseHeader"]
+- !private ["5Vapor17ResponseEncodableP", "role"]
+- !private ["5Vapor17ResponseEncodableP", "rule"]
+- !private ["5Vapor17ResponseEncodableP", "selfLink"]
+- !private ["5Vapor17ResponseEncodableP", "storageClass"]
+- !private ["5Vapor17ResponseEncodableP", "team"]
+- !private ["5Vapor17ResponseEncodableP", "timeCreated"]
+- ["5Vapor17ResponseEncodableP", "toEncodedDictionary"]
+- !private ["5Vapor17ResponseEncodableP", "topic"]
+- !private ["5Vapor17ResponseEncodableP", "type"]
+- !private ["5Vapor17ResponseEncodableP", "updated"]
+- !private ["5Vapor17ResponseEncodableP", "versioning"]
+- !private ["5Vapor17ResponseEncodableP", "website"]
+- ["11GoogleCloud4RuleV", "Action"]
+- ["11GoogleCloud4RuleV", "Condition"]
+- ["11GoogleCloud4RuleV", "action"]
+- ["11GoogleCloud4RuleV", "condition"]
+- ["11GoogleCloud4RuleV", "decode"]
+- ["11GoogleCloud4RuleV", "defaultContentType"]
+- ["11GoogleCloud4RuleV", "deinit"]
+- ["11GoogleCloud4RuleV", "encode"]
+- ["11GoogleCloud4RuleV", "init"]
+- ["11GoogleCloud4RuleV", "toEncodedDictionary"]
+- ["11GoogleCloud19StorageNotificationV", "CodingKey"]
+- ["11GoogleCloud19StorageNotificationV", "CodingKeys"]
+- ["11GoogleCloud19StorageNotificationV", "String"]
+- !private ["11GoogleCloud19StorageNotificationV", "_findStringSwitchCase"]
+- ["11GoogleCloud19StorageNotificationV", "customAttributes"]
+- ["11GoogleCloud19StorageNotificationV", "decode"]
+- ["11GoogleCloud19StorageNotificationV", "defaultContentType"]
+- ["11GoogleCloud19StorageNotificationV", "deinit"]
+- ["11GoogleCloud19StorageNotificationV", "encode"]
+- ["11GoogleCloud19StorageNotificationV", "etag"]
+- ["11GoogleCloud19StorageNotificationV", "eventTypes"]
+- ["11GoogleCloud19StorageNotificationV", "id"]
+- ["11GoogleCloud19StorageNotificationV", "init"]
+- ["11GoogleCloud19StorageNotificationV", "kind"]
+- ["11GoogleCloud19StorageNotificationV", "objectNamePrefix"]
+- ["11GoogleCloud19StorageNotificationV", "payloadFormat"]
+- ["11GoogleCloud19StorageNotificationV", "selfLink"]
+- ["11GoogleCloud19StorageNotificationV", "toEncodedDictionary"]
+- ["11GoogleCloud19StorageNotificationV", "topic"]
+- ["11GoogleCloud10VersioningV", "Bool"]
+- ["11GoogleCloud10VersioningV", "decode"]
+- ["11GoogleCloud10VersioningV", "defaultContentType"]
+- ["11GoogleCloud10VersioningV", "deinit"]
+- ["11GoogleCloud10VersioningV", "enabled"]
+- ["11GoogleCloud10VersioningV", "encode"]
+- ["11GoogleCloud10VersioningV", "init"]
+- ["11GoogleCloud10VersioningV", "toEncodedDictionary"]
+- ["11GoogleCloud7WebsiteV", "String"]
+- ["11GoogleCloud7WebsiteV", "decode"]
+- ["11GoogleCloud7WebsiteV", "defaultContentType"]
+- ["11GoogleCloud7WebsiteV", "deinit"]
+- ["11GoogleCloud7WebsiteV", "encode"]
+- ["11GoogleCloud7WebsiteV", "init"]
+- ["11GoogleCloud7WebsiteV", "mainPageSuffix"]
+- ["11GoogleCloud7WebsiteV", "notFoundPage"]
+- ["11GoogleCloud7WebsiteV", "toEncodedDictionary"]
+depends-nominal:
+- "11GoogleCloud6ActionV"
+- "11GoogleCloud7BillingV"
+- "11GoogleCloud20BucketAccessControlsV"
+- "s9CodingKeyP"
+- "11GoogleCloud19StorageNotificationV10CodingKeysO"
+- "11GoogleCloud19StorageNotificationV10CodingKeysO"
+- !private "11GoogleCloud19StorageNotificationV10CodingKeysO"
+- "11GoogleCloud19StorageNotificationV10CodingKeysO"
+- "11GoogleCloud19StorageNotificationV10CodingKeysO"
+- "11GoogleCloud19StorageNotificationV10CodingKeysO"
+- "11GoogleCloud19StorageNotificationV10CodingKeysO"
+- "11GoogleCloud19StorageNotificationV10CodingKeysO"
+- "11GoogleCloud19StorageNotificationV10CodingKeysO"
+- "11GoogleCloud19StorageNotificationV10CodingKeysO"
+- "11GoogleCloud19StorageNotificationV10CodingKeysO"
+- "11GoogleCloud19StorageNotificationV10CodingKeysO"
+- "11GoogleCloud19StorageNotificationV10CodingKeysO"
+- !private "11GoogleCloud19StorageNotificationV10CodingKeysO"
+- "11GoogleCloud19StorageNotificationV10CodingKeysO"
+- "11GoogleCloud19StorageNotificationV10CodingKeysO"
+- "11GoogleCloud19StorageNotificationV10CodingKeysO"
+- "11GoogleCloud19StorageNotificationV10CodingKeysO"
+- "11GoogleCloud9ConditionV"
+- "5Vapor7ContentP"
+- "11GoogleCloud4CorsV"
+- "s28CustomDebugStringConvertibleP"
+- "s23CustomStringConvertibleP"
+- "Se"
+- !private "s7DecoderP"
+- "11GoogleCloud13EmptyResponseV"
+- "SE"
+- !private "s7EncoderP"
+- "11GoogleCloud10EncryptionV"
+- "SQ"
+- "11GoogleCloud0aB5ModelP"
+- "11GoogleCloud0A13StorageBucketV"
+- "SH"
+- !private "s6HasherV"
+- !private "s22KeyedDecodingContainerV"
+- !private "s30KeyedDecodingContainerProtocolP"
+- !private "s22KeyedEncodingContainerV"
+- !private "s30KeyedEncodingContainerProtocolP"
+- "11GoogleCloud9LifecycleV"
+- "11GoogleCloud7LoggingV"
+- "11GoogleCloud20ObjectAccessControlsV"
+- "11GoogleCloud5OwnerV"
+- "11GoogleCloud11ProjectTeamV"
+- "SY"
+- "5Vapor16RequestDecodableP"
+- "5Vapor16RequestEncodableP"
+- "5Vapor17ResponseDecodableP"
+- "5Vapor17ResponseEncodableP"
+- "11GoogleCloud4RuleV"
+- "11GoogleCloud19StorageNotificationV"
+- "11GoogleCloud10VersioningV"
+- "11GoogleCloud7WebsiteV"
+depends-dynamic-lookup:
+depends-external:
+- "/Users/Jorge/Desktop/Projects/Web/Swift/kisiBootcamp/.build/x86_64-apple-macosx/debug/NIOHTTP1.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/ObjectiveC.swiftmodule"
+- "/Users/Jorge/Desktop/Projects/Web/Swift/kisiBootcamp/.build/x86_64-apple-macosx/debug/NIOOpenSSL.swiftmodule"
+- "/Users/Jorge/Desktop/Projects/Web/Swift/kisiBootcamp/.build/x86_64-apple-macosx/debug/NIO.swiftmodule"
+- "/Users/Jorge/Desktop/Projects/Web/Swift/kisiBootcamp/.build/x86_64-apple-macosx/debug/HTTP.swiftmodule"
+- "/Users/Jorge/Desktop/Projects/Web/Swift/kisiBootcamp/.build/x86_64-apple-macosx/debug/NIOTLS.swiftmodule"
+- "/Users/Jorge/Desktop/Projects/Web/Swift/kisiBootcamp/.build/x86_64-apple-macosx/debug/JWT.swiftmodule"
+- "/Users/Jorge/Desktop/Projects/Web/Swift/kisiBootcamp/.build/x86_64-apple-macosx/debug/Async.swiftmodule"
+- "/Users/Jorge/Desktop/Projects/Web/Swift/kisiBootcamp/.build/x86_64-apple-macosx/debug/Command.swiftmodule"
+- "/Users/Jorge/Desktop/Projects/Web/Swift/kisiBootcamp/.build/x86_64-apple-macosx/debug/Service.swiftmodule"
+- "/Users/Jorge/Desktop/Projects/Web/Swift/kisiBootcamp/.build/x86_64-apple-macosx/debug/Console.swiftmodule"
+- "/Users/Jorge/Desktop/Projects/Web/Swift/kisiBootcamp/.build/x86_64-apple-macosx/debug/Core.swiftmodule"
+- "/Users/Jorge/Desktop/Projects/Web/Swift/kisiBootcamp/.build/x86_64-apple-macosx/debug/Logging.swiftmodule"
+- "/Users/Jorge/Desktop/Projects/Web/Swift/kisiBootcamp/.build/x86_64-apple-macosx/debug/Debugging.swiftmodule"
+- "/Users/Jorge/Desktop/Projects/Web/Swift/kisiBootcamp/.build/x86_64-apple-macosx/debug/Routing.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/Dispatch.swiftmodule"
+- "/Users/Jorge/Desktop/Projects/Web/Swift/kisiBootcamp/.build/x86_64-apple-macosx/debug/COperatingSystem.swiftmodule"
+- "/Users/Jorge/Desktop/Projects/Web/Swift/kisiBootcamp/.build/x86_64-apple-macosx/debug/Random.swiftmodule"
+- "/Users/Jorge/Desktop/Projects/Web/Swift/kisiBootcamp/.build/x86_64-apple-macosx/debug/URLEncodedForm.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/Darwin.swiftmodule"
+- "/Users/Jorge/Desktop/Projects/Web/Swift/kisiBootcamp/.build/x86_64-apple-macosx/debug/Validation.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/Foundation.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/CoreFoundation.swiftmodule"
+- "/Users/Jorge/Desktop/Projects/Web/Swift/kisiBootcamp/.build/x86_64-apple-macosx/debug/Crypto.swiftmodule"
+- "/Users/Jorge/Desktop/Projects/Web/Swift/kisiBootcamp/.build/x86_64-apple-macosx/debug/Vapor.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/CoreGraphics.swiftmodule"
+- "/Users/Jorge/Desktop/Projects/Web/Swift/kisiBootcamp/.build/x86_64-apple-macosx/debug/NIOConcurrencyHelpers.swiftmodule"
+- "/Users/Jorge/Desktop/Projects/Web/Swift/kisiBootcamp/.build/x86_64-apple-macosx/debug/Bits.swiftmodule"
+- "/Users/Jorge/Desktop/Projects/Web/Swift/kisiBootcamp/.build/x86_64-apple-macosx/debug/NIOFoundationCompat.swiftmodule"
+- "/Users/Jorge/Desktop/Projects/Web/Swift/kisiBootcamp/.build/x86_64-apple-macosx/debug/WebSocket.swiftmodule"
+- "/Users/Jorge/Desktop/Projects/Web/Swift/kisiBootcamp/.build/x86_64-apple-macosx/debug/NIOWebSocket.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/Swift.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/IOKit.swiftmodule"
+- "/Users/Jorge/Desktop/Projects/Web/Swift/kisiBootcamp/.build/x86_64-apple-macosx/debug/DatabaseKit.swiftmodule"
+- "/Users/Jorge/Desktop/Projects/Web/Swift/kisiBootcamp/.build/x86_64-apple-macosx/debug/TemplateKit.swiftmodule"
+- "/Users/Jorge/Desktop/Projects/Web/Swift/kisiBootcamp/.build/x86_64-apple-macosx/debug/Multipart.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/SwiftOnoneSupport.swiftmodule"
+- "/Users/Jorge/Desktop/Projects/Web/Swift/kisiBootcamp/.build/checkouts/swift-nio/Sources/CNIOSHA1/include/CNIOSHA1.h"
+- "/usr/local/Cellar/libressl/2.9.2/include/openssl/asn1.h"
+- "/usr/local/Cellar/libressl/2.9.2/include/openssl/tls1.h"
+- "/usr/local/Cellar/libressl/2.9.2/include/openssl/dtls1.h"
+- "/usr/local/Cellar/libressl/2.9.2/include/openssl/pkcs12.h"
+- "/usr/local/Cellar/libressl/2.9.2/include/openssl/ssl2.h"
+- "/usr/local/Cellar/libressl/2.9.2/include/openssl/pem2.h"
+- "/usr/local/Cellar/libressl/2.9.2/include/openssl/ssl23.h"
+- "/usr/local/Cellar/libressl/2.9.2/include/openssl/ssl3.h"
+- "/usr/local/Cellar/libressl/2.9.2/include/openssl/x509v3.h"
+- "/usr/local/Cellar/libressl/2.9.2/include/openssl/md5.h"
+- "/usr/local/Cellar/libressl/2.9.2/include/openssl/pkcs7.h"
+- "/usr/local/Cellar/libressl/2.9.2/include/openssl/x509.h"
+- "/usr/local/Cellar/libressl/2.9.2/include/openssl/sha.h"
+- "/usr/local/Cellar/libressl/2.9.2/include/openssl/dsa.h"
+- "/usr/local/Cellar/libressl/2.9.2/include/openssl/ecdsa.h"
+- "/usr/local/Cellar/libressl/2.9.2/include/openssl/rsa.h"
+- "/Users/Jorge/Desktop/Projects/Web/Swift/kisiBootcamp/.build/checkouts/swift-nio/Sources/CNIOZlib/include/CNIOZlib.h"
+- "/usr/local/Cellar/libressl/2.9.2/include/openssl/obj_mac.h"
+- "/usr/local/Cellar/libressl/2.9.2/include/openssl/hmac.h"
+- "/usr/local/Cellar/libressl/2.9.2/include/openssl/ec.h"
+- "/Users/Jorge/Desktop/Projects/Web/Swift/kisiBootcamp/.build/checkouts/swift-nio/Sources/CNIOAtomics/include/cpp_magic.h"
+- "/Users/Jorge/Desktop/Projects/Web/Swift/kisiBootcamp/.build/checkouts/swift-nio/Sources/CNIOLinux/include/ifaddrs-android.h"
+- "/usr/local/Cellar/libressl/2.9.2/include/openssl/rand.h"
+- "/usr/local/Cellar/libressl/2.9.2/include/openssl/conf.h"
+- "/usr/local/Cellar/libressl/2.9.2/include/openssl/opensslconf.h"
+- "/usr/local/Cellar/libressl/2.9.2/include/openssl/dh.h"
+- "/usr/local/Cellar/libressl/2.9.2/include/openssl/ecdh.h"
+- "/usr/local/Cellar/libressl/2.9.2/include/openssl/lhash.h"
+- "/usr/local/Cellar/libressl/2.9.2/include/openssl/stack.h"
+- "/usr/local/Cellar/libressl/2.9.2/include/openssl/safestack.h"
+- "/usr/local/Cellar/libressl/2.9.2/include/openssl/ssl.h"
+- "/Users/Jorge/Desktop/Projects/Web/Swift/kisiBootcamp/.build/checkouts/swift-nio-ssl/Sources/CNIOOpenSSL/include/c_nio_openssl.h"
+- "/Users/Jorge/Desktop/Projects/Web/Swift/kisiBootcamp/.build/checkouts/crypto/Sources/CCryptoOpenSSL/include/c_crypto_openssl.h"
+- "/usr/local/Cellar/libressl/2.9.2/include/openssl/pem.h"
+- "/usr/local/Cellar/libressl/2.9.2/include/openssl/bn.h"
+- "/Users/Jorge/Desktop/Projects/Web/Swift/kisiBootcamp/.build/checkouts/swift-nio/Sources/CNIODarwin/include/CNIODarwin.h"
+- "/usr/local/Cellar/libressl/2.9.2/include/openssl/bio.h"
+- "/usr/local/Cellar/libressl/2.9.2/include/openssl/crypto.h"
+- "/usr/local/Cellar/libressl/2.9.2/include/openssl/srtp.h"
+- "/usr/local/Cellar/libressl/2.9.2/include/openssl/evp.h"
+- "/usr/local/Cellar/libressl/2.9.2/include/openssl/ossl_typ.h"
+- "/usr/local/Cellar/libressl/2.9.2/include/openssl/buffer.h"
+- "/Users/Jorge/Desktop/Projects/Web/Swift/kisiBootcamp/.build/checkouts/swift-nio/Sources/CNIOHTTPParser/include/CNIOHTTPParser.h"
+- "/Users/Jorge/Desktop/Projects/Web/Swift/kisiBootcamp/.build/checkouts/swift-nio/Sources/CNIOHTTPParser/include/c_nio_http_parser.h"
+- "/usr/local/Cellar/libressl/2.9.2/include/openssl/err.h"
+- "/Users/Jorge/Desktop/Projects/Web/Swift/kisiBootcamp/.build/checkouts/swift-nio/Sources/CNIOAtomics/include/CNIOAtomics.h"
+- "/usr/local/Cellar/libressl/2.9.2/include/openssl/opensslfeatures.h"
+- "/usr/local/Cellar/libressl/2.9.2/include/openssl/objects.h"
+- "/usr/local/Cellar/libressl/2.9.2/include/openssl/opensslv.h"
+- "/Users/Jorge/Desktop/Projects/Web/Swift/kisiBootcamp/.build/checkouts/swift-nio/Sources/CNIOLinux/include/CNIOLinux.h"
+- "/usr/local/Cellar/libressl/2.9.2/include/openssl/x509_vfy.h"
+- "/Users/Jorge/Desktop/Projects/Web/Swift/kisiBootcamp/.build/x86_64-apple-macosx/debug/CNIOSHA1.build/module.modulemap"
+- "/Users/Jorge/Desktop/Projects/Web/Swift/kisiBootcamp/.build/x86_64-apple-macosx/debug/CNIOOpenSSL.build/module.modulemap"
+- "/Users/Jorge/Desktop/Projects/Web/Swift/kisiBootcamp/.build/x86_64-apple-macosx/debug/CCryptoOpenSSL.build/module.modulemap"
+- "/Users/Jorge/Desktop/Projects/Web/Swift/kisiBootcamp/.build/x86_64-apple-macosx/debug/CNIOZlib.build/module.modulemap"
+- "/Users/Jorge/Desktop/Projects/Web/Swift/kisiBootcamp/.build/x86_64-apple-macosx/debug/CNIODarwin.build/module.modulemap"
+- "/Users/Jorge/Desktop/Projects/Web/Swift/kisiBootcamp/.build/x86_64-apple-macosx/debug/CNIOHTTPParser.build/module.modulemap"
+- "/Users/Jorge/Desktop/Projects/Web/Swift/kisiBootcamp/.build/x86_64-apple-macosx/debug/CNIOAtomics.build/module.modulemap"
+- "/Users/Jorge/Desktop/Projects/Web/Swift/kisiBootcamp/.build/x86_64-apple-macosx/debug/CNIOLinux.build/module.modulemap"
+- "/Users/Jorge/Desktop/Projects/Web/Swift/kisiBootcamp/.build/checkouts/crypto/Sources/CBase32/include/module.modulemap"
+- "/Users/Jorge/Desktop/Projects/Web/Swift/kisiBootcamp/.build/checkouts/crypto/Sources/CBcrypt/include/module.modulemap"
+- "/Users/Jorge/Desktop/Projects/Web/Swift/kisiBootcamp/.build/checkouts/swift-nio-zlib-support/module.modulemap"
+- "/Users/Jorge/Desktop/Projects/Web/Swift/kisiBootcamp/.build/checkouts/swift-nio-ssl-support/module.modulemap"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.14.sdk/usr/include/objc/ObjectiveC.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/Dispatch.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.14.sdk/usr/include/Darwin.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.14.sdk/System/Library/Frameworks/Foundation.framework/Headers/Foundation.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.14.sdk/System/Library/Frameworks/CoreGraphics.framework/Headers/CoreGraphics.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.14.sdk/System/Library/Frameworks/ApplicationServices.framework/Headers/ApplicationServices.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.14.sdk/System/Library/Frameworks/CoreText.framework/Headers/CoreText.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.14.sdk/System/Library/Frameworks/Security.framework/Headers/Security.apinotes"
+interface-hash: "481436e4f0114ff58be80a1021a83674"

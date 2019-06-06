@@ -1,0 +1,71 @@
+{
+  "": {
+    "swift-dependencies": "/Users/Jorge/Desktop/Projects/Web/Swift/kisiBootcamp/.build/x86_64-apple-macosx/debug/JWT.build/master.swiftdeps"
+  },
+  "/Users/Jorge/Desktop/Projects/Web/Swift/kisiBootcamp/.build/checkouts/jwt/Sources/JWT/Deprecated.swift": {
+    "dependencies": "/Users/Jorge/Desktop/Projects/Web/Swift/kisiBootcamp/.build/x86_64-apple-macosx/debug/JWT.build/Deprecated.d",
+    "object": "/Users/Jorge/Desktop/Projects/Web/Swift/kisiBootcamp/.build/x86_64-apple-macosx/debug/JWT.build/Deprecated.swift.o",
+    "swiftmodule": "/Users/Jorge/Desktop/Projects/Web/Swift/kisiBootcamp/.build/x86_64-apple-macosx/debug/JWT.build/Deprecated~partial.swiftmodule",
+    "swift-dependencies": "/Users/Jorge/Desktop/Projects/Web/Swift/kisiBootcamp/.build/x86_64-apple-macosx/debug/JWT.build/Deprecated.swiftdeps"
+  },
+  "/Users/Jorge/Desktop/Projects/Web/Swift/kisiBootcamp/.build/checkouts/jwt/Sources/JWT/Exports.swift": {
+    "dependencies": "/Users/Jorge/Desktop/Projects/Web/Swift/kisiBootcamp/.build/x86_64-apple-macosx/debug/JWT.build/Exports.d",
+    "object": "/Users/Jorge/Desktop/Projects/Web/Swift/kisiBootcamp/.build/x86_64-apple-macosx/debug/JWT.build/Exports.swift.o",
+    "swiftmodule": "/Users/Jorge/Desktop/Projects/Web/Swift/kisiBootcamp/.build/x86_64-apple-macosx/debug/JWT.build/Exports~partial.swiftmodule",
+    "swift-dependencies": "/Users/Jorge/Desktop/Projects/Web/Swift/kisiBootcamp/.build/x86_64-apple-macosx/debug/JWT.build/Exports.swiftdeps"
+  },
+  "/Users/Jorge/Desktop/Projects/Web/Swift/kisiBootcamp/.build/checkouts/jwt/Sources/JWT/JWT.swift": {
+    "dependencies": "/Users/Jorge/Desktop/Projects/Web/Swift/kisiBootcamp/.build/x86_64-apple-macosx/debug/JWT.build/JWT.d",
+    "object": "/Users/Jorge/Desktop/Projects/Web/Swift/kisiBootcamp/.build/x86_64-apple-macosx/debug/JWT.build/JWT.swift.o",
+    "swiftmodule": "/Users/Jorge/Desktop/Projects/Web/Swift/kisiBootcamp/.build/x86_64-apple-macosx/debug/JWT.build/JWT~partial.swiftmodule",
+    "swift-dependencies": "/Users/Jorge/Desktop/Projects/Web/Swift/kisiBootcamp/.build/x86_64-apple-macosx/debug/JWT.build/JWT.swiftdeps"
+  },
+  "/Users/Jorge/Desktop/Projects/Web/Swift/kisiBootcamp/.build/checkouts/jwt/Sources/JWT/JWTAlgorithm.swift": {
+    "dependencies": "/Users/Jorge/Desktop/Projects/Web/Swift/kisiBootcamp/.build/x86_64-apple-macosx/debug/JWT.build/JWTAlgorithm.d",
+    "object": "/Users/Jorge/Desktop/Projects/Web/Swift/kisiBootcamp/.build/x86_64-apple-macosx/debug/JWT.build/JWTAlgorithm.swift.o",
+    "swiftmodule": "/Users/Jorge/Desktop/Projects/Web/Swift/kisiBootcamp/.build/x86_64-apple-macosx/debug/JWT.build/JWTAlgorithm~partial.swiftmodule",
+    "swift-dependencies": "/Users/Jorge/Desktop/Projects/Web/Swift/kisiBootcamp/.build/x86_64-apple-macosx/debug/JWT.build/JWTAlgorithm.swiftdeps"
+  },
+  "/Users/Jorge/Desktop/Projects/Web/Swift/kisiBootcamp/.build/checkouts/jwt/Sources/JWT/JWTClaim.swift": {
+    "dependencies": "/Users/Jorge/Desktop/Projects/Web/Swift/kisiBootcamp/.build/x86_64-apple-macosx/debug/JWT.build/JWTClaim.d",
+    "object": "/Users/Jorge/Desktop/Projects/Web/Swift/kisiBootcamp/.build/x86_64-apple-macosx/debug/JWT.build/JWTClaim.swift.o",
+    "swiftmodule": "/Users/Jorge/Desktop/Projects/Web/Swift/kisiBootcamp/.build/x86_64-apple-macosx/debug/JWT.build/JWTClaim~partial.swiftmodule",
+    "swift-dependencies": "/Users/Jorge/Desktop/Projects/Web/Swift/kisiBootcamp/.build/x86_64-apple-macosx/debug/JWT.build/JWTClaim.swiftdeps"
+  },
+  "/Users/Jorge/Desktop/Projects/Web/Swift/kisiBootcamp/.build/checkouts/jwt/Sources/JWT/JWTClaims.swift": {
+    "dependencies": "/Users/Jorge/Desktop/Projects/Web/Swift/kisiBootcamp/.build/x86_64-apple-macosx/debug/JWT.build/JWTClaims.d",
+    "object": "/Users/Jorge/Desktop/Projects/Web/Swift/kisiBootcamp/.build/x86_64-apple-macosx/debug/JWT.build/JWTClaims.swift.o",
+    "swiftmodule": "/Users/Jorge/Desktop/Projects/Web/Swift/kisiBootcamp/.build/x86_64-apple-macosx/debug/JWT.build/JWTClaims~partial.swiftmodule",
+    "swift-dependencies": "/Users/Jorge/Desktop/Projects/Web/Swift/kisiBootcamp/.build/x86_64-apple-macosx/debug/JWT.build/JWTClaims.swiftdeps"
+  },
+  "/Users/Jorge/Desktop/Projects/Web/Swift/kisiBootcamp/.build/checkouts/jwt/Sources/JWT/JWTError.swift": {
+    "dependencies": "/Users/Jorge/Desktop/Projects/Web/Swift/kisiBootcamp/.build/x86_64-apple-macosx/debug/JWT.build/JWTError.d",
+    "object": "/Users/Jorge/Desktop/Projects/Web/Swift/kisiBootcamp/.build/x86_64-apple-macosx/debug/JWT.build/JWTError.swift.o",
+    "swiftmodule": "/Users/Jorge/Desktop/Projects/Web/Swift/kisiBootcamp/.build/x86_64-apple-macosx/debug/JWT.build/JWTError~partial.swiftmodule",
+    "swift-dependencies": "/Users/Jorge/Desktop/Projects/Web/Swift/kisiBootcamp/.build/x86_64-apple-macosx/debug/JWT.build/JWTError.swiftdeps"
+  },
+  "/Users/Jorge/Desktop/Projects/Web/Swift/kisiBootcamp/.build/checkouts/jwt/Sources/JWT/JWTHeader.swift": {
+    "dependencies": "/Users/Jorge/Desktop/Projects/Web/Swift/kisiBootcamp/.build/x86_64-apple-macosx/debug/JWT.build/JWTHeader.d",
+    "object": "/Users/Jorge/Desktop/Projects/Web/Swift/kisiBootcamp/.build/x86_64-apple-macosx/debug/JWT.build/JWTHeader.swift.o",
+    "swiftmodule": "/Users/Jorge/Desktop/Projects/Web/Swift/kisiBootcamp/.build/x86_64-apple-macosx/debug/JWT.build/JWTHeader~partial.swiftmodule",
+    "swift-dependencies": "/Users/Jorge/Desktop/Projects/Web/Swift/kisiBootcamp/.build/x86_64-apple-macosx/debug/JWT.build/JWTHeader.swiftdeps"
+  },
+  "/Users/Jorge/Desktop/Projects/Web/Swift/kisiBootcamp/.build/checkouts/jwt/Sources/JWT/JWTPayload.swift": {
+    "dependencies": "/Users/Jorge/Desktop/Projects/Web/Swift/kisiBootcamp/.build/x86_64-apple-macosx/debug/JWT.build/JWTPayload.d",
+    "object": "/Users/Jorge/Desktop/Projects/Web/Swift/kisiBootcamp/.build/x86_64-apple-macosx/debug/JWT.build/JWTPayload.swift.o",
+    "swiftmodule": "/Users/Jorge/Desktop/Projects/Web/Swift/kisiBootcamp/.build/x86_64-apple-macosx/debug/JWT.build/JWTPayload~partial.swiftmodule",
+    "swift-dependencies": "/Users/Jorge/Desktop/Projects/Web/Swift/kisiBootcamp/.build/x86_64-apple-macosx/debug/JWT.build/JWTPayload.swiftdeps"
+  },
+  "/Users/Jorge/Desktop/Projects/Web/Swift/kisiBootcamp/.build/checkouts/jwt/Sources/JWT/JWTSigner.swift": {
+    "dependencies": "/Users/Jorge/Desktop/Projects/Web/Swift/kisiBootcamp/.build/x86_64-apple-macosx/debug/JWT.build/JWTSigner.d",
+    "object": "/Users/Jorge/Desktop/Projects/Web/Swift/kisiBootcamp/.build/x86_64-apple-macosx/debug/JWT.build/JWTSigner.swift.o",
+    "swiftmodule": "/Users/Jorge/Desktop/Projects/Web/Swift/kisiBootcamp/.build/x86_64-apple-macosx/debug/JWT.build/JWTSigner~partial.swiftmodule",
+    "swift-dependencies": "/Users/Jorge/Desktop/Projects/Web/Swift/kisiBootcamp/.build/x86_64-apple-macosx/debug/JWT.build/JWTSigner.swiftdeps"
+  },
+  "/Users/Jorge/Desktop/Projects/Web/Swift/kisiBootcamp/.build/checkouts/jwt/Sources/JWT/JWTSigners.swift": {
+    "dependencies": "/Users/Jorge/Desktop/Projects/Web/Swift/kisiBootcamp/.build/x86_64-apple-macosx/debug/JWT.build/JWTSigners.d",
+    "object": "/Users/Jorge/Desktop/Projects/Web/Swift/kisiBootcamp/.build/x86_64-apple-macosx/debug/JWT.build/JWTSigners.swift.o",
+    "swiftmodule": "/Users/Jorge/Desktop/Projects/Web/Swift/kisiBootcamp/.build/x86_64-apple-macosx/debug/JWT.build/JWTSigners~partial.swiftmodule",
+    "swift-dependencies": "/Users/Jorge/Desktop/Projects/Web/Swift/kisiBootcamp/.build/x86_64-apple-macosx/debug/JWT.build/JWTSigners.swiftdeps"
+  }
+}

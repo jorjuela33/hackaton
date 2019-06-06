@@ -1,0 +1,15 @@
+version: "Apple Swift version 5.0.1 (swiftlang-1001.0.82.4 clang-1001.0.46.5)"
+options: "c5556891d5155cac8ef1dad6a6586473"
+build_time: [1559838039, 62014000]
+inputs:
+  "/Users/Jorge/Desktop/Projects/Web/Swift/kisiBootcamp/.build/checkouts/jwt/Sources/JWT/Deprecated.swift": [1559836393, 254208942]
+  "/Users/Jorge/Desktop/Projects/Web/Swift/kisiBootcamp/.build/checkouts/jwt/Sources/JWT/Exports.swift": [1559836393, 254414062]
+  "/Users/Jorge/Desktop/Projects/Web/Swift/kisiBootcamp/.build/checkouts/jwt/Sources/JWT/JWT.swift": [1559836393, 254673496]
+  "/Users/Jorge/Desktop/Projects/Web/Swift/kisiBootcamp/.build/checkouts/jwt/Sources/JWT/JWTAlgorithm.swift": [1559836393, 254980759]
+  "/Users/Jorge/Desktop/Projects/Web/Swift/kisiBootcamp/.build/checkouts/jwt/Sources/JWT/JWTClaim.swift": [1559836393, 255261511]
+  "/Users/Jorge/Desktop/Projects/Web/Swift/kisiBootcamp/.build/checkouts/jwt/Sources/JWT/JWTClaims.swift": [1559836393, 255457105]
+  "/Users/Jorge/Desktop/Projects/Web/Swift/kisiBootcamp/.build/checkouts/jwt/Sources/JWT/JWTError.swift": [1559836393, 255618896]
+  "/Users/Jorge/Desktop/Projects/Web/Swift/kisiBootcamp/.build/checkouts/jwt/Sources/JWT/JWTHeader.swift": [1559836393, 255808489]
+  "/Users/Jorge/Desktop/Projects/Web/Swift/kisiBootcamp/.build/checkouts/jwt/Sources/JWT/JWTPayload.swift": [1559836393, 255974470]
+  "/Users/Jorge/Desktop/Projects/Web/Swift/kisiBootcamp/.build/checkouts/jwt/Sources/JWT/JWTSigner.swift": [1559836393, 279152262]
+  "/Users/Jorge/Desktop/Projects/Web/Swift/kisiBootcamp/.build/checkouts/jwt/Sources/JWT/JWTSigners.swift": [1559836393, 256412020]

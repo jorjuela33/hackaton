@@ -1,0 +1,256 @@
+### Swift dependencies file v0 ###
+provides-top-level:
+- "JWTAlgorithm"
+- "CustomJWTAlgorithm"
+provides-nominal:
+- "3JWT12JWTAlgorithmP"
+- "3JWT18CustomJWTAlgorithmV"
+provides-member:
+- ["3JWT12JWTAlgorithmP", ""]
+- ["3JWT18CustomJWTAlgorithmV", ""]
+- ["3JWT12JWTAlgorithmP", "verify"]
+provides-dynamic-lookup:
+depends-top-level:
+- !private "!="
+- !private "..<"
+- !private "=="
+- "AssignmentPrecedence"
+- "Bool"
+- !private "BooleanLiteralType"
+- "CustomJWTAlgorithm"
+- "Data"
+- "JWTAlgorithm"
+- "LosslessDataConvertible"
+- "String"
+- !private "min"
+depends-member:
+- !private ["4Core22AnyReflectionDecodableP", "count"]
+- !private ["4Core22AnyReflectionDecodableP", "index"]
+- !private ["4Core22AnyReflectionDecodableP", "startIndex"]
+- !private ["4Core22AnyReflectionDecodableP", "subscript"]
+- !private ["SK", "count"]
+- !private ["SK", "index"]
+- !private ["SK", "startIndex"]
+- !private ["SK", "subscript"]
+- !private ["Sl", "count"]
+- !private ["Sl", "index"]
+- !private ["Sl", "startIndex"]
+- !private ["Sl", "subscript"]
+- !private ["10Foundation15ContiguousBytesP", "count"]
+- !private ["10Foundation15ContiguousBytesP", "index"]
+- !private ["10Foundation15ContiguousBytesP", "startIndex"]
+- !private ["10Foundation15ContiguousBytesP", "subscript"]
+- !private ["3NIO20ContiguousCollectionP", "count"]
+- !private ["3NIO20ContiguousCollectionP", "index"]
+- !private ["3NIO20ContiguousCollectionP", "startIndex"]
+- !private ["3NIO20ContiguousCollectionP", "subscript"]
+- !private ["s28CustomDebugStringConvertibleP", "count"]
+- !private ["s28CustomDebugStringConvertibleP", "index"]
+- !private ["s28CustomDebugStringConvertibleP", "startIndex"]
+- !private ["s28CustomDebugStringConvertibleP", "subscript"]
+- ["3JWT18CustomJWTAlgorithmV", "Bool"]
+- ["3JWT18CustomJWTAlgorithmV", "Data"]
+- ["3JWT18CustomJWTAlgorithmV", "LosslessDataConvertible"]
+- ["3JWT18CustomJWTAlgorithmV", "String"]
+- ["3JWT18CustomJWTAlgorithmV", "deinit"]
+- ["3JWT18CustomJWTAlgorithmV", "init"]
+- ["3JWT18CustomJWTAlgorithmV", "jwtAlgorithmName"]
+- ["3JWT18CustomJWTAlgorithmV", "sign"]
+- !private ["3JWT18CustomJWTAlgorithmV", "signClosure"]
+- ["3JWT18CustomJWTAlgorithmV", "verify"]
+- !private ["3JWT18CustomJWTAlgorithmV", "verifyClosure"]
+- !private ["s17CustomReflectableP", "count"]
+- !private ["s17CustomReflectableP", "index"]
+- !private ["s17CustomReflectableP", "startIndex"]
+- !private ["s17CustomReflectableP", "subscript"]
+- !private ["s23CustomStringConvertibleP", "count"]
+- !private ["s23CustomStringConvertibleP", "index"]
+- !private ["s23CustomStringConvertibleP", "startIndex"]
+- !private ["s23CustomStringConvertibleP", "subscript"]
+- !private ["10Foundation4DataV", "count"]
+- !private ["10Foundation4DataV", "index"]
+- !private ["10Foundation4DataV", "startIndex"]
+- !private ["10Foundation4DataV", "subscript"]
+- !private ["10Foundation12DataProtocolP", "count"]
+- !private ["10Foundation12DataProtocolP", "index"]
+- !private ["10Foundation12DataProtocolP", "startIndex"]
+- !private ["10Foundation12DataProtocolP", "subscript"]
+- !private ["Se", "count"]
+- !private ["Se", "index"]
+- !private ["Se", "startIndex"]
+- !private ["Se", "subscript"]
+- !private ["SE", "count"]
+- !private ["SE", "index"]
+- !private ["SE", "startIndex"]
+- !private ["SE", "subscript"]
+- !private ["SQ", "count"]
+- !private ["SQ", "index"]
+- !private ["SQ", "startIndex"]
+- !private ["SQ", "subscript"]
+- !private ["SH", "count"]
+- !private ["SH", "index"]
+- !private ["SH", "startIndex"]
+- !private ["SH", "subscript"]
+- ["3JWT12JWTAlgorithmP", "Bool"]
+- ["3JWT12JWTAlgorithmP", "Data"]
+- ["3JWT12JWTAlgorithmP", "LosslessDataConvertible"]
+- ["3JWT12JWTAlgorithmP", "String"]
+- ["3JWT12JWTAlgorithmP", ""]
+- ["3JWT12JWTAlgorithmP", "jwtAlgorithmName"]
+- !private ["3JWT12JWTAlgorithmP", "min"]
+- ["3JWT12JWTAlgorithmP", "sign"]
+- !private ["3JWT12JWTAlgorithmP", "signClosure"]
+- ["3JWT12JWTAlgorithmP", "verify"]
+- !private ["3JWT12JWTAlgorithmP", "verifyClosure"]
+- !private ["4Core23LosslessDataConvertibleP", "convertToData"]
+- !private ["4Core23LosslessDataConvertibleP", "count"]
+- !private ["4Core23LosslessDataConvertibleP", "index"]
+- !private ["4Core23LosslessDataConvertibleP", "startIndex"]
+- !private ["4Core23LosslessDataConvertibleP", "subscript"]
+- !private ["SM", "count"]
+- !private ["SM", "index"]
+- !private ["SM", "startIndex"]
+- !private ["SM", "subscript"]
+- !private ["10Foundation19MutableDataProtocolP", "count"]
+- !private ["10Foundation19MutableDataProtocolP", "index"]
+- !private ["10Foundation19MutableDataProtocolP", "startIndex"]
+- !private ["10Foundation19MutableDataProtocolP", "subscript"]
+- !private ["Sk", "count"]
+- !private ["Sk", "index"]
+- !private ["Sk", "startIndex"]
+- !private ["Sk", "subscript"]
+- !private ["Sm", "count"]
+- !private ["Sm", "index"]
+- !private ["Sm", "startIndex"]
+- !private ["Sm", "subscript"]
+- !private ["10Foundation20ReferenceConvertibleP", "count"]
+- !private ["10Foundation20ReferenceConvertibleP", "index"]
+- !private ["10Foundation20ReferenceConvertibleP", "startIndex"]
+- !private ["10Foundation20ReferenceConvertibleP", "subscript"]
+- !private ["4Core19ReflectionDecodableP", "count"]
+- !private ["4Core19ReflectionDecodableP", "index"]
+- !private ["4Core19ReflectionDecodableP", "startIndex"]
+- !private ["4Core19ReflectionDecodableP", "subscript"]
+- !private ["ST", "count"]
+- !private ["ST", "index"]
+- !private ["ST", "startIndex"]
+- !private ["ST", "subscript"]
+- !private ["s21_ObjectiveCBridgeableP", "count"]
+- !private ["s21_ObjectiveCBridgeableP", "index"]
+- !private ["s21_ObjectiveCBridgeableP", "startIndex"]
+- !private ["s21_ObjectiveCBridgeableP", "subscript"]
+depends-nominal:
+- !private "4Core22AnyReflectionDecodableP"
+- !private "SK"
+- !private "Sl"
+- !private "10Foundation15ContiguousBytesP"
+- !private "3NIO20ContiguousCollectionP"
+- !private "s28CustomDebugStringConvertibleP"
+- "3JWT18CustomJWTAlgorithmV"
+- !private "s17CustomReflectableP"
+- !private "s23CustomStringConvertibleP"
+- !private "10Foundation4DataV"
+- !private "10Foundation12DataProtocolP"
+- !private "Se"
+- !private "SE"
+- !private "SQ"
+- !private "SH"
+- "3JWT12JWTAlgorithmP"
+- !private "4Core23LosslessDataConvertibleP"
+- !private "SM"
+- !private "10Foundation19MutableDataProtocolP"
+- !private "Sk"
+- !private "Sm"
+- !private "10Foundation20ReferenceConvertibleP"
+- !private "4Core19ReflectionDecodableP"
+- !private "ST"
+- !private "s21_ObjectiveCBridgeableP"
+depends-dynamic-lookup:
+depends-external:
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/ObjectiveC.swiftmodule"
+- "/Users/Jorge/Desktop/Projects/Web/Swift/kisiBootcamp/.build/x86_64-apple-macosx/debug/NIO.swiftmodule"
+- "/Users/Jorge/Desktop/Projects/Web/Swift/kisiBootcamp/.build/x86_64-apple-macosx/debug/Async.swiftmodule"
+- "/Users/Jorge/Desktop/Projects/Web/Swift/kisiBootcamp/.build/x86_64-apple-macosx/debug/Core.swiftmodule"
+- "/Users/Jorge/Desktop/Projects/Web/Swift/kisiBootcamp/.build/x86_64-apple-macosx/debug/Debugging.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/Dispatch.swiftmodule"
+- "/Users/Jorge/Desktop/Projects/Web/Swift/kisiBootcamp/.build/x86_64-apple-macosx/debug/COperatingSystem.swiftmodule"
+- "/Users/Jorge/Desktop/Projects/Web/Swift/kisiBootcamp/.build/x86_64-apple-macosx/debug/Random.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/Darwin.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/Foundation.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/CoreFoundation.swiftmodule"
+- "/Users/Jorge/Desktop/Projects/Web/Swift/kisiBootcamp/.build/x86_64-apple-macosx/debug/Crypto.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/CoreGraphics.swiftmodule"
+- "/Users/Jorge/Desktop/Projects/Web/Swift/kisiBootcamp/.build/x86_64-apple-macosx/debug/NIOConcurrencyHelpers.swiftmodule"
+- "/Users/Jorge/Desktop/Projects/Web/Swift/kisiBootcamp/.build/x86_64-apple-macosx/debug/Bits.swiftmodule"
+- "/Users/Jorge/Desktop/Projects/Web/Swift/kisiBootcamp/.build/x86_64-apple-macosx/debug/NIOFoundationCompat.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/Swift.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/IOKit.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/SwiftOnoneSupport.swiftmodule"
+- "/usr/local/Cellar/libressl/2.9.2/include/openssl/asn1.h"
+- "/usr/local/Cellar/libressl/2.9.2/include/openssl/tls1.h"
+- "/usr/local/Cellar/libressl/2.9.2/include/openssl/dtls1.h"
+- "/usr/local/Cellar/libressl/2.9.2/include/openssl/pkcs12.h"
+- "/usr/local/Cellar/libressl/2.9.2/include/openssl/ssl2.h"
+- "/usr/local/Cellar/libressl/2.9.2/include/openssl/pem2.h"
+- "/usr/local/Cellar/libressl/2.9.2/include/openssl/ssl23.h"
+- "/usr/local/Cellar/libressl/2.9.2/include/openssl/ssl3.h"
+- "/usr/local/Cellar/libressl/2.9.2/include/openssl/x509v3.h"
+- "/usr/local/Cellar/libressl/2.9.2/include/openssl/md5.h"
+- "/usr/local/Cellar/libressl/2.9.2/include/openssl/pkcs7.h"
+- "/usr/local/Cellar/libressl/2.9.2/include/openssl/x509.h"
+- "/usr/local/Cellar/libressl/2.9.2/include/openssl/sha.h"
+- "/usr/local/Cellar/libressl/2.9.2/include/openssl/dsa.h"
+- "/usr/local/Cellar/libressl/2.9.2/include/openssl/ecdsa.h"
+- "/usr/local/Cellar/libressl/2.9.2/include/openssl/rsa.h"
+- "/usr/local/Cellar/libressl/2.9.2/include/openssl/obj_mac.h"
+- "/usr/local/Cellar/libressl/2.9.2/include/openssl/hmac.h"
+- "/usr/local/Cellar/libressl/2.9.2/include/openssl/ec.h"
+- "/Users/Jorge/Desktop/Projects/Web/Swift/kisiBootcamp/.build/checkouts/swift-nio/Sources/CNIOAtomics/include/cpp_magic.h"
+- "/Users/Jorge/Desktop/Projects/Web/Swift/kisiBootcamp/.build/checkouts/swift-nio/Sources/CNIOLinux/include/ifaddrs-android.h"
+- "/usr/local/Cellar/libressl/2.9.2/include/openssl/rand.h"
+- "/usr/local/Cellar/libressl/2.9.2/include/openssl/conf.h"
+- "/usr/local/Cellar/libressl/2.9.2/include/openssl/opensslconf.h"
+- "/usr/local/Cellar/libressl/2.9.2/include/openssl/dh.h"
+- "/usr/local/Cellar/libressl/2.9.2/include/openssl/ecdh.h"
+- "/usr/local/Cellar/libressl/2.9.2/include/openssl/lhash.h"
+- "/usr/local/Cellar/libressl/2.9.2/include/openssl/stack.h"
+- "/usr/local/Cellar/libressl/2.9.2/include/openssl/safestack.h"
+- "/usr/local/Cellar/libressl/2.9.2/include/openssl/ssl.h"
+- "/Users/Jorge/Desktop/Projects/Web/Swift/kisiBootcamp/.build/checkouts/crypto/Sources/CCryptoOpenSSL/include/c_crypto_openssl.h"
+- "/usr/local/Cellar/libressl/2.9.2/include/openssl/pem.h"
+- "/usr/local/Cellar/libressl/2.9.2/include/openssl/bn.h"
+- "/Users/Jorge/Desktop/Projects/Web/Swift/kisiBootcamp/.build/checkouts/swift-nio/Sources/CNIODarwin/include/CNIODarwin.h"
+- "/usr/local/Cellar/libressl/2.9.2/include/openssl/bio.h"
+- "/usr/local/Cellar/libressl/2.9.2/include/openssl/crypto.h"
+- "/usr/local/Cellar/libressl/2.9.2/include/openssl/srtp.h"
+- "/usr/local/Cellar/libressl/2.9.2/include/openssl/evp.h"
+- "/usr/local/Cellar/libressl/2.9.2/include/openssl/ossl_typ.h"
+- "/usr/local/Cellar/libressl/2.9.2/include/openssl/buffer.h"
+- "/usr/local/Cellar/libressl/2.9.2/include/openssl/err.h"
+- "/Users/Jorge/Desktop/Projects/Web/Swift/kisiBootcamp/.build/checkouts/swift-nio/Sources/CNIOAtomics/include/CNIOAtomics.h"
+- "/usr/local/Cellar/libressl/2.9.2/include/openssl/opensslfeatures.h"
+- "/usr/local/Cellar/libressl/2.9.2/include/openssl/objects.h"
+- "/usr/local/Cellar/libressl/2.9.2/include/openssl/opensslv.h"
+- "/Users/Jorge/Desktop/Projects/Web/Swift/kisiBootcamp/.build/checkouts/swift-nio/Sources/CNIOLinux/include/CNIOLinux.h"
+- "/usr/local/Cellar/libressl/2.9.2/include/openssl/x509_vfy.h"
+- "/Users/Jorge/Desktop/Projects/Web/Swift/kisiBootcamp/.build/x86_64-apple-macosx/debug/CNIOSHA1.build/module.modulemap"
+- "/Users/Jorge/Desktop/Projects/Web/Swift/kisiBootcamp/.build/x86_64-apple-macosx/debug/CNIOOpenSSL.build/module.modulemap"
+- "/Users/Jorge/Desktop/Projects/Web/Swift/kisiBootcamp/.build/x86_64-apple-macosx/debug/CCryptoOpenSSL.build/module.modulemap"
+- "/Users/Jorge/Desktop/Projects/Web/Swift/kisiBootcamp/.build/x86_64-apple-macosx/debug/CNIOZlib.build/module.modulemap"
+- "/Users/Jorge/Desktop/Projects/Web/Swift/kisiBootcamp/.build/x86_64-apple-macosx/debug/CNIODarwin.build/module.modulemap"
+- "/Users/Jorge/Desktop/Projects/Web/Swift/kisiBootcamp/.build/x86_64-apple-macosx/debug/CNIOHTTPParser.build/module.modulemap"
+- "/Users/Jorge/Desktop/Projects/Web/Swift/kisiBootcamp/.build/x86_64-apple-macosx/debug/CNIOAtomics.build/module.modulemap"
+- "/Users/Jorge/Desktop/Projects/Web/Swift/kisiBootcamp/.build/x86_64-apple-macosx/debug/CNIOLinux.build/module.modulemap"
+- "/Users/Jorge/Desktop/Projects/Web/Swift/kisiBootcamp/.build/checkouts/crypto/Sources/CBase32/include/module.modulemap"
+- "/Users/Jorge/Desktop/Projects/Web/Swift/kisiBootcamp/.build/checkouts/crypto/Sources/CBcrypt/include/module.modulemap"
+- "/Users/Jorge/Desktop/Projects/Web/Swift/kisiBootcamp/.build/checkouts/swift-nio-zlib-support/module.modulemap"
+- "/Users/Jorge/Desktop/Projects/Web/Swift/kisiBootcamp/.build/checkouts/swift-nio-ssl-support/module.modulemap"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.14.sdk/usr/include/objc/ObjectiveC.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/Dispatch.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.14.sdk/usr/include/Darwin.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.14.sdk/System/Library/Frameworks/Foundation.framework/Headers/Foundation.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.14.sdk/System/Library/Frameworks/CoreGraphics.framework/Headers/CoreGraphics.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.14.sdk/System/Library/Frameworks/ApplicationServices.framework/Headers/ApplicationServices.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.14.sdk/System/Library/Frameworks/CoreText.framework/Headers/CoreText.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.14.sdk/System/Library/Frameworks/Security.framework/Headers/Security.apinotes"
+interface-hash: "6aaff37cf88a1b1b7e2419f74689dd11"

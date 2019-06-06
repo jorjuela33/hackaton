@@ -6,23 +6,20 @@ provides-member:
 provides-dynamic-lookup:
 depends-top-level:
 - "Config"
-- !private "DatabasesConfig"
 - !private "EngineRouter"
 - "Environment"
 - !private "ErrorMiddleware"
 - !private "FloatLiteralType"
 - !private "FluentPostgreSQLProvider"
+- !private "GoogleCloudProvider"
+- !private "GoogleCloudProviderConfig"
+- !private "GoogleCloudStorageConfig"
 - !private "Int"
 - !private "IntegerLiteralType"
-- !private "Log"
 - !private "MiddlewareConfig"
-- !private "MigrationConfig"
 - !private "NIOServerConfig"
-- !private "PostgreSQLDatabase"
-- !private "PostgreSQLDatabaseConfig"
 - !private "Router"
 - "Services"
-- !private "Session"
 - !private "StringLiteralType"
 - "configure"
 - !private "fatalError"
@@ -38,39 +35,26 @@ depends-member:
 - !private ["5Vapor7ContentP", "init"]
 - !private ["s17CustomReflectableP", "init"]
 - !private ["s23CustomStringConvertibleP", "init"]
-- !private ["s23CustomStringConvertibleP", "psql"]
 - !private ["s23CustomStringConvertibleP", "register"]
-- !private ["11DatabaseKit0A0P", "init"]
-- !private ["11DatabaseKit0A10IdentifierV", "psql"]
-- !private ["11DatabaseKit15DatabasesConfigV", "add"]
-- !private ["11DatabaseKit15DatabasesConfigV", "init"]
 - !private ["Se", "init"]
 - !private ["SE", "init"]
 - !private ["5Vapor12EngineRouterC", "default"]
 - !private ["7Service11EnvironmentV", "get"]
 - !private ["SQ", "get"]
 - !private ["SQ", "init"]
-- !private ["SQ", "psql"]
-- !private ["s43ExpressibleByExtendedGraphemeClusterLiteralP", "psql"]
 - !private ["s27ExpressibleByIntegerLiteralP", "init"]
-- !private ["s26ExpressibleByStringLiteralP", "psql"]
-- !private ["s33ExpressibleByUnicodeScalarLiteralP", "psql"]
 - !private ["s17FixedWidthIntegerP", "init"]
 - !private ["16FluentPostgreSQL0aB11SQLProviderC", "init"]
+- !private ["11GoogleCloud0aB9APIConfigP", "default"]
+- !private ["11GoogleCloud0aB8ProviderC", "init"]
+- !private ["11GoogleCloud0aB14ProviderConfigV", "init"]
+- !private ["11GoogleCloud0aB13StorageConfigV", "default"]
 - !private ["SH", "init"]
-- !private ["SH", "psql"]
 - !private ["6Fluent2IDP", "init"]
 - !private ["Si", "init"]
-- !private ["6Fluent14JoinSupportingP", "init"]
-- !private ["11DatabaseKit20KeyedCacheSupportingP", "init"]
-- !private ["3App3LogV", "deinit"]
-- !private ["11DatabaseKit13LogSupportingP", "init"]
 - !private ["s25LosslessStringConvertibleP", "init"]
 - !private ["5Vapor16MiddlewareConfigV", "init"]
 - !private ["5Vapor16MiddlewareConfigV", "use"]
-- !private ["6Fluent15MigrationConfigV", "add"]
-- !private ["6Fluent15MigrationConfigV", "init"]
-- !private ["6Fluent19MigrationSupportingP", "init"]
 - !private ["s10MirrorPathP", "init"]
 - !private ["9Multipart0A15PartConvertibleP", "init"]
 - !private ["5Vapor15NIOServerConfigV", "default"]
@@ -78,10 +62,7 @@ depends-member:
 - !private ["7Routing9ParameterP", "init"]
 - !private ["10PostgreSQL0A18SQLDataConvertibleP", "init"]
 - !private ["10PostgreSQL0A30SQLDataTypeStaticRepresentableP", "init"]
-- !private ["10PostgreSQL0A11SQLDatabaseC", "init"]
-- !private ["10PostgreSQL0A17SQLDatabaseConfigV", "init"]
 - !private ["7Service8ProviderP", "init"]
-- !private ["6Fluent15QuerySupportingP", "init"]
 - !private ["4Core19ReflectionDecodableP", "init"]
 - !private ["5Vapor16RequestDecodableP", "init"]
 - !private ["5Vapor16RequestEncodableP", "init"]
@@ -89,9 +70,6 @@ depends-member:
 - !private ["5Vapor17ResponseEncodableP", "init"]
 - !private ["5Vapor6RouterP", "default"]
 - !private ["s10SIMDScalarP", "init"]
-- !private ["9FluentSQL33SQLConstraintIdentifierNormalizerP", "init"]
-- !private ["6Fluent16SchemaSupportingP", "init"]
-- !private ["7ServiceAAP", "add"]
 - !private ["7ServiceAAP", "default"]
 - !private ["7ServiceAAP", "init"]
 - !private ["7ServiceAAP", "use"]
@@ -99,12 +77,10 @@ depends-member:
 - !private ["7Service0A4TypeP", "init"]
 - !private ["7Service0A4TypeP", "use"]
 - !private ["7Service8ServicesV", "register"]
-- !private ["3App7SessionV", "deinit"]
 - !private ["SZ", "init"]
 - !private ["s13SignedNumericP", "init"]
 - !private ["Sx", "init"]
 - !private ["11TemplateKit0A17DataRepresentableP", "init"]
-- !private ["6Fluent21TransactionSupportingP", "init"]
 - !private ["14URLEncodedForm0aB15DataConvertibleP", "init"]
 - !private ["s30_CustomPlaygroundQuickLookableP", "init"]
 - !private ["s35_ExpressibleByBuiltinIntegerLiteralP", "init"]
@@ -121,31 +97,23 @@ depends-nominal:
 - !private "5Vapor7ContentP"
 - !private "s17CustomReflectableP"
 - !private "s23CustomStringConvertibleP"
-- !private "11DatabaseKit0A0P"
-- !private "11DatabaseKit0A10IdentifierV"
-- !private "11DatabaseKit15DatabasesConfigV"
 - !private "Se"
 - !private "SE"
 - !private "5Vapor12EngineRouterC"
 - !private "7Service11EnvironmentV"
 - !private "SQ"
-- !private "s43ExpressibleByExtendedGraphemeClusterLiteralP"
 - !private "s27ExpressibleByIntegerLiteralP"
-- !private "s26ExpressibleByStringLiteralP"
-- !private "s33ExpressibleByUnicodeScalarLiteralP"
 - !private "s17FixedWidthIntegerP"
 - !private "16FluentPostgreSQL0aB11SQLProviderC"
+- !private "11GoogleCloud0aB9APIConfigP"
+- !private "11GoogleCloud0aB8ProviderC"
+- !private "11GoogleCloud0aB14ProviderConfigV"
+- !private "11GoogleCloud0aB13StorageConfigV"
 - !private "SH"
 - !private "6Fluent2IDP"
 - !private "Si"
-- !private "6Fluent14JoinSupportingP"
-- !private "11DatabaseKit20KeyedCacheSupportingP"
-- !private "3App3LogV"
-- !private "11DatabaseKit13LogSupportingP"
 - !private "s25LosslessStringConvertibleP"
 - !private "5Vapor16MiddlewareConfigV"
-- !private "6Fluent15MigrationConfigV"
-- !private "6Fluent19MigrationSupportingP"
 - !private "s10MirrorPathP"
 - !private "9Multipart0A15PartConvertibleP"
 - !private "5Vapor15NIOServerConfigV"
@@ -153,10 +121,7 @@ depends-nominal:
 - !private "7Routing9ParameterP"
 - !private "10PostgreSQL0A18SQLDataConvertibleP"
 - !private "10PostgreSQL0A30SQLDataTypeStaticRepresentableP"
-- !private "10PostgreSQL0A11SQLDatabaseC"
-- !private "10PostgreSQL0A17SQLDatabaseConfigV"
 - !private "7Service8ProviderP"
-- !private "6Fluent15QuerySupportingP"
 - !private "4Core19ReflectionDecodableP"
 - !private "5Vapor16RequestDecodableP"
 - !private "5Vapor16RequestEncodableP"
@@ -164,17 +129,13 @@ depends-nominal:
 - !private "5Vapor17ResponseEncodableP"
 - !private "5Vapor6RouterP"
 - !private "s10SIMDScalarP"
-- !private "9FluentSQL33SQLConstraintIdentifierNormalizerP"
-- !private "6Fluent16SchemaSupportingP"
 - !private "7ServiceAAP"
 - !private "7Service0A4TypeP"
 - !private "7Service8ServicesV"
-- !private "3App7SessionV"
 - !private "SZ"
 - !private "s13SignedNumericP"
 - !private "Sx"
 - !private "11TemplateKit0A17DataRepresentableP"
-- !private "6Fluent21TransactionSupportingP"
 - !private "14URLEncodedForm0aB15DataConvertibleP"
 - !private "s30_CustomPlaygroundQuickLookableP"
 - !private "s35_ExpressibleByBuiltinIntegerLiteralP"
@@ -192,8 +153,10 @@ depends-external:
 - "/Users/Jorge/Desktop/Projects/Web/Swift/kisiBootcamp/.build/x86_64-apple-macosx/debug/NIO.swiftmodule"
 - "/Users/Jorge/Desktop/Projects/Web/Swift/kisiBootcamp/.build/x86_64-apple-macosx/debug/HTTP.swiftmodule"
 - "/Users/Jorge/Desktop/Projects/Web/Swift/kisiBootcamp/.build/x86_64-apple-macosx/debug/NIOTLS.swiftmodule"
+- "/Users/Jorge/Desktop/Projects/Web/Swift/kisiBootcamp/.build/x86_64-apple-macosx/debug/JWT.swiftmodule"
 - "/Users/Jorge/Desktop/Projects/Web/Swift/kisiBootcamp/.build/x86_64-apple-macosx/debug/Async.swiftmodule"
 - "/Users/Jorge/Desktop/Projects/Web/Swift/kisiBootcamp/.build/x86_64-apple-macosx/debug/Command.swiftmodule"
+- "/Users/Jorge/Desktop/Projects/Web/Swift/kisiBootcamp/.build/x86_64-apple-macosx/debug/GoogleCloud.swiftmodule"
 - "/Users/Jorge/Desktop/Projects/Web/Swift/kisiBootcamp/.build/x86_64-apple-macosx/debug/Service.swiftmodule"
 - "/Users/Jorge/Desktop/Projects/Web/Swift/kisiBootcamp/.build/x86_64-apple-macosx/debug/Console.swiftmodule"
 - "/Users/Jorge/Desktop/Projects/Web/Swift/kisiBootcamp/.build/x86_64-apple-macosx/debug/Core.swiftmodule"
@@ -295,4 +258,4 @@ depends-external:
 - "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.14.sdk/System/Library/Frameworks/ApplicationServices.framework/Headers/ApplicationServices.apinotes"
 - "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.14.sdk/System/Library/Frameworks/CoreText.framework/Headers/CoreText.apinotes"
 - "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.14.sdk/System/Library/Frameworks/Security.framework/Headers/Security.apinotes"
-interface-hash: "5079295b0499c6727cf972a8e9bca43b"
+interface-hash: "6b6c6667f828181b83473967041a0f96"

@@ -7,6 +7,7 @@
 
 import Vapor
 
+/*
 // Controls basic CRUD operations on `Log`s.
 final class RecordsController {
 
@@ -53,3 +54,4 @@ extension RecordsController: RouteCollection {
         group.get("logs/stop", use: stop)
     }
 }
+*/

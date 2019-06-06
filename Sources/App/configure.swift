@@ -1,3 +1,4 @@
+import GoogleCloud
 import FluentPostgreSQL
 import Vapor
 
@@ -27,21 +28,28 @@ public func configure(_ config: inout Config, _ env: inout Environment, _ servic
     services.register(middlewares)
 
     // Configure a Postgres database
-    guard let databaseURL = Environment.get("DATABASE_URL") else {
+   /* guard let databaseURL = Environment.get("DATABASE_URL") else {
         fatalError()
     }
 
     let config = PostgreSQLDatabaseConfig(url: databaseURL)!
-    let postgres = PostgreSQLDatabase(config: config)
+    let postgres = PostgreSQLDatabase(config: config)*/
+
+    /// Google cloud storage
+    let cloudConfig = GoogleCloudProviderConfig(project: "1079974283277", credentialFile: "Sources/App/kisi-hackathon-s19b-84dd50fd2eb8.json")
+    services.register(cloudConfig)
+    
+    services.register(GoogleCloudStorageConfig.default())
+    try services.register(GoogleCloudProvider())
 
     // Register the configured SQLite database to the database config.
-    var databases = DatabasesConfig()
+    /*var databases = DatabasesConfig()
     databases.add(database: postgres, as: .psql)
-    services.register(databases)
+    services.register(databases)*/
 
     // Configure migrations
-    var migrations = MigrationConfig()
+    /*var migrations = MigrationConfig()
     migrations.add(model: Log.self, database: .psql)
     migrations.add(model: Session.self, database: .psql)
-    services.register(migrations)
+    services.register(migrations)*/
 }

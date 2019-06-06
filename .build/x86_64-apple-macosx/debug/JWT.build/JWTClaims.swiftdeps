@@ -1,0 +1,427 @@
+### Swift dependencies file v0 ###
+provides-top-level:
+- "IssuerClaim"
+- "SubjectClaim"
+- "AudienceClaim"
+- "IDClaim"
+- "IssuedAtClaim"
+- "ExpirationClaim"
+- "NotBeforeClaim"
+- "JWTUnixEpochClaim"
+provides-nominal:
+- "3JWT11IssuerClaimV"
+- "3JWT12SubjectClaimV"
+- "3JWT13AudienceClaimV"
+- "3JWT7IDClaimV"
+- "3JWT13IssuedAtClaimV"
+- "3JWT15ExpirationClaimV"
+- "3JWT14NotBeforeClaimV"
+- "3JWT17JWTUnixEpochClaimP"
+provides-member:
+- ["3JWT11IssuerClaimV", ""]
+- ["3JWT12SubjectClaimV", ""]
+- ["3JWT13AudienceClaimV", ""]
+- ["3JWT7IDClaimV", ""]
+- ["3JWT13IssuedAtClaimV", ""]
+- ["3JWT15ExpirationClaimV", ""]
+- ["3JWT14NotBeforeClaimV", ""]
+- ["3JWT17JWTUnixEpochClaimP", ""]
+- ["3JWT17JWTUnixEpochClaimP", "init"]
+- ["3JWT17JWTUnixEpochClaimP", "encode"]
+provides-dynamic-lookup:
+depends-top-level:
+- "AssignmentPrecedence"
+- "AudienceClaim"
+- "Date"
+- "Decoder"
+- !private "Double"
+- "Encoder"
+- "ExpirationClaim"
+- "ExpressibleByStringLiteral"
+- "IDClaim"
+- "IssuedAtClaim"
+- "IssuerClaim"
+- "JWTClaim"
+- !private "JWTError"
+- "JWTUnixEpochClaim"
+- "NotBeforeClaim"
+- "String"
+- !private "StringLiteralType"
+- "SubjectClaim"
+depends-member:
+- !private ["4Core22AnyReflectionDecodableP", "compare"]
+- !private ["4Core22AnyReflectionDecodableP", "init"]
+- !private ["4Core22AnyReflectionDecodableP", "init"]
+- !private ["4Core22AnyReflectionDecodableP", "timeIntervalSince1970"]
+- ["3JWT13AudienceClaimV", "ExtendedGraphemeClusterLiteralType"]
+- ["3JWT13AudienceClaimV", "String"]
+- ["3JWT13AudienceClaimV", "StringLiteralType"]
+- ["3JWT13AudienceClaimV", "UnicodeScalarLiteralType"]
+- ["3JWT13AudienceClaimV", "Value"]
+- ["3JWT13AudienceClaimV", "_Default_ExtendedGraphemeClusterLiteralType"]
+- ["3JWT13AudienceClaimV", "_Default_StringLiteralType"]
+- ["3JWT13AudienceClaimV", "_Default_UnicodeScalarLiteralType"]
+- ["3JWT13AudienceClaimV", "_Default_Value"]
+- ["3JWT13AudienceClaimV", "deinit"]
+- ["3JWT13AudienceClaimV", "encode"]
+- ["3JWT13AudienceClaimV", "init"]
+- ["3JWT13AudienceClaimV", "value"]
+- !private ["SL", "compare"]
+- !private ["SL", "init"]
+- !private ["SL", "init"]
+- !private ["SL", "timeIntervalSince1970"]
+- ["So18NSComparisonResultV", "orderedAscending"]
+- ["So18NSComparisonResultV", "orderedDescending"]
+- ["So18NSComparisonResultV", "orderedSame"]
+- !private ["s28CustomDebugStringConvertibleP", "compare"]
+- !private ["s28CustomDebugStringConvertibleP", "init"]
+- !private ["s28CustomDebugStringConvertibleP", "init"]
+- !private ["s28CustomDebugStringConvertibleP", "timeIntervalSince1970"]
+- !private ["s17CustomReflectableP", "compare"]
+- !private ["s17CustomReflectableP", "init"]
+- !private ["s17CustomReflectableP", "init"]
+- !private ["s17CustomReflectableP", "timeIntervalSince1970"]
+- !private ["s23CustomStringConvertibleP", "compare"]
+- !private ["s23CustomStringConvertibleP", "init"]
+- !private ["s23CustomStringConvertibleP", "init"]
+- !private ["s23CustomStringConvertibleP", "timeIntervalSince1970"]
+- !private ["10Foundation4DateV", "compare"]
+- !private ["10Foundation4DateV", "init"]
+- !private ["10Foundation4DateV", "init"]
+- !private ["10Foundation4DateV", "timeIntervalSince1970"]
+- !private ["9Debugging10DebuggableP", "init"]
+- ["Se", "Date"]
+- ["Se", "Decoder"]
+- !private ["Se", "Double"]
+- ["Se", "Encoder"]
+- ["Se", "ExtendedGraphemeClusterLiteralType"]
+- !private ["Se", "JWTError"]
+- ["Se", "StringLiteralType"]
+- ["Se", "UnicodeScalarLiteralType"]
+- ["Se", "Value"]
+- ["Se", ""]
+- ["Se", "_Default_ExtendedGraphemeClusterLiteralType"]
+- ["Se", "_Default_StringLiteralType"]
+- ["Se", "_Default_UnicodeScalarLiteralType"]
+- ["Se", "_Default_Value"]
+- !private ["Se", "compare"]
+- ["Se", "encode"]
+- ["Se", "init"]
+- !private ["Se", "init"]
+- !private ["Se", "timeIntervalSince1970"]
+- ["Se", "value"]
+- !private ["s7DecoderP", "singleValueContainer"]
+- ["SE", "Date"]
+- ["SE", "Decoder"]
+- !private ["SE", "Double"]
+- ["SE", "Encoder"]
+- ["SE", "ExtendedGraphemeClusterLiteralType"]
+- !private ["SE", "JWTError"]
+- ["SE", "StringLiteralType"]
+- ["SE", "UnicodeScalarLiteralType"]
+- ["SE", "Value"]
+- ["SE", ""]
+- ["SE", "_Default_ExtendedGraphemeClusterLiteralType"]
+- ["SE", "_Default_StringLiteralType"]
+- ["SE", "_Default_UnicodeScalarLiteralType"]
+- ["SE", "_Default_Value"]
+- !private ["SE", "compare"]
+- ["SE", "encode"]
+- ["SE", "init"]
+- !private ["SE", "init"]
+- !private ["SE", "timeIntervalSince1970"]
+- ["SE", "value"]
+- !private ["s7EncoderP", "singleValueContainer"]
+- !private ["SQ", "compare"]
+- !private ["SQ", "init"]
+- !private ["SQ", "init"]
+- ["SQ", "orderedAscending"]
+- ["SQ", "orderedDescending"]
+- ["SQ", "orderedSame"]
+- !private ["SQ", "timeIntervalSince1970"]
+- !private ["s5ErrorP", "init"]
+- ["3JWT15ExpirationClaimV", "Date"]
+- !private ["3JWT15ExpirationClaimV", "JWTError"]
+- ["3JWT15ExpirationClaimV", "Value"]
+- ["3JWT15ExpirationClaimV", "_Default_Value"]
+- ["3JWT15ExpirationClaimV", "deinit"]
+- ["3JWT15ExpirationClaimV", "encode"]
+- ["3JWT15ExpirationClaimV", "init"]
+- ["3JWT15ExpirationClaimV", "value"]
+- ["3JWT15ExpirationClaimV", "verifyNotExpired"]
+- ["s43ExpressibleByExtendedGraphemeClusterLiteralP", "ExtendedGraphemeClusterLiteralType"]
+- ["s43ExpressibleByExtendedGraphemeClusterLiteralP", "StringLiteralType"]
+- ["s43ExpressibleByExtendedGraphemeClusterLiteralP", "UnicodeScalarLiteralType"]
+- ["s43ExpressibleByExtendedGraphemeClusterLiteralP", "Value"]
+- ["s43ExpressibleByExtendedGraphemeClusterLiteralP", ""]
+- ["s43ExpressibleByExtendedGraphemeClusterLiteralP", "_Default_ExtendedGraphemeClusterLiteralType"]
+- ["s43ExpressibleByExtendedGraphemeClusterLiteralP", "_Default_StringLiteralType"]
+- ["s43ExpressibleByExtendedGraphemeClusterLiteralP", "_Default_UnicodeScalarLiteralType"]
+- ["s43ExpressibleByExtendedGraphemeClusterLiteralP", "_Default_Value"]
+- ["s43ExpressibleByExtendedGraphemeClusterLiteralP", "encode"]
+- ["s43ExpressibleByExtendedGraphemeClusterLiteralP", "init"]
+- ["s43ExpressibleByExtendedGraphemeClusterLiteralP", "value"]
+- ["s26ExpressibleByStringLiteralP", "ExtendedGraphemeClusterLiteralType"]
+- ["s26ExpressibleByStringLiteralP", "StringLiteralType"]
+- ["s26ExpressibleByStringLiteralP", "UnicodeScalarLiteralType"]
+- ["s26ExpressibleByStringLiteralP", "Value"]
+- ["s26ExpressibleByStringLiteralP", ""]
+- ["s26ExpressibleByStringLiteralP", "_Default_ExtendedGraphemeClusterLiteralType"]
+- ["s26ExpressibleByStringLiteralP", "_Default_StringLiteralType"]
+- ["s26ExpressibleByStringLiteralP", "_Default_UnicodeScalarLiteralType"]
+- ["s26ExpressibleByStringLiteralP", "_Default_Value"]
+- ["s26ExpressibleByStringLiteralP", "encode"]
+- ["s26ExpressibleByStringLiteralP", "init"]
+- ["s26ExpressibleByStringLiteralP", "value"]
+- ["s33ExpressibleByUnicodeScalarLiteralP", "ExtendedGraphemeClusterLiteralType"]
+- ["s33ExpressibleByUnicodeScalarLiteralP", "StringLiteralType"]
+- ["s33ExpressibleByUnicodeScalarLiteralP", "UnicodeScalarLiteralType"]
+- ["s33ExpressibleByUnicodeScalarLiteralP", "Value"]
+- ["s33ExpressibleByUnicodeScalarLiteralP", ""]
+- ["s33ExpressibleByUnicodeScalarLiteralP", "_Default_ExtendedGraphemeClusterLiteralType"]
+- ["s33ExpressibleByUnicodeScalarLiteralP", "_Default_StringLiteralType"]
+- ["s33ExpressibleByUnicodeScalarLiteralP", "_Default_UnicodeScalarLiteralType"]
+- ["s33ExpressibleByUnicodeScalarLiteralP", "_Default_Value"]
+- ["s33ExpressibleByUnicodeScalarLiteralP", "encode"]
+- ["s33ExpressibleByUnicodeScalarLiteralP", "init"]
+- ["s33ExpressibleByUnicodeScalarLiteralP", "value"]
+- !private ["SH", "compare"]
+- !private ["SH", "init"]
+- !private ["SH", "init"]
+- ["SH", "orderedAscending"]
+- ["SH", "orderedDescending"]
+- ["SH", "orderedSame"]
+- !private ["SH", "timeIntervalSince1970"]
+- ["3JWT7IDClaimV", "ExtendedGraphemeClusterLiteralType"]
+- ["3JWT7IDClaimV", "String"]
+- ["3JWT7IDClaimV", "StringLiteralType"]
+- ["3JWT7IDClaimV", "UnicodeScalarLiteralType"]
+- ["3JWT7IDClaimV", "Value"]
+- ["3JWT7IDClaimV", "_Default_ExtendedGraphemeClusterLiteralType"]
+- ["3JWT7IDClaimV", "_Default_StringLiteralType"]
+- ["3JWT7IDClaimV", "_Default_UnicodeScalarLiteralType"]
+- ["3JWT7IDClaimV", "_Default_Value"]
+- ["3JWT7IDClaimV", "deinit"]
+- ["3JWT7IDClaimV", "encode"]
+- ["3JWT7IDClaimV", "init"]
+- ["3JWT7IDClaimV", "value"]
+- ["3JWT13IssuedAtClaimV", "Date"]
+- ["3JWT13IssuedAtClaimV", "Value"]
+- ["3JWT13IssuedAtClaimV", "_Default_Value"]
+- ["3JWT13IssuedAtClaimV", "deinit"]
+- ["3JWT13IssuedAtClaimV", "encode"]
+- ["3JWT13IssuedAtClaimV", "init"]
+- ["3JWT13IssuedAtClaimV", "value"]
+- ["3JWT11IssuerClaimV", "ExtendedGraphemeClusterLiteralType"]
+- ["3JWT11IssuerClaimV", "String"]
+- ["3JWT11IssuerClaimV", "StringLiteralType"]
+- ["3JWT11IssuerClaimV", "UnicodeScalarLiteralType"]
+- ["3JWT11IssuerClaimV", "Value"]
+- ["3JWT11IssuerClaimV", "_Default_ExtendedGraphemeClusterLiteralType"]
+- ["3JWT11IssuerClaimV", "_Default_StringLiteralType"]
+- ["3JWT11IssuerClaimV", "_Default_UnicodeScalarLiteralType"]
+- ["3JWT11IssuerClaimV", "_Default_Value"]
+- ["3JWT11IssuerClaimV", "deinit"]
+- ["3JWT11IssuerClaimV", "encode"]
+- ["3JWT11IssuerClaimV", "init"]
+- ["3JWT11IssuerClaimV", "value"]
+- ["3JWT8JWTClaimP", "Date"]
+- ["3JWT8JWTClaimP", "Decoder"]
+- !private ["3JWT8JWTClaimP", "Double"]
+- ["3JWT8JWTClaimP", "Encoder"]
+- ["3JWT8JWTClaimP", "ExtendedGraphemeClusterLiteralType"]
+- !private ["3JWT8JWTClaimP", "JWTError"]
+- ["3JWT8JWTClaimP", "StringLiteralType"]
+- ["3JWT8JWTClaimP", "UnicodeScalarLiteralType"]
+- ["3JWT8JWTClaimP", "Value"]
+- ["3JWT8JWTClaimP", ""]
+- ["3JWT8JWTClaimP", "_Default_ExtendedGraphemeClusterLiteralType"]
+- ["3JWT8JWTClaimP", "_Default_StringLiteralType"]
+- ["3JWT8JWTClaimP", "_Default_UnicodeScalarLiteralType"]
+- ["3JWT8JWTClaimP", "_Default_Value"]
+- ["3JWT8JWTClaimP", "encode"]
+- ["3JWT8JWTClaimP", "init"]
+- ["3JWT8JWTClaimP", "value"]
+- !private ["3JWT8JWTErrorV", "deinit"]
+- !private ["3JWT8JWTErrorV", "init"]
+- ["3JWT17JWTUnixEpochClaimP", "Date"]
+- ["3JWT17JWTUnixEpochClaimP", "Decoder"]
+- !private ["3JWT17JWTUnixEpochClaimP", "Double"]
+- ["3JWT17JWTUnixEpochClaimP", "Encoder"]
+- !private ["3JWT17JWTUnixEpochClaimP", "JWTError"]
+- ["3JWT17JWTUnixEpochClaimP", "Value"]
+- ["3JWT17JWTUnixEpochClaimP", ""]
+- ["3JWT17JWTUnixEpochClaimP", "_Default_Value"]
+- ["3JWT17JWTUnixEpochClaimP", "encode"]
+- ["3JWT17JWTUnixEpochClaimP", "init"]
+- ["3JWT17JWTUnixEpochClaimP", "value"]
+- !private ["10Foundation14LocalizedErrorP", "init"]
+- ["3JWT14NotBeforeClaimV", "Date"]
+- !private ["3JWT14NotBeforeClaimV", "JWTError"]
+- ["3JWT14NotBeforeClaimV", "Value"]
+- ["3JWT14NotBeforeClaimV", "_Default_Value"]
+- ["3JWT14NotBeforeClaimV", "deinit"]
+- ["3JWT14NotBeforeClaimV", "encode"]
+- ["3JWT14NotBeforeClaimV", "init"]
+- ["3JWT14NotBeforeClaimV", "value"]
+- ["3JWT14NotBeforeClaimV", "verifyNotBefore"]
+- ["SY", "orderedAscending"]
+- ["SY", "orderedDescending"]
+- ["SY", "orderedSame"]
+- !private ["10Foundation20ReferenceConvertibleP", "compare"]
+- !private ["10Foundation20ReferenceConvertibleP", "init"]
+- !private ["10Foundation20ReferenceConvertibleP", "init"]
+- !private ["10Foundation20ReferenceConvertibleP", "timeIntervalSince1970"]
+- !private ["4Core19ReflectionDecodableP", "compare"]
+- !private ["4Core19ReflectionDecodableP", "init"]
+- !private ["4Core19ReflectionDecodableP", "init"]
+- !private ["4Core19ReflectionDecodableP", "timeIntervalSince1970"]
+- !private ["s28SingleValueDecodingContainerP", "decode"]
+- !private ["s28SingleValueEncodingContainerP", "encode"]
+- ["3JWT12SubjectClaimV", "ExtendedGraphemeClusterLiteralType"]
+- ["3JWT12SubjectClaimV", "String"]
+- ["3JWT12SubjectClaimV", "StringLiteralType"]
+- ["3JWT12SubjectClaimV", "UnicodeScalarLiteralType"]
+- ["3JWT12SubjectClaimV", "Value"]
+- ["3JWT12SubjectClaimV", "_Default_ExtendedGraphemeClusterLiteralType"]
+- ["3JWT12SubjectClaimV", "_Default_StringLiteralType"]
+- ["3JWT12SubjectClaimV", "_Default_UnicodeScalarLiteralType"]
+- ["3JWT12SubjectClaimV", "_Default_Value"]
+- ["3JWT12SubjectClaimV", "deinit"]
+- ["3JWT12SubjectClaimV", "encode"]
+- ["3JWT12SubjectClaimV", "init"]
+- ["3JWT12SubjectClaimV", "value"]
+- !private ["s30_CustomPlaygroundQuickLookableP", "compare"]
+- !private ["s30_CustomPlaygroundQuickLookableP", "init"]
+- !private ["s30_CustomPlaygroundQuickLookableP", "init"]
+- !private ["s30_CustomPlaygroundQuickLookableP", "timeIntervalSince1970"]
+- !private ["s21_ObjectiveCBridgeableP", "compare"]
+- !private ["s21_ObjectiveCBridgeableP", "init"]
+- !private ["s21_ObjectiveCBridgeableP", "init"]
+- !private ["s21_ObjectiveCBridgeableP", "timeIntervalSince1970"]
+depends-nominal:
+- !private "4Core22AnyReflectionDecodableP"
+- "3JWT13AudienceClaimV"
+- !private "SL"
+- "So18NSComparisonResultV"
+- !private "s28CustomDebugStringConvertibleP"
+- !private "s17CustomReflectableP"
+- !private "s23CustomStringConvertibleP"
+- !private "10Foundation4DateV"
+- !private "9Debugging10DebuggableP"
+- "Se"
+- !private "s7DecoderP"
+- "SE"
+- !private "s7EncoderP"
+- "SQ"
+- !private "s5ErrorP"
+- "3JWT15ExpirationClaimV"
+- "s43ExpressibleByExtendedGraphemeClusterLiteralP"
+- "s26ExpressibleByStringLiteralP"
+- "s33ExpressibleByUnicodeScalarLiteralP"
+- "SH"
+- "3JWT7IDClaimV"
+- "3JWT13IssuedAtClaimV"
+- "3JWT11IssuerClaimV"
+- "3JWT8JWTClaimP"
+- !private "3JWT8JWTErrorV"
+- "3JWT17JWTUnixEpochClaimP"
+- !private "10Foundation14LocalizedErrorP"
+- "3JWT14NotBeforeClaimV"
+- "SY"
+- !private "10Foundation20ReferenceConvertibleP"
+- !private "4Core19ReflectionDecodableP"
+- !private "s28SingleValueDecodingContainerP"
+- !private "s28SingleValueEncodingContainerP"
+- "3JWT12SubjectClaimV"
+- !private "s30_CustomPlaygroundQuickLookableP"
+- !private "s21_ObjectiveCBridgeableP"
+depends-dynamic-lookup:
+depends-external:
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/ObjectiveC.swiftmodule"
+- "/Users/Jorge/Desktop/Projects/Web/Swift/kisiBootcamp/.build/x86_64-apple-macosx/debug/NIO.swiftmodule"
+- "/Users/Jorge/Desktop/Projects/Web/Swift/kisiBootcamp/.build/x86_64-apple-macosx/debug/Async.swiftmodule"
+- "/Users/Jorge/Desktop/Projects/Web/Swift/kisiBootcamp/.build/x86_64-apple-macosx/debug/Core.swiftmodule"
+- "/Users/Jorge/Desktop/Projects/Web/Swift/kisiBootcamp/.build/x86_64-apple-macosx/debug/Debugging.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/Dispatch.swiftmodule"
+- "/Users/Jorge/Desktop/Projects/Web/Swift/kisiBootcamp/.build/x86_64-apple-macosx/debug/COperatingSystem.swiftmodule"
+- "/Users/Jorge/Desktop/Projects/Web/Swift/kisiBootcamp/.build/x86_64-apple-macosx/debug/Random.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/Darwin.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/Foundation.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/CoreFoundation.swiftmodule"
+- "/Users/Jorge/Desktop/Projects/Web/Swift/kisiBootcamp/.build/x86_64-apple-macosx/debug/Crypto.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/CoreGraphics.swiftmodule"
+- "/Users/Jorge/Desktop/Projects/Web/Swift/kisiBootcamp/.build/x86_64-apple-macosx/debug/NIOConcurrencyHelpers.swiftmodule"
+- "/Users/Jorge/Desktop/Projects/Web/Swift/kisiBootcamp/.build/x86_64-apple-macosx/debug/Bits.swiftmodule"
+- "/Users/Jorge/Desktop/Projects/Web/Swift/kisiBootcamp/.build/x86_64-apple-macosx/debug/NIOFoundationCompat.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/Swift.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/IOKit.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/SwiftOnoneSupport.swiftmodule"
+- "/usr/local/Cellar/libressl/2.9.2/include/openssl/asn1.h"
+- "/usr/local/Cellar/libressl/2.9.2/include/openssl/tls1.h"
+- "/usr/local/Cellar/libressl/2.9.2/include/openssl/dtls1.h"
+- "/usr/local/Cellar/libressl/2.9.2/include/openssl/pkcs12.h"
+- "/usr/local/Cellar/libressl/2.9.2/include/openssl/ssl2.h"
+- "/usr/local/Cellar/libressl/2.9.2/include/openssl/pem2.h"
+- "/usr/local/Cellar/libressl/2.9.2/include/openssl/ssl23.h"
+- "/usr/local/Cellar/libressl/2.9.2/include/openssl/ssl3.h"
+- "/usr/local/Cellar/libressl/2.9.2/include/openssl/x509v3.h"
+- "/usr/local/Cellar/libressl/2.9.2/include/openssl/md5.h"
+- "/usr/local/Cellar/libressl/2.9.2/include/openssl/pkcs7.h"
+- "/usr/local/Cellar/libressl/2.9.2/include/openssl/x509.h"
+- "/usr/local/Cellar/libressl/2.9.2/include/openssl/sha.h"
+- "/usr/local/Cellar/libressl/2.9.2/include/openssl/dsa.h"
+- "/usr/local/Cellar/libressl/2.9.2/include/openssl/ecdsa.h"
+- "/usr/local/Cellar/libressl/2.9.2/include/openssl/rsa.h"
+- "/usr/local/Cellar/libressl/2.9.2/include/openssl/obj_mac.h"
+- "/usr/local/Cellar/libressl/2.9.2/include/openssl/hmac.h"
+- "/usr/local/Cellar/libressl/2.9.2/include/openssl/ec.h"
+- "/Users/Jorge/Desktop/Projects/Web/Swift/kisiBootcamp/.build/checkouts/swift-nio/Sources/CNIOAtomics/include/cpp_magic.h"
+- "/Users/Jorge/Desktop/Projects/Web/Swift/kisiBootcamp/.build/checkouts/swift-nio/Sources/CNIOLinux/include/ifaddrs-android.h"
+- "/usr/local/Cellar/libressl/2.9.2/include/openssl/rand.h"
+- "/usr/local/Cellar/libressl/2.9.2/include/openssl/conf.h"
+- "/usr/local/Cellar/libressl/2.9.2/include/openssl/opensslconf.h"
+- "/usr/local/Cellar/libressl/2.9.2/include/openssl/dh.h"
+- "/usr/local/Cellar/libressl/2.9.2/include/openssl/ecdh.h"
+- "/usr/local/Cellar/libressl/2.9.2/include/openssl/lhash.h"
+- "/usr/local/Cellar/libressl/2.9.2/include/openssl/stack.h"
+- "/usr/local/Cellar/libressl/2.9.2/include/openssl/safestack.h"
+- "/usr/local/Cellar/libressl/2.9.2/include/openssl/ssl.h"
+- "/Users/Jorge/Desktop/Projects/Web/Swift/kisiBootcamp/.build/checkouts/crypto/Sources/CCryptoOpenSSL/include/c_crypto_openssl.h"
+- "/usr/local/Cellar/libressl/2.9.2/include/openssl/pem.h"
+- "/usr/local/Cellar/libressl/2.9.2/include/openssl/bn.h"
+- "/Users/Jorge/Desktop/Projects/Web/Swift/kisiBootcamp/.build/checkouts/swift-nio/Sources/CNIODarwin/include/CNIODarwin.h"
+- "/usr/local/Cellar/libressl/2.9.2/include/openssl/bio.h"
+- "/usr/local/Cellar/libressl/2.9.2/include/openssl/crypto.h"
+- "/usr/local/Cellar/libressl/2.9.2/include/openssl/srtp.h"
+- "/usr/local/Cellar/libressl/2.9.2/include/openssl/evp.h"
+- "/usr/local/Cellar/libressl/2.9.2/include/openssl/ossl_typ.h"
+- "/usr/local/Cellar/libressl/2.9.2/include/openssl/buffer.h"
+- "/usr/local/Cellar/libressl/2.9.2/include/openssl/err.h"
+- "/Users/Jorge/Desktop/Projects/Web/Swift/kisiBootcamp/.build/checkouts/swift-nio/Sources/CNIOAtomics/include/CNIOAtomics.h"
+- "/usr/local/Cellar/libressl/2.9.2/include/openssl/opensslfeatures.h"
+- "/usr/local/Cellar/libressl/2.9.2/include/openssl/objects.h"
+- "/usr/local/Cellar/libressl/2.9.2/include/openssl/opensslv.h"
+- "/Users/Jorge/Desktop/Projects/Web/Swift/kisiBootcamp/.build/checkouts/swift-nio/Sources/CNIOLinux/include/CNIOLinux.h"
+- "/usr/local/Cellar/libressl/2.9.2/include/openssl/x509_vfy.h"
+- "/Users/Jorge/Desktop/Projects/Web/Swift/kisiBootcamp/.build/x86_64-apple-macosx/debug/CNIOSHA1.build/module.modulemap"
+- "/Users/Jorge/Desktop/Projects/Web/Swift/kisiBootcamp/.build/x86_64-apple-macosx/debug/CNIOOpenSSL.build/module.modulemap"
+- "/Users/Jorge/Desktop/Projects/Web/Swift/kisiBootcamp/.build/x86_64-apple-macosx/debug/CCryptoOpenSSL.build/module.modulemap"
+- "/Users/Jorge/Desktop/Projects/Web/Swift/kisiBootcamp/.build/x86_64-apple-macosx/debug/CNIOZlib.build/module.modulemap"
+- "/Users/Jorge/Desktop/Projects/Web/Swift/kisiBootcamp/.build/x86_64-apple-macosx/debug/CNIODarwin.build/module.modulemap"
+- "/Users/Jorge/Desktop/Projects/Web/Swift/kisiBootcamp/.build/x86_64-apple-macosx/debug/CNIOHTTPParser.build/module.modulemap"
+- "/Users/Jorge/Desktop/Projects/Web/Swift/kisiBootcamp/.build/x86_64-apple-macosx/debug/CNIOAtomics.build/module.modulemap"
+- "/Users/Jorge/Desktop/Projects/Web/Swift/kisiBootcamp/.build/x86_64-apple-macosx/debug/CNIOLinux.build/module.modulemap"
+- "/Users/Jorge/Desktop/Projects/Web/Swift/kisiBootcamp/.build/checkouts/crypto/Sources/CBase32/include/module.modulemap"
+- "/Users/Jorge/Desktop/Projects/Web/Swift/kisiBootcamp/.build/checkouts/crypto/Sources/CBcrypt/include/module.modulemap"
+- "/Users/Jorge/Desktop/Projects/Web/Swift/kisiBootcamp/.build/checkouts/swift-nio-zlib-support/module.modulemap"
+- "/Users/Jorge/Desktop/Projects/Web/Swift/kisiBootcamp/.build/checkouts/swift-nio-ssl-support/module.modulemap"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.14.sdk/usr/include/objc/ObjectiveC.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/Dispatch.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.14.sdk/usr/include/Darwin.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.14.sdk/System/Library/Frameworks/Foundation.framework/Headers/Foundation.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.14.sdk/System/Library/Frameworks/CoreGraphics.framework/Headers/CoreGraphics.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.14.sdk/System/Library/Frameworks/ApplicationServices.framework/Headers/ApplicationServices.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.14.sdk/System/Library/Frameworks/CoreText.framework/Headers/CoreText.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.14.sdk/System/Library/Frameworks/Security.framework/Headers/Security.apinotes"
+interface-hash: "ce65c60ae2bf4230169d1faf7caf3bb4"

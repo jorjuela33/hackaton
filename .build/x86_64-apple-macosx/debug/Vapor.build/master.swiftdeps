@@ -1,9 +1,9 @@
 version: "Apple Swift version 5.0.1 (swiftlang-1001.0.82.4 clang-1001.0.46.5)"
 options: "aeee0cfc3aa884f45ea8778659907bd5"
-build_time: [1559758843, 74910000]
+build_time: [1559841704, 878810000]
 inputs:
   "/Users/Jorge/Desktop/Projects/Web/Swift/kisiBootcamp/.build/checkouts/vapor/Sources/Vapor/Application.swift": [1559758781, 487244963]
-  "/Users/Jorge/Desktop/Projects/Web/Swift/kisiBootcamp/.build/checkouts/vapor/Sources/Vapor/Client/Client.swift": [1559758781, 487722782]
+  "/Users/Jorge/Desktop/Projects/Web/Swift/kisiBootcamp/.build/checkouts/vapor/Sources/Vapor/Client/Client.swift": [1559841696, 593880243]
   "/Users/Jorge/Desktop/Projects/Web/Swift/kisiBootcamp/.build/checkouts/vapor/Sources/Vapor/Client/FoundationClient.swift": [1559758781, 488131968]
   "/Users/Jorge/Desktop/Projects/Web/Swift/kisiBootcamp/.build/checkouts/vapor/Sources/Vapor/Commands/BootCommand.swift": [1559758781, 488548370]
   "/Users/Jorge/Desktop/Projects/Web/Swift/kisiBootcamp/.build/checkouts/vapor/Sources/Vapor/Commands/CommandConfig+Default.swift": [1559758781, 488879080]

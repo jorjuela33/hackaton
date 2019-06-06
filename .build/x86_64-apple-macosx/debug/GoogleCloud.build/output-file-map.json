@@ -1,0 +1,191 @@
+{
+  "": {
+    "swift-dependencies": "/Users/Jorge/Desktop/Projects/Web/Swift/kisiBootcamp/.build/x86_64-apple-macosx/debug/GoogleCloud.build/master.swiftdeps"
+  },
+  "/Users/Jorge/Desktop/Projects/Web/Swift/kisiBootcamp/.build/checkouts/google-cloud-provider/Sources/GoogleCloud/Common/Credentials/ApplicationDefault.swift": {
+    "dependencies": "/Users/Jorge/Desktop/Projects/Web/Swift/kisiBootcamp/.build/x86_64-apple-macosx/debug/GoogleCloud.build/Common/Credentials/ApplicationDefault.d",
+    "object": "/Users/Jorge/Desktop/Projects/Web/Swift/kisiBootcamp/.build/x86_64-apple-macosx/debug/GoogleCloud.build/Common/Credentials/ApplicationDefault.swift.o",
+    "swiftmodule": "/Users/Jorge/Desktop/Projects/Web/Swift/kisiBootcamp/.build/x86_64-apple-macosx/debug/GoogleCloud.build/Common/Credentials/ApplicationDefault~partial.swiftmodule",
+    "swift-dependencies": "/Users/Jorge/Desktop/Projects/Web/Swift/kisiBootcamp/.build/x86_64-apple-macosx/debug/GoogleCloud.build/Common/Credentials/ApplicationDefault.swiftdeps"
+  },
+  "/Users/Jorge/Desktop/Projects/Web/Swift/kisiBootcamp/.build/checkouts/google-cloud-provider/Sources/GoogleCloud/Common/Credentials/Loaders.swift": {
+    "dependencies": "/Users/Jorge/Desktop/Projects/Web/Swift/kisiBootcamp/.build/x86_64-apple-macosx/debug/GoogleCloud.build/Common/Credentials/Loaders.d",
+    "object": "/Users/Jorge/Desktop/Projects/Web/Swift/kisiBootcamp/.build/x86_64-apple-macosx/debug/GoogleCloud.build/Common/Credentials/Loaders.swift.o",
+    "swiftmodule": "/Users/Jorge/Desktop/Projects/Web/Swift/kisiBootcamp/.build/x86_64-apple-macosx/debug/GoogleCloud.build/Common/Credentials/Loaders~partial.swiftmodule",
+    "swift-dependencies": "/Users/Jorge/Desktop/Projects/Web/Swift/kisiBootcamp/.build/x86_64-apple-macosx/debug/GoogleCloud.build/Common/Credentials/Loaders.swiftdeps"
+  },
+  "/Users/Jorge/Desktop/Projects/Web/Swift/kisiBootcamp/.build/checkouts/google-cloud-provider/Sources/GoogleCloud/Common/Credentials/ServiceAccount.swift": {
+    "dependencies": "/Users/Jorge/Desktop/Projects/Web/Swift/kisiBootcamp/.build/x86_64-apple-macosx/debug/GoogleCloud.build/Common/Credentials/ServiceAccount.d",
+    "object": "/Users/Jorge/Desktop/Projects/Web/Swift/kisiBootcamp/.build/x86_64-apple-macosx/debug/GoogleCloud.build/Common/Credentials/ServiceAccount.swift.o",
+    "swiftmodule": "/Users/Jorge/Desktop/Projects/Web/Swift/kisiBootcamp/.build/x86_64-apple-macosx/debug/GoogleCloud.build/Common/Credentials/ServiceAccount~partial.swiftmodule",
+    "swift-dependencies": "/Users/Jorge/Desktop/Projects/Web/Swift/kisiBootcamp/.build/x86_64-apple-macosx/debug/GoogleCloud.build/Common/Credentials/ServiceAccount.swiftdeps"
+  },
+  "/Users/Jorge/Desktop/Projects/Web/Swift/kisiBootcamp/.build/checkouts/google-cloud-provider/Sources/GoogleCloud/Common/GoogleCloudAPIConfig.swift": {
+    "dependencies": "/Users/Jorge/Desktop/Projects/Web/Swift/kisiBootcamp/.build/x86_64-apple-macosx/debug/GoogleCloud.build/Common/GoogleCloudAPIConfig.d",
+    "object": "/Users/Jorge/Desktop/Projects/Web/Swift/kisiBootcamp/.build/x86_64-apple-macosx/debug/GoogleCloud.build/Common/GoogleCloudAPIConfig.swift.o",
+    "swiftmodule": "/Users/Jorge/Desktop/Projects/Web/Swift/kisiBootcamp/.build/x86_64-apple-macosx/debug/GoogleCloud.build/Common/GoogleCloudAPIConfig~partial.swiftmodule",
+    "swift-dependencies": "/Users/Jorge/Desktop/Projects/Web/Swift/kisiBootcamp/.build/x86_64-apple-macosx/debug/GoogleCloud.build/Common/GoogleCloudAPIConfig.swiftdeps"
+  },
+  "/Users/Jorge/Desktop/Projects/Web/Swift/kisiBootcamp/.build/checkouts/google-cloud-provider/Sources/GoogleCloud/Common/GoogleCloudError.swift": {
+    "dependencies": "/Users/Jorge/Desktop/Projects/Web/Swift/kisiBootcamp/.build/x86_64-apple-macosx/debug/GoogleCloud.build/Common/GoogleCloudError.d",
+    "object": "/Users/Jorge/Desktop/Projects/Web/Swift/kisiBootcamp/.build/x86_64-apple-macosx/debug/GoogleCloud.build/Common/GoogleCloudError.swift.o",
+    "swiftmodule": "/Users/Jorge/Desktop/Projects/Web/Swift/kisiBootcamp/.build/x86_64-apple-macosx/debug/GoogleCloud.build/Common/GoogleCloudError~partial.swiftmodule",
+    "swift-dependencies": "/Users/Jorge/Desktop/Projects/Web/Swift/kisiBootcamp/.build/x86_64-apple-macosx/debug/GoogleCloud.build/Common/GoogleCloudError.swiftdeps"
+  },
+  "/Users/Jorge/Desktop/Projects/Web/Swift/kisiBootcamp/.build/checkouts/google-cloud-provider/Sources/GoogleCloud/Common/OAuth/OAuthAccessToken.swift": {
+    "dependencies": "/Users/Jorge/Desktop/Projects/Web/Swift/kisiBootcamp/.build/x86_64-apple-macosx/debug/GoogleCloud.build/Common/OAuth/OAuthAccessToken.d",
+    "object": "/Users/Jorge/Desktop/Projects/Web/Swift/kisiBootcamp/.build/x86_64-apple-macosx/debug/GoogleCloud.build/Common/OAuth/OAuthAccessToken.swift.o",
+    "swiftmodule": "/Users/Jorge/Desktop/Projects/Web/Swift/kisiBootcamp/.build/x86_64-apple-macosx/debug/GoogleCloud.build/Common/OAuth/OAuthAccessToken~partial.swiftmodule",
+    "swift-dependencies": "/Users/Jorge/Desktop/Projects/Web/Swift/kisiBootcamp/.build/x86_64-apple-macosx/debug/GoogleCloud.build/Common/OAuth/OAuthAccessToken.swiftdeps"
+  },
+  "/Users/Jorge/Desktop/Projects/Web/Swift/kisiBootcamp/.build/checkouts/google-cloud-provider/Sources/GoogleCloud/Common/OAuth/OAuthApplicationDefault.swift": {
+    "dependencies": "/Users/Jorge/Desktop/Projects/Web/Swift/kisiBootcamp/.build/x86_64-apple-macosx/debug/GoogleCloud.build/Common/OAuth/OAuthApplicationDefault.d",
+    "object": "/Users/Jorge/Desktop/Projects/Web/Swift/kisiBootcamp/.build/x86_64-apple-macosx/debug/GoogleCloud.build/Common/OAuth/OAuthApplicationDefault.swift.o",
+    "swiftmodule": "/Users/Jorge/Desktop/Projects/Web/Swift/kisiBootcamp/.build/x86_64-apple-macosx/debug/GoogleCloud.build/Common/OAuth/OAuthApplicationDefault~partial.swiftmodule",
+    "swift-dependencies": "/Users/Jorge/Desktop/Projects/Web/Swift/kisiBootcamp/.build/x86_64-apple-macosx/debug/GoogleCloud.build/Common/OAuth/OAuthApplicationDefault.swiftdeps"
+  },
+  "/Users/Jorge/Desktop/Projects/Web/Swift/kisiBootcamp/.build/checkouts/google-cloud-provider/Sources/GoogleCloud/Common/OAuth/OAuthComputeEngine+AppEngineFlex.swift": {
+    "dependencies": "/Users/Jorge/Desktop/Projects/Web/Swift/kisiBootcamp/.build/x86_64-apple-macosx/debug/GoogleCloud.build/Common/OAuth/OAuthComputeEngine+AppEngineFlex.d",
+    "object": "/Users/Jorge/Desktop/Projects/Web/Swift/kisiBootcamp/.build/x86_64-apple-macosx/debug/GoogleCloud.build/Common/OAuth/OAuthComputeEngine+AppEngineFlex.swift.o",
+    "swiftmodule": "/Users/Jorge/Desktop/Projects/Web/Swift/kisiBootcamp/.build/x86_64-apple-macosx/debug/GoogleCloud.build/Common/OAuth/OAuthComputeEngine+AppEngineFlex~partial.swiftmodule",
+    "swift-dependencies": "/Users/Jorge/Desktop/Projects/Web/Swift/kisiBootcamp/.build/x86_64-apple-macosx/debug/GoogleCloud.build/Common/OAuth/OAuthComputeEngine+AppEngineFlex.swiftdeps"
+  },
+  "/Users/Jorge/Desktop/Projects/Web/Swift/kisiBootcamp/.build/checkouts/google-cloud-provider/Sources/GoogleCloud/Common/OAuth/OAuthCredentialLoader.swift": {
+    "dependencies": "/Users/Jorge/Desktop/Projects/Web/Swift/kisiBootcamp/.build/x86_64-apple-macosx/debug/GoogleCloud.build/Common/OAuth/OAuthCredentialLoader.d",
+    "object": "/Users/Jorge/Desktop/Projects/Web/Swift/kisiBootcamp/.build/x86_64-apple-macosx/debug/GoogleCloud.build/Common/OAuth/OAuthCredentialLoader.swift.o",
+    "swiftmodule": "/Users/Jorge/Desktop/Projects/Web/Swift/kisiBootcamp/.build/x86_64-apple-macosx/debug/GoogleCloud.build/Common/OAuth/OAuthCredentialLoader~partial.swiftmodule",
+    "swift-dependencies": "/Users/Jorge/Desktop/Projects/Web/Swift/kisiBootcamp/.build/x86_64-apple-macosx/debug/GoogleCloud.build/Common/OAuth/OAuthCredentialLoader.swiftdeps"
+  },
+  "/Users/Jorge/Desktop/Projects/Web/Swift/kisiBootcamp/.build/checkouts/google-cloud-provider/Sources/GoogleCloud/Common/OAuth/OAuthPayload.swift": {
+    "dependencies": "/Users/Jorge/Desktop/Projects/Web/Swift/kisiBootcamp/.build/x86_64-apple-macosx/debug/GoogleCloud.build/Common/OAuth/OAuthPayload.d",
+    "object": "/Users/Jorge/Desktop/Projects/Web/Swift/kisiBootcamp/.build/x86_64-apple-macosx/debug/GoogleCloud.build/Common/OAuth/OAuthPayload.swift.o",
+    "swiftmodule": "/Users/Jorge/Desktop/Projects/Web/Swift/kisiBootcamp/.build/x86_64-apple-macosx/debug/GoogleCloud.build/Common/OAuth/OAuthPayload~partial.swiftmodule",
+    "swift-dependencies": "/Users/Jorge/Desktop/Projects/Web/Swift/kisiBootcamp/.build/x86_64-apple-macosx/debug/GoogleCloud.build/Common/OAuth/OAuthPayload.swiftdeps"
+  },
+  "/Users/Jorge/Desktop/Projects/Web/Swift/kisiBootcamp/.build/checkouts/google-cloud-provider/Sources/GoogleCloud/Common/OAuth/OAuthRefreshable.swift": {
+    "dependencies": "/Users/Jorge/Desktop/Projects/Web/Swift/kisiBootcamp/.build/x86_64-apple-macosx/debug/GoogleCloud.build/Common/OAuth/OAuthRefreshable.d",
+    "object": "/Users/Jorge/Desktop/Projects/Web/Swift/kisiBootcamp/.build/x86_64-apple-macosx/debug/GoogleCloud.build/Common/OAuth/OAuthRefreshable.swift.o",
+    "swiftmodule": "/Users/Jorge/Desktop/Projects/Web/Swift/kisiBootcamp/.build/x86_64-apple-macosx/debug/GoogleCloud.build/Common/OAuth/OAuthRefreshable~partial.swiftmodule",
+    "swift-dependencies": "/Users/Jorge/Desktop/Projects/Web/Swift/kisiBootcamp/.build/x86_64-apple-macosx/debug/GoogleCloud.build/Common/OAuth/OAuthRefreshable.swiftdeps"
+  },
+  "/Users/Jorge/Desktop/Projects/Web/Swift/kisiBootcamp/.build/checkouts/google-cloud-provider/Sources/GoogleCloud/Common/OAuth/OAuthServiceAccount.swift": {
+    "dependencies": "/Users/Jorge/Desktop/Projects/Web/Swift/kisiBootcamp/.build/x86_64-apple-macosx/debug/GoogleCloud.build/Common/OAuth/OAuthServiceAccount.d",
+    "object": "/Users/Jorge/Desktop/Projects/Web/Swift/kisiBootcamp/.build/x86_64-apple-macosx/debug/GoogleCloud.build/Common/OAuth/OAuthServiceAccount.swift.o",
+    "swiftmodule": "/Users/Jorge/Desktop/Projects/Web/Swift/kisiBootcamp/.build/x86_64-apple-macosx/debug/GoogleCloud.build/Common/OAuth/OAuthServiceAccount~partial.swiftmodule",
+    "swift-dependencies": "/Users/Jorge/Desktop/Projects/Web/Swift/kisiBootcamp/.build/x86_64-apple-macosx/debug/GoogleCloud.build/Common/OAuth/OAuthServiceAccount.swiftdeps"
+  },
+  "/Users/Jorge/Desktop/Projects/Web/Swift/kisiBootcamp/.build/checkouts/google-cloud-provider/Sources/GoogleCloud/Extensions.swift": {
+    "dependencies": "/Users/Jorge/Desktop/Projects/Web/Swift/kisiBootcamp/.build/x86_64-apple-macosx/debug/GoogleCloud.build/Extensions.d",
+    "object": "/Users/Jorge/Desktop/Projects/Web/Swift/kisiBootcamp/.build/x86_64-apple-macosx/debug/GoogleCloud.build/Extensions.swift.o",
+    "swiftmodule": "/Users/Jorge/Desktop/Projects/Web/Swift/kisiBootcamp/.build/x86_64-apple-macosx/debug/GoogleCloud.build/Extensions~partial.swiftmodule",
+    "swift-dependencies": "/Users/Jorge/Desktop/Projects/Web/Swift/kisiBootcamp/.build/x86_64-apple-macosx/debug/GoogleCloud.build/Extensions.swiftdeps"
+  },
+  "/Users/Jorge/Desktop/Projects/Web/Swift/kisiBootcamp/.build/checkouts/google-cloud-provider/Sources/GoogleCloud/Provider.swift": {
+    "dependencies": "/Users/Jorge/Desktop/Projects/Web/Swift/kisiBootcamp/.build/x86_64-apple-macosx/debug/GoogleCloud.build/Provider.d",
+    "object": "/Users/Jorge/Desktop/Projects/Web/Swift/kisiBootcamp/.build/x86_64-apple-macosx/debug/GoogleCloud.build/Provider.swift.o",
+    "swiftmodule": "/Users/Jorge/Desktop/Projects/Web/Swift/kisiBootcamp/.build/x86_64-apple-macosx/debug/GoogleCloud.build/Provider~partial.swiftmodule",
+    "swift-dependencies": "/Users/Jorge/Desktop/Projects/Web/Swift/kisiBootcamp/.build/x86_64-apple-macosx/debug/GoogleCloud.build/Provider.swiftdeps"
+  },
+  "/Users/Jorge/Desktop/Projects/Web/Swift/kisiBootcamp/.build/checkouts/google-cloud-provider/Sources/GoogleCloud/Storage/API/BucketAccessControlAPI.swift": {
+    "dependencies": "/Users/Jorge/Desktop/Projects/Web/Swift/kisiBootcamp/.build/x86_64-apple-macosx/debug/GoogleCloud.build/Storage/API/BucketAccessControlAPI.d",
+    "object": "/Users/Jorge/Desktop/Projects/Web/Swift/kisiBootcamp/.build/x86_64-apple-macosx/debug/GoogleCloud.build/Storage/API/BucketAccessControlAPI.swift.o",
+    "swiftmodule": "/Users/Jorge/Desktop/Projects/Web/Swift/kisiBootcamp/.build/x86_64-apple-macosx/debug/GoogleCloud.build/Storage/API/BucketAccessControlAPI~partial.swiftmodule",
+    "swift-dependencies": "/Users/Jorge/Desktop/Projects/Web/Swift/kisiBootcamp/.build/x86_64-apple-macosx/debug/GoogleCloud.build/Storage/API/BucketAccessControlAPI.swiftdeps"
+  },
+  "/Users/Jorge/Desktop/Projects/Web/Swift/kisiBootcamp/.build/checkouts/google-cloud-provider/Sources/GoogleCloud/Storage/API/ChannelsAPI.swift": {
+    "dependencies": "/Users/Jorge/Desktop/Projects/Web/Swift/kisiBootcamp/.build/x86_64-apple-macosx/debug/GoogleCloud.build/Storage/API/ChannelsAPI.d",
+    "object": "/Users/Jorge/Desktop/Projects/Web/Swift/kisiBootcamp/.build/x86_64-apple-macosx/debug/GoogleCloud.build/Storage/API/ChannelsAPI.swift.o",
+    "swiftmodule": "/Users/Jorge/Desktop/Projects/Web/Swift/kisiBootcamp/.build/x86_64-apple-macosx/debug/GoogleCloud.build/Storage/API/ChannelsAPI~partial.swiftmodule",
+    "swift-dependencies": "/Users/Jorge/Desktop/Projects/Web/Swift/kisiBootcamp/.build/x86_64-apple-macosx/debug/GoogleCloud.build/Storage/API/ChannelsAPI.swiftdeps"
+  },
+  "/Users/Jorge/Desktop/Projects/Web/Swift/kisiBootcamp/.build/checkouts/google-cloud-provider/Sources/GoogleCloud/Storage/API/DefaultObjectACLAPI.swift": {
+    "dependencies": "/Users/Jorge/Desktop/Projects/Web/Swift/kisiBootcamp/.build/x86_64-apple-macosx/debug/GoogleCloud.build/Storage/API/DefaultObjectACLAPI.d",
+    "object": "/Users/Jorge/Desktop/Projects/Web/Swift/kisiBootcamp/.build/x86_64-apple-macosx/debug/GoogleCloud.build/Storage/API/DefaultObjectACLAPI.swift.o",
+    "swiftmodule": "/Users/Jorge/Desktop/Projects/Web/Swift/kisiBootcamp/.build/x86_64-apple-macosx/debug/GoogleCloud.build/Storage/API/DefaultObjectACLAPI~partial.swiftmodule",
+    "swift-dependencies": "/Users/Jorge/Desktop/Projects/Web/Swift/kisiBootcamp/.build/x86_64-apple-macosx/debug/GoogleCloud.build/Storage/API/DefaultObjectACLAPI.swiftdeps"
+  },
+  "/Users/Jorge/Desktop/Projects/Web/Swift/kisiBootcamp/.build/checkouts/google-cloud-provider/Sources/GoogleCloud/Storage/API/ObjectACLAPI.swift": {
+    "dependencies": "/Users/Jorge/Desktop/Projects/Web/Swift/kisiBootcamp/.build/x86_64-apple-macosx/debug/GoogleCloud.build/Storage/API/ObjectACLAPI.d",
+    "object": "/Users/Jorge/Desktop/Projects/Web/Swift/kisiBootcamp/.build/x86_64-apple-macosx/debug/GoogleCloud.build/Storage/API/ObjectACLAPI.swift.o",
+    "swiftmodule": "/Users/Jorge/Desktop/Projects/Web/Swift/kisiBootcamp/.build/x86_64-apple-macosx/debug/GoogleCloud.build/Storage/API/ObjectACLAPI~partial.swiftmodule",
+    "swift-dependencies": "/Users/Jorge/Desktop/Projects/Web/Swift/kisiBootcamp/.build/x86_64-apple-macosx/debug/GoogleCloud.build/Storage/API/ObjectACLAPI.swiftdeps"
+  },
+  "/Users/Jorge/Desktop/Projects/Web/Swift/kisiBootcamp/.build/checkouts/google-cloud-provider/Sources/GoogleCloud/Storage/API/StorageBucketAPI.swift": {
+    "dependencies": "/Users/Jorge/Desktop/Projects/Web/Swift/kisiBootcamp/.build/x86_64-apple-macosx/debug/GoogleCloud.build/Storage/API/StorageBucketAPI.d",
+    "object": "/Users/Jorge/Desktop/Projects/Web/Swift/kisiBootcamp/.build/x86_64-apple-macosx/debug/GoogleCloud.build/Storage/API/StorageBucketAPI.swift.o",
+    "swiftmodule": "/Users/Jorge/Desktop/Projects/Web/Swift/kisiBootcamp/.build/x86_64-apple-macosx/debug/GoogleCloud.build/Storage/API/StorageBucketAPI~partial.swiftmodule",
+    "swift-dependencies": "/Users/Jorge/Desktop/Projects/Web/Swift/kisiBootcamp/.build/x86_64-apple-macosx/debug/GoogleCloud.build/Storage/API/StorageBucketAPI.swiftdeps"
+  },
+  "/Users/Jorge/Desktop/Projects/Web/Swift/kisiBootcamp/.build/checkouts/google-cloud-provider/Sources/GoogleCloud/Storage/API/StorageNotificationsAPI.swift": {
+    "dependencies": "/Users/Jorge/Desktop/Projects/Web/Swift/kisiBootcamp/.build/x86_64-apple-macosx/debug/GoogleCloud.build/Storage/API/StorageNotificationsAPI.d",
+    "object": "/Users/Jorge/Desktop/Projects/Web/Swift/kisiBootcamp/.build/x86_64-apple-macosx/debug/GoogleCloud.build/Storage/API/StorageNotificationsAPI.swift.o",
+    "swiftmodule": "/Users/Jorge/Desktop/Projects/Web/Swift/kisiBootcamp/.build/x86_64-apple-macosx/debug/GoogleCloud.build/Storage/API/StorageNotificationsAPI~partial.swiftmodule",
+    "swift-dependencies": "/Users/Jorge/Desktop/Projects/Web/Swift/kisiBootcamp/.build/x86_64-apple-macosx/debug/GoogleCloud.build/Storage/API/StorageNotificationsAPI.swiftdeps"
+  },
+  "/Users/Jorge/Desktop/Projects/Web/Swift/kisiBootcamp/.build/checkouts/google-cloud-provider/Sources/GoogleCloud/Storage/API/StorageObjectAPI.swift": {
+    "dependencies": "/Users/Jorge/Desktop/Projects/Web/Swift/kisiBootcamp/.build/x86_64-apple-macosx/debug/GoogleCloud.build/Storage/API/StorageObjectAPI.d",
+    "object": "/Users/Jorge/Desktop/Projects/Web/Swift/kisiBootcamp/.build/x86_64-apple-macosx/debug/GoogleCloud.build/Storage/API/StorageObjectAPI.swift.o",
+    "swiftmodule": "/Users/Jorge/Desktop/Projects/Web/Swift/kisiBootcamp/.build/x86_64-apple-macosx/debug/GoogleCloud.build/Storage/API/StorageObjectAPI~partial.swiftmodule",
+    "swift-dependencies": "/Users/Jorge/Desktop/Projects/Web/Swift/kisiBootcamp/.build/x86_64-apple-macosx/debug/GoogleCloud.build/Storage/API/StorageObjectAPI.swiftdeps"
+  },
+  "/Users/Jorge/Desktop/Projects/Web/Swift/kisiBootcamp/.build/checkouts/google-cloud-provider/Sources/GoogleCloud/Storage/CloudStorageError.swift": {
+    "dependencies": "/Users/Jorge/Desktop/Projects/Web/Swift/kisiBootcamp/.build/x86_64-apple-macosx/debug/GoogleCloud.build/Storage/CloudStorageError.d",
+    "object": "/Users/Jorge/Desktop/Projects/Web/Swift/kisiBootcamp/.build/x86_64-apple-macosx/debug/GoogleCloud.build/Storage/CloudStorageError.swift.o",
+    "swiftmodule": "/Users/Jorge/Desktop/Projects/Web/Swift/kisiBootcamp/.build/x86_64-apple-macosx/debug/GoogleCloud.build/Storage/CloudStorageError~partial.swiftmodule",
+    "swift-dependencies": "/Users/Jorge/Desktop/Projects/Web/Swift/kisiBootcamp/.build/x86_64-apple-macosx/debug/GoogleCloud.build/Storage/CloudStorageError.swiftdeps"
+  },
+  "/Users/Jorge/Desktop/Projects/Web/Swift/kisiBootcamp/.build/checkouts/google-cloud-provider/Sources/GoogleCloud/Storage/Models/Enums/StorageClass.swift": {
+    "dependencies": "/Users/Jorge/Desktop/Projects/Web/Swift/kisiBootcamp/.build/x86_64-apple-macosx/debug/GoogleCloud.build/Storage/Models/Enums/StorageClass.d",
+    "object": "/Users/Jorge/Desktop/Projects/Web/Swift/kisiBootcamp/.build/x86_64-apple-macosx/debug/GoogleCloud.build/Storage/Models/Enums/StorageClass.swift.o",
+    "swiftmodule": "/Users/Jorge/Desktop/Projects/Web/Swift/kisiBootcamp/.build/x86_64-apple-macosx/debug/GoogleCloud.build/Storage/Models/Enums/StorageClass~partial.swiftmodule",
+    "swift-dependencies": "/Users/Jorge/Desktop/Projects/Web/Swift/kisiBootcamp/.build/x86_64-apple-macosx/debug/GoogleCloud.build/Storage/Models/Enums/StorageClass.swiftdeps"
+  },
+  "/Users/Jorge/Desktop/Projects/Web/Swift/kisiBootcamp/.build/checkouts/google-cloud-provider/Sources/GoogleCloud/Storage/Models/Enums/StorageScope.swift": {
+    "dependencies": "/Users/Jorge/Desktop/Projects/Web/Swift/kisiBootcamp/.build/x86_64-apple-macosx/debug/GoogleCloud.build/Storage/Models/Enums/StorageScope.d",
+    "object": "/Users/Jorge/Desktop/Projects/Web/Swift/kisiBootcamp/.build/x86_64-apple-macosx/debug/GoogleCloud.build/Storage/Models/Enums/StorageScope.swift.o",
+    "swiftmodule": "/Users/Jorge/Desktop/Projects/Web/Swift/kisiBootcamp/.build/x86_64-apple-macosx/debug/GoogleCloud.build/Storage/Models/Enums/StorageScope~partial.swiftmodule",
+    "swift-dependencies": "/Users/Jorge/Desktop/Projects/Web/Swift/kisiBootcamp/.build/x86_64-apple-macosx/debug/GoogleCloud.build/Storage/Models/Enums/StorageScope.swiftdeps"
+  },
+  "/Users/Jorge/Desktop/Projects/Web/Swift/kisiBootcamp/.build/checkouts/google-cloud-provider/Sources/GoogleCloud/Storage/Models/IAMPolicy.swift": {
+    "dependencies": "/Users/Jorge/Desktop/Projects/Web/Swift/kisiBootcamp/.build/x86_64-apple-macosx/debug/GoogleCloud.build/Storage/Models/IAMPolicy.d",
+    "object": "/Users/Jorge/Desktop/Projects/Web/Swift/kisiBootcamp/.build/x86_64-apple-macosx/debug/GoogleCloud.build/Storage/Models/IAMPolicy.swift.o",
+    "swiftmodule": "/Users/Jorge/Desktop/Projects/Web/Swift/kisiBootcamp/.build/x86_64-apple-macosx/debug/GoogleCloud.build/Storage/Models/IAMPolicy~partial.swiftmodule",
+    "swift-dependencies": "/Users/Jorge/Desktop/Projects/Web/Swift/kisiBootcamp/.build/x86_64-apple-macosx/debug/GoogleCloud.build/Storage/Models/IAMPolicy.swiftdeps"
+  },
+  "/Users/Jorge/Desktop/Projects/Web/Swift/kisiBootcamp/.build/checkouts/google-cloud-provider/Sources/GoogleCloud/Storage/Models/StorageBucket.swift": {
+    "dependencies": "/Users/Jorge/Desktop/Projects/Web/Swift/kisiBootcamp/.build/x86_64-apple-macosx/debug/GoogleCloud.build/Storage/Models/StorageBucket.d",
+    "object": "/Users/Jorge/Desktop/Projects/Web/Swift/kisiBootcamp/.build/x86_64-apple-macosx/debug/GoogleCloud.build/Storage/Models/StorageBucket.swift.o",
+    "swiftmodule": "/Users/Jorge/Desktop/Projects/Web/Swift/kisiBootcamp/.build/x86_64-apple-macosx/debug/GoogleCloud.build/Storage/Models/StorageBucket~partial.swiftmodule",
+    "swift-dependencies": "/Users/Jorge/Desktop/Projects/Web/Swift/kisiBootcamp/.build/x86_64-apple-macosx/debug/GoogleCloud.build/Storage/Models/StorageBucket.swiftdeps"
+  },
+  "/Users/Jorge/Desktop/Projects/Web/Swift/kisiBootcamp/.build/checkouts/google-cloud-provider/Sources/GoogleCloud/Storage/Models/StorageBucketList.swift": {
+    "dependencies": "/Users/Jorge/Desktop/Projects/Web/Swift/kisiBootcamp/.build/x86_64-apple-macosx/debug/GoogleCloud.build/Storage/Models/StorageBucketList.d",
+    "object": "/Users/Jorge/Desktop/Projects/Web/Swift/kisiBootcamp/.build/x86_64-apple-macosx/debug/GoogleCloud.build/Storage/Models/StorageBucketList.swift.o",
+    "swiftmodule": "/Users/Jorge/Desktop/Projects/Web/Swift/kisiBootcamp/.build/x86_64-apple-macosx/debug/GoogleCloud.build/Storage/Models/StorageBucketList~partial.swiftmodule",
+    "swift-dependencies": "/Users/Jorge/Desktop/Projects/Web/Swift/kisiBootcamp/.build/x86_64-apple-macosx/debug/GoogleCloud.build/Storage/Models/StorageBucketList.swiftdeps"
+  },
+  "/Users/Jorge/Desktop/Projects/Web/Swift/kisiBootcamp/.build/checkouts/google-cloud-provider/Sources/GoogleCloud/Storage/Models/StorageObject.swift": {
+    "dependencies": "/Users/Jorge/Desktop/Projects/Web/Swift/kisiBootcamp/.build/x86_64-apple-macosx/debug/GoogleCloud.build/Storage/Models/StorageObject.d",
+    "object": "/Users/Jorge/Desktop/Projects/Web/Swift/kisiBootcamp/.build/x86_64-apple-macosx/debug/GoogleCloud.build/Storage/Models/StorageObject.swift.o",
+    "swiftmodule": "/Users/Jorge/Desktop/Projects/Web/Swift/kisiBootcamp/.build/x86_64-apple-macosx/debug/GoogleCloud.build/Storage/Models/StorageObject~partial.swiftmodule",
+    "swift-dependencies": "/Users/Jorge/Desktop/Projects/Web/Swift/kisiBootcamp/.build/x86_64-apple-macosx/debug/GoogleCloud.build/Storage/Models/StorageObject.swiftdeps"
+  },
+  "/Users/Jorge/Desktop/Projects/Web/Swift/kisiBootcamp/.build/checkouts/google-cloud-provider/Sources/GoogleCloud/Storage/StorageClient.swift": {
+    "dependencies": "/Users/Jorge/Desktop/Projects/Web/Swift/kisiBootcamp/.build/x86_64-apple-macosx/debug/GoogleCloud.build/Storage/StorageClient.d",
+    "object": "/Users/Jorge/Desktop/Projects/Web/Swift/kisiBootcamp/.build/x86_64-apple-macosx/debug/GoogleCloud.build/Storage/StorageClient.swift.o",
+    "swiftmodule": "/Users/Jorge/Desktop/Projects/Web/Swift/kisiBootcamp/.build/x86_64-apple-macosx/debug/GoogleCloud.build/Storage/StorageClient~partial.swiftmodule",
+    "swift-dependencies": "/Users/Jorge/Desktop/Projects/Web/Swift/kisiBootcamp/.build/x86_64-apple-macosx/debug/GoogleCloud.build/Storage/StorageClient.swiftdeps"
+  },
+  "/Users/Jorge/Desktop/Projects/Web/Swift/kisiBootcamp/.build/checkouts/google-cloud-provider/Sources/GoogleCloud/Storage/StorageConfig.swift": {
+    "dependencies": "/Users/Jorge/Desktop/Projects/Web/Swift/kisiBootcamp/.build/x86_64-apple-macosx/debug/GoogleCloud.build/Storage/StorageConfig.d",
+    "object": "/Users/Jorge/Desktop/Projects/Web/Swift/kisiBootcamp/.build/x86_64-apple-macosx/debug/GoogleCloud.build/Storage/StorageConfig.swift.o",
+    "swiftmodule": "/Users/Jorge/Desktop/Projects/Web/Swift/kisiBootcamp/.build/x86_64-apple-macosx/debug/GoogleCloud.build/Storage/StorageConfig~partial.swiftmodule",
+    "swift-dependencies": "/Users/Jorge/Desktop/Projects/Web/Swift/kisiBootcamp/.build/x86_64-apple-macosx/debug/GoogleCloud.build/Storage/StorageConfig.swiftdeps"
+  },
+  "/Users/Jorge/Desktop/Projects/Web/Swift/kisiBootcamp/.build/checkouts/google-cloud-provider/Sources/GoogleCloud/Storage/StorageRequest.swift": {
+    "dependencies": "/Users/Jorge/Desktop/Projects/Web/Swift/kisiBootcamp/.build/x86_64-apple-macosx/debug/GoogleCloud.build/Storage/StorageRequest.d",
+    "object": "/Users/Jorge/Desktop/Projects/Web/Swift/kisiBootcamp/.build/x86_64-apple-macosx/debug/GoogleCloud.build/Storage/StorageRequest.swift.o",
+    "swiftmodule": "/Users/Jorge/Desktop/Projects/Web/Swift/kisiBootcamp/.build/x86_64-apple-macosx/debug/GoogleCloud.build/Storage/StorageRequest~partial.swiftmodule",
+    "swift-dependencies": "/Users/Jorge/Desktop/Projects/Web/Swift/kisiBootcamp/.build/x86_64-apple-macosx/debug/GoogleCloud.build/Storage/StorageRequest.swiftdeps"
+  }
+}

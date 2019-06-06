@@ -1,0 +1,587 @@
+### Swift dependencies file v0 ###
+provides-top-level:
+- "GoogleCloudStorageRequest"
+provides-nominal:
+- "11GoogleCloud0aB14StorageRequestC"
+provides-member:
+- ["8NIOHTTP111HTTPHeadersV", ""]
+- ["11GoogleCloud0aB14StorageRequestC", ""]
+- ["8NIOHTTP111HTTPHeadersV", "gcsDefault"]
+provides-dynamic-lookup:
+depends-top-level:
+- !private "&&"
+- !private "..."
+- !private "=="
+- "AssignmentPrecedence"
+- !private "CastingPrecedence"
+- "Client"
+- !private "CloudStorageError"
+- "Data"
+- "Date"
+- "DateFormatter"
+- !private "EmptyResponse"
+- "Future"
+- "GoogleCloudModel"
+- !private "GoogleCloudStorageError"
+- "GoogleCloudStorageRequest"
+- "HTTPBody"
+- "HTTPHeaders"
+- "HTTPMethod"
+- "JSONDecoder"
+- !private "MediaType"
+- "OAuthAccessToken"
+- "OAuthRefreshable"
+- "Response"
+- "String"
+- !private "UnicodeScalarType"
+depends-member:
+- !private ["4Core22AnyReflectionDecodableP", "authorization"]
+- !private ["4Core22AnyReflectionDecodableP", "contentType"]
+- !private ["4Core22AnyReflectionDecodableP", "init"]
+- !private ["4Core21BasicKeyRepresentableP", "authorization"]
+- !private ["4Core21BasicKeyRepresentableP", "contentType"]
+- !private ["5Async11BasicWorkerP", "future"]
+- !private ["5Async11BasicWorkerP", "http"]
+- !private ["SK", "authorization"]
+- !private ["SK", "contains"]
+- !private ["SK", "contentType"]
+- !private ["SK", "init"]
+- !private ["s7CVarArgP", "authorization"]
+- !private ["s7CVarArgP", "contentType"]
+- !private ["s7CVarArgP", "dateFormat"]
+- !private ["s7CVarArgP", "init"]
+- !private ["5Vapor6ClientP", "container"]
+- !private ["5Vapor6ClientP", "send"]
+- !private ["SN", "contains"]
+- !private ["11GoogleCloud0B12StorageErrorV", "deinit"]
+- !private ["Sl", "authorization"]
+- !private ["Sl", "contains"]
+- !private ["Sl", "contentType"]
+- !private ["Sl", "init"]
+- !private ["SL", "authorization"]
+- !private ["SL", "contentType"]
+- !private ["SL", "init"]
+- !private ["7Service9ContainerP", "future"]
+- !private ["7Service9ContainerP", "http"]
+- !private ["7Service14ContainerAliasP", "future"]
+- !private ["7Service14ContainerAliasP", "http"]
+- !private ["5Vapor7ContentP", "accessToken"]
+- !private ["5Vapor7ContentP", "authorization"]
+- !private ["5Vapor7ContentP", "contentType"]
+- !private ["10Foundation15ContiguousBytesP", "init"]
+- !private ["3NIO20ContiguousCollectionP", "init"]
+- !private ["s28CustomDebugStringConvertibleP", "MediaType"]
+- !private ["s28CustomDebugStringConvertibleP", "add"]
+- !private ["s28CustomDebugStringConvertibleP", "authorization"]
+- !private ["s28CustomDebugStringConvertibleP", "body"]
+- !private ["s28CustomDebugStringConvertibleP", "consumeData"]
+- !private ["s28CustomDebugStringConvertibleP", "contains"]
+- !private ["s28CustomDebugStringConvertibleP", "contentType"]
+- !private ["s28CustomDebugStringConvertibleP", "data"]
+- !private ["s28CustomDebugStringConvertibleP", "dateFormat"]
+- !private ["s28CustomDebugStringConvertibleP", "forEach"]
+- !private ["s28CustomDebugStringConvertibleP", "future"]
+- !private ["s28CustomDebugStringConvertibleP", "gcsDefault"]
+- !private ["s28CustomDebugStringConvertibleP", "http"]
+- !private ["s28CustomDebugStringConvertibleP", "init"]
+- !private ["s28CustomDebugStringConvertibleP", "replaceOrAdd"]
+- !private ["s28CustomDebugStringConvertibleP", "status"]
+- !private ["s28CustomDebugStringConvertibleP", "unknownError"]
+- !private ["s17CustomReflectableP", "authorization"]
+- !private ["s17CustomReflectableP", "contains"]
+- !private ["s17CustomReflectableP", "contentType"]
+- !private ["s17CustomReflectableP", "init"]
+- !private ["s23CustomStringConvertibleP", "MediaType"]
+- !private ["s23CustomStringConvertibleP", "add"]
+- !private ["s23CustomStringConvertibleP", "appendInterpolation"]
+- !private ["s23CustomStringConvertibleP", "appendLiteral"]
+- !private ["s23CustomStringConvertibleP", "authorization"]
+- !private ["s23CustomStringConvertibleP", "body"]
+- !private ["s23CustomStringConvertibleP", "consumeData"]
+- !private ["s23CustomStringConvertibleP", "contains"]
+- !private ["s23CustomStringConvertibleP", "contentType"]
+- !private ["s23CustomStringConvertibleP", "data"]
+- !private ["s23CustomStringConvertibleP", "dateFormat"]
+- !private ["s23CustomStringConvertibleP", "description"]
+- !private ["s23CustomStringConvertibleP", "forEach"]
+- !private ["s23CustomStringConvertibleP", "future"]
+- !private ["s23CustomStringConvertibleP", "gcsDefault"]
+- !private ["s23CustomStringConvertibleP", "http"]
+- !private ["s23CustomStringConvertibleP", "init"]
+- !private ["s23CustomStringConvertibleP", "json"]
+- !private ["s23CustomStringConvertibleP", "replaceOrAdd"]
+- !private ["s23CustomStringConvertibleP", "status"]
+- !private ["s23CustomStringConvertibleP", "unknownError"]
+- !private ["10Foundation4DataV", "init"]
+- !private ["4Core11DataDecoderP", "dateDecodingStrategy"]
+- !private ["4Core11DataDecoderP", "decode"]
+- !private ["4Core11DataDecoderP", "init"]
+- !private ["10Foundation12DataProtocolP", "init"]
+- !private ["11DatabaseKit0A11ConnectableP", "http"]
+- !private ["10Foundation4DateV", "init"]
+- !private ["10Foundation11JSONDecoderC20DateDecodingStrategyO", "formatted"]
+- !private ["So15NSDateFormatterC", "dateFormat"]
+- !private ["So15NSDateFormatterC", "init"]
+- !private ["9Debugging10DebuggableP", "unknownError"]
+- !private ["Se", "accessToken"]
+- !private ["Se", "authorization"]
+- !private ["Se", "contains"]
+- !private ["Se", "contentType"]
+- !private ["Se", "init"]
+- !private ["s26DefaultStringInterpolationV", "appendInterpolation"]
+- !private ["s26DefaultStringInterpolationV", "appendLiteral"]
+- !private ["SE", "accessToken"]
+- !private ["SE", "authorization"]
+- !private ["SE", "catchMap"]
+- !private ["SE", "contains"]
+- !private ["SE", "contentType"]
+- !private ["SE", "flatMap"]
+- !private ["SE", "init"]
+- !private ["SE", "map"]
+- !private ["SQ", "GET"]
+- !private ["SQ", "MediaType"]
+- !private ["SQ", "add"]
+- !private ["SQ", "authorization"]
+- !private ["SQ", "catchMap"]
+- !private ["SQ", "code"]
+- !private ["SQ", "contains"]
+- !private ["SQ", "contentType"]
+- !private ["SQ", "dateFormat"]
+- !private ["SQ", "description"]
+- !private ["SQ", "flatMap"]
+- !private ["SQ", "forEach"]
+- !private ["SQ", "gcsDefault"]
+- !private ["SQ", "init"]
+- !private ["SQ", "json"]
+- !private ["SQ", "map"]
+- !private ["SQ", "replaceOrAdd"]
+- !private ["s5ErrorP", "localizedDescription"]
+- !private ["s5ErrorP", "unknownError"]
+- !private ["3NIO15EventLoopFutureC", "catchMap"]
+- !private ["3NIO15EventLoopFutureC", "flatMap"]
+- !private ["3NIO15EventLoopFutureC", "map"]
+- !private ["3NIO14EventLoopGroupP", "future"]
+- !private ["3NIO14EventLoopGroupP", "http"]
+- !private ["s30ExpressibleByDictionaryLiteralP", "MediaType"]
+- !private ["s30ExpressibleByDictionaryLiteralP", "add"]
+- !private ["s30ExpressibleByDictionaryLiteralP", "forEach"]
+- !private ["s30ExpressibleByDictionaryLiteralP", "gcsDefault"]
+- !private ["s30ExpressibleByDictionaryLiteralP", "replaceOrAdd"]
+- !private ["s43ExpressibleByExtendedGraphemeClusterLiteralP", "authorization"]
+- !private ["s43ExpressibleByExtendedGraphemeClusterLiteralP", "contentType"]
+- !private ["s32ExpressibleByStringInterpolationP", "authorization"]
+- !private ["s32ExpressibleByStringInterpolationP", "contentType"]
+- !private ["s26ExpressibleByStringLiteralP", "authorization"]
+- !private ["s26ExpressibleByStringLiteralP", "contentType"]
+- !private ["s33ExpressibleByUnicodeScalarLiteralP", "authorization"]
+- !private ["s33ExpressibleByUnicodeScalarLiteralP", "contentType"]
+- !private ["So11NSFormatterC", "dateFormat"]
+- !private ["So11NSFormatterC", "init"]
+- !private ["5Async10FutureTypeP", "catchMap"]
+- !private ["5Async10FutureTypeP", "flatMap"]
+- !private ["5Async10FutureTypeP", "map"]
+- !private ["11GoogleCloud0aB5ErrorP", "unknownError"]
+- !private ["11GoogleCloud0aB12StorageErrorO", "deinit"]
+- !private ["11GoogleCloud0aB12StorageErrorO", "unknownError"]
+- ["11GoogleCloud0aB14StorageRequestC", "Client"]
+- !private ["11GoogleCloud0aB14StorageRequestC", "CloudStorageError"]
+- ["11GoogleCloud0aB14StorageRequestC", "Data"]
+- ["11GoogleCloud0aB14StorageRequestC", "Date"]
+- ["11GoogleCloud0aB14StorageRequestC", "DateFormatter"]
+- !private ["11GoogleCloud0aB14StorageRequestC", "EmptyResponse"]
+- ["11GoogleCloud0aB14StorageRequestC", "Future"]
+- ["11GoogleCloud0aB14StorageRequestC", "GoogleCloudModel"]
+- !private ["11GoogleCloud0aB14StorageRequestC", "GoogleCloudStorageError"]
+- ["11GoogleCloud0aB14StorageRequestC", "HTTPBody"]
+- ["11GoogleCloud0aB14StorageRequestC", "HTTPHeaders"]
+- ["11GoogleCloud0aB14StorageRequestC", "HTTPMethod"]
+- ["11GoogleCloud0aB14StorageRequestC", "JSONDecoder"]
+- ["11GoogleCloud0aB14StorageRequestC", "OAuthAccessToken"]
+- ["11GoogleCloud0aB14StorageRequestC", "OAuthRefreshable"]
+- ["11GoogleCloud0aB14StorageRequestC", "Response"]
+- ["11GoogleCloud0aB14StorageRequestC", "String"]
+- !private ["11GoogleCloud0aB14StorageRequestC", "_send"]
+- ["11GoogleCloud0aB14StorageRequestC", "currentToken"]
+- ["11GoogleCloud0aB14StorageRequestC", "dateFormatter"]
+- ["11GoogleCloud0aB14StorageRequestC", "deinit"]
+- ["11GoogleCloud0aB14StorageRequestC", "httpClient"]
+- ["11GoogleCloud0aB14StorageRequestC", "init"]
+- ["11GoogleCloud0aB14StorageRequestC", "project"]
+- ["11GoogleCloud0aB14StorageRequestC", "refreshableToken"]
+- ["11GoogleCloud0aB14StorageRequestC", "responseDecoder"]
+- ["11GoogleCloud0aB14StorageRequestC", "send"]
+- ["11GoogleCloud0aB14StorageRequestC", "tokenCreatedTime"]
+- !private ["11GoogleCloud0aB14StorageRequestC", "withToken"]
+- !private ["4HTTP8HTTPBodyV", "consumeData"]
+- !private ["4HTTP8HTTPBodyV", "data"]
+- !private ["4HTTP8HTTPBodyV", "init"]
+- !private ["4HTTP14HTTPHeaderNameV", "authorization"]
+- !private ["4HTTP14HTTPHeaderNameV", "contentType"]
+- ["8NIOHTTP111HTTPHeadersV", "HTTPHeaders"]
+- !private ["8NIOHTTP111HTTPHeadersV", "MediaType"]
+- !private ["8NIOHTTP111HTTPHeadersV", "add"]
+- !private ["8NIOHTTP111HTTPHeadersV", "forEach"]
+- ["8NIOHTTP111HTTPHeadersV", "gcsDefault"]
+- !private ["8NIOHTTP111HTTPHeadersV", "replaceOrAdd"]
+- !private ["4HTTP11HTTPMessageP", "body"]
+- !private ["4HTTP11HTTPMessageP", "status"]
+- !private ["5Vapor20HTTPMessageContainerP", "future"]
+- !private ["5Vapor20HTTPMessageContainerP", "http"]
+- !private ["4HTTP18HTTPMessageDecoderP", "dateDecodingStrategy"]
+- !private ["4HTTP18HTTPMessageDecoderP", "decode"]
+- !private ["4HTTP18HTTPMessageDecoderP", "init"]
+- !private ["8NIOHTTP110HTTPMethodO", "GET"]
+- !private ["4HTTP11HTTPRequestV", "body"]
+- !private ["4HTTP12HTTPResponseV", "body"]
+- !private ["4HTTP12HTTPResponseV", "status"]
+- !private ["8NIOHTTP118HTTPResponseStatusO", "code"]
+- !private ["SH", "authorization"]
+- !private ["SH", "contains"]
+- !private ["SH", "contentType"]
+- !private ["SH", "dateFormat"]
+- !private ["SH", "description"]
+- !private ["SH", "init"]
+- !private ["SH", "json"]
+- !private ["10Foundation11JSONDecoderC", "dateDecodingStrategy"]
+- !private ["10Foundation11JSONDecoderC", "decode"]
+- !private ["10Foundation11JSONDecoderC", "init"]
+- !private ["10Foundation14LocalizedErrorP", "unknownError"]
+- !private ["4Core23LosslessDataConvertibleP", "authorization"]
+- !private ["4Core23LosslessDataConvertibleP", "contentType"]
+- !private ["4Core23LosslessDataConvertibleP", "init"]
+- !private ["4HTTP29LosslessHTTPBodyRepresentableP", "authorization"]
+- !private ["4HTTP29LosslessHTTPBodyRepresentableP", "consumeData"]
+- !private ["4HTTP29LosslessHTTPBodyRepresentableP", "contentType"]
+- !private ["4HTTP29LosslessHTTPBodyRepresentableP", "data"]
+- !private ["4HTTP29LosslessHTTPBodyRepresentableP", "init"]
+- !private ["s25LosslessStringConvertibleP", "authorization"]
+- !private ["s25LosslessStringConvertibleP", "contentType"]
+- !private ["4Core9MediaTypeV", "description"]
+- !private ["4Core9MediaTypeV", "json"]
+- !private ["s10MirrorPathP", "authorization"]
+- !private ["s10MirrorPathP", "contentType"]
+- !private ["9Multipart0A15PartConvertibleP", "authorization"]
+- !private ["9Multipart0A15PartConvertibleP", "contentType"]
+- !private ["9Multipart0A15PartConvertibleP", "init"]
+- !private ["SM", "init"]
+- !private ["10Foundation19MutableDataProtocolP", "init"]
+- !private ["So8NSCodingP", "dateFormat"]
+- !private ["So8NSCodingP", "init"]
+- !private ["So9NSCopyingP", "dateFormat"]
+- !private ["So9NSCopyingP", "init"]
+- !private ["So8NSObjectC", "dateFormat"]
+- !private ["So8NSObjectC", "init"]
+- !private ["So8NSObjectP", "dateFormat"]
+- !private ["So8NSObjectP", "init"]
+- !private ["11GoogleCloud16OAuthAccessTokenV", "accessToken"]
+- !private ["11GoogleCloud16OAuthRefreshableP", "isFresh"]
+- !private ["11GoogleCloud16OAuthRefreshableP", "refresh"]
+- !private ["7Routing9ParameterP", "authorization"]
+- !private ["7Routing9ParameterP", "contentType"]
+- !private ["7Routing27PathComponentsRepresentableP", "authorization"]
+- !private ["7Routing27PathComponentsRepresentableP", "contentType"]
+- !private ["Sk", "contains"]
+- !private ["Sk", "init"]
+- !private ["SX", "contains"]
+- !private ["Sm", "authorization"]
+- !private ["Sm", "contentType"]
+- !private ["Sm", "init"]
+- !private ["10Foundation20ReferenceConvertibleP", "init"]
+- !private ["4Core19ReflectionDecodableP", "authorization"]
+- !private ["4Core19ReflectionDecodableP", "contentType"]
+- !private ["4Core19ReflectionDecodableP", "init"]
+- !private ["5Vapor7RequestC", "http"]
+- !private ["5Vapor16RequestDecodableP", "accessToken"]
+- !private ["5Vapor16RequestDecodableP", "authorization"]
+- !private ["5Vapor16RequestDecodableP", "body"]
+- !private ["5Vapor16RequestDecodableP", "contentType"]
+- !private ["5Vapor16RequestDecodableP", "http"]
+- !private ["5Vapor16RequestEncodableP", "accessToken"]
+- !private ["5Vapor16RequestEncodableP", "authorization"]
+- !private ["5Vapor16RequestEncodableP", "body"]
+- !private ["5Vapor16RequestEncodableP", "contentType"]
+- !private ["5Vapor16RequestEncodableP", "http"]
+- !private ["5Vapor8ResponseC", "future"]
+- !private ["5Vapor8ResponseC", "http"]
+- !private ["5Vapor17ResponseDecodableP", "accessToken"]
+- !private ["5Vapor17ResponseDecodableP", "authorization"]
+- !private ["5Vapor17ResponseDecodableP", "contentType"]
+- !private ["5Vapor17ResponseDecodableP", "future"]
+- !private ["5Vapor17ResponseDecodableP", "http"]
+- !private ["5Vapor17ResponseEncodableP", "accessToken"]
+- !private ["5Vapor17ResponseEncodableP", "authorization"]
+- !private ["5Vapor17ResponseEncodableP", "body"]
+- !private ["5Vapor17ResponseEncodableP", "catchMap"]
+- !private ["5Vapor17ResponseEncodableP", "code"]
+- !private ["5Vapor17ResponseEncodableP", "contentType"]
+- !private ["5Vapor17ResponseEncodableP", "flatMap"]
+- !private ["5Vapor17ResponseEncodableP", "future"]
+- !private ["5Vapor17ResponseEncodableP", "http"]
+- !private ["5Vapor17ResponseEncodableP", "map"]
+- !private ["5Vapor17ResponseEncodableP", "status"]
+- !private ["7Routing17RoutableComponentP", "authorization"]
+- !private ["7Routing17RoutableComponentP", "contentType"]
+- !private ["7Routing17RoutableComponentP", "init"]
+- !private ["ST", "MediaType"]
+- !private ["ST", "add"]
+- !private ["ST", "authorization"]
+- !private ["ST", "contains"]
+- !private ["ST", "contentType"]
+- !private ["ST", "forEach"]
+- !private ["ST", "gcsDefault"]
+- !private ["ST", "init"]
+- !private ["ST", "replaceOrAdd"]
+- !private ["SS", "authorization"]
+- !private ["SS", "contentType"]
+- !private ["s27StringInterpolationProtocolP", "appendInterpolation"]
+- !private ["s27StringInterpolationProtocolP", "appendLiteral"]
+- !private ["Sy", "authorization"]
+- !private ["Sy", "contentType"]
+- !private ["11TemplateKit0A17DataRepresentableP", "authorization"]
+- !private ["11TemplateKit0A17DataRepresentableP", "contentType"]
+- !private ["11TemplateKit0A17DataRepresentableP", "init"]
+- !private ["s16TextOutputStreamP", "appendInterpolation"]
+- !private ["s16TextOutputStreamP", "appendLiteral"]
+- !private ["s16TextOutputStreamP", "authorization"]
+- !private ["s16TextOutputStreamP", "contentType"]
+- !private ["s20TextOutputStreamableP", "authorization"]
+- !private ["s20TextOutputStreamableP", "contentType"]
+- !private ["14URLEncodedForm0aB15DataConvertibleP", "authorization"]
+- !private ["14URLEncodedForm0aB15DataConvertibleP", "contentType"]
+- !private ["4HTTP16URLRepresentableP", "authorization"]
+- !private ["4HTTP16URLRepresentableP", "contentType"]
+- !private ["s30_CustomPlaygroundQuickLookableP", "authorization"]
+- !private ["s30_CustomPlaygroundQuickLookableP", "contentType"]
+- !private ["s30_CustomPlaygroundQuickLookableP", "init"]
+- !private ["8NIOHTTP128_DeprecateHTTPHeaderIteratorP", "MediaType"]
+- !private ["8NIOHTTP128_DeprecateHTTPHeaderIteratorP", "add"]
+- !private ["8NIOHTTP128_DeprecateHTTPHeaderIteratorP", "forEach"]
+- !private ["8NIOHTTP128_DeprecateHTTPHeaderIteratorP", "gcsDefault"]
+- !private ["8NIOHTTP128_DeprecateHTTPHeaderIteratorP", "replaceOrAdd"]
+- !private ["s51_ExpressibleByBuiltinExtendedGraphemeClusterLiteralP", "authorization"]
+- !private ["s51_ExpressibleByBuiltinExtendedGraphemeClusterLiteralP", "contentType"]
+- !private ["s34_ExpressibleByBuiltinStringLiteralP", "authorization"]
+- !private ["s34_ExpressibleByBuiltinStringLiteralP", "contentType"]
+- !private ["s41_ExpressibleByBuiltinUnicodeScalarLiteralP", "authorization"]
+- !private ["s41_ExpressibleByBuiltinUnicodeScalarLiteralP", "contentType"]
+- !private ["s19_HasContiguousBytesP", "authorization"]
+- !private ["s19_HasContiguousBytesP", "contentType"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "dateFormat"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "init"]
+- !private ["s21_ObjectiveCBridgeableP", "authorization"]
+- !private ["s21_ObjectiveCBridgeableP", "contentType"]
+- !private ["s21_ObjectiveCBridgeableP", "init"]
+depends-nominal:
+- !private "4Core22AnyReflectionDecodableP"
+- !private "4Core21BasicKeyRepresentableP"
+- !private "5Async11BasicWorkerP"
+- !private "SK"
+- !private "s7CVarArgP"
+- !private "5Vapor6ClientP"
+- !private "SN"
+- !private "11GoogleCloud0B12StorageErrorV"
+- !private "Sl"
+- !private "SL"
+- !private "7Service9ContainerP"
+- !private "7Service14ContainerAliasP"
+- !private "5Vapor7ContentP"
+- !private "10Foundation15ContiguousBytesP"
+- !private "3NIO20ContiguousCollectionP"
+- !private "s28CustomDebugStringConvertibleP"
+- !private "s17CustomReflectableP"
+- !private "s23CustomStringConvertibleP"
+- !private "10Foundation4DataV"
+- !private "4Core11DataDecoderP"
+- !private "10Foundation12DataProtocolP"
+- !private "11DatabaseKit0A11ConnectableP"
+- !private "10Foundation4DateV"
+- !private "10Foundation11JSONDecoderC20DateDecodingStrategyO"
+- !private "So15NSDateFormatterC"
+- !private "9Debugging10DebuggableP"
+- !private "Se"
+- !private "s26DefaultStringInterpolationV"
+- !private "SE"
+- !private "SQ"
+- !private "s5ErrorP"
+- !private "3NIO15EventLoopFutureC"
+- !private "3NIO14EventLoopGroupP"
+- !private "s30ExpressibleByDictionaryLiteralP"
+- !private "s43ExpressibleByExtendedGraphemeClusterLiteralP"
+- !private "s32ExpressibleByStringInterpolationP"
+- !private "s26ExpressibleByStringLiteralP"
+- !private "s33ExpressibleByUnicodeScalarLiteralP"
+- !private "So11NSFormatterC"
+- !private "5Async10FutureTypeP"
+- !private "11GoogleCloud0aB5ErrorP"
+- !private "11GoogleCloud0aB12StorageErrorO"
+- "11GoogleCloud0aB14StorageRequestC"
+- !private "4HTTP8HTTPBodyV"
+- !private "4HTTP14HTTPHeaderNameV"
+- "8NIOHTTP111HTTPHeadersV"
+- !private "4HTTP11HTTPMessageP"
+- !private "5Vapor20HTTPMessageContainerP"
+- !private "4HTTP18HTTPMessageDecoderP"
+- !private "8NIOHTTP110HTTPMethodO"
+- !private "4HTTP11HTTPRequestV"
+- !private "4HTTP12HTTPResponseV"
+- !private "8NIOHTTP118HTTPResponseStatusO"
+- !private "SH"
+- !private "10Foundation11JSONDecoderC"
+- !private "10Foundation14LocalizedErrorP"
+- !private "4Core23LosslessDataConvertibleP"
+- !private "4HTTP29LosslessHTTPBodyRepresentableP"
+- !private "s25LosslessStringConvertibleP"
+- !private "4Core9MediaTypeV"
+- !private "s10MirrorPathP"
+- !private "9Multipart0A15PartConvertibleP"
+- !private "SM"
+- !private "10Foundation19MutableDataProtocolP"
+- !private "So8NSCodingP"
+- !private "So9NSCopyingP"
+- !private "So8NSObjectC"
+- !private "So8NSObjectP"
+- !private "11GoogleCloud16OAuthAccessTokenV"
+- !private "11GoogleCloud16OAuthRefreshableP"
+- !private "7Routing9ParameterP"
+- !private "7Routing27PathComponentsRepresentableP"
+- !private "Sk"
+- !private "SX"
+- !private "Sm"
+- !private "10Foundation20ReferenceConvertibleP"
+- !private "4Core19ReflectionDecodableP"
+- !private "5Vapor7RequestC"
+- !private "5Vapor16RequestDecodableP"
+- !private "5Vapor16RequestEncodableP"
+- !private "5Vapor8ResponseC"
+- !private "5Vapor17ResponseDecodableP"
+- !private "5Vapor17ResponseEncodableP"
+- !private "7Routing17RoutableComponentP"
+- !private "ST"
+- !private "SS"
+- !private "s27StringInterpolationProtocolP"
+- !private "Sy"
+- !private "11TemplateKit0A17DataRepresentableP"
+- !private "s16TextOutputStreamP"
+- !private "s20TextOutputStreamableP"
+- !private "14URLEncodedForm0aB15DataConvertibleP"
+- !private "4HTTP16URLRepresentableP"
+- !private "s30_CustomPlaygroundQuickLookableP"
+- !private "8NIOHTTP128_DeprecateHTTPHeaderIteratorP"
+- !private "s51_ExpressibleByBuiltinExtendedGraphemeClusterLiteralP"
+- !private "s34_ExpressibleByBuiltinStringLiteralP"
+- !private "s41_ExpressibleByBuiltinUnicodeScalarLiteralP"
+- !private "s19_HasContiguousBytesP"
+- !private "10Foundation27_KeyValueCodingAndObservingP"
+- !private "s21_ObjectiveCBridgeableP"
+depends-dynamic-lookup:
+depends-external:
+- "/Users/Jorge/Desktop/Projects/Web/Swift/kisiBootcamp/.build/x86_64-apple-macosx/debug/NIOHTTP1.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/ObjectiveC.swiftmodule"
+- "/Users/Jorge/Desktop/Projects/Web/Swift/kisiBootcamp/.build/x86_64-apple-macosx/debug/NIOOpenSSL.swiftmodule"
+- "/Users/Jorge/Desktop/Projects/Web/Swift/kisiBootcamp/.build/x86_64-apple-macosx/debug/NIO.swiftmodule"
+- "/Users/Jorge/Desktop/Projects/Web/Swift/kisiBootcamp/.build/x86_64-apple-macosx/debug/HTTP.swiftmodule"
+- "/Users/Jorge/Desktop/Projects/Web/Swift/kisiBootcamp/.build/x86_64-apple-macosx/debug/NIOTLS.swiftmodule"
+- "/Users/Jorge/Desktop/Projects/Web/Swift/kisiBootcamp/.build/x86_64-apple-macosx/debug/JWT.swiftmodule"
+- "/Users/Jorge/Desktop/Projects/Web/Swift/kisiBootcamp/.build/x86_64-apple-macosx/debug/Async.swiftmodule"
+- "/Users/Jorge/Desktop/Projects/Web/Swift/kisiBootcamp/.build/x86_64-apple-macosx/debug/Command.swiftmodule"
+- "/Users/Jorge/Desktop/Projects/Web/Swift/kisiBootcamp/.build/x86_64-apple-macosx/debug/Service.swiftmodule"
+- "/Users/Jorge/Desktop/Projects/Web/Swift/kisiBootcamp/.build/x86_64-apple-macosx/debug/Console.swiftmodule"
+- "/Users/Jorge/Desktop/Projects/Web/Swift/kisiBootcamp/.build/x86_64-apple-macosx/debug/Core.swiftmodule"
+- "/Users/Jorge/Desktop/Projects/Web/Swift/kisiBootcamp/.build/x86_64-apple-macosx/debug/Logging.swiftmodule"
+- "/Users/Jorge/Desktop/Projects/Web/Swift/kisiBootcamp/.build/x86_64-apple-macosx/debug/Debugging.swiftmodule"
+- "/Users/Jorge/Desktop/Projects/Web/Swift/kisiBootcamp/.build/x86_64-apple-macosx/debug/Routing.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/Dispatch.swiftmodule"
+- "/Users/Jorge/Desktop/Projects/Web/Swift/kisiBootcamp/.build/x86_64-apple-macosx/debug/COperatingSystem.swiftmodule"
+- "/Users/Jorge/Desktop/Projects/Web/Swift/kisiBootcamp/.build/x86_64-apple-macosx/debug/Random.swiftmodule"
+- "/Users/Jorge/Desktop/Projects/Web/Swift/kisiBootcamp/.build/x86_64-apple-macosx/debug/URLEncodedForm.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/Darwin.swiftmodule"
+- "/Users/Jorge/Desktop/Projects/Web/Swift/kisiBootcamp/.build/x86_64-apple-macosx/debug/Validation.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/Foundation.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/CoreFoundation.swiftmodule"
+- "/Users/Jorge/Desktop/Projects/Web/Swift/kisiBootcamp/.build/x86_64-apple-macosx/debug/Crypto.swiftmodule"
+- "/Users/Jorge/Desktop/Projects/Web/Swift/kisiBootcamp/.build/x86_64-apple-macosx/debug/Vapor.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/CoreGraphics.swiftmodule"
+- "/Users/Jorge/Desktop/Projects/Web/Swift/kisiBootcamp/.build/x86_64-apple-macosx/debug/NIOConcurrencyHelpers.swiftmodule"
+- "/Users/Jorge/Desktop/Projects/Web/Swift/kisiBootcamp/.build/x86_64-apple-macosx/debug/Bits.swiftmodule"
+- "/Users/Jorge/Desktop/Projects/Web/Swift/kisiBootcamp/.build/x86_64-apple-macosx/debug/NIOFoundationCompat.swiftmodule"
+- "/Users/Jorge/Desktop/Projects/Web/Swift/kisiBootcamp/.build/x86_64-apple-macosx/debug/WebSocket.swiftmodule"
+- "/Users/Jorge/Desktop/Projects/Web/Swift/kisiBootcamp/.build/x86_64-apple-macosx/debug/NIOWebSocket.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/Swift.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/IOKit.swiftmodule"
+- "/Users/Jorge/Desktop/Projects/Web/Swift/kisiBootcamp/.build/x86_64-apple-macosx/debug/DatabaseKit.swiftmodule"
+- "/Users/Jorge/Desktop/Projects/Web/Swift/kisiBootcamp/.build/x86_64-apple-macosx/debug/TemplateKit.swiftmodule"
+- "/Users/Jorge/Desktop/Projects/Web/Swift/kisiBootcamp/.build/x86_64-apple-macosx/debug/Multipart.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/SwiftOnoneSupport.swiftmodule"
+- "/Users/Jorge/Desktop/Projects/Web/Swift/kisiBootcamp/.build/checkouts/swift-nio/Sources/CNIOSHA1/include/CNIOSHA1.h"
+- "/usr/local/Cellar/libressl/2.9.2/include/openssl/asn1.h"
+- "/usr/local/Cellar/libressl/2.9.2/include/openssl/tls1.h"
+- "/usr/local/Cellar/libressl/2.9.2/include/openssl/dtls1.h"
+- "/usr/local/Cellar/libressl/2.9.2/include/openssl/pkcs12.h"
+- "/usr/local/Cellar/libressl/2.9.2/include/openssl/ssl2.h"
+- "/usr/local/Cellar/libressl/2.9.2/include/openssl/pem2.h"
+- "/usr/local/Cellar/libressl/2.9.2/include/openssl/ssl23.h"
+- "/usr/local/Cellar/libressl/2.9.2/include/openssl/ssl3.h"
+- "/usr/local/Cellar/libressl/2.9.2/include/openssl/x509v3.h"
+- "/usr/local/Cellar/libressl/2.9.2/include/openssl/md5.h"
+- "/usr/local/Cellar/libressl/2.9.2/include/openssl/pkcs7.h"
+- "/usr/local/Cellar/libressl/2.9.2/include/openssl/x509.h"
+- "/usr/local/Cellar/libressl/2.9.2/include/openssl/sha.h"
+- "/usr/local/Cellar/libressl/2.9.2/include/openssl/dsa.h"
+- "/usr/local/Cellar/libressl/2.9.2/include/openssl/ecdsa.h"
+- "/usr/local/Cellar/libressl/2.9.2/include/openssl/rsa.h"
+- "/Users/Jorge/Desktop/Projects/Web/Swift/kisiBootcamp/.build/checkouts/swift-nio/Sources/CNIOZlib/include/CNIOZlib.h"
+- "/usr/local/Cellar/libressl/2.9.2/include/openssl/obj_mac.h"
+- "/usr/local/Cellar/libressl/2.9.2/include/openssl/hmac.h"
+- "/usr/local/Cellar/libressl/2.9.2/include/openssl/ec.h"
+- "/Users/Jorge/Desktop/Projects/Web/Swift/kisiBootcamp/.build/checkouts/swift-nio/Sources/CNIOAtomics/include/cpp_magic.h"
+- "/Users/Jorge/Desktop/Projects/Web/Swift/kisiBootcamp/.build/checkouts/swift-nio/Sources/CNIOLinux/include/ifaddrs-android.h"
+- "/usr/local/Cellar/libressl/2.9.2/include/openssl/rand.h"
+- "/usr/local/Cellar/libressl/2.9.2/include/openssl/conf.h"
+- "/usr/local/Cellar/libressl/2.9.2/include/openssl/opensslconf.h"
+- "/usr/local/Cellar/libressl/2.9.2/include/openssl/dh.h"
+- "/usr/local/Cellar/libressl/2.9.2/include/openssl/ecdh.h"
+- "/usr/local/Cellar/libressl/2.9.2/include/openssl/lhash.h"
+- "/usr/local/Cellar/libressl/2.9.2/include/openssl/stack.h"
+- "/usr/local/Cellar/libressl/2.9.2/include/openssl/safestack.h"
+- "/usr/local/Cellar/libressl/2.9.2/include/openssl/ssl.h"
+- "/Users/Jorge/Desktop/Projects/Web/Swift/kisiBootcamp/.build/checkouts/swift-nio-ssl/Sources/CNIOOpenSSL/include/c_nio_openssl.h"
+- "/Users/Jorge/Desktop/Projects/Web/Swift/kisiBootcamp/.build/checkouts/crypto/Sources/CCryptoOpenSSL/include/c_crypto_openssl.h"
+- "/usr/local/Cellar/libressl/2.9.2/include/openssl/pem.h"
+- "/usr/local/Cellar/libressl/2.9.2/include/openssl/bn.h"
+- "/Users/Jorge/Desktop/Projects/Web/Swift/kisiBootcamp/.build/checkouts/swift-nio/Sources/CNIODarwin/include/CNIODarwin.h"
+- "/usr/local/Cellar/libressl/2.9.2/include/openssl/bio.h"
+- "/usr/local/Cellar/libressl/2.9.2/include/openssl/crypto.h"
+- "/usr/local/Cellar/libressl/2.9.2/include/openssl/srtp.h"
+- "/usr/local/Cellar/libressl/2.9.2/include/openssl/evp.h"
+- "/usr/local/Cellar/libressl/2.9.2/include/openssl/ossl_typ.h"
+- "/usr/local/Cellar/libressl/2.9.2/include/openssl/buffer.h"
+- "/Users/Jorge/Desktop/Projects/Web/Swift/kisiBootcamp/.build/checkouts/swift-nio/Sources/CNIOHTTPParser/include/CNIOHTTPParser.h"
+- "/Users/Jorge/Desktop/Projects/Web/Swift/kisiBootcamp/.build/checkouts/swift-nio/Sources/CNIOHTTPParser/include/c_nio_http_parser.h"
+- "/usr/local/Cellar/libressl/2.9.2/include/openssl/err.h"
+- "/Users/Jorge/Desktop/Projects/Web/Swift/kisiBootcamp/.build/checkouts/swift-nio/Sources/CNIOAtomics/include/CNIOAtomics.h"
+- "/usr/local/Cellar/libressl/2.9.2/include/openssl/opensslfeatures.h"
+- "/usr/local/Cellar/libressl/2.9.2/include/openssl/objects.h"
+- "/usr/local/Cellar/libressl/2.9.2/include/openssl/opensslv.h"
+- "/Users/Jorge/Desktop/Projects/Web/Swift/kisiBootcamp/.build/checkouts/swift-nio/Sources/CNIOLinux/include/CNIOLinux.h"
+- "/usr/local/Cellar/libressl/2.9.2/include/openssl/x509_vfy.h"
+- "/Users/Jorge/Desktop/Projects/Web/Swift/kisiBootcamp/.build/x86_64-apple-macosx/debug/CNIOSHA1.build/module.modulemap"
+- "/Users/Jorge/Desktop/Projects/Web/Swift/kisiBootcamp/.build/x86_64-apple-macosx/debug/CNIOOpenSSL.build/module.modulemap"
+- "/Users/Jorge/Desktop/Projects/Web/Swift/kisiBootcamp/.build/x86_64-apple-macosx/debug/CCryptoOpenSSL.build/module.modulemap"
+- "/Users/Jorge/Desktop/Projects/Web/Swift/kisiBootcamp/.build/x86_64-apple-macosx/debug/CNIOZlib.build/module.modulemap"
+- "/Users/Jorge/Desktop/Projects/Web/Swift/kisiBootcamp/.build/x86_64-apple-macosx/debug/CNIODarwin.build/module.modulemap"
+- "/Users/Jorge/Desktop/Projects/Web/Swift/kisiBootcamp/.build/x86_64-apple-macosx/debug/CNIOHTTPParser.build/module.modulemap"
+- "/Users/Jorge/Desktop/Projects/Web/Swift/kisiBootcamp/.build/x86_64-apple-macosx/debug/CNIOAtomics.build/module.modulemap"
+- "/Users/Jorge/Desktop/Projects/Web/Swift/kisiBootcamp/.build/x86_64-apple-macosx/debug/CNIOLinux.build/module.modulemap"
+- "/Users/Jorge/Desktop/Projects/Web/Swift/kisiBootcamp/.build/checkouts/crypto/Sources/CBase32/include/module.modulemap"
+- "/Users/Jorge/Desktop/Projects/Web/Swift/kisiBootcamp/.build/checkouts/crypto/Sources/CBcrypt/include/module.modulemap"
+- "/Users/Jorge/Desktop/Projects/Web/Swift/kisiBootcamp/.build/checkouts/swift-nio-zlib-support/module.modulemap"
+- "/Users/Jorge/Desktop/Projects/Web/Swift/kisiBootcamp/.build/checkouts/swift-nio-ssl-support/module.modulemap"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.14.sdk/usr/include/objc/ObjectiveC.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/Dispatch.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.14.sdk/usr/include/Darwin.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.14.sdk/System/Library/Frameworks/Foundation.framework/Headers/Foundation.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.14.sdk/System/Library/Frameworks/CoreGraphics.framework/Headers/CoreGraphics.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.14.sdk/System/Library/Frameworks/ApplicationServices.framework/Headers/ApplicationServices.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.14.sdk/System/Library/Frameworks/CoreText.framework/Headers/CoreText.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.14.sdk/System/Library/Frameworks/Security.framework/Headers/Security.apinotes"
+interface-hash: "cda193655d12dc0cf3fab3031ddb0ae8"

@@ -7,6 +7,7 @@
 
 import Vapor
 
+/*
 /// Controls basic CRUD operations on `Session`s.
 final class SessionsController {
 
@@ -33,3 +34,4 @@ extension SessionsController: RouteCollection {
         group.post(Session.self, at: "sessions", use: create)
     }
 }
+*/

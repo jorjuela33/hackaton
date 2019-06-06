@@ -1,0 +1,304 @@
+### Swift dependencies file v0 ###
+provides-top-level:
+- "StorageNotificationsAPI"
+- "GoogleStorageNotificationsAPI"
+provides-nominal:
+- "11GoogleCloud23StorageNotificationsAPIP"
+- "11GoogleCloud0A23StorageNotificationsAPIC"
+provides-member:
+- ["11GoogleCloud23StorageNotificationsAPIP", ""]
+- ["11GoogleCloud0A23StorageNotificationsAPIC", ""]
+- ["11GoogleCloud23StorageNotificationsAPIP", "delete"]
+- ["11GoogleCloud23StorageNotificationsAPIP", "get"]
+- ["11GoogleCloud23StorageNotificationsAPIP", "create"]
+- ["11GoogleCloud23StorageNotificationsAPIP", "list"]
+provides-dynamic-lookup:
+depends-top-level:
+- "AssignmentPrecedence"
+- "EmptyResponse"
+- "Future"
+- "GoogleCloudStorageRequest"
+- "GoogleStorageNotificationsAPI"
+- !private "JSONSerialization"
+- "StorageNotification"
+- "StorageNotificationsAPI"
+- "StorageNotificationsList"
+- "String"
+depends-member:
+- !private ["4Core22AnyReflectionDecodableP", "convertToHTTPBody"]
+- !private ["4Core22AnyReflectionDecodableP", "queryParameters"]
+- !private ["SK", "convertToHTTPBody"]
+- !private ["s7CVarArgP", "data"]
+- !private ["s7CVarArgP", "queryParameters"]
+- !private ["Sl", "convertToHTTPBody"]
+- !private ["Sl", "queryParameters"]
+- !private ["5Vapor7ContentP", "queryParameters"]
+- !private ["5Vapor7ContentP", "toEncodedDictionary"]
+- !private ["10Foundation15ContiguousBytesP", "convertToHTTPBody"]
+- !private ["3NIO20ContiguousCollectionP", "convertToHTTPBody"]
+- !private ["s28CustomDebugStringConvertibleP", "convertToHTTPBody"]
+- !private ["s28CustomDebugStringConvertibleP", "data"]
+- !private ["s28CustomDebugStringConvertibleP", "queryParameters"]
+- !private ["s17CustomReflectableP", "convertToHTTPBody"]
+- !private ["s17CustomReflectableP", "queryParameters"]
+- !private ["s23CustomStringConvertibleP", "appendInterpolation"]
+- !private ["s23CustomStringConvertibleP", "appendLiteral"]
+- !private ["s23CustomStringConvertibleP", "convertToHTTPBody"]
+- !private ["s23CustomStringConvertibleP", "data"]
+- !private ["s23CustomStringConvertibleP", "queryParameters"]
+- !private ["10Foundation4DataV", "convertToHTTPBody"]
+- !private ["10Foundation12DataProtocolP", "convertToHTTPBody"]
+- !private ["Se", "convertToHTTPBody"]
+- !private ["Se", "queryParameters"]
+- !private ["Se", "toEncodedDictionary"]
+- !private ["s26DefaultStringInterpolationV", "appendInterpolation"]
+- !private ["s26DefaultStringInterpolationV", "appendLiteral"]
+- !private ["SD", "queryParameters"]
+- !private ["11GoogleCloud13EmptyResponseV", "deinit"]
+- !private ["SE", "convertToHTTPBody"]
+- !private ["SE", "queryParameters"]
+- !private ["SE", "toEncodedDictionary"]
+- !private ["SQ", "DELETE"]
+- !private ["SQ", "GET"]
+- !private ["SQ", "POST"]
+- !private ["SQ", "convertToHTTPBody"]
+- !private ["SQ", "data"]
+- !private ["SQ", "queryParameters"]
+- !private ["s30ExpressibleByDictionaryLiteralP", "queryParameters"]
+- !private ["11GoogleCloud0aB5ModelP", "toEncodedDictionary"]
+- !private ["11GoogleCloud0aB14StorageRequestC", "send"]
+- ["11GoogleCloud0A23StorageNotificationsAPIC", "EmptyResponse"]
+- ["11GoogleCloud0A23StorageNotificationsAPIC", "Future"]
+- ["11GoogleCloud0A23StorageNotificationsAPIC", "GoogleCloudStorageRequest"]
+- !private ["11GoogleCloud0A23StorageNotificationsAPIC", "JSONSerialization"]
+- ["11GoogleCloud0A23StorageNotificationsAPIC", "StorageNotification"]
+- ["11GoogleCloud0A23StorageNotificationsAPIC", "StorageNotificationsList"]
+- ["11GoogleCloud0A23StorageNotificationsAPIC", "String"]
+- ["11GoogleCloud0A23StorageNotificationsAPIC", "create"]
+- ["11GoogleCloud0A23StorageNotificationsAPIC", "deinit"]
+- ["11GoogleCloud0A23StorageNotificationsAPIC", "delete"]
+- ["11GoogleCloud0A23StorageNotificationsAPIC", "endpoint"]
+- ["11GoogleCloud0A23StorageNotificationsAPIC", "get"]
+- ["11GoogleCloud0A23StorageNotificationsAPIC", "init"]
+- ["11GoogleCloud0A23StorageNotificationsAPIC", "list"]
+- ["11GoogleCloud0A23StorageNotificationsAPIC", "request"]
+- !private ["8NIOHTTP110HTTPMethodO", "DELETE"]
+- !private ["8NIOHTTP110HTTPMethodO", "GET"]
+- !private ["8NIOHTTP110HTTPMethodO", "POST"]
+- !private ["SH", "convertToHTTPBody"]
+- !private ["SH", "data"]
+- !private ["SH", "queryParameters"]
+- !private ["So19NSJSONSerializationC", "data"]
+- !private ["4Core23LosslessDataConvertibleP", "convertToHTTPBody"]
+- !private ["4HTTP29LosslessHTTPBodyRepresentableP", "convertToHTTPBody"]
+- !private ["9Multipart0A15PartConvertibleP", "convertToHTTPBody"]
+- !private ["SM", "convertToHTTPBody"]
+- !private ["10Foundation19MutableDataProtocolP", "convertToHTTPBody"]
+- !private ["So8NSObjectC", "data"]
+- !private ["So8NSObjectP", "data"]
+- !private ["Sk", "convertToHTTPBody"]
+- !private ["Sm", "convertToHTTPBody"]
+- !private ["10Foundation20ReferenceConvertibleP", "convertToHTTPBody"]
+- !private ["4Core19ReflectionDecodableP", "convertToHTTPBody"]
+- !private ["4Core19ReflectionDecodableP", "queryParameters"]
+- !private ["5Vapor16RequestDecodableP", "queryParameters"]
+- !private ["5Vapor16RequestDecodableP", "toEncodedDictionary"]
+- !private ["5Vapor16RequestEncodableP", "queryParameters"]
+- !private ["5Vapor16RequestEncodableP", "toEncodedDictionary"]
+- !private ["5Vapor17ResponseDecodableP", "queryParameters"]
+- !private ["5Vapor17ResponseDecodableP", "toEncodedDictionary"]
+- !private ["5Vapor17ResponseEncodableP", "queryParameters"]
+- !private ["5Vapor17ResponseEncodableP", "toEncodedDictionary"]
+- !private ["7Routing17RoutableComponentP", "convertToHTTPBody"]
+- !private ["ST", "convertToHTTPBody"]
+- !private ["ST", "queryParameters"]
+- !private ["11GoogleCloud19StorageNotificationV", "deinit"]
+- !private ["11GoogleCloud19StorageNotificationV", "toEncodedDictionary"]
+- ["11GoogleCloud23StorageNotificationsAPIP", "EmptyResponse"]
+- ["11GoogleCloud23StorageNotificationsAPIP", "Future"]
+- !private ["11GoogleCloud23StorageNotificationsAPIP", "JSONSerialization"]
+- ["11GoogleCloud23StorageNotificationsAPIP", "StorageNotification"]
+- ["11GoogleCloud23StorageNotificationsAPIP", "StorageNotificationsList"]
+- ["11GoogleCloud23StorageNotificationsAPIP", "String"]
+- ["11GoogleCloud23StorageNotificationsAPIP", ""]
+- ["11GoogleCloud23StorageNotificationsAPIP", "create"]
+- ["11GoogleCloud23StorageNotificationsAPIP", "delete"]
+- !private ["11GoogleCloud23StorageNotificationsAPIP", "endpoint"]
+- ["11GoogleCloud23StorageNotificationsAPIP", "get"]
+- ["11GoogleCloud23StorageNotificationsAPIP", "list"]
+- !private ["11GoogleCloud23StorageNotificationsAPIP", "request"]
+- !private ["11GoogleCloud24StorageNotificationsListV", "deinit"]
+- !private ["s27StringInterpolationProtocolP", "appendInterpolation"]
+- !private ["s27StringInterpolationProtocolP", "appendLiteral"]
+- !private ["11TemplateKit0A17DataRepresentableP", "convertToHTTPBody"]
+- !private ["11TemplateKit0A17DataRepresentableP", "queryParameters"]
+- !private ["s16TextOutputStreamP", "appendInterpolation"]
+- !private ["s16TextOutputStreamP", "appendLiteral"]
+- !private ["s35_HasCustomAnyHashableRepresentationP", "queryParameters"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "data"]
+- !private ["s21_ObjectiveCBridgeableP", "convertToHTTPBody"]
+- !private ["s21_ObjectiveCBridgeableP", "queryParameters"]
+depends-nominal:
+- !private "4Core22AnyReflectionDecodableP"
+- !private "SK"
+- !private "s7CVarArgP"
+- !private "Sl"
+- !private "5Vapor7ContentP"
+- !private "10Foundation15ContiguousBytesP"
+- !private "3NIO20ContiguousCollectionP"
+- !private "s28CustomDebugStringConvertibleP"
+- !private "s17CustomReflectableP"
+- !private "s23CustomStringConvertibleP"
+- !private "10Foundation4DataV"
+- !private "10Foundation12DataProtocolP"
+- !private "Se"
+- !private "s26DefaultStringInterpolationV"
+- !private "SD"
+- !private "11GoogleCloud13EmptyResponseV"
+- !private "SE"
+- !private "SQ"
+- !private "s30ExpressibleByDictionaryLiteralP"
+- !private "11GoogleCloud0aB5ModelP"
+- !private "11GoogleCloud0aB14StorageRequestC"
+- "11GoogleCloud0A23StorageNotificationsAPIC"
+- !private "8NIOHTTP110HTTPMethodO"
+- !private "SH"
+- !private "So19NSJSONSerializationC"
+- !private "4Core23LosslessDataConvertibleP"
+- !private "4HTTP29LosslessHTTPBodyRepresentableP"
+- !private "9Multipart0A15PartConvertibleP"
+- !private "SM"
+- !private "10Foundation19MutableDataProtocolP"
+- !private "So8NSObjectC"
+- !private "So8NSObjectP"
+- !private "Sk"
+- !private "Sm"
+- !private "10Foundation20ReferenceConvertibleP"
+- !private "4Core19ReflectionDecodableP"
+- !private "5Vapor16RequestDecodableP"
+- !private "5Vapor16RequestEncodableP"
+- !private "5Vapor17ResponseDecodableP"
+- !private "5Vapor17ResponseEncodableP"
+- !private "7Routing17RoutableComponentP"
+- !private "ST"
+- !private "11GoogleCloud19StorageNotificationV"
+- "11GoogleCloud23StorageNotificationsAPIP"
+- !private "11GoogleCloud24StorageNotificationsListV"
+- !private "s27StringInterpolationProtocolP"
+- !private "11TemplateKit0A17DataRepresentableP"
+- !private "s16TextOutputStreamP"
+- !private "s35_HasCustomAnyHashableRepresentationP"
+- !private "10Foundation27_KeyValueCodingAndObservingP"
+- !private "s21_ObjectiveCBridgeableP"
+depends-dynamic-lookup:
+depends-external:
+- "/Users/Jorge/Desktop/Projects/Web/Swift/kisiBootcamp/.build/x86_64-apple-macosx/debug/NIOHTTP1.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/ObjectiveC.swiftmodule"
+- "/Users/Jorge/Desktop/Projects/Web/Swift/kisiBootcamp/.build/x86_64-apple-macosx/debug/NIOOpenSSL.swiftmodule"
+- "/Users/Jorge/Desktop/Projects/Web/Swift/kisiBootcamp/.build/x86_64-apple-macosx/debug/NIO.swiftmodule"
+- "/Users/Jorge/Desktop/Projects/Web/Swift/kisiBootcamp/.build/x86_64-apple-macosx/debug/HTTP.swiftmodule"
+- "/Users/Jorge/Desktop/Projects/Web/Swift/kisiBootcamp/.build/x86_64-apple-macosx/debug/NIOTLS.swiftmodule"
+- "/Users/Jorge/Desktop/Projects/Web/Swift/kisiBootcamp/.build/x86_64-apple-macosx/debug/JWT.swiftmodule"
+- "/Users/Jorge/Desktop/Projects/Web/Swift/kisiBootcamp/.build/x86_64-apple-macosx/debug/Async.swiftmodule"
+- "/Users/Jorge/Desktop/Projects/Web/Swift/kisiBootcamp/.build/x86_64-apple-macosx/debug/Command.swiftmodule"
+- "/Users/Jorge/Desktop/Projects/Web/Swift/kisiBootcamp/.build/x86_64-apple-macosx/debug/Service.swiftmodule"
+- "/Users/Jorge/Desktop/Projects/Web/Swift/kisiBootcamp/.build/x86_64-apple-macosx/debug/Console.swiftmodule"
+- "/Users/Jorge/Desktop/Projects/Web/Swift/kisiBootcamp/.build/x86_64-apple-macosx/debug/Core.swiftmodule"
+- "/Users/Jorge/Desktop/Projects/Web/Swift/kisiBootcamp/.build/x86_64-apple-macosx/debug/Logging.swiftmodule"
+- "/Users/Jorge/Desktop/Projects/Web/Swift/kisiBootcamp/.build/x86_64-apple-macosx/debug/Debugging.swiftmodule"
+- "/Users/Jorge/Desktop/Projects/Web/Swift/kisiBootcamp/.build/x86_64-apple-macosx/debug/Routing.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/Dispatch.swiftmodule"
+- "/Users/Jorge/Desktop/Projects/Web/Swift/kisiBootcamp/.build/x86_64-apple-macosx/debug/COperatingSystem.swiftmodule"
+- "/Users/Jorge/Desktop/Projects/Web/Swift/kisiBootcamp/.build/x86_64-apple-macosx/debug/Random.swiftmodule"
+- "/Users/Jorge/Desktop/Projects/Web/Swift/kisiBootcamp/.build/x86_64-apple-macosx/debug/URLEncodedForm.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/Darwin.swiftmodule"
+- "/Users/Jorge/Desktop/Projects/Web/Swift/kisiBootcamp/.build/x86_64-apple-macosx/debug/Validation.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/Foundation.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/CoreFoundation.swiftmodule"
+- "/Users/Jorge/Desktop/Projects/Web/Swift/kisiBootcamp/.build/x86_64-apple-macosx/debug/Crypto.swiftmodule"
+- "/Users/Jorge/Desktop/Projects/Web/Swift/kisiBootcamp/.build/x86_64-apple-macosx/debug/Vapor.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/CoreGraphics.swiftmodule"
+- "/Users/Jorge/Desktop/Projects/Web/Swift/kisiBootcamp/.build/x86_64-apple-macosx/debug/NIOConcurrencyHelpers.swiftmodule"
+- "/Users/Jorge/Desktop/Projects/Web/Swift/kisiBootcamp/.build/x86_64-apple-macosx/debug/Bits.swiftmodule"
+- "/Users/Jorge/Desktop/Projects/Web/Swift/kisiBootcamp/.build/x86_64-apple-macosx/debug/NIOFoundationCompat.swiftmodule"
+- "/Users/Jorge/Desktop/Projects/Web/Swift/kisiBootcamp/.build/x86_64-apple-macosx/debug/WebSocket.swiftmodule"
+- "/Users/Jorge/Desktop/Projects/Web/Swift/kisiBootcamp/.build/x86_64-apple-macosx/debug/NIOWebSocket.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/Swift.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/IOKit.swiftmodule"
+- "/Users/Jorge/Desktop/Projects/Web/Swift/kisiBootcamp/.build/x86_64-apple-macosx/debug/DatabaseKit.swiftmodule"
+- "/Users/Jorge/Desktop/Projects/Web/Swift/kisiBootcamp/.build/x86_64-apple-macosx/debug/TemplateKit.swiftmodule"
+- "/Users/Jorge/Desktop/Projects/Web/Swift/kisiBootcamp/.build/x86_64-apple-macosx/debug/Multipart.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/SwiftOnoneSupport.swiftmodule"
+- "/Users/Jorge/Desktop/Projects/Web/Swift/kisiBootcamp/.build/checkouts/swift-nio/Sources/CNIOSHA1/include/CNIOSHA1.h"
+- "/usr/local/Cellar/libressl/2.9.2/include/openssl/asn1.h"
+- "/usr/local/Cellar/libressl/2.9.2/include/openssl/tls1.h"
+- "/usr/local/Cellar/libressl/2.9.2/include/openssl/dtls1.h"
+- "/usr/local/Cellar/libressl/2.9.2/include/openssl/pkcs12.h"
+- "/usr/local/Cellar/libressl/2.9.2/include/openssl/ssl2.h"
+- "/usr/local/Cellar/libressl/2.9.2/include/openssl/pem2.h"
+- "/usr/local/Cellar/libressl/2.9.2/include/openssl/ssl23.h"
+- "/usr/local/Cellar/libressl/2.9.2/include/openssl/ssl3.h"
+- "/usr/local/Cellar/libressl/2.9.2/include/openssl/x509v3.h"
+- "/usr/local/Cellar/libressl/2.9.2/include/openssl/md5.h"
+- "/usr/local/Cellar/libressl/2.9.2/include/openssl/pkcs7.h"
+- "/usr/local/Cellar/libressl/2.9.2/include/openssl/x509.h"
+- "/usr/local/Cellar/libressl/2.9.2/include/openssl/sha.h"
+- "/usr/local/Cellar/libressl/2.9.2/include/openssl/dsa.h"
+- "/usr/local/Cellar/libressl/2.9.2/include/openssl/ecdsa.h"
+- "/usr/local/Cellar/libressl/2.9.2/include/openssl/rsa.h"
+- "/Users/Jorge/Desktop/Projects/Web/Swift/kisiBootcamp/.build/checkouts/swift-nio/Sources/CNIOZlib/include/CNIOZlib.h"
+- "/usr/local/Cellar/libressl/2.9.2/include/openssl/obj_mac.h"
+- "/usr/local/Cellar/libressl/2.9.2/include/openssl/hmac.h"
+- "/usr/local/Cellar/libressl/2.9.2/include/openssl/ec.h"
+- "/Users/Jorge/Desktop/Projects/Web/Swift/kisiBootcamp/.build/checkouts/swift-nio/Sources/CNIOAtomics/include/cpp_magic.h"
+- "/Users/Jorge/Desktop/Projects/Web/Swift/kisiBootcamp/.build/checkouts/swift-nio/Sources/CNIOLinux/include/ifaddrs-android.h"
+- "/usr/local/Cellar/libressl/2.9.2/include/openssl/rand.h"
+- "/usr/local/Cellar/libressl/2.9.2/include/openssl/conf.h"
+- "/usr/local/Cellar/libressl/2.9.2/include/openssl/opensslconf.h"
+- "/usr/local/Cellar/libressl/2.9.2/include/openssl/dh.h"
+- "/usr/local/Cellar/libressl/2.9.2/include/openssl/ecdh.h"
+- "/usr/local/Cellar/libressl/2.9.2/include/openssl/lhash.h"
+- "/usr/local/Cellar/libressl/2.9.2/include/openssl/stack.h"
+- "/usr/local/Cellar/libressl/2.9.2/include/openssl/safestack.h"
+- "/usr/local/Cellar/libressl/2.9.2/include/openssl/ssl.h"
+- "/Users/Jorge/Desktop/Projects/Web/Swift/kisiBootcamp/.build/checkouts/swift-nio-ssl/Sources/CNIOOpenSSL/include/c_nio_openssl.h"
+- "/Users/Jorge/Desktop/Projects/Web/Swift/kisiBootcamp/.build/checkouts/crypto/Sources/CCryptoOpenSSL/include/c_crypto_openssl.h"
+- "/usr/local/Cellar/libressl/2.9.2/include/openssl/pem.h"
+- "/usr/local/Cellar/libressl/2.9.2/include/openssl/bn.h"
+- "/Users/Jorge/Desktop/Projects/Web/Swift/kisiBootcamp/.build/checkouts/swift-nio/Sources/CNIODarwin/include/CNIODarwin.h"
+- "/usr/local/Cellar/libressl/2.9.2/include/openssl/bio.h"
+- "/usr/local/Cellar/libressl/2.9.2/include/openssl/crypto.h"
+- "/usr/local/Cellar/libressl/2.9.2/include/openssl/srtp.h"
+- "/usr/local/Cellar/libressl/2.9.2/include/openssl/evp.h"
+- "/usr/local/Cellar/libressl/2.9.2/include/openssl/ossl_typ.h"
+- "/usr/local/Cellar/libressl/2.9.2/include/openssl/buffer.h"
+- "/Users/Jorge/Desktop/Projects/Web/Swift/kisiBootcamp/.build/checkouts/swift-nio/Sources/CNIOHTTPParser/include/CNIOHTTPParser.h"
+- "/Users/Jorge/Desktop/Projects/Web/Swift/kisiBootcamp/.build/checkouts/swift-nio/Sources/CNIOHTTPParser/include/c_nio_http_parser.h"
+- "/usr/local/Cellar/libressl/2.9.2/include/openssl/err.h"
+- "/Users/Jorge/Desktop/Projects/Web/Swift/kisiBootcamp/.build/checkouts/swift-nio/Sources/CNIOAtomics/include/CNIOAtomics.h"
+- "/usr/local/Cellar/libressl/2.9.2/include/openssl/opensslfeatures.h"
+- "/usr/local/Cellar/libressl/2.9.2/include/openssl/objects.h"
+- "/usr/local/Cellar/libressl/2.9.2/include/openssl/opensslv.h"
+- "/Users/Jorge/Desktop/Projects/Web/Swift/kisiBootcamp/.build/checkouts/swift-nio/Sources/CNIOLinux/include/CNIOLinux.h"
+- "/usr/local/Cellar/libressl/2.9.2/include/openssl/x509_vfy.h"
+- "/Users/Jorge/Desktop/Projects/Web/Swift/kisiBootcamp/.build/x86_64-apple-macosx/debug/CNIOSHA1.build/module.modulemap"
+- "/Users/Jorge/Desktop/Projects/Web/Swift/kisiBootcamp/.build/x86_64-apple-macosx/debug/CNIOOpenSSL.build/module.modulemap"
+- "/Users/Jorge/Desktop/Projects/Web/Swift/kisiBootcamp/.build/x86_64-apple-macosx/debug/CCryptoOpenSSL.build/module.modulemap"
+- "/Users/Jorge/Desktop/Projects/Web/Swift/kisiBootcamp/.build/x86_64-apple-macosx/debug/CNIOZlib.build/module.modulemap"
+- "/Users/Jorge/Desktop/Projects/Web/Swift/kisiBootcamp/.build/x86_64-apple-macosx/debug/CNIODarwin.build/module.modulemap"
+- "/Users/Jorge/Desktop/Projects/Web/Swift/kisiBootcamp/.build/x86_64-apple-macosx/debug/CNIOHTTPParser.build/module.modulemap"
+- "/Users/Jorge/Desktop/Projects/Web/Swift/kisiBootcamp/.build/x86_64-apple-macosx/debug/CNIOAtomics.build/module.modulemap"
+- "/Users/Jorge/Desktop/Projects/Web/Swift/kisiBootcamp/.build/x86_64-apple-macosx/debug/CNIOLinux.build/module.modulemap"
+- "/Users/Jorge/Desktop/Projects/Web/Swift/kisiBootcamp/.build/checkouts/crypto/Sources/CBase32/include/module.modulemap"
+- "/Users/Jorge/Desktop/Projects/Web/Swift/kisiBootcamp/.build/checkouts/crypto/Sources/CBcrypt/include/module.modulemap"
+- "/Users/Jorge/Desktop/Projects/Web/Swift/kisiBootcamp/.build/checkouts/swift-nio-zlib-support/module.modulemap"
+- "/Users/Jorge/Desktop/Projects/Web/Swift/kisiBootcamp/.build/checkouts/swift-nio-ssl-support/module.modulemap"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.14.sdk/usr/include/objc/ObjectiveC.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/Dispatch.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.14.sdk/usr/include/Darwin.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.14.sdk/System/Library/Frameworks/Foundation.framework/Headers/Foundation.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.14.sdk/System/Library/Frameworks/CoreGraphics.framework/Headers/CoreGraphics.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.14.sdk/System/Library/Frameworks/ApplicationServices.framework/Headers/ApplicationServices.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.14.sdk/System/Library/Frameworks/CoreText.framework/Headers/CoreText.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.14.sdk/System/Library/Frameworks/Security.framework/Headers/Security.apinotes"
+interface-hash: "4f79a263a2ef700d1dd7abf12f0405a6"

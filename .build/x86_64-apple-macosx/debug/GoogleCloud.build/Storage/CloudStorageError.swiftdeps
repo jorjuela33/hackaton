@@ -1,0 +1,716 @@
+### Swift dependencies file v0 ###
+provides-top-level:
+- "CloudStorageError"
+- "CloudStorageErrorBody"
+- "CloudStorageErrors"
+provides-nominal:
+- "11GoogleCloud0B12StorageErrorV"
+- "11GoogleCloud0B16StorageErrorBodyV"
+- "11GoogleCloud0B13StorageErrorsV"
+provides-member:
+- ["11GoogleCloud0B12StorageErrorV", ""]
+- ["11GoogleCloud0B16StorageErrorBodyV", ""]
+- ["11GoogleCloud0B13StorageErrorsV", ""]
+provides-dynamic-lookup:
+depends-top-level:
+- "=="
+- "CloudStorageError"
+- "CloudStorageErrorBody"
+- "CloudStorageErrors"
+- "Content"
+- "GoogleCloudError"
+- "GoogleCloudModel"
+- "Int"
+- "String"
+- !private "~="
+depends-member:
+- ["11GoogleCloud0B12StorageErrorV", "CloudStorageErrorBody"]
+- ["11GoogleCloud0B12StorageErrorV", "String"]
+- ["11GoogleCloud0B12StorageErrorV", "_code"]
+- ["11GoogleCloud0B12StorageErrorV", "_domain"]
+- ["11GoogleCloud0B12StorageErrorV", "_getEmbeddedNSError"]
+- ["11GoogleCloud0B12StorageErrorV", "_userInfo"]
+- ["11GoogleCloud0B12StorageErrorV", "debugDescription"]
+- ["11GoogleCloud0B12StorageErrorV", "decode"]
+- ["11GoogleCloud0B12StorageErrorV", "defaultContentType"]
+- ["11GoogleCloud0B12StorageErrorV", "deinit"]
+- ["11GoogleCloud0B12StorageErrorV", "description"]
+- ["11GoogleCloud0B12StorageErrorV", "documentationLinks"]
+- ["11GoogleCloud0B12StorageErrorV", "encode"]
+- ["11GoogleCloud0B12StorageErrorV", "error"]
+- ["11GoogleCloud0B12StorageErrorV", "errorDescription"]
+- ["11GoogleCloud0B12StorageErrorV", "failureReason"]
+- ["11GoogleCloud0B12StorageErrorV", "gitHubIssues"]
+- ["11GoogleCloud0B12StorageErrorV", "helpAnchor"]
+- ["11GoogleCloud0B12StorageErrorV", "identifier"]
+- ["11GoogleCloud0B12StorageErrorV", "init"]
+- ["11GoogleCloud0B12StorageErrorV", "possibleCauses"]
+- ["11GoogleCloud0B12StorageErrorV", "readableName"]
+- ["11GoogleCloud0B12StorageErrorV", "reason"]
+- ["11GoogleCloud0B12StorageErrorV", "recoverySuggestion"]
+- ["11GoogleCloud0B12StorageErrorV", "sourceLocation"]
+- ["11GoogleCloud0B12StorageErrorV", "stackOverflowQuestions"]
+- ["11GoogleCloud0B12StorageErrorV", "stackTrace"]
+- ["11GoogleCloud0B12StorageErrorV", "suggestedFixes"]
+- ["11GoogleCloud0B12StorageErrorV", "toEncodedDictionary"]
+- ["11GoogleCloud0B12StorageErrorV", "typeIdentifier"]
+- ["11GoogleCloud0B16StorageErrorBodyV", "CloudStorageErrors"]
+- ["11GoogleCloud0B16StorageErrorBodyV", "Int"]
+- ["11GoogleCloud0B16StorageErrorBodyV", "String"]
+- ["11GoogleCloud0B16StorageErrorBodyV", "code"]
+- ["11GoogleCloud0B16StorageErrorBodyV", "decode"]
+- ["11GoogleCloud0B16StorageErrorBodyV", "defaultContentType"]
+- ["11GoogleCloud0B16StorageErrorBodyV", "deinit"]
+- ["11GoogleCloud0B16StorageErrorBodyV", "encode"]
+- ["11GoogleCloud0B16StorageErrorBodyV", "errors"]
+- ["11GoogleCloud0B16StorageErrorBodyV", "init"]
+- ["11GoogleCloud0B16StorageErrorBodyV", "message"]
+- ["11GoogleCloud0B13StorageErrorsV", "String"]
+- ["11GoogleCloud0B13StorageErrorsV", "decode"]
+- ["11GoogleCloud0B13StorageErrorsV", "defaultContentType"]
+- ["11GoogleCloud0B13StorageErrorsV", "deinit"]
+- ["11GoogleCloud0B13StorageErrorsV", "domain"]
+- ["11GoogleCloud0B13StorageErrorsV", "encode"]
+- ["11GoogleCloud0B13StorageErrorsV", "init"]
+- ["11GoogleCloud0B13StorageErrorsV", "location"]
+- ["11GoogleCloud0B13StorageErrorsV", "locationType"]
+- ["11GoogleCloud0B13StorageErrorsV", "message"]
+- ["11GoogleCloud0B13StorageErrorsV", "reason"]
+- ["s9CodingKeyP", "=="]
+- !private ["s9CodingKeyP", ""]
+- ["s9CodingKeyP", "_rawHashValue"]
+- ["s9CodingKeyP", "debugDescription"]
+- ["s9CodingKeyP", "description"]
+- ["s9CodingKeyP", "hash"]
+- ["s9CodingKeyP", "hashValue"]
+- ["s9CodingKeyP", "init"]
+- ["s9CodingKeyP", "intValue"]
+- ["s9CodingKeyP", "stringValue"]
+- ["5Vapor7ContentP", ""]
+- ["5Vapor7ContentP", "_code"]
+- ["5Vapor7ContentP", "_domain"]
+- ["5Vapor7ContentP", "_getEmbeddedNSError"]
+- ["5Vapor7ContentP", "_userInfo"]
+- !private ["5Vapor7ContentP", "code"]
+- ["5Vapor7ContentP", "debugDescription"]
+- ["5Vapor7ContentP", "decode"]
+- ["5Vapor7ContentP", "defaultContentType"]
+- ["5Vapor7ContentP", "description"]
+- ["5Vapor7ContentP", "documentationLinks"]
+- !private ["5Vapor7ContentP", "domain"]
+- ["5Vapor7ContentP", "encode"]
+- !private ["5Vapor7ContentP", "error"]
+- ["5Vapor7ContentP", "errorDescription"]
+- !private ["5Vapor7ContentP", "errors"]
+- ["5Vapor7ContentP", "failureReason"]
+- ["5Vapor7ContentP", "gitHubIssues"]
+- ["5Vapor7ContentP", "helpAnchor"]
+- ["5Vapor7ContentP", "identifier"]
+- ["5Vapor7ContentP", "init"]
+- !private ["5Vapor7ContentP", "location"]
+- !private ["5Vapor7ContentP", "locationType"]
+- !private ["5Vapor7ContentP", "message"]
+- ["5Vapor7ContentP", "possibleCauses"]
+- ["5Vapor7ContentP", "readableName"]
+- ["5Vapor7ContentP", "reason"]
+- ["5Vapor7ContentP", "recoverySuggestion"]
+- ["5Vapor7ContentP", "sourceLocation"]
+- ["5Vapor7ContentP", "stackOverflowQuestions"]
+- ["5Vapor7ContentP", "stackTrace"]
+- ["5Vapor7ContentP", "suggestedFixes"]
+- ["5Vapor7ContentP", "toEncodedDictionary"]
+- ["5Vapor7ContentP", "typeIdentifier"]
+- ["s28CustomDebugStringConvertibleP", "=="]
+- ["s28CustomDebugStringConvertibleP", ""]
+- ["s28CustomDebugStringConvertibleP", "_code"]
+- ["s28CustomDebugStringConvertibleP", "_domain"]
+- ["s28CustomDebugStringConvertibleP", "_getEmbeddedNSError"]
+- ["s28CustomDebugStringConvertibleP", "_rawHashValue"]
+- ["s28CustomDebugStringConvertibleP", "_userInfo"]
+- ["s28CustomDebugStringConvertibleP", "debugDescription"]
+- ["s28CustomDebugStringConvertibleP", "decode"]
+- ["s28CustomDebugStringConvertibleP", "defaultContentType"]
+- ["s28CustomDebugStringConvertibleP", "description"]
+- ["s28CustomDebugStringConvertibleP", "documentationLinks"]
+- ["s28CustomDebugStringConvertibleP", "encode"]
+- !private ["s28CustomDebugStringConvertibleP", "error"]
+- ["s28CustomDebugStringConvertibleP", "errorDescription"]
+- ["s28CustomDebugStringConvertibleP", "failureReason"]
+- ["s28CustomDebugStringConvertibleP", "gitHubIssues"]
+- ["s28CustomDebugStringConvertibleP", "hash"]
+- ["s28CustomDebugStringConvertibleP", "hashValue"]
+- ["s28CustomDebugStringConvertibleP", "helpAnchor"]
+- ["s28CustomDebugStringConvertibleP", "identifier"]
+- ["s28CustomDebugStringConvertibleP", "init"]
+- ["s28CustomDebugStringConvertibleP", "intValue"]
+- ["s28CustomDebugStringConvertibleP", "possibleCauses"]
+- ["s28CustomDebugStringConvertibleP", "readableName"]
+- ["s28CustomDebugStringConvertibleP", "reason"]
+- ["s28CustomDebugStringConvertibleP", "recoverySuggestion"]
+- ["s28CustomDebugStringConvertibleP", "sourceLocation"]
+- ["s28CustomDebugStringConvertibleP", "stackOverflowQuestions"]
+- ["s28CustomDebugStringConvertibleP", "stackTrace"]
+- ["s28CustomDebugStringConvertibleP", "stringValue"]
+- ["s28CustomDebugStringConvertibleP", "suggestedFixes"]
+- ["s28CustomDebugStringConvertibleP", "toEncodedDictionary"]
+- ["s28CustomDebugStringConvertibleP", "typeIdentifier"]
+- ["s23CustomStringConvertibleP", "=="]
+- ["s23CustomStringConvertibleP", ""]
+- ["s23CustomStringConvertibleP", "_code"]
+- ["s23CustomStringConvertibleP", "_domain"]
+- ["s23CustomStringConvertibleP", "_getEmbeddedNSError"]
+- ["s23CustomStringConvertibleP", "_rawHashValue"]
+- ["s23CustomStringConvertibleP", "_userInfo"]
+- !private ["s23CustomStringConvertibleP", "appendInterpolation"]
+- !private ["s23CustomStringConvertibleP", "appendLiteral"]
+- ["s23CustomStringConvertibleP", "debugDescription"]
+- ["s23CustomStringConvertibleP", "decode"]
+- ["s23CustomStringConvertibleP", "defaultContentType"]
+- ["s23CustomStringConvertibleP", "description"]
+- ["s23CustomStringConvertibleP", "documentationLinks"]
+- ["s23CustomStringConvertibleP", "encode"]
+- !private ["s23CustomStringConvertibleP", "error"]
+- ["s23CustomStringConvertibleP", "errorDescription"]
+- ["s23CustomStringConvertibleP", "failureReason"]
+- ["s23CustomStringConvertibleP", "gitHubIssues"]
+- ["s23CustomStringConvertibleP", "hash"]
+- ["s23CustomStringConvertibleP", "hashValue"]
+- ["s23CustomStringConvertibleP", "helpAnchor"]
+- ["s23CustomStringConvertibleP", "identifier"]
+- ["s23CustomStringConvertibleP", "init"]
+- ["s23CustomStringConvertibleP", "intValue"]
+- ["s23CustomStringConvertibleP", "possibleCauses"]
+- ["s23CustomStringConvertibleP", "readableName"]
+- ["s23CustomStringConvertibleP", "reason"]
+- ["s23CustomStringConvertibleP", "recoverySuggestion"]
+- ["s23CustomStringConvertibleP", "sourceLocation"]
+- ["s23CustomStringConvertibleP", "stackOverflowQuestions"]
+- ["s23CustomStringConvertibleP", "stackTrace"]
+- ["s23CustomStringConvertibleP", "stringValue"]
+- ["s23CustomStringConvertibleP", "suggestedFixes"]
+- ["s23CustomStringConvertibleP", "toEncodedDictionary"]
+- ["s23CustomStringConvertibleP", "typeIdentifier"]
+- ["9Debugging10DebuggableP", ""]
+- ["9Debugging10DebuggableP", "_code"]
+- ["9Debugging10DebuggableP", "_domain"]
+- ["9Debugging10DebuggableP", "_getEmbeddedNSError"]
+- ["9Debugging10DebuggableP", "_userInfo"]
+- ["9Debugging10DebuggableP", "debugDescription"]
+- ["9Debugging10DebuggableP", "decode"]
+- ["9Debugging10DebuggableP", "defaultContentType"]
+- ["9Debugging10DebuggableP", "description"]
+- ["9Debugging10DebuggableP", "documentationLinks"]
+- ["9Debugging10DebuggableP", "encode"]
+- !private ["9Debugging10DebuggableP", "error"]
+- ["9Debugging10DebuggableP", "errorDescription"]
+- ["9Debugging10DebuggableP", "failureReason"]
+- ["9Debugging10DebuggableP", "gitHubIssues"]
+- ["9Debugging10DebuggableP", "helpAnchor"]
+- ["9Debugging10DebuggableP", "identifier"]
+- ["9Debugging10DebuggableP", "init"]
+- ["9Debugging10DebuggableP", "possibleCauses"]
+- ["9Debugging10DebuggableP", "readableName"]
+- ["9Debugging10DebuggableP", "reason"]
+- ["9Debugging10DebuggableP", "recoverySuggestion"]
+- ["9Debugging10DebuggableP", "sourceLocation"]
+- ["9Debugging10DebuggableP", "stackOverflowQuestions"]
+- ["9Debugging10DebuggableP", "stackTrace"]
+- ["9Debugging10DebuggableP", "suggestedFixes"]
+- ["9Debugging10DebuggableP", "toEncodedDictionary"]
+- ["9Debugging10DebuggableP", "typeIdentifier"]
+- ["Se", ""]
+- ["Se", "_code"]
+- ["Se", "_domain"]
+- ["Se", "_getEmbeddedNSError"]
+- ["Se", "_userInfo"]
+- !private ["Se", "code"]
+- ["Se", "debugDescription"]
+- ["Se", "decode"]
+- ["Se", "defaultContentType"]
+- ["Se", "description"]
+- ["Se", "documentationLinks"]
+- !private ["Se", "domain"]
+- ["Se", "encode"]
+- !private ["Se", "error"]
+- ["Se", "errorDescription"]
+- !private ["Se", "errors"]
+- ["Se", "failureReason"]
+- ["Se", "gitHubIssues"]
+- ["Se", "helpAnchor"]
+- ["Se", "identifier"]
+- ["Se", "init"]
+- !private ["Se", "location"]
+- !private ["Se", "locationType"]
+- !private ["Se", "message"]
+- ["Se", "possibleCauses"]
+- ["Se", "readableName"]
+- ["Se", "reason"]
+- ["Se", "recoverySuggestion"]
+- ["Se", "sourceLocation"]
+- ["Se", "stackOverflowQuestions"]
+- ["Se", "stackTrace"]
+- ["Se", "suggestedFixes"]
+- ["Se", "toEncodedDictionary"]
+- ["Se", "typeIdentifier"]
+- !private ["s7DecoderP", "container"]
+- !private ["s26DefaultStringInterpolationV", "appendInterpolation"]
+- !private ["s26DefaultStringInterpolationV", "appendLiteral"]
+- ["SE", ""]
+- ["SE", "_code"]
+- ["SE", "_domain"]
+- ["SE", "_getEmbeddedNSError"]
+- ["SE", "_userInfo"]
+- !private ["SE", "code"]
+- ["SE", "debugDescription"]
+- ["SE", "decode"]
+- ["SE", "defaultContentType"]
+- ["SE", "description"]
+- ["SE", "documentationLinks"]
+- !private ["SE", "domain"]
+- ["SE", "encode"]
+- !private ["SE", "error"]
+- ["SE", "errorDescription"]
+- !private ["SE", "errors"]
+- ["SE", "failureReason"]
+- ["SE", "gitHubIssues"]
+- ["SE", "helpAnchor"]
+- ["SE", "identifier"]
+- ["SE", "init"]
+- !private ["SE", "location"]
+- !private ["SE", "locationType"]
+- !private ["SE", "message"]
+- ["SE", "possibleCauses"]
+- ["SE", "readableName"]
+- ["SE", "reason"]
+- ["SE", "recoverySuggestion"]
+- ["SE", "sourceLocation"]
+- ["SE", "stackOverflowQuestions"]
+- ["SE", "stackTrace"]
+- ["SE", "suggestedFixes"]
+- ["SE", "toEncodedDictionary"]
+- ["SE", "typeIdentifier"]
+- !private ["s7EncoderP", "container"]
+- ["SQ", "=="]
+- !private ["SQ", ""]
+- ["SQ", "_rawHashValue"]
+- ["SQ", "debugDescription"]
+- ["SQ", "description"]
+- ["SQ", "hash"]
+- ["SQ", "hashValue"]
+- ["SQ", "init"]
+- ["SQ", "intValue"]
+- ["SQ", "stringValue"]
+- ["s5ErrorP", ""]
+- ["s5ErrorP", "_code"]
+- ["s5ErrorP", "_domain"]
+- ["s5ErrorP", "_getEmbeddedNSError"]
+- ["s5ErrorP", "_userInfo"]
+- ["s5ErrorP", "debugDescription"]
+- ["s5ErrorP", "decode"]
+- ["s5ErrorP", "defaultContentType"]
+- ["s5ErrorP", "description"]
+- ["s5ErrorP", "documentationLinks"]
+- ["s5ErrorP", "encode"]
+- !private ["s5ErrorP", "error"]
+- ["s5ErrorP", "errorDescription"]
+- ["s5ErrorP", "failureReason"]
+- ["s5ErrorP", "gitHubIssues"]
+- ["s5ErrorP", "helpAnchor"]
+- ["s5ErrorP", "identifier"]
+- ["s5ErrorP", "init"]
+- ["s5ErrorP", "possibleCauses"]
+- ["s5ErrorP", "readableName"]
+- ["s5ErrorP", "reason"]
+- ["s5ErrorP", "recoverySuggestion"]
+- ["s5ErrorP", "sourceLocation"]
+- ["s5ErrorP", "stackOverflowQuestions"]
+- ["s5ErrorP", "stackTrace"]
+- ["s5ErrorP", "suggestedFixes"]
+- ["s5ErrorP", "toEncodedDictionary"]
+- ["s5ErrorP", "typeIdentifier"]
+- ["11GoogleCloud0aB5ErrorP", ""]
+- ["11GoogleCloud0aB5ErrorP", "_code"]
+- ["11GoogleCloud0aB5ErrorP", "_domain"]
+- ["11GoogleCloud0aB5ErrorP", "_getEmbeddedNSError"]
+- ["11GoogleCloud0aB5ErrorP", "_userInfo"]
+- ["11GoogleCloud0aB5ErrorP", "debugDescription"]
+- ["11GoogleCloud0aB5ErrorP", "decode"]
+- ["11GoogleCloud0aB5ErrorP", "defaultContentType"]
+- ["11GoogleCloud0aB5ErrorP", "description"]
+- ["11GoogleCloud0aB5ErrorP", "documentationLinks"]
+- ["11GoogleCloud0aB5ErrorP", "encode"]
+- !private ["11GoogleCloud0aB5ErrorP", "error"]
+- ["11GoogleCloud0aB5ErrorP", "errorDescription"]
+- ["11GoogleCloud0aB5ErrorP", "failureReason"]
+- ["11GoogleCloud0aB5ErrorP", "gitHubIssues"]
+- ["11GoogleCloud0aB5ErrorP", "helpAnchor"]
+- ["11GoogleCloud0aB5ErrorP", "identifier"]
+- ["11GoogleCloud0aB5ErrorP", "init"]
+- ["11GoogleCloud0aB5ErrorP", "possibleCauses"]
+- ["11GoogleCloud0aB5ErrorP", "readableName"]
+- ["11GoogleCloud0aB5ErrorP", "reason"]
+- ["11GoogleCloud0aB5ErrorP", "recoverySuggestion"]
+- ["11GoogleCloud0aB5ErrorP", "sourceLocation"]
+- ["11GoogleCloud0aB5ErrorP", "stackOverflowQuestions"]
+- ["11GoogleCloud0aB5ErrorP", "stackTrace"]
+- ["11GoogleCloud0aB5ErrorP", "suggestedFixes"]
+- ["11GoogleCloud0aB5ErrorP", "toEncodedDictionary"]
+- ["11GoogleCloud0aB5ErrorP", "typeIdentifier"]
+- ["11GoogleCloud0aB5ModelP", ""]
+- ["11GoogleCloud0aB5ModelP", "_code"]
+- ["11GoogleCloud0aB5ModelP", "_domain"]
+- ["11GoogleCloud0aB5ModelP", "_getEmbeddedNSError"]
+- ["11GoogleCloud0aB5ModelP", "_userInfo"]
+- ["11GoogleCloud0aB5ModelP", "debugDescription"]
+- ["11GoogleCloud0aB5ModelP", "decode"]
+- ["11GoogleCloud0aB5ModelP", "defaultContentType"]
+- ["11GoogleCloud0aB5ModelP", "description"]
+- ["11GoogleCloud0aB5ModelP", "documentationLinks"]
+- ["11GoogleCloud0aB5ModelP", "encode"]
+- !private ["11GoogleCloud0aB5ModelP", "error"]
+- ["11GoogleCloud0aB5ModelP", "errorDescription"]
+- ["11GoogleCloud0aB5ModelP", "failureReason"]
+- ["11GoogleCloud0aB5ModelP", "gitHubIssues"]
+- ["11GoogleCloud0aB5ModelP", "helpAnchor"]
+- ["11GoogleCloud0aB5ModelP", "identifier"]
+- ["11GoogleCloud0aB5ModelP", "init"]
+- ["11GoogleCloud0aB5ModelP", "possibleCauses"]
+- ["11GoogleCloud0aB5ModelP", "readableName"]
+- ["11GoogleCloud0aB5ModelP", "reason"]
+- ["11GoogleCloud0aB5ModelP", "recoverySuggestion"]
+- ["11GoogleCloud0aB5ModelP", "sourceLocation"]
+- ["11GoogleCloud0aB5ModelP", "stackOverflowQuestions"]
+- ["11GoogleCloud0aB5ModelP", "stackTrace"]
+- ["11GoogleCloud0aB5ModelP", "suggestedFixes"]
+- ["11GoogleCloud0aB5ModelP", "toEncodedDictionary"]
+- ["11GoogleCloud0aB5ModelP", "typeIdentifier"]
+- ["SH", "=="]
+- !private ["SH", ""]
+- ["SH", "_rawHashValue"]
+- ["SH", "debugDescription"]
+- ["SH", "description"]
+- ["SH", "hash"]
+- ["SH", "hashValue"]
+- ["SH", "init"]
+- ["SH", "intValue"]
+- ["SH", "stringValue"]
+- !private ["s6HasherV", "combine"]
+- !private ["s22KeyedDecodingContainerV", "decode"]
+- !private ["s22KeyedDecodingContainerV", "decodeIfPresent"]
+- !private ["s30KeyedDecodingContainerProtocolP", "decode"]
+- !private ["s30KeyedDecodingContainerProtocolP", "decodeIfPresent"]
+- !private ["s22KeyedEncodingContainerV", "encode"]
+- !private ["s22KeyedEncodingContainerV", "encodeIfPresent"]
+- !private ["s30KeyedEncodingContainerProtocolP", "encode"]
+- !private ["s30KeyedEncodingContainerProtocolP", "encodeIfPresent"]
+- ["10Foundation14LocalizedErrorP", ""]
+- ["10Foundation14LocalizedErrorP", "_code"]
+- ["10Foundation14LocalizedErrorP", "_domain"]
+- ["10Foundation14LocalizedErrorP", "_getEmbeddedNSError"]
+- ["10Foundation14LocalizedErrorP", "_userInfo"]
+- ["10Foundation14LocalizedErrorP", "debugDescription"]
+- ["10Foundation14LocalizedErrorP", "decode"]
+- ["10Foundation14LocalizedErrorP", "defaultContentType"]
+- ["10Foundation14LocalizedErrorP", "description"]
+- ["10Foundation14LocalizedErrorP", "documentationLinks"]
+- ["10Foundation14LocalizedErrorP", "encode"]
+- !private ["10Foundation14LocalizedErrorP", "error"]
+- ["10Foundation14LocalizedErrorP", "errorDescription"]
+- ["10Foundation14LocalizedErrorP", "failureReason"]
+- ["10Foundation14LocalizedErrorP", "gitHubIssues"]
+- ["10Foundation14LocalizedErrorP", "helpAnchor"]
+- ["10Foundation14LocalizedErrorP", "identifier"]
+- ["10Foundation14LocalizedErrorP", "init"]
+- ["10Foundation14LocalizedErrorP", "possibleCauses"]
+- ["10Foundation14LocalizedErrorP", "readableName"]
+- ["10Foundation14LocalizedErrorP", "reason"]
+- ["10Foundation14LocalizedErrorP", "recoverySuggestion"]
+- ["10Foundation14LocalizedErrorP", "sourceLocation"]
+- ["10Foundation14LocalizedErrorP", "stackOverflowQuestions"]
+- ["10Foundation14LocalizedErrorP", "stackTrace"]
+- ["10Foundation14LocalizedErrorP", "suggestedFixes"]
+- ["10Foundation14LocalizedErrorP", "toEncodedDictionary"]
+- ["10Foundation14LocalizedErrorP", "typeIdentifier"]
+- ["5Vapor16RequestDecodableP", ""]
+- ["5Vapor16RequestDecodableP", "_code"]
+- ["5Vapor16RequestDecodableP", "_domain"]
+- ["5Vapor16RequestDecodableP", "_getEmbeddedNSError"]
+- ["5Vapor16RequestDecodableP", "_userInfo"]
+- !private ["5Vapor16RequestDecodableP", "code"]
+- ["5Vapor16RequestDecodableP", "debugDescription"]
+- ["5Vapor16RequestDecodableP", "decode"]
+- ["5Vapor16RequestDecodableP", "defaultContentType"]
+- ["5Vapor16RequestDecodableP", "description"]
+- ["5Vapor16RequestDecodableP", "documentationLinks"]
+- !private ["5Vapor16RequestDecodableP", "domain"]
+- ["5Vapor16RequestDecodableP", "encode"]
+- !private ["5Vapor16RequestDecodableP", "error"]
+- ["5Vapor16RequestDecodableP", "errorDescription"]
+- !private ["5Vapor16RequestDecodableP", "errors"]
+- ["5Vapor16RequestDecodableP", "failureReason"]
+- ["5Vapor16RequestDecodableP", "gitHubIssues"]
+- ["5Vapor16RequestDecodableP", "helpAnchor"]
+- ["5Vapor16RequestDecodableP", "identifier"]
+- ["5Vapor16RequestDecodableP", "init"]
+- !private ["5Vapor16RequestDecodableP", "location"]
+- !private ["5Vapor16RequestDecodableP", "locationType"]
+- !private ["5Vapor16RequestDecodableP", "message"]
+- ["5Vapor16RequestDecodableP", "possibleCauses"]
+- ["5Vapor16RequestDecodableP", "readableName"]
+- ["5Vapor16RequestDecodableP", "reason"]
+- ["5Vapor16RequestDecodableP", "recoverySuggestion"]
+- ["5Vapor16RequestDecodableP", "sourceLocation"]
+- ["5Vapor16RequestDecodableP", "stackOverflowQuestions"]
+- ["5Vapor16RequestDecodableP", "stackTrace"]
+- ["5Vapor16RequestDecodableP", "suggestedFixes"]
+- ["5Vapor16RequestDecodableP", "toEncodedDictionary"]
+- ["5Vapor16RequestDecodableP", "typeIdentifier"]
+- ["5Vapor16RequestEncodableP", ""]
+- ["5Vapor16RequestEncodableP", "_code"]
+- ["5Vapor16RequestEncodableP", "_domain"]
+- ["5Vapor16RequestEncodableP", "_getEmbeddedNSError"]
+- ["5Vapor16RequestEncodableP", "_userInfo"]
+- !private ["5Vapor16RequestEncodableP", "code"]
+- ["5Vapor16RequestEncodableP", "debugDescription"]
+- ["5Vapor16RequestEncodableP", "decode"]
+- ["5Vapor16RequestEncodableP", "defaultContentType"]
+- ["5Vapor16RequestEncodableP", "description"]
+- ["5Vapor16RequestEncodableP", "documentationLinks"]
+- !private ["5Vapor16RequestEncodableP", "domain"]
+- ["5Vapor16RequestEncodableP", "encode"]
+- !private ["5Vapor16RequestEncodableP", "error"]
+- ["5Vapor16RequestEncodableP", "errorDescription"]
+- !private ["5Vapor16RequestEncodableP", "errors"]
+- ["5Vapor16RequestEncodableP", "failureReason"]
+- ["5Vapor16RequestEncodableP", "gitHubIssues"]
+- ["5Vapor16RequestEncodableP", "helpAnchor"]
+- ["5Vapor16RequestEncodableP", "identifier"]
+- ["5Vapor16RequestEncodableP", "init"]
+- !private ["5Vapor16RequestEncodableP", "location"]
+- !private ["5Vapor16RequestEncodableP", "locationType"]
+- !private ["5Vapor16RequestEncodableP", "message"]
+- ["5Vapor16RequestEncodableP", "possibleCauses"]
+- ["5Vapor16RequestEncodableP", "readableName"]
+- ["5Vapor16RequestEncodableP", "reason"]
+- ["5Vapor16RequestEncodableP", "recoverySuggestion"]
+- ["5Vapor16RequestEncodableP", "sourceLocation"]
+- ["5Vapor16RequestEncodableP", "stackOverflowQuestions"]
+- ["5Vapor16RequestEncodableP", "stackTrace"]
+- ["5Vapor16RequestEncodableP", "suggestedFixes"]
+- ["5Vapor16RequestEncodableP", "toEncodedDictionary"]
+- ["5Vapor16RequestEncodableP", "typeIdentifier"]
+- ["5Vapor17ResponseDecodableP", ""]
+- ["5Vapor17ResponseDecodableP", "_code"]
+- ["5Vapor17ResponseDecodableP", "_domain"]
+- ["5Vapor17ResponseDecodableP", "_getEmbeddedNSError"]
+- ["5Vapor17ResponseDecodableP", "_userInfo"]
+- !private ["5Vapor17ResponseDecodableP", "code"]
+- ["5Vapor17ResponseDecodableP", "debugDescription"]
+- ["5Vapor17ResponseDecodableP", "decode"]
+- ["5Vapor17ResponseDecodableP", "defaultContentType"]
+- ["5Vapor17ResponseDecodableP", "description"]
+- ["5Vapor17ResponseDecodableP", "documentationLinks"]
+- !private ["5Vapor17ResponseDecodableP", "domain"]
+- ["5Vapor17ResponseDecodableP", "encode"]
+- !private ["5Vapor17ResponseDecodableP", "error"]
+- ["5Vapor17ResponseDecodableP", "errorDescription"]
+- !private ["5Vapor17ResponseDecodableP", "errors"]
+- ["5Vapor17ResponseDecodableP", "failureReason"]
+- ["5Vapor17ResponseDecodableP", "gitHubIssues"]
+- ["5Vapor17ResponseDecodableP", "helpAnchor"]
+- ["5Vapor17ResponseDecodableP", "identifier"]
+- ["5Vapor17ResponseDecodableP", "init"]
+- !private ["5Vapor17ResponseDecodableP", "location"]
+- !private ["5Vapor17ResponseDecodableP", "locationType"]
+- !private ["5Vapor17ResponseDecodableP", "message"]
+- ["5Vapor17ResponseDecodableP", "possibleCauses"]
+- ["5Vapor17ResponseDecodableP", "readableName"]
+- ["5Vapor17ResponseDecodableP", "reason"]
+- ["5Vapor17ResponseDecodableP", "recoverySuggestion"]
+- ["5Vapor17ResponseDecodableP", "sourceLocation"]
+- ["5Vapor17ResponseDecodableP", "stackOverflowQuestions"]
+- ["5Vapor17ResponseDecodableP", "stackTrace"]
+- ["5Vapor17ResponseDecodableP", "suggestedFixes"]
+- ["5Vapor17ResponseDecodableP", "toEncodedDictionary"]
+- ["5Vapor17ResponseDecodableP", "typeIdentifier"]
+- ["5Vapor17ResponseEncodableP", ""]
+- ["5Vapor17ResponseEncodableP", "_code"]
+- ["5Vapor17ResponseEncodableP", "_domain"]
+- ["5Vapor17ResponseEncodableP", "_getEmbeddedNSError"]
+- ["5Vapor17ResponseEncodableP", "_userInfo"]
+- !private ["5Vapor17ResponseEncodableP", "code"]
+- ["5Vapor17ResponseEncodableP", "debugDescription"]
+- ["5Vapor17ResponseEncodableP", "decode"]
+- ["5Vapor17ResponseEncodableP", "defaultContentType"]
+- ["5Vapor17ResponseEncodableP", "description"]
+- ["5Vapor17ResponseEncodableP", "documentationLinks"]
+- !private ["5Vapor17ResponseEncodableP", "domain"]
+- ["5Vapor17ResponseEncodableP", "encode"]
+- !private ["5Vapor17ResponseEncodableP", "error"]
+- ["5Vapor17ResponseEncodableP", "errorDescription"]
+- !private ["5Vapor17ResponseEncodableP", "errors"]
+- ["5Vapor17ResponseEncodableP", "failureReason"]
+- ["5Vapor17ResponseEncodableP", "gitHubIssues"]
+- ["5Vapor17ResponseEncodableP", "helpAnchor"]
+- ["5Vapor17ResponseEncodableP", "identifier"]
+- ["5Vapor17ResponseEncodableP", "init"]
+- !private ["5Vapor17ResponseEncodableP", "location"]
+- !private ["5Vapor17ResponseEncodableP", "locationType"]
+- !private ["5Vapor17ResponseEncodableP", "message"]
+- ["5Vapor17ResponseEncodableP", "possibleCauses"]
+- ["5Vapor17ResponseEncodableP", "readableName"]
+- ["5Vapor17ResponseEncodableP", "reason"]
+- ["5Vapor17ResponseEncodableP", "recoverySuggestion"]
+- ["5Vapor17ResponseEncodableP", "sourceLocation"]
+- ["5Vapor17ResponseEncodableP", "stackOverflowQuestions"]
+- ["5Vapor17ResponseEncodableP", "stackTrace"]
+- ["5Vapor17ResponseEncodableP", "suggestedFixes"]
+- ["5Vapor17ResponseEncodableP", "toEncodedDictionary"]
+- ["5Vapor17ResponseEncodableP", "typeIdentifier"]
+- !private ["s27StringInterpolationProtocolP", "appendInterpolation"]
+- !private ["s27StringInterpolationProtocolP", "appendLiteral"]
+- !private ["s16TextOutputStreamP", "appendInterpolation"]
+- !private ["s16TextOutputStreamP", "appendLiteral"]
+depends-nominal:
+- "11GoogleCloud0B12StorageErrorV"
+- "11GoogleCloud0B16StorageErrorBodyV"
+- "11GoogleCloud0B13StorageErrorsV"
+- "s9CodingKeyP"
+- "5Vapor7ContentP"
+- "s28CustomDebugStringConvertibleP"
+- "s23CustomStringConvertibleP"
+- "9Debugging10DebuggableP"
+- "Se"
+- !private "s7DecoderP"
+- !private "s26DefaultStringInterpolationV"
+- "SE"
+- !private "s7EncoderP"
+- "SQ"
+- "s5ErrorP"
+- "11GoogleCloud0aB5ErrorP"
+- "11GoogleCloud0aB5ModelP"
+- "SH"
+- !private "s6HasherV"
+- !private "s22KeyedDecodingContainerV"
+- !private "s30KeyedDecodingContainerProtocolP"
+- !private "s22KeyedEncodingContainerV"
+- !private "s30KeyedEncodingContainerProtocolP"
+- "10Foundation14LocalizedErrorP"
+- "5Vapor16RequestDecodableP"
+- "5Vapor16RequestEncodableP"
+- "5Vapor17ResponseDecodableP"
+- "5Vapor17ResponseEncodableP"
+- !private "s27StringInterpolationProtocolP"
+- !private "s16TextOutputStreamP"
+depends-dynamic-lookup:
+depends-external:
+- "/Users/Jorge/Desktop/Projects/Web/Swift/kisiBootcamp/.build/x86_64-apple-macosx/debug/NIOHTTP1.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/ObjectiveC.swiftmodule"
+- "/Users/Jorge/Desktop/Projects/Web/Swift/kisiBootcamp/.build/x86_64-apple-macosx/debug/NIOOpenSSL.swiftmodule"
+- "/Users/Jorge/Desktop/Projects/Web/Swift/kisiBootcamp/.build/x86_64-apple-macosx/debug/NIO.swiftmodule"
+- "/Users/Jorge/Desktop/Projects/Web/Swift/kisiBootcamp/.build/x86_64-apple-macosx/debug/HTTP.swiftmodule"
+- "/Users/Jorge/Desktop/Projects/Web/Swift/kisiBootcamp/.build/x86_64-apple-macosx/debug/NIOTLS.swiftmodule"
+- "/Users/Jorge/Desktop/Projects/Web/Swift/kisiBootcamp/.build/x86_64-apple-macosx/debug/JWT.swiftmodule"
+- "/Users/Jorge/Desktop/Projects/Web/Swift/kisiBootcamp/.build/x86_64-apple-macosx/debug/Async.swiftmodule"
+- "/Users/Jorge/Desktop/Projects/Web/Swift/kisiBootcamp/.build/x86_64-apple-macosx/debug/Command.swiftmodule"
+- "/Users/Jorge/Desktop/Projects/Web/Swift/kisiBootcamp/.build/x86_64-apple-macosx/debug/Service.swiftmodule"
+- "/Users/Jorge/Desktop/Projects/Web/Swift/kisiBootcamp/.build/x86_64-apple-macosx/debug/Console.swiftmodule"
+- "/Users/Jorge/Desktop/Projects/Web/Swift/kisiBootcamp/.build/x86_64-apple-macosx/debug/Core.swiftmodule"
+- "/Users/Jorge/Desktop/Projects/Web/Swift/kisiBootcamp/.build/x86_64-apple-macosx/debug/Logging.swiftmodule"
+- "/Users/Jorge/Desktop/Projects/Web/Swift/kisiBootcamp/.build/x86_64-apple-macosx/debug/Debugging.swiftmodule"
+- "/Users/Jorge/Desktop/Projects/Web/Swift/kisiBootcamp/.build/x86_64-apple-macosx/debug/Routing.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/Dispatch.swiftmodule"
+- "/Users/Jorge/Desktop/Projects/Web/Swift/kisiBootcamp/.build/x86_64-apple-macosx/debug/COperatingSystem.swiftmodule"
+- "/Users/Jorge/Desktop/Projects/Web/Swift/kisiBootcamp/.build/x86_64-apple-macosx/debug/Random.swiftmodule"
+- "/Users/Jorge/Desktop/Projects/Web/Swift/kisiBootcamp/.build/x86_64-apple-macosx/debug/URLEncodedForm.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/Darwin.swiftmodule"
+- "/Users/Jorge/Desktop/Projects/Web/Swift/kisiBootcamp/.build/x86_64-apple-macosx/debug/Validation.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/Foundation.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/CoreFoundation.swiftmodule"
+- "/Users/Jorge/Desktop/Projects/Web/Swift/kisiBootcamp/.build/x86_64-apple-macosx/debug/Crypto.swiftmodule"
+- "/Users/Jorge/Desktop/Projects/Web/Swift/kisiBootcamp/.build/x86_64-apple-macosx/debug/Vapor.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/CoreGraphics.swiftmodule"
+- "/Users/Jorge/Desktop/Projects/Web/Swift/kisiBootcamp/.build/x86_64-apple-macosx/debug/NIOConcurrencyHelpers.swiftmodule"
+- "/Users/Jorge/Desktop/Projects/Web/Swift/kisiBootcamp/.build/x86_64-apple-macosx/debug/Bits.swiftmodule"
+- "/Users/Jorge/Desktop/Projects/Web/Swift/kisiBootcamp/.build/x86_64-apple-macosx/debug/NIOFoundationCompat.swiftmodule"
+- "/Users/Jorge/Desktop/Projects/Web/Swift/kisiBootcamp/.build/x86_64-apple-macosx/debug/WebSocket.swiftmodule"
+- "/Users/Jorge/Desktop/Projects/Web/Swift/kisiBootcamp/.build/x86_64-apple-macosx/debug/NIOWebSocket.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/Swift.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/IOKit.swiftmodule"
+- "/Users/Jorge/Desktop/Projects/Web/Swift/kisiBootcamp/.build/x86_64-apple-macosx/debug/DatabaseKit.swiftmodule"
+- "/Users/Jorge/Desktop/Projects/Web/Swift/kisiBootcamp/.build/x86_64-apple-macosx/debug/TemplateKit.swiftmodule"
+- "/Users/Jorge/Desktop/Projects/Web/Swift/kisiBootcamp/.build/x86_64-apple-macosx/debug/Multipart.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/SwiftOnoneSupport.swiftmodule"
+- "/Users/Jorge/Desktop/Projects/Web/Swift/kisiBootcamp/.build/checkouts/swift-nio/Sources/CNIOSHA1/include/CNIOSHA1.h"
+- "/usr/local/Cellar/libressl/2.9.2/include/openssl/asn1.h"
+- "/usr/local/Cellar/libressl/2.9.2/include/openssl/tls1.h"
+- "/usr/local/Cellar/libressl/2.9.2/include/openssl/dtls1.h"
+- "/usr/local/Cellar/libressl/2.9.2/include/openssl/pkcs12.h"
+- "/usr/local/Cellar/libressl/2.9.2/include/openssl/ssl2.h"
+- "/usr/local/Cellar/libressl/2.9.2/include/openssl/pem2.h"
+- "/usr/local/Cellar/libressl/2.9.2/include/openssl/ssl23.h"
+- "/usr/local/Cellar/libressl/2.9.2/include/openssl/ssl3.h"
+- "/usr/local/Cellar/libressl/2.9.2/include/openssl/x509v3.h"
+- "/usr/local/Cellar/libressl/2.9.2/include/openssl/md5.h"
+- "/usr/local/Cellar/libressl/2.9.2/include/openssl/pkcs7.h"
+- "/usr/local/Cellar/libressl/2.9.2/include/openssl/x509.h"
+- "/usr/local/Cellar/libressl/2.9.2/include/openssl/sha.h"
+- "/usr/local/Cellar/libressl/2.9.2/include/openssl/dsa.h"
+- "/usr/local/Cellar/libressl/2.9.2/include/openssl/ecdsa.h"
+- "/usr/local/Cellar/libressl/2.9.2/include/openssl/rsa.h"
+- "/Users/Jorge/Desktop/Projects/Web/Swift/kisiBootcamp/.build/checkouts/swift-nio/Sources/CNIOZlib/include/CNIOZlib.h"
+- "/usr/local/Cellar/libressl/2.9.2/include/openssl/obj_mac.h"
+- "/usr/local/Cellar/libressl/2.9.2/include/openssl/hmac.h"
+- "/usr/local/Cellar/libressl/2.9.2/include/openssl/ec.h"
+- "/Users/Jorge/Desktop/Projects/Web/Swift/kisiBootcamp/.build/checkouts/swift-nio/Sources/CNIOAtomics/include/cpp_magic.h"
+- "/Users/Jorge/Desktop/Projects/Web/Swift/kisiBootcamp/.build/checkouts/swift-nio/Sources/CNIOLinux/include/ifaddrs-android.h"
+- "/usr/local/Cellar/libressl/2.9.2/include/openssl/rand.h"
+- "/usr/local/Cellar/libressl/2.9.2/include/openssl/conf.h"
+- "/usr/local/Cellar/libressl/2.9.2/include/openssl/opensslconf.h"
+- "/usr/local/Cellar/libressl/2.9.2/include/openssl/dh.h"
+- "/usr/local/Cellar/libressl/2.9.2/include/openssl/ecdh.h"
+- "/usr/local/Cellar/libressl/2.9.2/include/openssl/lhash.h"
+- "/usr/local/Cellar/libressl/2.9.2/include/openssl/stack.h"
+- "/usr/local/Cellar/libressl/2.9.2/include/openssl/safestack.h"
+- "/usr/local/Cellar/libressl/2.9.2/include/openssl/ssl.h"
+- "/Users/Jorge/Desktop/Projects/Web/Swift/kisiBootcamp/.build/checkouts/swift-nio-ssl/Sources/CNIOOpenSSL/include/c_nio_openssl.h"
+- "/Users/Jorge/Desktop/Projects/Web/Swift/kisiBootcamp/.build/checkouts/crypto/Sources/CCryptoOpenSSL/include/c_crypto_openssl.h"
+- "/usr/local/Cellar/libressl/2.9.2/include/openssl/pem.h"
+- "/usr/local/Cellar/libressl/2.9.2/include/openssl/bn.h"
+- "/Users/Jorge/Desktop/Projects/Web/Swift/kisiBootcamp/.build/checkouts/swift-nio/Sources/CNIODarwin/include/CNIODarwin.h"
+- "/usr/local/Cellar/libressl/2.9.2/include/openssl/bio.h"
+- "/usr/local/Cellar/libressl/2.9.2/include/openssl/crypto.h"
+- "/usr/local/Cellar/libressl/2.9.2/include/openssl/srtp.h"
+- "/usr/local/Cellar/libressl/2.9.2/include/openssl/evp.h"
+- "/usr/local/Cellar/libressl/2.9.2/include/openssl/ossl_typ.h"
+- "/usr/local/Cellar/libressl/2.9.2/include/openssl/buffer.h"
+- "/Users/Jorge/Desktop/Projects/Web/Swift/kisiBootcamp/.build/checkouts/swift-nio/Sources/CNIOHTTPParser/include/CNIOHTTPParser.h"
+- "/Users/Jorge/Desktop/Projects/Web/Swift/kisiBootcamp/.build/checkouts/swift-nio/Sources/CNIOHTTPParser/include/c_nio_http_parser.h"
+- "/usr/local/Cellar/libressl/2.9.2/include/openssl/err.h"
+- "/Users/Jorge/Desktop/Projects/Web/Swift/kisiBootcamp/.build/checkouts/swift-nio/Sources/CNIOAtomics/include/CNIOAtomics.h"
+- "/usr/local/Cellar/libressl/2.9.2/include/openssl/opensslfeatures.h"
+- "/usr/local/Cellar/libressl/2.9.2/include/openssl/objects.h"
+- "/usr/local/Cellar/libressl/2.9.2/include/openssl/opensslv.h"
+- "/Users/Jorge/Desktop/Projects/Web/Swift/kisiBootcamp/.build/checkouts/swift-nio/Sources/CNIOLinux/include/CNIOLinux.h"
+- "/usr/local/Cellar/libressl/2.9.2/include/openssl/x509_vfy.h"
+- "/Users/Jorge/Desktop/Projects/Web/Swift/kisiBootcamp/.build/x86_64-apple-macosx/debug/CNIOSHA1.build/module.modulemap"
+- "/Users/Jorge/Desktop/Projects/Web/Swift/kisiBootcamp/.build/x86_64-apple-macosx/debug/CNIOOpenSSL.build/module.modulemap"
+- "/Users/Jorge/Desktop/Projects/Web/Swift/kisiBootcamp/.build/x86_64-apple-macosx/debug/CCryptoOpenSSL.build/module.modulemap"
+- "/Users/Jorge/Desktop/Projects/Web/Swift/kisiBootcamp/.build/x86_64-apple-macosx/debug/CNIOZlib.build/module.modulemap"
+- "/Users/Jorge/Desktop/Projects/Web/Swift/kisiBootcamp/.build/x86_64-apple-macosx/debug/CNIODarwin.build/module.modulemap"
+- "/Users/Jorge/Desktop/Projects/Web/Swift/kisiBootcamp/.build/x86_64-apple-macosx/debug/CNIOHTTPParser.build/module.modulemap"
+- "/Users/Jorge/Desktop/Projects/Web/Swift/kisiBootcamp/.build/x86_64-apple-macosx/debug/CNIOAtomics.build/module.modulemap"
+- "/Users/Jorge/Desktop/Projects/Web/Swift/kisiBootcamp/.build/x86_64-apple-macosx/debug/CNIOLinux.build/module.modulemap"
+- "/Users/Jorge/Desktop/Projects/Web/Swift/kisiBootcamp/.build/checkouts/crypto/Sources/CBase32/include/module.modulemap"
+- "/Users/Jorge/Desktop/Projects/Web/Swift/kisiBootcamp/.build/checkouts/crypto/Sources/CBcrypt/include/module.modulemap"
+- "/Users/Jorge/Desktop/Projects/Web/Swift/kisiBootcamp/.build/checkouts/swift-nio-zlib-support/module.modulemap"
+- "/Users/Jorge/Desktop/Projects/Web/Swift/kisiBootcamp/.build/checkouts/swift-nio-ssl-support/module.modulemap"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.14.sdk/usr/include/objc/ObjectiveC.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/Dispatch.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.14.sdk/usr/include/Darwin.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.14.sdk/System/Library/Frameworks/Foundation.framework/Headers/Foundation.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.14.sdk/System/Library/Frameworks/CoreGraphics.framework/Headers/CoreGraphics.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.14.sdk/System/Library/Frameworks/ApplicationServices.framework/Headers/ApplicationServices.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.14.sdk/System/Library/Frameworks/CoreText.framework/Headers/CoreText.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.14.sdk/System/Library/Frameworks/Security.framework/Headers/Security.apinotes"
+interface-hash: "6855a3d0202355be6b9dd01340856129"

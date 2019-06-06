@@ -1,14 +1,14 @@
 version: "Apple Swift version 5.0.1 (swiftlang-1001.0.82.4 clang-1001.0.46.5)"
 options: "82a7a554dd6373e33b245e0e6cda6bdd"
-build_time: [1559831448, 278696000]
+build_time: [1559840742, 764237000]
 inputs:
-  "/Users/Jorge/Desktop/Projects/Web/Swift/kisiBootcamp/Sources/App/Controllers/LogsController.swift": [1559829831, 623833343]
-  "/Users/Jorge/Desktop/Projects/Web/Swift/kisiBootcamp/Sources/App/Controllers/RecordsController.swift": [1559810356, 271404048]
-  "/Users/Jorge/Desktop/Projects/Web/Swift/kisiBootcamp/Sources/App/Controllers/SessionsController.swift": [1559827186, 826642525]
+  "/Users/Jorge/Desktop/Projects/Web/Swift/kisiBootcamp/Sources/App/Controllers/LogsController.swift": [1559840704, 701700943]
+  "/Users/Jorge/Desktop/Projects/Web/Swift/kisiBootcamp/Sources/App/Controllers/RecordsController.swift": [1559839141, 3090397]
+  "/Users/Jorge/Desktop/Projects/Web/Swift/kisiBootcamp/Sources/App/Controllers/SessionsController.swift": [1559839140, 992485808]
   "/Users/Jorge/Desktop/Projects/Web/Swift/kisiBootcamp/Sources/App/Models/KSModel.swift": [1559831443, 739771014]
-  "/Users/Jorge/Desktop/Projects/Web/Swift/kisiBootcamp/Sources/App/Models/Log.swift": [1559831440, 940786735]
+  "/Users/Jorge/Desktop/Projects/Web/Swift/kisiBootcamp/Sources/App/Models/Log.swift": [1559836401, 94084972]
   "/Users/Jorge/Desktop/Projects/Web/Swift/kisiBootcamp/Sources/App/Models/Session.swift": [1559831437, 4918998]
   "/Users/Jorge/Desktop/Projects/Web/Swift/kisiBootcamp/Sources/App/app.swift": [1559741265, 818808972]
   "/Users/Jorge/Desktop/Projects/Web/Swift/kisiBootcamp/Sources/App/boot.swift": [1559741265, 819024429]
-  "/Users/Jorge/Desktop/Projects/Web/Swift/kisiBootcamp/Sources/App/configure.swift": [1559823710, 704564883]
-  "/Users/Jorge/Desktop/Projects/Web/Swift/kisiBootcamp/Sources/App/routes.swift": [1559827186, 865720892]
+  "/Users/Jorge/Desktop/Projects/Web/Swift/kisiBootcamp/Sources/App/configure.swift": [1559840733, 464247302]
+  "/Users/Jorge/Desktop/Projects/Web/Swift/kisiBootcamp/Sources/App/routes.swift": [1559839140, 969620616]

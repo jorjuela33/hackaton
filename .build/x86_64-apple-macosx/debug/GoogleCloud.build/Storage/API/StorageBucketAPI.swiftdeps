@@ -1,0 +1,621 @@
+### Swift dependencies file v0 ###
+provides-top-level:
+- "StorageBucketAPI"
+- "GoogleStorageBucketAPI"
+provides-nominal:
+- "11GoogleCloud16StorageBucketAPIP"
+- "11GoogleCloud0A16StorageBucketAPIC"
+provides-member:
+- ["11GoogleCloud16StorageBucketAPIP", ""]
+- ["11GoogleCloud0A16StorageBucketAPIC", ""]
+- ["11GoogleCloud16StorageBucketAPIP", "delete"]
+- ["11GoogleCloud16StorageBucketAPIP", "get"]
+- ["11GoogleCloud16StorageBucketAPIP", "getIAMPolicy"]
+- ["11GoogleCloud16StorageBucketAPIP", "create"]
+- ["11GoogleCloud16StorageBucketAPIP", "list"]
+- ["11GoogleCloud16StorageBucketAPIP", "patch"]
+- ["11GoogleCloud16StorageBucketAPIP", "setIAMPolicy"]
+- ["11GoogleCloud16StorageBucketAPIP", "testIAMPermissions"]
+- ["11GoogleCloud16StorageBucketAPIP", "update"]
+provides-dynamic-lookup:
+depends-top-level:
+- !private ">"
+- "AssignmentPrecedence"
+- "Billing"
+- "BucketAccessControls"
+- "Cors"
+- "EmptyResponse"
+- "Encryption"
+- "Future"
+- "GoogleCloudStorageRequest"
+- "GoogleStorageBucket"
+- "GoogleStorageBucketAPI"
+- "GoogleStorageBucketList"
+- "IAMPolicy"
+- !private "JSONSerialization"
+- "Lifecycle"
+- "Logging"
+- "ObjectAccessControls"
+- "Permission"
+- "StorageBucketAPI"
+- "StorageClass"
+- "String"
+- "Versioning"
+- "Website"
+depends-member:
+- !private ["4Core22AnyReflectionDecodableP", "append"]
+- !private ["4Core22AnyReflectionDecodableP", "convertToHTTPBody"]
+- !private ["4Core22AnyReflectionDecodableP", "count"]
+- !private ["4Core22AnyReflectionDecodableP", "joined"]
+- !private ["4Core22AnyReflectionDecodableP", "map"]
+- !private ["4Core22AnyReflectionDecodableP", "queryParameters"]
+- !private ["4Core22AnyReflectionDecodableP", "subscript"]
+- !private ["Sa", "count"]
+- !private ["Sa", "joined"]
+- !private ["Sa", "map"]
+- !private ["4Core21BasicKeyRepresentableP", "append"]
+- !private ["SK", "append"]
+- !private ["SK", "convertToHTTPBody"]
+- !private ["SK", "count"]
+- !private ["SK", "joined"]
+- !private ["SK", "map"]
+- !private ["11GoogleCloud7BillingV", "deinit"]
+- !private ["11GoogleCloud7BillingV", "toEncodedDictionary"]
+- !private ["11GoogleCloud20BucketAccessControlsV", "deinit"]
+- !private ["11GoogleCloud20BucketAccessControlsV", "toEncodedDictionary"]
+- !private ["s7CVarArgP", "append"]
+- !private ["s7CVarArgP", "count"]
+- !private ["s7CVarArgP", "data"]
+- !private ["s7CVarArgP", "joined"]
+- !private ["s7CVarArgP", "map"]
+- !private ["s7CVarArgP", "queryParameters"]
+- !private ["s7CVarArgP", "subscript"]
+- !private ["Sl", "append"]
+- !private ["Sl", "convertToHTTPBody"]
+- !private ["Sl", "count"]
+- !private ["Sl", "joined"]
+- !private ["Sl", "map"]
+- !private ["Sl", "queryParameters"]
+- !private ["Sl", "subscript"]
+- !private ["SL", "append"]
+- !private ["5Vapor7ContentP", "append"]
+- !private ["5Vapor7ContentP", "count"]
+- !private ["5Vapor7ContentP", "joined"]
+- !private ["5Vapor7ContentP", "map"]
+- !private ["5Vapor7ContentP", "queryParameters"]
+- !private ["5Vapor7ContentP", "rawValue"]
+- !private ["5Vapor7ContentP", "subscript"]
+- !private ["5Vapor7ContentP", "toEncodedDictionary"]
+- !private ["10Foundation15ContiguousBytesP", "convertToHTTPBody"]
+- !private ["10Foundation15ContiguousBytesP", "count"]
+- !private ["10Foundation15ContiguousBytesP", "joined"]
+- !private ["10Foundation15ContiguousBytesP", "map"]
+- !private ["3NIO20ContiguousCollectionP", "convertToHTTPBody"]
+- !private ["3NIO20ContiguousCollectionP", "count"]
+- !private ["3NIO20ContiguousCollectionP", "joined"]
+- !private ["3NIO20ContiguousCollectionP", "map"]
+- !private ["11GoogleCloud4CorsV", "deinit"]
+- !private ["11GoogleCloud4CorsV", "toEncodedDictionary"]
+- !private ["s28CustomDebugStringConvertibleP", "append"]
+- !private ["s28CustomDebugStringConvertibleP", "convertToHTTPBody"]
+- !private ["s28CustomDebugStringConvertibleP", "count"]
+- !private ["s28CustomDebugStringConvertibleP", "data"]
+- !private ["s28CustomDebugStringConvertibleP", "joined"]
+- !private ["s28CustomDebugStringConvertibleP", "map"]
+- !private ["s28CustomDebugStringConvertibleP", "queryParameters"]
+- !private ["s28CustomDebugStringConvertibleP", "subscript"]
+- !private ["s17CustomReflectableP", "append"]
+- !private ["s17CustomReflectableP", "convertToHTTPBody"]
+- !private ["s17CustomReflectableP", "count"]
+- !private ["s17CustomReflectableP", "joined"]
+- !private ["s17CustomReflectableP", "map"]
+- !private ["s17CustomReflectableP", "queryParameters"]
+- !private ["s17CustomReflectableP", "subscript"]
+- !private ["s23CustomStringConvertibleP", "append"]
+- !private ["s23CustomStringConvertibleP", "appendInterpolation"]
+- !private ["s23CustomStringConvertibleP", "appendLiteral"]
+- !private ["s23CustomStringConvertibleP", "convertToHTTPBody"]
+- !private ["s23CustomStringConvertibleP", "count"]
+- !private ["s23CustomStringConvertibleP", "data"]
+- !private ["s23CustomStringConvertibleP", "joined"]
+- !private ["s23CustomStringConvertibleP", "map"]
+- !private ["s23CustomStringConvertibleP", "queryParameters"]
+- !private ["s23CustomStringConvertibleP", "subscript"]
+- !private ["10Foundation4DataV", "convertToHTTPBody"]
+- !private ["10Foundation12DataProtocolP", "convertToHTTPBody"]
+- !private ["10Foundation12DataProtocolP", "count"]
+- !private ["10Foundation12DataProtocolP", "joined"]
+- !private ["10Foundation12DataProtocolP", "map"]
+- !private ["Se", "append"]
+- !private ["Se", "convertToHTTPBody"]
+- !private ["Se", "count"]
+- !private ["Se", "joined"]
+- !private ["Se", "map"]
+- !private ["Se", "queryParameters"]
+- !private ["Se", "rawValue"]
+- !private ["Se", "subscript"]
+- !private ["Se", "toEncodedDictionary"]
+- !private ["s26DefaultStringInterpolationV", "appendInterpolation"]
+- !private ["s26DefaultStringInterpolationV", "appendLiteral"]
+- !private ["SD", "queryParameters"]
+- !private ["SD", "subscript"]
+- !private ["11GoogleCloud13EmptyResponseV", "deinit"]
+- !private ["SE", "append"]
+- !private ["SE", "convertToHTTPBody"]
+- !private ["SE", "count"]
+- !private ["SE", "joined"]
+- !private ["SE", "map"]
+- !private ["SE", "queryParameters"]
+- !private ["SE", "rawValue"]
+- !private ["SE", "subscript"]
+- !private ["SE", "toEncodedDictionary"]
+- !private ["11GoogleCloud10EncryptionV", "deinit"]
+- !private ["11GoogleCloud10EncryptionV", "toEncodedDictionary"]
+- !private ["SQ", "DELETE"]
+- !private ["SQ", "GET"]
+- !private ["SQ", "PATCH"]
+- !private ["SQ", "POST"]
+- !private ["SQ", "PUT"]
+- !private ["SQ", "append"]
+- !private ["SQ", "convertToHTTPBody"]
+- !private ["SQ", "count"]
+- !private ["SQ", "data"]
+- !private ["SQ", "joined"]
+- !private ["SQ", "map"]
+- !private ["SQ", "queryParameters"]
+- !private ["SQ", "rawValue"]
+- !private ["SQ", "subscript"]
+- !private ["s25ExpressibleByArrayLiteralP", "count"]
+- !private ["s25ExpressibleByArrayLiteralP", "joined"]
+- !private ["s25ExpressibleByArrayLiteralP", "map"]
+- !private ["s30ExpressibleByDictionaryLiteralP", "queryParameters"]
+- !private ["s30ExpressibleByDictionaryLiteralP", "subscript"]
+- !private ["s43ExpressibleByExtendedGraphemeClusterLiteralP", "append"]
+- !private ["s32ExpressibleByStringInterpolationP", "append"]
+- !private ["s26ExpressibleByStringLiteralP", "append"]
+- !private ["s33ExpressibleByUnicodeScalarLiteralP", "append"]
+- !private ["11GoogleCloud0aB5ModelP", "toEncodedDictionary"]
+- !private ["11GoogleCloud0aB14StorageRequestC", "project"]
+- !private ["11GoogleCloud0aB14StorageRequestC", "send"]
+- !private ["11GoogleCloud0A13StorageBucketV", "deinit"]
+- ["11GoogleCloud0A16StorageBucketAPIC", "Billing"]
+- ["11GoogleCloud0A16StorageBucketAPIC", "BucketAccessControls"]
+- ["11GoogleCloud0A16StorageBucketAPIC", "Cors"]
+- ["11GoogleCloud0A16StorageBucketAPIC", "EmptyResponse"]
+- ["11GoogleCloud0A16StorageBucketAPIC", "Encryption"]
+- ["11GoogleCloud0A16StorageBucketAPIC", "Future"]
+- ["11GoogleCloud0A16StorageBucketAPIC", "GoogleCloudStorageRequest"]
+- ["11GoogleCloud0A16StorageBucketAPIC", "GoogleStorageBucket"]
+- ["11GoogleCloud0A16StorageBucketAPIC", "GoogleStorageBucketList"]
+- ["11GoogleCloud0A16StorageBucketAPIC", "IAMPolicy"]
+- !private ["11GoogleCloud0A16StorageBucketAPIC", "JSONSerialization"]
+- ["11GoogleCloud0A16StorageBucketAPIC", "Lifecycle"]
+- ["11GoogleCloud0A16StorageBucketAPIC", "Logging"]
+- ["11GoogleCloud0A16StorageBucketAPIC", "ObjectAccessControls"]
+- ["11GoogleCloud0A16StorageBucketAPIC", "Permission"]
+- ["11GoogleCloud0A16StorageBucketAPIC", "StorageClass"]
+- ["11GoogleCloud0A16StorageBucketAPIC", "String"]
+- ["11GoogleCloud0A16StorageBucketAPIC", "Versioning"]
+- ["11GoogleCloud0A16StorageBucketAPIC", "Website"]
+- ["11GoogleCloud0A16StorageBucketAPIC", "create"]
+- ["11GoogleCloud0A16StorageBucketAPIC", "deinit"]
+- ["11GoogleCloud0A16StorageBucketAPIC", "delete"]
+- ["11GoogleCloud0A16StorageBucketAPIC", "endpoint"]
+- ["11GoogleCloud0A16StorageBucketAPIC", "get"]
+- ["11GoogleCloud0A16StorageBucketAPIC", "getIAMPolicy"]
+- ["11GoogleCloud0A16StorageBucketAPIC", "init"]
+- ["11GoogleCloud0A16StorageBucketAPIC", "list"]
+- ["11GoogleCloud0A16StorageBucketAPIC", "patch"]
+- ["11GoogleCloud0A16StorageBucketAPIC", "request"]
+- ["11GoogleCloud0A16StorageBucketAPIC", "setIAMPolicy"]
+- ["11GoogleCloud0A16StorageBucketAPIC", "testIAMPermissions"]
+- ["11GoogleCloud0A16StorageBucketAPIC", "update"]
+- !private ["11GoogleCloud0A17StorageBucketListV", "deinit"]
+- !private ["8NIOHTTP110HTTPMethodO", "DELETE"]
+- !private ["8NIOHTTP110HTTPMethodO", "GET"]
+- !private ["8NIOHTTP110HTTPMethodO", "PATCH"]
+- !private ["8NIOHTTP110HTTPMethodO", "POST"]
+- !private ["8NIOHTTP110HTTPMethodO", "PUT"]
+- !private ["SH", "append"]
+- !private ["SH", "convertToHTTPBody"]
+- !private ["SH", "count"]
+- !private ["SH", "data"]
+- !private ["SH", "joined"]
+- !private ["SH", "map"]
+- !private ["SH", "queryParameters"]
+- !private ["SH", "rawValue"]
+- !private ["SH", "subscript"]
+- !private ["11GoogleCloud9IAMPolicyV", "deinit"]
+- !private ["11GoogleCloud9IAMPolicyV", "toEncodedDictionary"]
+- !private ["So19NSJSONSerializationC", "data"]
+- !private ["11GoogleCloud9LifecycleV", "deinit"]
+- !private ["11GoogleCloud9LifecycleV", "toEncodedDictionary"]
+- !private ["11GoogleCloud7LoggingV", "deinit"]
+- !private ["11GoogleCloud7LoggingV", "toEncodedDictionary"]
+- !private ["4Core23LosslessDataConvertibleP", "append"]
+- !private ["4Core23LosslessDataConvertibleP", "convertToHTTPBody"]
+- !private ["4Core23LosslessDataConvertibleP", "count"]
+- !private ["4Core23LosslessDataConvertibleP", "joined"]
+- !private ["4Core23LosslessDataConvertibleP", "map"]
+- !private ["4HTTP29LosslessHTTPBodyRepresentableP", "append"]
+- !private ["4HTTP29LosslessHTTPBodyRepresentableP", "convertToHTTPBody"]
+- !private ["s25LosslessStringConvertibleP", "append"]
+- !private ["s10MirrorPathP", "append"]
+- !private ["9Multipart0A15PartConvertibleP", "append"]
+- !private ["9Multipart0A15PartConvertibleP", "convertToHTTPBody"]
+- !private ["SM", "convertToHTTPBody"]
+- !private ["SM", "count"]
+- !private ["SM", "joined"]
+- !private ["SM", "map"]
+- !private ["10Foundation19MutableDataProtocolP", "convertToHTTPBody"]
+- !private ["10Foundation19MutableDataProtocolP", "count"]
+- !private ["10Foundation19MutableDataProtocolP", "joined"]
+- !private ["10Foundation19MutableDataProtocolP", "map"]
+- !private ["So8NSCodingP", "append"]
+- !private ["So9NSCopyingP", "append"]
+- !private ["So21NSItemProviderReadingP", "append"]
+- !private ["So21NSItemProviderWritingP", "append"]
+- !private ["So16NSMutableCopyingP", "append"]
+- !private ["So8NSObjectC", "append"]
+- !private ["So8NSObjectC", "data"]
+- !private ["So8NSObjectP", "append"]
+- !private ["So8NSObjectP", "data"]
+- !private ["So14NSSecureCodingP", "append"]
+- !private ["So8NSStringC", "append"]
+- !private ["11GoogleCloud20ObjectAccessControlsV", "deinit"]
+- !private ["11GoogleCloud20ObjectAccessControlsV", "toEncodedDictionary"]
+- !private ["7Routing9ParameterP", "append"]
+- !private ["7Routing27PathComponentsRepresentableP", "append"]
+- !private ["7Routing27PathComponentsRepresentableP", "count"]
+- !private ["7Routing27PathComponentsRepresentableP", "joined"]
+- !private ["7Routing27PathComponentsRepresentableP", "map"]
+- !private ["11GoogleCloud10PermissionV", "deinit"]
+- !private ["Sk", "convertToHTTPBody"]
+- !private ["Sk", "count"]
+- !private ["Sk", "joined"]
+- !private ["Sk", "map"]
+- !private ["Sm", "append"]
+- !private ["Sm", "convertToHTTPBody"]
+- !private ["Sm", "count"]
+- !private ["Sm", "joined"]
+- !private ["Sm", "map"]
+- !private ["SY", "rawValue"]
+- !private ["10Foundation20ReferenceConvertibleP", "convertToHTTPBody"]
+- !private ["4Core19ReflectionDecodableP", "append"]
+- !private ["4Core19ReflectionDecodableP", "convertToHTTPBody"]
+- !private ["4Core19ReflectionDecodableP", "count"]
+- !private ["4Core19ReflectionDecodableP", "joined"]
+- !private ["4Core19ReflectionDecodableP", "map"]
+- !private ["4Core19ReflectionDecodableP", "queryParameters"]
+- !private ["4Core19ReflectionDecodableP", "subscript"]
+- !private ["5Vapor16RequestDecodableP", "append"]
+- !private ["5Vapor16RequestDecodableP", "count"]
+- !private ["5Vapor16RequestDecodableP", "joined"]
+- !private ["5Vapor16RequestDecodableP", "map"]
+- !private ["5Vapor16RequestDecodableP", "queryParameters"]
+- !private ["5Vapor16RequestDecodableP", "rawValue"]
+- !private ["5Vapor16RequestDecodableP", "subscript"]
+- !private ["5Vapor16RequestDecodableP", "toEncodedDictionary"]
+- !private ["5Vapor16RequestEncodableP", "append"]
+- !private ["5Vapor16RequestEncodableP", "count"]
+- !private ["5Vapor16RequestEncodableP", "joined"]
+- !private ["5Vapor16RequestEncodableP", "map"]
+- !private ["5Vapor16RequestEncodableP", "queryParameters"]
+- !private ["5Vapor16RequestEncodableP", "rawValue"]
+- !private ["5Vapor16RequestEncodableP", "subscript"]
+- !private ["5Vapor16RequestEncodableP", "toEncodedDictionary"]
+- !private ["5Vapor17ResponseDecodableP", "append"]
+- !private ["5Vapor17ResponseDecodableP", "count"]
+- !private ["5Vapor17ResponseDecodableP", "joined"]
+- !private ["5Vapor17ResponseDecodableP", "map"]
+- !private ["5Vapor17ResponseDecodableP", "queryParameters"]
+- !private ["5Vapor17ResponseDecodableP", "rawValue"]
+- !private ["5Vapor17ResponseDecodableP", "subscript"]
+- !private ["5Vapor17ResponseDecodableP", "toEncodedDictionary"]
+- !private ["5Vapor17ResponseEncodableP", "append"]
+- !private ["5Vapor17ResponseEncodableP", "count"]
+- !private ["5Vapor17ResponseEncodableP", "joined"]
+- !private ["5Vapor17ResponseEncodableP", "map"]
+- !private ["5Vapor17ResponseEncodableP", "queryParameters"]
+- !private ["5Vapor17ResponseEncodableP", "rawValue"]
+- !private ["5Vapor17ResponseEncodableP", "subscript"]
+- !private ["5Vapor17ResponseEncodableP", "toEncodedDictionary"]
+- !private ["7Routing17RoutableComponentP", "append"]
+- !private ["7Routing17RoutableComponentP", "convertToHTTPBody"]
+- !private ["ST", "append"]
+- !private ["ST", "convertToHTTPBody"]
+- !private ["ST", "count"]
+- !private ["ST", "joined"]
+- !private ["ST", "map"]
+- !private ["ST", "queryParameters"]
+- !private ["ST", "subscript"]
+- ["11GoogleCloud16StorageBucketAPIP", "Billing"]
+- ["11GoogleCloud16StorageBucketAPIP", "BucketAccessControls"]
+- ["11GoogleCloud16StorageBucketAPIP", "Cors"]
+- ["11GoogleCloud16StorageBucketAPIP", "EmptyResponse"]
+- ["11GoogleCloud16StorageBucketAPIP", "Encryption"]
+- ["11GoogleCloud16StorageBucketAPIP", "Future"]
+- ["11GoogleCloud16StorageBucketAPIP", "GoogleStorageBucket"]
+- ["11GoogleCloud16StorageBucketAPIP", "GoogleStorageBucketList"]
+- ["11GoogleCloud16StorageBucketAPIP", "IAMPolicy"]
+- !private ["11GoogleCloud16StorageBucketAPIP", "JSONSerialization"]
+- ["11GoogleCloud16StorageBucketAPIP", "Lifecycle"]
+- ["11GoogleCloud16StorageBucketAPIP", "Logging"]
+- ["11GoogleCloud16StorageBucketAPIP", "ObjectAccessControls"]
+- ["11GoogleCloud16StorageBucketAPIP", "Permission"]
+- ["11GoogleCloud16StorageBucketAPIP", "StorageClass"]
+- ["11GoogleCloud16StorageBucketAPIP", "String"]
+- ["11GoogleCloud16StorageBucketAPIP", "Versioning"]
+- ["11GoogleCloud16StorageBucketAPIP", "Website"]
+- ["11GoogleCloud16StorageBucketAPIP", ""]
+- ["11GoogleCloud16StorageBucketAPIP", "create"]
+- ["11GoogleCloud16StorageBucketAPIP", "delete"]
+- !private ["11GoogleCloud16StorageBucketAPIP", "endpoint"]
+- ["11GoogleCloud16StorageBucketAPIP", "get"]
+- ["11GoogleCloud16StorageBucketAPIP", "getIAMPolicy"]
+- ["11GoogleCloud16StorageBucketAPIP", "list"]
+- ["11GoogleCloud16StorageBucketAPIP", "patch"]
+- !private ["11GoogleCloud16StorageBucketAPIP", "request"]
+- ["11GoogleCloud16StorageBucketAPIP", "setIAMPolicy"]
+- ["11GoogleCloud16StorageBucketAPIP", "testIAMPermissions"]
+- ["11GoogleCloud16StorageBucketAPIP", "update"]
+- !private ["11GoogleCloud12StorageClassO", "deinit"]
+- !private ["11GoogleCloud12StorageClassO", "rawValue"]
+- !private ["SS", "append"]
+- !private ["s27StringInterpolationProtocolP", "appendInterpolation"]
+- !private ["s27StringInterpolationProtocolP", "appendLiteral"]
+- !private ["Sy", "append"]
+- !private ["11TemplateKit0A17DataRepresentableP", "append"]
+- !private ["11TemplateKit0A17DataRepresentableP", "convertToHTTPBody"]
+- !private ["11TemplateKit0A17DataRepresentableP", "count"]
+- !private ["11TemplateKit0A17DataRepresentableP", "joined"]
+- !private ["11TemplateKit0A17DataRepresentableP", "map"]
+- !private ["11TemplateKit0A17DataRepresentableP", "queryParameters"]
+- !private ["11TemplateKit0A17DataRepresentableP", "subscript"]
+- !private ["s16TextOutputStreamP", "append"]
+- !private ["s16TextOutputStreamP", "appendInterpolation"]
+- !private ["s16TextOutputStreamP", "appendLiteral"]
+- !private ["s20TextOutputStreamableP", "append"]
+- !private ["14URLEncodedForm0aB15DataConvertibleP", "append"]
+- !private ["4HTTP16URLRepresentableP", "append"]
+- !private ["11GoogleCloud10VersioningV", "deinit"]
+- !private ["11GoogleCloud10VersioningV", "toEncodedDictionary"]
+- !private ["11GoogleCloud7WebsiteV", "deinit"]
+- !private ["11GoogleCloud7WebsiteV", "toEncodedDictionary"]
+- !private ["s14_ArrayProtocolP", "count"]
+- !private ["s14_ArrayProtocolP", "joined"]
+- !private ["s14_ArrayProtocolP", "map"]
+- !private ["s30_CustomPlaygroundQuickLookableP", "append"]
+- !private ["s24_DestructorSafeContainerP", "count"]
+- !private ["s24_DestructorSafeContainerP", "joined"]
+- !private ["s24_DestructorSafeContainerP", "map"]
+- !private ["s51_ExpressibleByBuiltinExtendedGraphemeClusterLiteralP", "append"]
+- !private ["s34_ExpressibleByBuiltinStringLiteralP", "append"]
+- !private ["s41_ExpressibleByBuiltinUnicodeScalarLiteralP", "append"]
+- !private ["s19_HasContiguousBytesP", "append"]
+- !private ["s19_HasContiguousBytesP", "count"]
+- !private ["s19_HasContiguousBytesP", "joined"]
+- !private ["s19_HasContiguousBytesP", "map"]
+- !private ["s35_HasCustomAnyHashableRepresentationP", "append"]
+- !private ["s35_HasCustomAnyHashableRepresentationP", "count"]
+- !private ["s35_HasCustomAnyHashableRepresentationP", "joined"]
+- !private ["s35_HasCustomAnyHashableRepresentationP", "map"]
+- !private ["s35_HasCustomAnyHashableRepresentationP", "queryParameters"]
+- !private ["s35_HasCustomAnyHashableRepresentationP", "subscript"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "append"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "data"]
+- !private ["s21_ObjectiveCBridgeableP", "append"]
+- !private ["s21_ObjectiveCBridgeableP", "convertToHTTPBody"]
+- !private ["s21_ObjectiveCBridgeableP", "count"]
+- !private ["s21_ObjectiveCBridgeableP", "joined"]
+- !private ["s21_ObjectiveCBridgeableP", "map"]
+- !private ["s21_ObjectiveCBridgeableP", "queryParameters"]
+- !private ["s21_ObjectiveCBridgeableP", "subscript"]
+depends-nominal:
+- !private "4Core22AnyReflectionDecodableP"
+- !private "Sa"
+- !private "4Core21BasicKeyRepresentableP"
+- !private "SK"
+- !private "11GoogleCloud7BillingV"
+- !private "11GoogleCloud20BucketAccessControlsV"
+- !private "s7CVarArgP"
+- !private "Sl"
+- !private "SL"
+- !private "5Vapor7ContentP"
+- !private "10Foundation15ContiguousBytesP"
+- !private "3NIO20ContiguousCollectionP"
+- !private "11GoogleCloud4CorsV"
+- !private "s28CustomDebugStringConvertibleP"
+- !private "s17CustomReflectableP"
+- !private "s23CustomStringConvertibleP"
+- !private "10Foundation4DataV"
+- !private "10Foundation12DataProtocolP"
+- !private "Se"
+- !private "s26DefaultStringInterpolationV"
+- !private "SD"
+- !private "11GoogleCloud13EmptyResponseV"
+- !private "SE"
+- !private "11GoogleCloud10EncryptionV"
+- !private "SQ"
+- !private "s25ExpressibleByArrayLiteralP"
+- !private "s30ExpressibleByDictionaryLiteralP"
+- !private "s43ExpressibleByExtendedGraphemeClusterLiteralP"
+- !private "s32ExpressibleByStringInterpolationP"
+- !private "s26ExpressibleByStringLiteralP"
+- !private "s33ExpressibleByUnicodeScalarLiteralP"
+- !private "11GoogleCloud0aB5ModelP"
+- !private "11GoogleCloud0aB14StorageRequestC"
+- !private "11GoogleCloud0A13StorageBucketV"
+- "11GoogleCloud0A16StorageBucketAPIC"
+- !private "11GoogleCloud0A17StorageBucketListV"
+- !private "8NIOHTTP110HTTPMethodO"
+- !private "SH"
+- !private "11GoogleCloud9IAMPolicyV"
+- !private "So19NSJSONSerializationC"
+- !private "11GoogleCloud9LifecycleV"
+- !private "11GoogleCloud7LoggingV"
+- !private "4Core23LosslessDataConvertibleP"
+- !private "4HTTP29LosslessHTTPBodyRepresentableP"
+- !private "s25LosslessStringConvertibleP"
+- !private "s10MirrorPathP"
+- !private "9Multipart0A15PartConvertibleP"
+- !private "SM"
+- !private "10Foundation19MutableDataProtocolP"
+- !private "So8NSCodingP"
+- !private "So9NSCopyingP"
+- !private "So21NSItemProviderReadingP"
+- !private "So21NSItemProviderWritingP"
+- !private "So16NSMutableCopyingP"
+- !private "So8NSObjectC"
+- !private "So8NSObjectP"
+- !private "So14NSSecureCodingP"
+- !private "So8NSStringC"
+- !private "11GoogleCloud20ObjectAccessControlsV"
+- !private "7Routing9ParameterP"
+- !private "7Routing27PathComponentsRepresentableP"
+- !private "11GoogleCloud10PermissionV"
+- !private "Sk"
+- !private "Sm"
+- !private "SY"
+- !private "10Foundation20ReferenceConvertibleP"
+- !private "4Core19ReflectionDecodableP"
+- !private "5Vapor16RequestDecodableP"
+- !private "5Vapor16RequestEncodableP"
+- !private "5Vapor17ResponseDecodableP"
+- !private "5Vapor17ResponseEncodableP"
+- !private "7Routing17RoutableComponentP"
+- !private "ST"
+- "11GoogleCloud16StorageBucketAPIP"
+- !private "11GoogleCloud12StorageClassO"
+- !private "SS"
+- !private "s27StringInterpolationProtocolP"
+- !private "Sy"
+- !private "11TemplateKit0A17DataRepresentableP"
+- !private "s16TextOutputStreamP"
+- !private "s20TextOutputStreamableP"
+- !private "14URLEncodedForm0aB15DataConvertibleP"
+- !private "4HTTP16URLRepresentableP"
+- !private "11GoogleCloud10VersioningV"
+- !private "11GoogleCloud7WebsiteV"
+- !private "s14_ArrayProtocolP"
+- !private "s30_CustomPlaygroundQuickLookableP"
+- !private "s24_DestructorSafeContainerP"
+- !private "s51_ExpressibleByBuiltinExtendedGraphemeClusterLiteralP"
+- !private "s34_ExpressibleByBuiltinStringLiteralP"
+- !private "s41_ExpressibleByBuiltinUnicodeScalarLiteralP"
+- !private "s19_HasContiguousBytesP"
+- !private "s35_HasCustomAnyHashableRepresentationP"
+- !private "10Foundation27_KeyValueCodingAndObservingP"
+- !private "s21_ObjectiveCBridgeableP"
+depends-dynamic-lookup:
+depends-external:
+- "/Users/Jorge/Desktop/Projects/Web/Swift/kisiBootcamp/.build/x86_64-apple-macosx/debug/NIOHTTP1.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/ObjectiveC.swiftmodule"
+- "/Users/Jorge/Desktop/Projects/Web/Swift/kisiBootcamp/.build/x86_64-apple-macosx/debug/NIOOpenSSL.swiftmodule"
+- "/Users/Jorge/Desktop/Projects/Web/Swift/kisiBootcamp/.build/x86_64-apple-macosx/debug/NIO.swiftmodule"
+- "/Users/Jorge/Desktop/Projects/Web/Swift/kisiBootcamp/.build/x86_64-apple-macosx/debug/HTTP.swiftmodule"
+- "/Users/Jorge/Desktop/Projects/Web/Swift/kisiBootcamp/.build/x86_64-apple-macosx/debug/NIOTLS.swiftmodule"
+- "/Users/Jorge/Desktop/Projects/Web/Swift/kisiBootcamp/.build/x86_64-apple-macosx/debug/JWT.swiftmodule"
+- "/Users/Jorge/Desktop/Projects/Web/Swift/kisiBootcamp/.build/x86_64-apple-macosx/debug/Async.swiftmodule"
+- "/Users/Jorge/Desktop/Projects/Web/Swift/kisiBootcamp/.build/x86_64-apple-macosx/debug/Command.swiftmodule"
+- "/Users/Jorge/Desktop/Projects/Web/Swift/kisiBootcamp/.build/x86_64-apple-macosx/debug/Service.swiftmodule"
+- "/Users/Jorge/Desktop/Projects/Web/Swift/kisiBootcamp/.build/x86_64-apple-macosx/debug/Console.swiftmodule"
+- "/Users/Jorge/Desktop/Projects/Web/Swift/kisiBootcamp/.build/x86_64-apple-macosx/debug/Core.swiftmodule"
+- "/Users/Jorge/Desktop/Projects/Web/Swift/kisiBootcamp/.build/x86_64-apple-macosx/debug/Logging.swiftmodule"
+- "/Users/Jorge/Desktop/Projects/Web/Swift/kisiBootcamp/.build/x86_64-apple-macosx/debug/Debugging.swiftmodule"
+- "/Users/Jorge/Desktop/Projects/Web/Swift/kisiBootcamp/.build/x86_64-apple-macosx/debug/Routing.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/Dispatch.swiftmodule"
+- "/Users/Jorge/Desktop/Projects/Web/Swift/kisiBootcamp/.build/x86_64-apple-macosx/debug/COperatingSystem.swiftmodule"
+- "/Users/Jorge/Desktop/Projects/Web/Swift/kisiBootcamp/.build/x86_64-apple-macosx/debug/Random.swiftmodule"
+- "/Users/Jorge/Desktop/Projects/Web/Swift/kisiBootcamp/.build/x86_64-apple-macosx/debug/URLEncodedForm.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/Darwin.swiftmodule"
+- "/Users/Jorge/Desktop/Projects/Web/Swift/kisiBootcamp/.build/x86_64-apple-macosx/debug/Validation.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/Foundation.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/CoreFoundation.swiftmodule"
+- "/Users/Jorge/Desktop/Projects/Web/Swift/kisiBootcamp/.build/x86_64-apple-macosx/debug/Crypto.swiftmodule"
+- "/Users/Jorge/Desktop/Projects/Web/Swift/kisiBootcamp/.build/x86_64-apple-macosx/debug/Vapor.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/CoreGraphics.swiftmodule"
+- "/Users/Jorge/Desktop/Projects/Web/Swift/kisiBootcamp/.build/x86_64-apple-macosx/debug/NIOConcurrencyHelpers.swiftmodule"
+- "/Users/Jorge/Desktop/Projects/Web/Swift/kisiBootcamp/.build/x86_64-apple-macosx/debug/Bits.swiftmodule"
+- "/Users/Jorge/Desktop/Projects/Web/Swift/kisiBootcamp/.build/x86_64-apple-macosx/debug/NIOFoundationCompat.swiftmodule"
+- "/Users/Jorge/Desktop/Projects/Web/Swift/kisiBootcamp/.build/x86_64-apple-macosx/debug/WebSocket.swiftmodule"
+- "/Users/Jorge/Desktop/Projects/Web/Swift/kisiBootcamp/.build/x86_64-apple-macosx/debug/NIOWebSocket.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/Swift.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/IOKit.swiftmodule"
+- "/Users/Jorge/Desktop/Projects/Web/Swift/kisiBootcamp/.build/x86_64-apple-macosx/debug/DatabaseKit.swiftmodule"
+- "/Users/Jorge/Desktop/Projects/Web/Swift/kisiBootcamp/.build/x86_64-apple-macosx/debug/TemplateKit.swiftmodule"
+- "/Users/Jorge/Desktop/Projects/Web/Swift/kisiBootcamp/.build/x86_64-apple-macosx/debug/Multipart.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/SwiftOnoneSupport.swiftmodule"
+- "/Users/Jorge/Desktop/Projects/Web/Swift/kisiBootcamp/.build/checkouts/swift-nio/Sources/CNIOSHA1/include/CNIOSHA1.h"
+- "/usr/local/Cellar/libressl/2.9.2/include/openssl/asn1.h"
+- "/usr/local/Cellar/libressl/2.9.2/include/openssl/tls1.h"
+- "/usr/local/Cellar/libressl/2.9.2/include/openssl/dtls1.h"
+- "/usr/local/Cellar/libressl/2.9.2/include/openssl/pkcs12.h"
+- "/usr/local/Cellar/libressl/2.9.2/include/openssl/ssl2.h"
+- "/usr/local/Cellar/libressl/2.9.2/include/openssl/pem2.h"
+- "/usr/local/Cellar/libressl/2.9.2/include/openssl/ssl23.h"
+- "/usr/local/Cellar/libressl/2.9.2/include/openssl/ssl3.h"
+- "/usr/local/Cellar/libressl/2.9.2/include/openssl/x509v3.h"
+- "/usr/local/Cellar/libressl/2.9.2/include/openssl/md5.h"
+- "/usr/local/Cellar/libressl/2.9.2/include/openssl/pkcs7.h"
+- "/usr/local/Cellar/libressl/2.9.2/include/openssl/x509.h"
+- "/usr/local/Cellar/libressl/2.9.2/include/openssl/sha.h"
+- "/usr/local/Cellar/libressl/2.9.2/include/openssl/dsa.h"
+- "/usr/local/Cellar/libressl/2.9.2/include/openssl/ecdsa.h"
+- "/usr/local/Cellar/libressl/2.9.2/include/openssl/rsa.h"
+- "/Users/Jorge/Desktop/Projects/Web/Swift/kisiBootcamp/.build/checkouts/swift-nio/Sources/CNIOZlib/include/CNIOZlib.h"
+- "/usr/local/Cellar/libressl/2.9.2/include/openssl/obj_mac.h"
+- "/usr/local/Cellar/libressl/2.9.2/include/openssl/hmac.h"
+- "/usr/local/Cellar/libressl/2.9.2/include/openssl/ec.h"
+- "/Users/Jorge/Desktop/Projects/Web/Swift/kisiBootcamp/.build/checkouts/swift-nio/Sources/CNIOAtomics/include/cpp_magic.h"
+- "/Users/Jorge/Desktop/Projects/Web/Swift/kisiBootcamp/.build/checkouts/swift-nio/Sources/CNIOLinux/include/ifaddrs-android.h"
+- "/usr/local/Cellar/libressl/2.9.2/include/openssl/rand.h"
+- "/usr/local/Cellar/libressl/2.9.2/include/openssl/conf.h"
+- "/usr/local/Cellar/libressl/2.9.2/include/openssl/opensslconf.h"
+- "/usr/local/Cellar/libressl/2.9.2/include/openssl/dh.h"
+- "/usr/local/Cellar/libressl/2.9.2/include/openssl/ecdh.h"
+- "/usr/local/Cellar/libressl/2.9.2/include/openssl/lhash.h"
+- "/usr/local/Cellar/libressl/2.9.2/include/openssl/stack.h"
+- "/usr/local/Cellar/libressl/2.9.2/include/openssl/safestack.h"
+- "/usr/local/Cellar/libressl/2.9.2/include/openssl/ssl.h"
+- "/Users/Jorge/Desktop/Projects/Web/Swift/kisiBootcamp/.build/checkouts/swift-nio-ssl/Sources/CNIOOpenSSL/include/c_nio_openssl.h"
+- "/Users/Jorge/Desktop/Projects/Web/Swift/kisiBootcamp/.build/checkouts/crypto/Sources/CCryptoOpenSSL/include/c_crypto_openssl.h"
+- "/usr/local/Cellar/libressl/2.9.2/include/openssl/pem.h"
+- "/usr/local/Cellar/libressl/2.9.2/include/openssl/bn.h"
+- "/Users/Jorge/Desktop/Projects/Web/Swift/kisiBootcamp/.build/checkouts/swift-nio/Sources/CNIODarwin/include/CNIODarwin.h"
+- "/usr/local/Cellar/libressl/2.9.2/include/openssl/bio.h"
+- "/usr/local/Cellar/libressl/2.9.2/include/openssl/crypto.h"
+- "/usr/local/Cellar/libressl/2.9.2/include/openssl/srtp.h"
+- "/usr/local/Cellar/libressl/2.9.2/include/openssl/evp.h"
+- "/usr/local/Cellar/libressl/2.9.2/include/openssl/ossl_typ.h"
+- "/usr/local/Cellar/libressl/2.9.2/include/openssl/buffer.h"
+- "/Users/Jorge/Desktop/Projects/Web/Swift/kisiBootcamp/.build/checkouts/swift-nio/Sources/CNIOHTTPParser/include/CNIOHTTPParser.h"
+- "/Users/Jorge/Desktop/Projects/Web/Swift/kisiBootcamp/.build/checkouts/swift-nio/Sources/CNIOHTTPParser/include/c_nio_http_parser.h"
+- "/usr/local/Cellar/libressl/2.9.2/include/openssl/err.h"
+- "/Users/Jorge/Desktop/Projects/Web/Swift/kisiBootcamp/.build/checkouts/swift-nio/Sources/CNIOAtomics/include/CNIOAtomics.h"
+- "/usr/local/Cellar/libressl/2.9.2/include/openssl/opensslfeatures.h"
+- "/usr/local/Cellar/libressl/2.9.2/include/openssl/objects.h"
+- "/usr/local/Cellar/libressl/2.9.2/include/openssl/opensslv.h"
+- "/Users/Jorge/Desktop/Projects/Web/Swift/kisiBootcamp/.build/checkouts/swift-nio/Sources/CNIOLinux/include/CNIOLinux.h"
+- "/usr/local/Cellar/libressl/2.9.2/include/openssl/x509_vfy.h"
+- "/Users/Jorge/Desktop/Projects/Web/Swift/kisiBootcamp/.build/x86_64-apple-macosx/debug/CNIOSHA1.build/module.modulemap"
+- "/Users/Jorge/Desktop/Projects/Web/Swift/kisiBootcamp/.build/x86_64-apple-macosx/debug/CNIOOpenSSL.build/module.modulemap"
+- "/Users/Jorge/Desktop/Projects/Web/Swift/kisiBootcamp/.build/x86_64-apple-macosx/debug/CCryptoOpenSSL.build/module.modulemap"
+- "/Users/Jorge/Desktop/Projects/Web/Swift/kisiBootcamp/.build/x86_64-apple-macosx/debug/CNIOZlib.build/module.modulemap"
+- "/Users/Jorge/Desktop/Projects/Web/Swift/kisiBootcamp/.build/x86_64-apple-macosx/debug/CNIODarwin.build/module.modulemap"
+- "/Users/Jorge/Desktop/Projects/Web/Swift/kisiBootcamp/.build/x86_64-apple-macosx/debug/CNIOHTTPParser.build/module.modulemap"
+- "/Users/Jorge/Desktop/Projects/Web/Swift/kisiBootcamp/.build/x86_64-apple-macosx/debug/CNIOAtomics.build/module.modulemap"
+- "/Users/Jorge/Desktop/Projects/Web/Swift/kisiBootcamp/.build/x86_64-apple-macosx/debug/CNIOLinux.build/module.modulemap"
+- "/Users/Jorge/Desktop/Projects/Web/Swift/kisiBootcamp/.build/checkouts/crypto/Sources/CBase32/include/module.modulemap"
+- "/Users/Jorge/Desktop/Projects/Web/Swift/kisiBootcamp/.build/checkouts/crypto/Sources/CBcrypt/include/module.modulemap"
+- "/Users/Jorge/Desktop/Projects/Web/Swift/kisiBootcamp/.build/checkouts/swift-nio-zlib-support/module.modulemap"
+- "/Users/Jorge/Desktop/Projects/Web/Swift/kisiBootcamp/.build/checkouts/swift-nio-ssl-support/module.modulemap"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.14.sdk/usr/include/objc/ObjectiveC.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/Dispatch.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.14.sdk/usr/include/Darwin.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.14.sdk/System/Library/Frameworks/Foundation.framework/Headers/Foundation.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.14.sdk/System/Library/Frameworks/CoreGraphics.framework/Headers/CoreGraphics.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.14.sdk/System/Library/Frameworks/ApplicationServices.framework/Headers/ApplicationServices.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.14.sdk/System/Library/Frameworks/CoreText.framework/Headers/CoreText.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.14.sdk/System/Library/Frameworks/Security.framework/Headers/Security.apinotes"
+interface-hash: "84650254c4f27729d0fade6ca87097ff"
